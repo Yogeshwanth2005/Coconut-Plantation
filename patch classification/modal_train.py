@@ -41,7 +41,8 @@ image = (
 data_volume = modal.Volume.from_name("coconut-patch-data", create_if_missing=True)
 output_volume = modal.Volume.from_name("coconut-model-output", create_if_missing=True)
 
-DATA_ROOT = "/data/raw"
+VOLUME_MOUNT = "/data"
+DATA_ROOT = "/data/data/raw"  # matches `modal volume put coconut-patch-data <local> /data/raw`
 OUTPUT_ROOT = "/output"
 
 NUM_CLASSES = 15
@@ -62,7 +63,7 @@ def box_id_from_filename(name: str) -> str:
 @app.function(
     image=image,
     gpu="T4",
-    volumes={DATA_ROOT: data_volume, OUTPUT_ROOT: output_volume},
+    volumes={VOLUME_MOUNT: data_volume, OUTPUT_ROOT: output_volume},
     timeout=60 * 60 * 2,
 )
 def train():
