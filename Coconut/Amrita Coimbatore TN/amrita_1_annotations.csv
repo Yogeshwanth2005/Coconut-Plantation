@@ -1,0 +1,7 @@
+Box ID,Category,Top-left,Top-right,Bottom-right,Bottom-left,Points
+unlabeled-1,,"(2435,515)","(3029,515)","(3029,981)","(2435,981)","(2539,701);(2646,920);(2720,668);(2848,678);(2693,739);(2823,835)"
+unlabeled-1,,"(2435,515)","(3029,515)","(3029,981)","(2435,981)","(2539,701);(2646,920);(2720,668);(2848,678);(2693,739);(2823,835)"
+
+Category Stats
+Category,Mean Points,Std Dev Points
+unlabeled,6.00,0.00

@@ -1,0 +1,12 @@
+Color,Original RGB(s),Number of Annotations,Mean,SD,SD/Mean,Found In
+No Color,,116,78.70,12.87,0.1635,"Amrita, Wat Phleng"
+Red,"(255, 0, 0)",48,62.17,3.20,0.0514,Karavatti
+Gainsboro,"(204, 255, 204)",95,48.15,5.67,0.1178,Kradangnga
+Magenta,"(255, 0, 255)",15,80.67,7.36,0.0913,"Kradangnga_800_1, Kradangnga_800_2, Kradangnga_800_3"
+Navy,"(0, 0, 128)",24,19.71,7.94,0.4030,Sambava
+Lime,"(0, 255, 0)",17,20.82,2.43,0.1167,Sambava_800_1
+Purple,"(128, 0, 128)",26,29.46,3.67,0.1245,Sambava_800_1
+Salmon,"(255, 128, 128)",13,18.69,2.93,0.1566,Sambava_800_2
+Darkseagreen,"(153, 204, 153)",18,10.56,1.69,0.1599,Sambava_800_2
+Sandybrown,"(230, 179, 77)",47,36.11,2.97,0.0823,Triple P Kabacan
+Cyan,"(0, 255, 255)",18,71.06,4.28,0.0602,"Wat Phleng_800_1, Wat Phleng_800_2, Wat Phleng_800_4"

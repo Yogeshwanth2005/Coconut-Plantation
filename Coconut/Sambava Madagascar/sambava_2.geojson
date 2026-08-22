@@ -1,0 +1,2453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3676.62,
+              2936.88
+            ],
+            [
+              4188.27,
+              2936.88
+            ],
+            [
+              4188.27,
+              3448.53
+            ],
+            [
+              3676.62,
+              3448.53
+            ],
+            [
+              3676.62,
+              2936.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5209.44,
+              3770.31
+            ],
+            [
+              5721.09,
+              3770.31
+            ],
+            [
+              5721.09,
+              4281.96
+            ],
+            [
+              5209.44,
+              4281.96
+            ],
+            [
+              5209.44,
+              3770.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5273.1,
+              3689.29
+            ],
+            [
+              5784.75,
+              3689.29
+            ],
+            [
+              5784.75,
+              4200.94
+            ],
+            [
+              5273.1,
+              4200.94
+            ],
+            [
+              5273.1,
+              3689.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3762.68,
+              2855.96
+            ],
+            [
+              4274.33,
+              2855.96
+            ],
+            [
+              4274.33,
+              3367.61
+            ],
+            [
+              3762.68,
+              3367.61
+            ],
+            [
+              3762.68,
+              2855.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3490.69,
+              3631.42
+            ],
+            [
+              4002.34,
+              3631.42
+            ],
+            [
+              4002.34,
+              4143.07
+            ],
+            [
+              3490.69,
+              4143.07
+            ],
+            [
+              3490.69,
+              3631.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3455.97,
+              3758.73
+            ],
+            [
+              3967.62,
+              3758.73
+            ],
+            [
+              3967.62,
+              4270.38
+            ],
+            [
+              3455.97,
+              4270.38
+            ],
+            [
+              3455.97,
+              3758.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3615.22,
+              2765.46
+            ],
+            [
+              4126.87,
+              2765.46
+            ],
+            [
+              4126.87,
+              3277.11
+            ],
+            [
+              3615.22,
+              3277.11
+            ],
+            [
+              3615.22,
+              2765.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2988.96,
+              2276.51
+            ],
+            [
+              3500.61,
+              2276.51
+            ],
+            [
+              3500.61,
+              2788.16
+            ],
+            [
+              2988.96,
+              2788.16
+            ],
+            [
+              2988.96,
+              2276.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2764.58,
+              2189.44
+            ],
+            [
+              3276.23,
+              2189.44
+            ],
+            [
+              3276.23,
+              2701.09
+            ],
+            [
+              2764.58,
+              2701.09
+            ],
+            [
+              2764.58,
+              2189.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3230.09,
+              2340.14
+            ],
+            [
+              3741.74,
+              2340.14
+            ],
+            [
+              3741.74,
+              2851.79
+            ],
+            [
+              3230.09,
+              2851.79
+            ],
+            [
+              3230.09,
+              2340.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3005.7,
+              2587.97
+            ],
+            [
+              3517.35,
+              2587.97
+            ],
+            [
+              3517.35,
+              3099.61
+            ],
+            [
+              3005.7,
+              3099.61
+            ],
+            [
+              3005.7,
+              2587.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2999.01,
+              2795.6
+            ],
+            [
+              3510.66,
+              2795.6
+            ],
+            [
+              3510.66,
+              3307.25
+            ],
+            [
+              2999.01,
+              3307.25
+            ],
+            [
+              2999.01,
+              2795.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2602.26,
+              1954.47
+            ],
+            [
+              3113.9,
+              1954.47
+            ],
+            [
+              3113.9,
+              2466.12
+            ],
+            [
+              2602.26,
+              2466.12
+            ],
+            [
+              2602.26,
+              1954.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2618.45,
+              2385.25
+            ],
+            [
+              3130.1,
+              2385.25
+            ],
+            [
+              3130.1,
+              2896.9
+            ],
+            [
+              2618.45,
+              2896.9
+            ],
+            [
+              2618.45,
+              2385.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2715.89,
+              2725.27
+            ],
+            [
+              3227.54,
+              2725.27
+            ],
+            [
+              3227.54,
+              3236.92
+            ],
+            [
+              2715.89,
+              3236.92
+            ],
+            [
+              2715.89,
+              2725.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2760.44,
+              3046.88
+            ],
+            [
+              3272.09,
+              3046.88
+            ],
+            [
+              3272.09,
+              3558.53
+            ],
+            [
+              2760.44,
+              3558.53
+            ],
+            [
+              2760.44,
+              3046.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3014.97,
+              3056.93
+            ],
+            [
+              3526.62,
+              3056.93
+            ],
+            [
+              3526.62,
+              3568.58
+            ],
+            [
+              3014.97,
+              3568.58
+            ],
+            [
+              3014.97,
+              3056.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2797.28,
+              3284.66
+            ],
+            [
+              3308.93,
+              3284.66
+            ],
+            [
+              3308.93,
+              3796.31
+            ],
+            [
+              2797.28,
+              3796.31
+            ],
+            [
+              2797.28,
+              3284.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4006.27,
+              3331.54
+            ],
+            [
+              4517.91,
+              3331.54
+            ],
+            [
+              4517.91,
+              3843.19
+            ],
+            [
+              4006.27,
+              3843.19
+            ],
+            [
+              4006.27,
+              3331.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4220.6,
+              3425.31
+            ],
+            [
+              4732.25,
+              3425.31
+            ],
+            [
+              4732.25,
+              3936.96
+            ],
+            [
+              4220.6,
+              3936.96
+            ],
+            [
+              4220.6,
+              3425.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4103.39,
+              2906.22
+            ],
+            [
+              4615.03,
+              2906.22
+            ],
+            [
+              4615.03,
+              3417.87
+            ],
+            [
+              4103.39,
+              3417.87
+            ],
+            [
+              4103.39,
+              2906.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4187.11,
+              2641.65
+            ],
+            [
+              4698.76,
+              2641.65
+            ],
+            [
+              4698.76,
+              3153.3
+            ],
+            [
+              4187.11,
+              3153.3
+            ],
+            [
+              4187.11,
+              2641.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3822.07,
+              2511.04
+            ],
+            [
+              4333.72,
+              2511.04
+            ],
+            [
+              4333.72,
+              3022.69
+            ],
+            [
+              3822.07,
+              3022.69
+            ],
+            [
+              3822.07,
+              2511.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3892.4,
+              2628.26
+            ],
+            [
+              4404.05,
+              2628.26
+            ],
+            [
+              4404.05,
+              3139.91
+            ],
+            [
+              3892.4,
+              3139.91
+            ],
+            [
+              3892.4,
+              2628.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3564.2,
+              3398.52
+            ],
+            [
+              4075.85,
+              3398.52
+            ],
+            [
+              4075.85,
+              3910.17
+            ],
+            [
+              3564.2,
+              3910.17
+            ],
+            [
+              3564.2,
+              3398.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3306.33,
+              3756.86
+            ],
+            [
+              3817.98,
+              3756.86
+            ],
+            [
+              3817.98,
+              4268.51
+            ],
+            [
+              3306.33,
+              4268.51
+            ],
+            [
+              3306.33,
+              3756.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4873.65,
+              3770.26
+            ],
+            [
+              5385.3,
+              3770.26
+            ],
+            [
+              5385.3,
+              4281.91
+            ],
+            [
+              4873.65,
+              4281.91
+            ],
+            [
+              4873.65,
+              3770.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5101.38,
+              3050.23
+            ],
+            [
+              5613.03,
+              3050.23
+            ],
+            [
+              5613.03,
+              3561.88
+            ],
+            [
+              5101.38,
+              3561.88
+            ],
+            [
+              5101.38,
+              3050.23
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4763.13,
+              2835.89
+            ],
+            [
+              5274.78,
+              2835.89
+            ],
+            [
+              5274.78,
+              3347.54
+            ],
+            [
+              4763.13,
+              3347.54
+            ],
+            [
+              4763.13,
+              2835.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4257.44,
+              3445.41
+            ],
+            [
+              4769.09,
+              3445.41
+            ],
+            [
+              4769.09,
+              3957.06
+            ],
+            [
+              4257.44,
+              3957.06
+            ],
+            [
+              4257.44,
+              3445.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4297.63,
+              3774.97
+            ],
+            [
+              4809.28,
+              3774.97
+            ],
+            [
+              4809.28,
+              4283.0
+            ],
+            [
+              4297.63,
+              4283.0
+            ],
+            [
+              4297.63,
+              3774.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4659.32,
+              3319.51
+            ],
+            [
+              5170.97,
+              3319.51
+            ],
+            [
+              5170.97,
+              3831.16
+            ],
+            [
+              4659.32,
+              3831.16
+            ],
+            [
+              4659.32,
+              3319.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2559.3,
+              1552.2
+            ],
+            [
+              3070.95,
+              1552.2
+            ],
+            [
+              3070.95,
+              2063.85
+            ],
+            [
+              2559.3,
+              2063.85
+            ],
+            [
+              2559.3,
+              1552.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2779.2,
+              1685.3
+            ],
+            [
+              3290.85,
+              1685.3
+            ],
+            [
+              3290.85,
+              2196.95
+            ],
+            [
+              2779.2,
+              2196.95
+            ],
+            [
+              2779.2,
+              1685.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2437.77,
+              1314.93
+            ],
+            [
+              2949.42,
+              1314.93
+            ],
+            [
+              2949.42,
+              1826.58
+            ],
+            [
+              2437.77,
+              1826.58
+            ],
+            [
+              2437.77,
+              1314.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2287.88,
+              1058.76
+            ],
+            [
+              2799.53,
+              1058.76
+            ],
+            [
+              2799.53,
+              1570.41
+            ],
+            [
+              2287.88,
+              1570.41
+            ],
+            [
+              2287.88,
+              1058.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3019.03,
+              1979.72
+            ],
+            [
+              3530.68,
+              1979.72
+            ],
+            [
+              3530.68,
+              2491.37
+            ],
+            [
+              3019.03,
+              2491.37
+            ],
+            [
+              3019.03,
+              1979.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2822.28,
+              3590.4
+            ],
+            [
+              3333.93,
+              3590.4
+            ],
+            [
+              3333.93,
+              4102.05
+            ],
+            [
+              2822.28,
+              4102.05
+            ],
+            [
+              2822.28,
+              3590.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3911.39,
+              3759.22
+            ],
+            [
+              4423.04,
+              3759.22
+            ],
+            [
+              4423.04,
+              4270.87
+            ],
+            [
+              3911.39,
+              4270.87
+            ],
+            [
+              3911.39,
+              3759.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1200.74,
+              2035.73
+            ],
+            [
+              1712.39,
+              2035.73
+            ],
+            [
+              1712.39,
+              2547.38
+            ],
+            [
+              1200.74,
+              2547.38
+            ],
+            [
+              1200.74,
+              2035.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1304.91,
+              2087.82
+            ],
+            [
+              1816.56,
+              2087.82
+            ],
+            [
+              1816.56,
+              2599.47
+            ],
+            [
+              1304.91,
+              2599.47
+            ],
+            [
+              1304.91,
+              2087.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1212.32,
+              1636.43
+            ],
+            [
+              1723.97,
+              1636.43
+            ],
+            [
+              1723.97,
+              2148.08
+            ],
+            [
+              1212.32,
+              2148.08
+            ],
+            [
+              1212.32,
+              1636.43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1177.6,
+              1306.57
+            ],
+            [
+              1689.25,
+              1306.57
+            ],
+            [
+              1689.25,
+              1818.22
+            ],
+            [
+              1177.6,
+              1818.22
+            ],
+            [
+              1177.6,
+              1306.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1576.9,
+              1277.63
+            ],
+            [
+              2088.55,
+              1277.63
+            ],
+            [
+              2088.55,
+              1789.28
+            ],
+            [
+              1576.9,
+              1789.28
+            ],
+            [
+              1576.9,
+              1277.63
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1633.56,
+              1667.99
+            ],
+            [
+              2145.21,
+              1667.99
+            ],
+            [
+              2145.21,
+              2179.64
+            ],
+            [
+              1633.56,
+              2179.64
+            ],
+            [
+              1633.56,
+              1667.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1807.99,
+              1980.02
+            ],
+            [
+              2319.64,
+              1980.02
+            ],
+            [
+              2319.64,
+              2491.67
+            ],
+            [
+              1807.99,
+              2491.67
+            ],
+            [
+              1807.99,
+              1980.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1043.15,
+              1596.19
+            ],
+            [
+              1554.8,
+              1596.19
+            ],
+            [
+              1554.8,
+              2107.84
+            ],
+            [
+              1043.15,
+              2107.84
+            ],
+            [
+              1043.15,
+              1596.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              962.21,
+              1205.48
+            ],
+            [
+              1473.86,
+              1205.48
+            ],
+            [
+              1473.86,
+              1717.13
+            ],
+            [
+              962.21,
+              1717.13
+            ],
+            [
+              962.21,
+              1205.48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1056.63,
+              2060.41
+            ],
+            [
+              1568.28,
+              2060.41
+            ],
+            [
+              1568.28,
+              2572.06
+            ],
+            [
+              1056.63,
+              2572.06
+            ],
+            [
+              1056.63,
+              2060.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1805.5,
+              2279.02
+            ],
+            [
+              2317.15,
+              2279.02
+            ],
+            [
+              2317.15,
+              2790.67
+            ],
+            [
+              1805.5,
+              2790.67
+            ],
+            [
+              1805.5,
+              2279.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1072.91,
+              2458.1
+            ],
+            [
+              1584.56,
+              2458.1
+            ],
+            [
+              1584.56,
+              2969.75
+            ],
+            [
+              1072.91,
+              2969.75
+            ],
+            [
+              1072.91,
+              2458.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1477.58,
+              2504.61
+            ],
+            [
+              1989.23,
+              2504.61
+            ],
+            [
+              1989.23,
+              3016.26
+            ],
+            [
+              1477.58,
+              3016.26
+            ],
+            [
+              1477.58,
+              2504.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1135.34,
+              2812.77
+            ],
+            [
+              1646.99,
+              2812.77
+            ],
+            [
+              1646.99,
+              3324.42
+            ],
+            [
+              1135.34,
+              3324.42
+            ],
+            [
+              1135.34,
+              2812.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1522.44,
+              2810.9
+            ],
+            [
+              2034.09,
+              2810.9
+            ],
+            [
+              2034.09,
+              3322.55
+            ],
+            [
+              1522.44,
+              3322.55
+            ],
+            [
+              1522.44,
+              2810.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1977.22,
+              2654.76
+            ],
+            [
+              2488.87,
+              2654.76
+            ],
+            [
+              2488.87,
+              3166.41
+            ],
+            [
+              1977.22,
+              3166.41
+            ],
+            [
+              1977.22,
+              2654.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2063.73,
+              2152.42
+            ],
+            [
+              2575.38,
+              2152.42
+            ],
+            [
+              2575.38,
+              2664.07
+            ],
+            [
+              2063.73,
+              2664.07
+            ],
+            [
+              2063.73,
+              2152.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1508.36,
+              1834.26
+            ],
+            [
+              2020.01,
+              1834.26
+            ],
+            [
+              2020.01,
+              2345.91
+            ],
+            [
+              1508.36,
+              2345.91
+            ],
+            [
+              1508.36,
+              1834.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1301.84,
+              3198.97
+            ],
+            [
+              1813.49,
+              3198.97
+            ],
+            [
+              1813.49,
+              3710.62
+            ],
+            [
+              1301.84,
+              3710.62
+            ],
+            [
+              1301.84,
+              3198.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1536.27,
+              3176.65
+            ],
+            [
+              2047.92,
+              3176.65
+            ],
+            [
+              2047.92,
+              3688.3
+            ],
+            [
+              1536.27,
+              3688.3
+            ],
+            [
+              1536.27,
+              3176.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1089.74,
+              3215.72
+            ],
+            [
+              1601.39,
+              3215.72
+            ],
+            [
+              1601.39,
+              3727.37
+            ],
+            [
+              1089.74,
+              3727.37
+            ],
+            [
+              1089.74,
+              3215.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1128.81,
+              3539.45
+            ],
+            [
+              1640.46,
+              3539.45
+            ],
+            [
+              1640.46,
+              4051.1
+            ],
+            [
+              1128.81,
+              4051.1
+            ],
+            [
+              1128.81,
+              3539.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1477.66,
+              3478.05
+            ],
+            [
+              1989.31,
+              3478.05
+            ],
+            [
+              1989.31,
+              3989.7
+            ],
+            [
+              1477.66,
+              3989.7
+            ],
+            [
+              1477.66,
+              3478.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1176.26,
+              3759.93
+            ],
+            [
+              1687.9,
+              3759.93
+            ],
+            [
+              1687.9,
+              4271.58
+            ],
+            [
+              1176.26,
+              4271.58
+            ],
+            [
+              1176.26,
+              3759.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1592.09,
+              3745.97
+            ],
+            [
+              2103.74,
+              3745.97
+            ],
+            [
+              2103.74,
+              4257.62
+            ],
+            [
+              1592.09,
+              4257.62
+            ],
+            [
+              1592.09,
+              3745.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1915.82,
+              3743.18
+            ],
+            [
+              2427.47,
+              3743.18
+            ],
+            [
+              2427.47,
+              4254.83
+            ],
+            [
+              1915.82,
+              4254.83
+            ],
+            [
+              1915.82,
+              3743.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2312.12,
+              3757.14
+            ],
+            [
+              2823.77,
+              3757.14
+            ],
+            [
+              2823.77,
+              4268.79
+            ],
+            [
+              2312.12,
+              4268.79
+            ],
+            [
+              2312.12,
+              3757.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2264.67,
+              3226.88
+            ],
+            [
+              2776.32,
+              3226.88
+            ],
+            [
+              2776.32,
+              3738.53
+            ],
+            [
+              2264.67,
+              3738.53
+            ],
+            [
+              2264.67,
+              3226.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2150.25,
+              2713.37
+            ],
+            [
+              2661.9,
+              2713.37
+            ],
+            [
+              2661.9,
+              3225.02
+            ],
+            [
+              2150.25,
+              3225.02
+            ],
+            [
+              2150.25,
+              2713.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2072.76,
+              2666.17
+            ],
+            [
+              2584.41,
+              2666.17
+            ],
+            [
+              2584.41,
+              3177.82
+            ],
+            [
+              2072.76,
+              3177.82
+            ],
+            [
+              2072.76,
+              2666.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1580.86,
+              2685.46
+            ],
+            [
+              2092.51,
+              2685.46
+            ],
+            [
+              2092.51,
+              3197.11
+            ],
+            [
+              1580.86,
+              3197.11
+            ],
+            [
+              1580.86,
+              2685.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1050.38,
+              1171.19
+            ],
+            [
+              1562.03,
+              1171.19
+            ],
+            [
+              1562.03,
+              1682.84
+            ],
+            [
+              1050.38,
+              1682.84
+            ],
+            [
+              1050.38,
+              1171.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Organic-v early stage",
+        "image": "Sambava_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1084.14,
+              1745.07
+            ],
+            [
+              1595.79,
+              1745.07
+            ],
+            [
+              1595.79,
+              2256.72
+            ],
+            [
+              1084.14,
+              2256.72
+            ],
+            [
+              1084.14,
+              1745.07
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

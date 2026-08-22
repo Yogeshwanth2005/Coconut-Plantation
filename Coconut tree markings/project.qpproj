@@ -1,0 +1,2779 @@
+{
+  "version": "0.6.0",
+  "createTimestamp": 1749021240352,
+  "modifyTimestamp": 1749021240352,
+  "uri": "file:/D:/Project/Coconut%20tree%20markings/project.qpproj",
+  "lastID": 23,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Karavatti%20Lakshadweep/Karavatti_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Karavatti_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Karavatti_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "7e41a33d-8019-46a9-b197-c9382d803cd5",
+      "imageName": "Karavatti_800_1.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Karavatti%20Lakshadweep/Karavatti_800_2.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Karavatti_800_2.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Karavatti_800_2.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 2,
+      "randomizedName": "8a4fe949-cfc8-4ee0-9af5-d0f9d91e5c53",
+      "imageName": "Karavatti_800_2.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Karavatti%20Lakshadweep/Karavatti_800_3.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Karavatti_800_3.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Karavatti_800_3.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 3,
+      "randomizedName": "51d21082-2a19-45de-b7b7-873c4e48e6d5",
+      "imageName": "Karavatti_800_3.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Karavatti%20Lakshadweep/Karavatti_800_4.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Karavatti_800_4.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Karavatti_800_4.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 4,
+      "randomizedName": "7df37ff9-fd37-4b42-8157-ad62ff0c241e",
+      "imageName": "Karavatti_800_4.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Amrita%20Coimbatore%20TN/Amrita_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Amrita_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Amrita_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 6,
+      "randomizedName": "d7ab9d56-0d70-444c-a3bc-485b7c1d174a",
+      "imageName": "Amrita_800_1.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Amrita%20Coimbatore%20TN/Amrita_800_2.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Amrita_800_2.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Amrita_800_2.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 7,
+      "randomizedName": "1c650816-dded-4323-b7ca-3ce60d2ebe5d",
+      "imageName": "Amrita_800_2.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Amrita%20Coimbatore%20TN/Amrita_800_3.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Amrita_800_3.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Amrita_800_3.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 8,
+      "randomizedName": "d915c473-21b0-437a-8af7-6c537f01229a",
+      "imageName": "Amrita_800_3.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Amrita%20Coimbatore%20TN/Amrita_800_4.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Amrita_800_4.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Amrita_800_4.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 9,
+      "randomizedName": "00a23c78-95e3-43b6-a9f0-c086f001a617",
+      "imageName": "Amrita_800_4.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Kradangnga%20Thailand/Kradangnga_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Kradangnga_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Kradangnga_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 10,
+      "randomizedName": "cd8e3fe5-049b-41e9-90f7-6be3e63fec18",
+      "imageName": "Kradangnga_800_1.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Kradangnga%20Thailand/Kradangnga_800_2.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Kradangnga_800_2.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Kradangnga_800_2.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 11,
+      "randomizedName": "619a674b-f128-47a5-a3bf-1931264858ec",
+      "imageName": "Kradangnga_800_2.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Kradangnga%20Thailand/Kradangnga_800_3.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Kradangnga_800_3.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Kradangnga_800_3.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 12,
+      "randomizedName": "77b28c64-85bd-434a-94b4-e04030bb28a9",
+      "imageName": "Kradangnga_800_3.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Kradangnga%20Thailand/Kradangnga_800_4.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Kradangnga_800_4.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Kradangnga_800_4.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 13,
+      "randomizedName": "e656074c-9e36-447e-be5e-9a522cc3a559",
+      "imageName": "Kradangnga_800_4.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Wat%20Phleng%20Thailand/Wat%20Phleng_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Wat Phleng_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Wat Phleng_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 14,
+      "randomizedName": "f2c783fd-fbae-4f27-b853-8adc3c1325f6",
+      "imageName": "Wat Phleng_800_1.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Wat%20Phleng%20Thailand/Wat%20Phleng_800_2.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Wat Phleng_800_2.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Wat Phleng_800_2.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 15,
+      "randomizedName": "227cd83b-4ae9-4342-8352-b1ddb26f134a",
+      "imageName": "Wat Phleng_800_2.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Wat%20Phleng%20Thailand/Wat%20Phleng_800_3.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Wat Phleng_800_3.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Wat Phleng_800_3.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 16,
+      "randomizedName": "cf98bf0b-5044-4081-bf45-21fa45e73b74",
+      "imageName": "Wat Phleng_800_3.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Wat%20Phleng%20Thailand/Wat%20Phleng_800_4.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Wat Phleng_800_4.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Wat Phleng_800_4.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 17,
+      "randomizedName": "8dab0f3e-a45b-4f33-910d-678f4f195395",
+      "imageName": "Wat Phleng_800_4.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Triple%20P%20Kabacan%20Philippines/Triple%20P%20Kabacan_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Triple P Kabacan_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Triple P Kabacan_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 18,
+      "randomizedName": "aca5f569-b9dd-4c0c-9e3b-b515123136e0",
+      "imageName": "Triple P Kabacan_800_1.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Triple%20P%20Kabacan%20Philippines/Triple%20P%20Kabacan_800_2.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Triple P Kabacan_800_2.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Triple P Kabacan_800_2.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 19,
+      "randomizedName": "276df769-e51a-4884-8d62-abe7c758b11b",
+      "imageName": "Triple P Kabacan_800_2.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Triple%20P%20Kabacan%20Philippines/Triple%20P%20Kabacan_800_3.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Triple P Kabacan_800_3.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Triple P Kabacan_800_3.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 20,
+      "randomizedName": "cc5a0401-8fa2-43e9-b15f-9c850d163a90",
+      "imageName": "Triple P Kabacan_800_3.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:///D:/Project/Coconut/Triple%20P%20Kabacan%20Philippines/Triple%20P%20Kabacan_800_4.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Triple P Kabacan_800_4.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Triple P Kabacan_800_4.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 21,
+      "randomizedName": "b8749690-9763-428b-857b-584c0bf43889",
+      "imageName": "Triple P Kabacan_800_4.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/yashw/Pictures/Screenshots/Screenshot%202025-08-10%20111135.png",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Screenshot 2025-08-10 111135.png",
+          "width": 536,
+          "height": 320,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 536,
+              "height": 320
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 536,
+          "preferredTileHeight": 320
+        }
+      },
+      "entryID": 22,
+      "randomizedName": "b9d2d235-18b7-4602-87db-22e74638c5d3",
+      "imageName": "Screenshot 2025-08-10 111135.png",
+      "metadata": {},
+      "tags": []
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/C:/Users/yashw/Pictures/Screenshots/Screenshot%202025-08-10%20115710.png",
+        "args": [
+          "--series",
+          "0"
+        ],
+        "metadata": {
+          "name": "Screenshot 2025-08-10 115710.png",
+          "width": 1736,
+          "height": 899,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 1736,
+              "height": 899
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 1736,
+          "preferredTileHeight": 151
+        }
+      },
+      "entryID": 23,
+      "randomizedName": "3d452dbf-2de9-4cd4-8537-a70a526fb139",
+      "imageName": "Screenshot 2025-08-10 115710.png",
+      "metadata": {},
+      "tags": []
+    }
+  ]
+}

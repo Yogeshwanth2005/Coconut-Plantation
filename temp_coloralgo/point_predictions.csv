@@ -1,0 +1,11 @@
+filename,x,y,expected,predicted,result
+Sambava_800_4.png,197,207,sea-800,sea-800,correct
+Sambava_800_4.png,402,76,sea-800,sea-800,correct
+Sambava_800_4.png,238,109,sea-800,sea-800,correct
+Sambava_800_4.png,32,150,sea-800,sea-800,correct
+Sambava_800_4.png,131,216,sea-800,sea-800,correct
+Sambava_800_4.png,131,60,sea-800,sea-800,correct
+Sambava_800_4.png,353,175,sea-800,sea-800,correct
+Triple P Kabacan_800_1.png,225,53,non-green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,146,110,non-green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,146,110,non-green-800,coconut-800,wrong

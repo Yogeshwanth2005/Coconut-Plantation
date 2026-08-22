@@ -1,0 +1,4391 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5197.43,
+              3021.0
+            ],
+            [
+              5709.97,
+              3021.0
+            ],
+            [
+              5709.97,
+              3533.54
+            ],
+            [
+              5197.43,
+              3533.54
+            ],
+            [
+              5197.43,
+              3021.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5688.36,
+              3095.84
+            ],
+            [
+              6200.9,
+              3095.84
+            ],
+            [
+              6200.9,
+              3608.37
+            ],
+            [
+              5688.36,
+              3608.37
+            ],
+            [
+              5688.36,
+              3095.84
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5712.31,
+              3601.73
+            ],
+            [
+              6224.84,
+              3601.73
+            ],
+            [
+              6224.84,
+              4114.27
+            ],
+            [
+              5712.31,
+              4114.27
+            ],
+            [
+              5712.31,
+              3601.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5203.42,
+              3565.81
+            ],
+            [
+              5715.95,
+              3565.81
+            ],
+            [
+              5715.95,
+              4078.35
+            ],
+            [
+              5203.42,
+              4078.35
+            ],
+            [
+              5203.42,
+              3565.81
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5029.8,
+              3754.4
+            ],
+            [
+              5542.33,
+              3754.4
+            ],
+            [
+              5542.33,
+              4266.94
+            ],
+            [
+              5029.8,
+              4266.94
+            ],
+            [
+              5029.8,
+              3754.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5544.68,
+              3769.37
+            ],
+            [
+              6057.21,
+              3769.37
+            ],
+            [
+              6057.21,
+              4281.9
+            ],
+            [
+              5544.68,
+              4281.9
+            ],
+            [
+              5544.68,
+              3769.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5841.03,
+              3751.41
+            ],
+            [
+              6353.56,
+              3751.41
+            ],
+            [
+              6353.56,
+              4263.94
+            ],
+            [
+              5841.03,
+              4263.94
+            ],
+            [
+              5841.03,
+              3751.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6221.2,
+              3218.57
+            ],
+            [
+              6733.73,
+              3218.57
+            ],
+            [
+              6733.73,
+              3731.11
+            ],
+            [
+              6221.2,
+              3731.11
+            ],
+            [
+              6221.2,
+              3218.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6331.96,
+              3736.44
+            ],
+            [
+              6844.49,
+              3736.44
+            ],
+            [
+              6844.49,
+              4248.98
+            ],
+            [
+              6331.96,
+              4248.98
+            ],
+            [
+              6331.96,
+              3736.44
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6748.05,
+              3673.58
+            ],
+            [
+              7260.58,
+              3673.58
+            ],
+            [
+              7260.58,
+              4186.11
+            ],
+            [
+              6748.05,
+              4186.11
+            ],
+            [
+              6748.05,
+              3673.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3820.44,
+              3772.36
+            ],
+            [
+              4332.97,
+              3772.36
+            ],
+            [
+              4332.97,
+              4283.0
+            ],
+            [
+              3820.44,
+              4283.0
+            ],
+            [
+              3820.44,
+              3772.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3721.66,
+              2976.1
+            ],
+            [
+              4234.19,
+              2976.1
+            ],
+            [
+              4234.19,
+              3488.64
+            ],
+            [
+              3721.66,
+              3488.64
+            ],
+            [
+              3721.66,
+              2976.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3637.84,
+              3344.29
+            ],
+            [
+              4150.37,
+              3344.29
+            ],
+            [
+              4150.37,
+              3856.83
+            ],
+            [
+              3637.84,
+              3856.83
+            ],
+            [
+              3637.84,
+              3344.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3371.42,
+              3398.18
+            ],
+            [
+              3883.95,
+              3398.18
+            ],
+            [
+              3883.95,
+              3910.71
+            ],
+            [
+              3371.42,
+              3910.71
+            ],
+            [
+              3371.42,
+              3398.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2718.85,
+              3793.31
+            ],
+            [
+              3231.38,
+              3793.31
+            ],
+            [
+              3231.38,
+              4283.0
+            ],
+            [
+              2718.85,
+              4283.0
+            ],
+            [
+              2718.85,
+              3793.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2928.39,
+              3502.95
+            ],
+            [
+              3440.92,
+              3502.95
+            ],
+            [
+              3440.92,
+              4015.48
+            ],
+            [
+              2928.39,
+              4015.48
+            ],
+            [
+              2928.39,
+              3502.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3045.13,
+              3772.36
+            ],
+            [
+              3557.67,
+              3772.36
+            ],
+            [
+              3557.67,
+              4283.0
+            ],
+            [
+              3045.13,
+              4283.0
+            ],
+            [
+              3045.13,
+              3772.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.78,
+              3.59
+            ],
+            [
+              516.31,
+              3.59
+            ],
+            [
+              516.31,
+              516.13
+            ],
+            [
+              3.78,
+              516.13
+            ],
+            [
+              3.78,
+              3.59
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              521.64,
+              15.56
+            ],
+            [
+              1034.18,
+              15.56
+            ],
+            [
+              1034.18,
+              528.1
+            ],
+            [
+              521.64,
+              528.1
+            ],
+            [
+              521.64,
+              15.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              530.63,
+              344.84
+            ],
+            [
+              1043.16,
+              344.84
+            ],
+            [
+              1043.16,
+              857.38
+            ],
+            [
+              530.63,
+              857.38
+            ],
+            [
+              530.63,
+              344.84
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.74,
+              335.86
+            ],
+            [
+              534.27,
+              335.86
+            ],
+            [
+              534.27,
+              848.4
+            ],
+            [
+              21.74,
+              848.4
+            ],
+            [
+              21.74,
+              335.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1048.49,
+              0.0
+            ],
+            [
+              1561.03,
+              0.0
+            ],
+            [
+              1561.03,
+              495.17
+            ],
+            [
+              1048.49,
+              495.17
+            ],
+            [
+              1048.49,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1506.49,
+              261.03
+            ],
+            [
+              2019.03,
+              261.03
+            ],
+            [
+              2019.03,
+              773.56
+            ],
+            [
+              1506.49,
+              773.56
+            ],
+            [
+              1506.49,
+              261.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1871.7,
+              371.79
+            ],
+            [
+              2384.23,
+              371.79
+            ],
+            [
+              2384.23,
+              884.32
+            ],
+            [
+              1871.7,
+              884.32
+            ],
+            [
+              1871.7,
+              371.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4085.62,
+              3512.13
+            ],
+            [
+              4598.15,
+              3512.13
+            ],
+            [
+              4598.15,
+              4024.67
+            ],
+            [
+              4085.62,
+              4024.67
+            ],
+            [
+              4085.62,
+              3512.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4584.53,
+              3342.5
+            ],
+            [
+              5097.07,
+              3342.5
+            ],
+            [
+              5097.07,
+              3855.04
+            ],
+            [
+              4584.53,
+              3855.04
+            ],
+            [
+              4584.53,
+              3342.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4687.02,
+              3101.85
+            ],
+            [
+              5199.56,
+              3101.85
+            ],
+            [
+              5199.56,
+              3614.39
+            ],
+            [
+              4687.02,
+              3614.39
+            ],
+            [
+              4687.02,
+              3101.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4984.97,
+              3331.52
+            ],
+            [
+              5497.5,
+              3331.52
+            ],
+            [
+              5497.5,
+              3844.06
+            ],
+            [
+              4984.97,
+              3844.06
+            ],
+            [
+              4984.97,
+              3331.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4469.77,
+              3703.95
+            ],
+            [
+              4982.3,
+              3703.95
+            ],
+            [
+              4982.3,
+              4216.49
+            ],
+            [
+              4469.77,
+              4216.49
+            ],
+            [
+              4469.77,
+              3703.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4283.55,
+              3343.94
+            ],
+            [
+              4796.09,
+              3343.94
+            ],
+            [
+              4796.09,
+              3856.47
+            ],
+            [
+              4283.55,
+              3856.47
+            ],
+            [
+              4283.55,
+              3343.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Young Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4444.94,
+              3480.49
+            ],
+            [
+              4957.48,
+              3480.49
+            ],
+            [
+              4957.48,
+              3993.03
+            ],
+            [
+              4444.94,
+              3993.03
+            ],
+            [
+              4444.94,
+              3480.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1705.98,
+              1053.13
+            ],
+            [
+              2218.51,
+              1053.13
+            ],
+            [
+              2218.51,
+              1565.67
+            ],
+            [
+              1705.98,
+              1565.67
+            ],
+            [
+              1705.98,
+              1053.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1948.45,
+              771.75
+            ],
+            [
+              2460.98,
+              771.75
+            ],
+            [
+              2460.98,
+              1284.28
+            ],
+            [
+              1948.45,
+              1284.28
+            ],
+            [
+              1948.45,
+              771.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2424.41,
+              747.8
+            ],
+            [
+              2936.94,
+              747.8
+            ],
+            [
+              2936.94,
+              1260.33
+            ],
+            [
+              2424.41,
+              1260.33
+            ],
+            [
+              2424.41,
+              747.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2909.35,
+              1038.16
+            ],
+            [
+              3421.88,
+              1038.16
+            ],
+            [
+              3421.88,
+              1550.7
+            ],
+            [
+              2909.35,
+              1550.7
+            ],
+            [
+              2909.35,
+              1038.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2930.3,
+              1556.03
+            ],
+            [
+              3442.83,
+              1556.03
+            ],
+            [
+              3442.83,
+              2068.57
+            ],
+            [
+              2930.3,
+              2068.57
+            ],
+            [
+              2930.3,
+              1556.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2942.28,
+              2073.9
+            ],
+            [
+              3454.81,
+              2073.9
+            ],
+            [
+              3454.81,
+              2586.44
+            ],
+            [
+              2942.28,
+              2586.44
+            ],
+            [
+              2942.28,
+              2073.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2394.47,
+              1262.67
+            ],
+            [
+              2907.01,
+              1262.67
+            ],
+            [
+              2907.01,
+              1775.21
+            ],
+            [
+              2394.47,
+              1775.21
+            ],
+            [
+              2394.47,
+              1262.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2125.06,
+              1690.74
+            ],
+            [
+              2637.59,
+              1690.74
+            ],
+            [
+              2637.59,
+              2203.28
+            ],
+            [
+              2125.06,
+              2203.28
+            ],
+            [
+              2125.06,
+              1690.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7641.88,
+              3.4
+            ],
+            [
+              8154.41,
+              3.4
+            ],
+            [
+              8154.41,
+              515.94
+            ],
+            [
+              7641.88,
+              515.94
+            ],
+            [
+              7641.88,
+              3.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7656.77,
+              509.91
+            ],
+            [
+              8169.31,
+              509.91
+            ],
+            [
+              8169.31,
+              1022.45
+            ],
+            [
+              7656.77,
+              1022.45
+            ],
+            [
+              7656.77,
+              509.91
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7671.67,
+              1053.67
+            ],
+            [
+              8184.21,
+              1053.67
+            ],
+            [
+              8184.21,
+              1566.2
+            ],
+            [
+              7671.67,
+              1566.2
+            ],
+            [
+              7671.67,
+              1053.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              573.81,
+              1439.75
+            ],
+            [
+              1086.35,
+              1439.75
+            ],
+            [
+              1086.35,
+              1952.29
+            ],
+            [
+              573.81,
+              1952.29
+            ],
+            [
+              573.81,
+              1439.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1094.09,
+              1540.14
+            ],
+            [
+              1606.62,
+              1540.14
+            ],
+            [
+              1606.62,
+              2052.68
+            ],
+            [
+              1094.09,
+              2052.68
+            ],
+            [
+              1094.09,
+              1540.14
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1357.98,
+              1334.4
+            ],
+            [
+              1870.51,
+              1334.4
+            ],
+            [
+              1870.51,
+              1846.93
+            ],
+            [
+              1357.98,
+              1846.93
+            ],
+            [
+              1357.98,
+              1334.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1595.03,
+              1701.15
+            ],
+            [
+              2107.56,
+              1701.15
+            ],
+            [
+              2107.56,
+              2213.69
+            ],
+            [
+              1595.03,
+              2213.69
+            ],
+            [
+              1595.03,
+              1701.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1841.02,
+              1969.51
+            ],
+            [
+              2353.56,
+              1969.51
+            ],
+            [
+              2353.56,
+              2482.05
+            ],
+            [
+              1841.02,
+              2482.05
+            ],
+            [
+              1841.02,
+              1969.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1407.18,
+              2081.33
+            ],
+            [
+              1919.71,
+              2081.33
+            ],
+            [
+              1919.71,
+              2593.87
+            ],
+            [
+              1407.18,
+              2593.87
+            ],
+            [
+              1407.18,
+              2081.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1022.53,
+              1853.22
+            ],
+            [
+              1535.06,
+              1853.22
+            ],
+            [
+              1535.06,
+              2365.76
+            ],
+            [
+              1022.53,
+              2365.76
+            ],
+            [
+              1022.53,
+              1853.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              512.65,
+              1781.66
+            ],
+            [
+              1025.18,
+              1781.66
+            ],
+            [
+              1025.18,
+              2294.2
+            ],
+            [
+              512.65,
+              2294.2
+            ],
+            [
+              512.65,
+              1781.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              230.87,
+              1768.24
+            ],
+            [
+              743.4,
+              1768.24
+            ],
+            [
+              743.4,
+              2280.78
+            ],
+            [
+              230.87,
+              2280.78
+            ],
+            [
+              230.87,
+              1768.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.03,
+              753.42
+            ],
+            [
+              515.56,
+              753.42
+            ],
+            [
+              515.56,
+              1265.95
+            ],
+            [
+              3.03,
+              1265.95
+            ],
+            [
+              3.03,
+              753.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.02,
+              1275.86
+            ],
+            [
+              515.56,
+              1275.86
+            ],
+            [
+              515.56,
+              1788.39
+            ],
+            [
+              3.02,
+              1788.39
+            ],
+            [
+              3.02,
+              1275.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              509.95,
+              836.18
+            ],
+            [
+              1022.48,
+              836.18
+            ],
+            [
+              1022.48,
+              1348.71
+            ],
+            [
+              509.95,
+              1348.71
+            ],
+            [
+              509.95,
+              836.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1032.39,
+              1001.7
+            ],
+            [
+              1544.93,
+              1001.7
+            ],
+            [
+              1544.93,
+              1514.24
+            ],
+            [
+              1032.39,
+              1514.24
+            ],
+            [
+              1032.39,
+              1001.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.02,
+              2258.67
+            ],
+            [
+              515.56,
+              2258.67
+            ],
+            [
+              515.56,
+              2771.21
+            ],
+            [
+              3.02,
+              2771.21
+            ],
+            [
+              3.02,
+              2258.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              515.12,
+              2269.02
+            ],
+            [
+              1027.65,
+              2269.02
+            ],
+            [
+              1027.65,
+              2781.55
+            ],
+            [
+              515.12,
+              2781.55
+            ],
+            [
+              515.12,
+              2269.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              804.79,
+              2362.13
+            ],
+            [
+              1317.33,
+              2362.13
+            ],
+            [
+              1317.33,
+              2874.66
+            ],
+            [
+              804.79,
+              2874.66
+            ],
+            [
+              804.79,
+              2362.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1032.39,
+              2563.86
+            ],
+            [
+              1544.93,
+              2563.86
+            ],
+            [
+              1544.93,
+              3076.4
+            ],
+            [
+              1032.39,
+              3076.4
+            ],
+            [
+              1032.39,
+              2563.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.54,
+              2719.04
+            ],
+            [
+              531.08,
+              2719.04
+            ],
+            [
+              531.08,
+              3231.58
+            ],
+            [
+              18.54,
+              3231.58
+            ],
+            [
+              18.54,
+              2719.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              520.3,
+              2843.19
+            ],
+            [
+              1032.83,
+              2843.19
+            ],
+            [
+              1032.83,
+              3355.72
+            ],
+            [
+              520.3,
+              3355.72
+            ],
+            [
+              520.3,
+              2843.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1699.67,
+              2615.59
+            ],
+            [
+              2212.2,
+              2615.59
+            ],
+            [
+              2212.2,
+              3128.13
+            ],
+            [
+              1699.67,
+              3128.13
+            ],
+            [
+              1699.67,
+              2615.59
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2408.33,
+              2517.31
+            ],
+            [
+              2920.86,
+              2517.31
+            ],
+            [
+              2920.86,
+              3029.84
+            ],
+            [
+              2408.33,
+              3029.84
+            ],
+            [
+              2408.33,
+              2517.31
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2713.52,
+              2848.36
+            ],
+            [
+              3226.06,
+              2848.36
+            ],
+            [
+              3226.06,
+              3360.9
+            ],
+            [
+              2713.52,
+              3360.9
+            ],
+            [
+              2713.52,
+              2848.36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2211.77,
+              3039.75
+            ],
+            [
+              2724.3,
+              3039.75
+            ],
+            [
+              2724.3,
+              3552.29
+            ],
+            [
+              2211.77,
+              3552.29
+            ],
+            [
+              2211.77,
+              3039.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1735.88,
+              3117.34
+            ],
+            [
+              2248.41,
+              3117.34
+            ],
+            [
+              2248.41,
+              3629.88
+            ],
+            [
+              1735.88,
+              3629.88
+            ],
+            [
+              1735.88,
+              3117.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1285.86,
+              3370.8
+            ],
+            [
+              1798.39,
+              3370.8
+            ],
+            [
+              1798.39,
+              3883.34
+            ],
+            [
+              1285.86,
+              3883.34
+            ],
+            [
+              1285.86,
+              3370.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1772.09,
+              3582.88
+            ],
+            [
+              2284.62,
+              3582.88
+            ],
+            [
+              2284.62,
+              4095.42
+            ],
+            [
+              1772.09,
+              4095.42
+            ],
+            [
+              1772.09,
+              3582.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2273.84,
+              3474.26
+            ],
+            [
+              2786.37,
+              3474.26
+            ],
+            [
+              2786.37,
+              3986.79
+            ],
+            [
+              2273.84,
+              3986.79
+            ],
+            [
+              2273.84,
+              3474.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1259.99,
+              3758.76
+            ],
+            [
+              1772.53,
+              3758.76
+            ],
+            [
+              1772.53,
+              4271.29
+            ],
+            [
+              1259.99,
+              4271.29
+            ],
+            [
+              1259.99,
+              3758.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3921.34,
+              0.0
+            ],
+            [
+              4433.87,
+              0.0
+            ],
+            [
+              4433.87,
+              504.7
+            ],
+            [
+              3921.34,
+              504.7
+            ],
+            [
+              3921.34,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4438.61,
+              5.1
+            ],
+            [
+              4951.14,
+              5.1
+            ],
+            [
+              4951.14,
+              517.63
+            ],
+            [
+              4438.61,
+              517.63
+            ],
+            [
+              4438.61,
+              5.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4955.88,
+              5.1
+            ],
+            [
+              5468.41,
+              5.1
+            ],
+            [
+              5468.41,
+              517.63
+            ],
+            [
+              4955.88,
+              517.63
+            ],
+            [
+              4955.88,
+              5.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5477.46,
+              5.1
+            ],
+            [
+              5989.99,
+              5.1
+            ],
+            [
+              5989.99,
+              517.63
+            ],
+            [
+              5477.46,
+              517.63
+            ],
+            [
+              5477.46,
+              5.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5990.42,
+              9.41
+            ],
+            [
+              6502.95,
+              9.41
+            ],
+            [
+              6502.95,
+              521.94
+            ],
+            [
+              5990.42,
+              521.94
+            ],
+            [
+              5990.42,
+              9.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6507.69,
+              5.1
+            ],
+            [
+              7020.22,
+              5.1
+            ],
+            [
+              7020.22,
+              517.63
+            ],
+            [
+              6507.69,
+              517.63
+            ],
+            [
+              6507.69,
+              5.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6973.23,
+              0.0
+            ],
+            [
+              7485.76,
+              0.0
+            ],
+            [
+              7485.76,
+              504.7
+            ],
+            [
+              6973.23,
+              504.7
+            ],
+            [
+              6973.23,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4602.41,
+              518.06
+            ],
+            [
+              5114.94,
+              518.06
+            ],
+            [
+              5114.94,
+              1030.59
+            ],
+            [
+              4602.41,
+              1030.59
+            ],
+            [
+              4602.41,
+              518.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4042.03,
+              828.42
+            ],
+            [
+              4554.57,
+              828.42
+            ],
+            [
+              4554.57,
+              1340.96
+            ],
+            [
+              4042.03,
+              1340.96
+            ],
+            [
+              4042.03,
+              828.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4554.99,
+              880.15
+            ],
+            [
+              5067.52,
+              880.15
+            ],
+            [
+              5067.52,
+              1392.68
+            ],
+            [
+              4554.99,
+              1392.68
+            ],
+            [
+              4554.99,
+              880.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5236.07,
+              931.87
+            ],
+            [
+              5748.6,
+              931.87
+            ],
+            [
+              5748.6,
+              1444.41
+            ],
+            [
+              5236.07,
+              1444.41
+            ],
+            [
+              5236.07,
+              931.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4917.08,
+              845.66
+            ],
+            [
+              5429.61,
+              845.66
+            ],
+            [
+              5429.61,
+              1358.2
+            ],
+            [
+              4917.08,
+              1358.2
+            ],
+            [
+              4917.08,
+              845.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5119.68,
+              526.68
+            ],
+            [
+              5632.21,
+              526.68
+            ],
+            [
+              5632.21,
+              1039.21
+            ],
+            [
+              5119.68,
+              1039.21
+            ],
+            [
+              5119.68,
+              526.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5632.64,
+              518.06
+            ],
+            [
+              6145.17,
+              518.06
+            ],
+            [
+              6145.17,
+              1030.59
+            ],
+            [
+              5632.64,
+              1030.59
+            ],
+            [
+              5632.64,
+              518.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6128.36,
+              530.99
+            ],
+            [
+              6640.89,
+              530.99
+            ],
+            [
+              6640.89,
+              1043.52
+            ],
+            [
+              6128.36,
+              1043.52
+            ],
+            [
+              6128.36,
+              530.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6253.36,
+              1048.26
+            ],
+            [
+              6765.9,
+              1048.26
+            ],
+            [
+              6765.9,
+              1560.8
+            ],
+            [
+              6253.36,
+              1560.8
+            ],
+            [
+              6253.36,
+              1048.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6365.44,
+              1255.17
+            ],
+            [
+              6877.97,
+              1255.17
+            ],
+            [
+              6877.97,
+              1767.7
+            ],
+            [
+              6365.44,
+              1767.7
+            ],
+            [
+              6365.44,
+              1255.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5749.02,
+              1052.57
+            ],
+            [
+              6261.56,
+              1052.57
+            ],
+            [
+              6261.56,
+              1565.11
+            ],
+            [
+              5749.02,
+              1565.11
+            ],
+            [
+              5749.02,
+              1052.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6602.52,
+              587.03
+            ],
+            [
+              7115.05,
+              587.03
+            ],
+            [
+              7115.05,
+              1099.56
+            ],
+            [
+              6602.52,
+              1099.56
+            ],
+            [
+              6602.52,
+              587.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7115.48,
+              565.47
+            ],
+            [
+              7628.01,
+              565.47
+            ],
+            [
+              7628.01,
+              1078.01
+            ],
+            [
+              7115.48,
+              1078.01
+            ],
+            [
+              7115.48,
+              565.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6878.4,
+              1104.3
+            ],
+            [
+              7390.93,
+              1104.3
+            ],
+            [
+              7390.93,
+              1616.83
+            ],
+            [
+              6878.4,
+              1616.83
+            ],
+            [
+              6878.4,
+              1104.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7391.36,
+              1087.06
+            ],
+            [
+              7903.89,
+              1087.06
+            ],
+            [
+              7903.89,
+              1599.59
+            ],
+            [
+              7391.36,
+              1599.59
+            ],
+            [
+              7391.36,
+              1087.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7149.96,
+              1604.33
+            ],
+            [
+              7662.5,
+              1604.33
+            ],
+            [
+              7662.5,
+              2116.86
+            ],
+            [
+              7149.96,
+              2116.86
+            ],
+            [
+              7149.96,
+              1604.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7671.55,
+              1582.77
+            ],
+            [
+              8184.08,
+              1582.77
+            ],
+            [
+              8184.08,
+              2095.31
+            ],
+            [
+              7671.55,
+              2095.31
+            ],
+            [
+              7671.55,
+              1582.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7667.24,
+              2104.35
+            ],
+            [
+              8179.77,
+              2104.35
+            ],
+            [
+              8179.77,
+              2616.89
+            ],
+            [
+              7667.24,
+              2616.89
+            ],
+            [
+              7667.24,
+              2104.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7145.66,
+              2112.98
+            ],
+            [
+              7658.19,
+              2112.98
+            ],
+            [
+              7658.19,
+              2625.51
+            ],
+            [
+              7145.66,
+              2625.51
+            ],
+            [
+              7145.66,
+              2112.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6537.86,
+              1725.02
+            ],
+            [
+              7050.4,
+              1725.02
+            ],
+            [
+              7050.4,
+              2237.56
+            ],
+            [
+              6537.86,
+              2237.56
+            ],
+            [
+              6537.86,
+              1725.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6628.38,
+              2242.29
+            ],
+            [
+              7140.92,
+              2242.29
+            ],
+            [
+              7140.92,
+              2754.83
+            ],
+            [
+              6628.38,
+              2754.83
+            ],
+            [
+              6628.38,
+              2242.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7654.3,
+              2613.0
+            ],
+            [
+              8166.84,
+              2613.0
+            ],
+            [
+              8166.84,
+              3125.54
+            ],
+            [
+              7654.3,
+              3125.54
+            ],
+            [
+              7654.3,
+              2613.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7137.03,
+              2630.25
+            ],
+            [
+              7649.57,
+              2630.25
+            ],
+            [
+              7649.57,
+              3142.78
+            ],
+            [
+              7137.03,
+              3142.78
+            ],
+            [
+              7137.03,
+              2630.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7124.1,
+              3143.2
+            ],
+            [
+              7636.64,
+              3143.2
+            ],
+            [
+              7636.64,
+              3655.74
+            ],
+            [
+              7124.1,
+              3655.74
+            ],
+            [
+              7124.1,
+              3143.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7649.99,
+              3147.52
+            ],
+            [
+              8162.53,
+              3147.52
+            ],
+            [
+              8162.53,
+              3660.05
+            ],
+            [
+              7649.99,
+              3660.05
+            ],
+            [
+              7649.99,
+              3147.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7662.93,
+              3664.79
+            ],
+            [
+              8175.46,
+              3664.79
+            ],
+            [
+              8175.46,
+              4177.32
+            ],
+            [
+              7662.93,
+              4177.32
+            ],
+            [
+              7662.93,
+              3664.79
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7137.03,
+              3656.17
+            ],
+            [
+              7649.57,
+              3656.17
+            ],
+            [
+              7649.57,
+              4168.7
+            ],
+            [
+              7137.03,
+              4168.7
+            ],
+            [
+              7137.03,
+              3656.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6624.07,
+              2750.94
+            ],
+            [
+              7136.61,
+              2750.94
+            ],
+            [
+              7136.61,
+              3263.48
+            ],
+            [
+              6624.07,
+              3263.48
+            ],
+            [
+              6624.07,
+              2750.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6093.87,
+              2759.56
+            ],
+            [
+              6606.4,
+              2759.56
+            ],
+            [
+              6606.4,
+              3272.1
+            ],
+            [
+              6093.87,
+              3272.1
+            ],
+            [
+              6093.87,
+              2759.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6102.49,
+              2225.05
+            ],
+            [
+              6615.03,
+              2225.05
+            ],
+            [
+              6615.03,
+              2737.59
+            ],
+            [
+              6102.49,
+              2737.59
+            ],
+            [
+              6102.49,
+              2225.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6020.59,
+              1712.09
+            ],
+            [
+              6533.12,
+              1712.09
+            ],
+            [
+              6533.12,
+              2224.63
+            ],
+            [
+              6020.59,
+              2224.63
+            ],
+            [
+              6020.59,
+              1712.09
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5507.63,
+              1561.22
+            ],
+            [
+              6020.16,
+              1561.22
+            ],
+            [
+              6020.16,
+              2073.76
+            ],
+            [
+              5507.63,
+              2073.76
+            ],
+            [
+              5507.63,
+              1561.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5499.01,
+              2078.49
+            ],
+            [
+              6011.54,
+              2078.49
+            ],
+            [
+              6011.54,
+              2591.03
+            ],
+            [
+              5499.01,
+              2591.03
+            ],
+            [
+              5499.01,
+              2078.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5580.91,
+              2591.45
+            ],
+            [
+              6093.44,
+              2591.45
+            ],
+            [
+              6093.44,
+              3103.99
+            ],
+            [
+              5580.91,
+              3103.99
+            ],
+            [
+              5580.91,
+              2591.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5001.24,
+              1554.2
+            ],
+            [
+              5513.77,
+              1554.2
+            ],
+            [
+              5513.77,
+              2066.74
+            ],
+            [
+              5001.24,
+              2066.74
+            ],
+            [
+              5001.24,
+              1554.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4986.27,
+              2072.07
+            ],
+            [
+              5498.8,
+              2072.07
+            ],
+            [
+              5498.8,
+              2584.61
+            ],
+            [
+              4986.27,
+              2584.61
+            ],
+            [
+              4986.27,
+              2072.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5070.09,
+              2589.94
+            ],
+            [
+              5582.62,
+              2589.94
+            ],
+            [
+              5582.62,
+              3102.48
+            ],
+            [
+              5070.09,
+              3102.48
+            ],
+            [
+              5070.09,
+              2589.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4462.42,
+              2072.07
+            ],
+            [
+              4974.95,
+              2072.07
+            ],
+            [
+              4974.95,
+              2584.61
+            ],
+            [
+              4462.42,
+              2584.61
+            ],
+            [
+              4462.42,
+              2072.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4477.38,
+              1560.19
+            ],
+            [
+              4989.91,
+              1560.19
+            ],
+            [
+              4989.91,
+              2072.73
+            ],
+            [
+              4477.38,
+              2072.73
+            ],
+            [
+              4477.38,
+              1560.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4552.22,
+              2586.95
+            ],
+            [
+              5064.75,
+              2586.95
+            ],
+            [
+              5064.75,
+              3099.48
+            ],
+            [
+              4552.22,
+              3099.48
+            ],
+            [
+              4552.22,
+              2586.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3956.52,
+              1461.41
+            ],
+            [
+              4469.05,
+              1461.41
+            ],
+            [
+              4469.05,
+              1973.94
+            ],
+            [
+              3956.52,
+              1973.94
+            ],
+            [
+              3956.52,
+              1461.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3950.53,
+              1982.27
+            ],
+            [
+              4463.07,
+              1982.27
+            ],
+            [
+              4463.07,
+              2494.81
+            ],
+            [
+              3950.53,
+              2494.81
+            ],
+            [
+              3950.53,
+              1982.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3965.5,
+              2287.6
+            ],
+            [
+              4478.03,
+              2287.6
+            ],
+            [
+              4478.03,
+              2800.14
+            ],
+            [
+              3965.5,
+              2800.14
+            ],
+            [
+              3965.5,
+              2287.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3456.61,
+              2392.37
+            ],
+            [
+              3969.14,
+              2392.37
+            ],
+            [
+              3969.14,
+              2904.91
+            ],
+            [
+              3456.61,
+              2904.91
+            ],
+            [
+              3456.61,
+              2392.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3453.62,
+              1880.49
+            ],
+            [
+              3966.15,
+              1880.49
+            ],
+            [
+              3966.15,
+              2393.03
+            ],
+            [
+              3453.62,
+              2393.03
+            ],
+            [
+              3453.62,
+              1880.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3447.63,
+              1374.6
+            ],
+            [
+              3960.16,
+              1374.6
+            ],
+            [
+              3960.16,
+              1887.13
+            ],
+            [
+              3447.63,
+              1887.13
+            ],
+            [
+              3447.63,
+              1374.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3459.6,
+              934.56
+            ],
+            [
+              3972.14,
+              934.56
+            ],
+            [
+              3972.14,
+              1447.09
+            ],
+            [
+              3459.6,
+              1447.09
+            ],
+            [
+              3459.6,
+              934.56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2396.93,
+              186.19
+            ],
+            [
+              2909.46,
+              186.19
+            ],
+            [
+              2909.46,
+              698.73
+            ],
+            [
+              2396.93,
+              698.73
+            ],
+            [
+              2396.93,
+              186.19
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2905.81,
+              198.16
+            ],
+            [
+              3418.35,
+              198.16
+            ],
+            [
+              3418.35,
+              710.7
+            ],
+            [
+              2905.81,
+              710.7
+            ],
+            [
+              2905.81,
+              198.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3336.87,
+              419.68
+            ],
+            [
+              3849.4,
+              419.68
+            ],
+            [
+              3849.4,
+              932.22
+            ],
+            [
+              3336.87,
+              932.22
+            ],
+            [
+              3336.87,
+              419.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2896.83,
+              497.51
+            ],
+            [
+              3409.37,
+              497.51
+            ],
+            [
+              3409.37,
+              1010.05
+            ],
+            [
+              2896.83,
+              1010.05
+            ],
+            [
+              2896.83,
+              497.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Dense Coconut Farms",
+        "image": "Krandangnga_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3390.76,
+              665.15
+            ],
+            [
+              3903.29,
+              665.15
+            ],
+            [
+              3903.29,
+              1177.68
+            ],
+            [
+              3390.76,
+              1177.68
+            ],
+            [
+              3390.76,
+              665.15
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

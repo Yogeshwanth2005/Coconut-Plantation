@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2477800</id>
+      <size>8</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-05-16 19:10:49.815778+00:00</created>
+      <updated>2025-06-15 16:19:55.562589+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>7</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2480079</id>
+          <start>0</start>
+          <stop>7</stop>
+          <url>https://app.cvat.ai/api/jobs/2477800</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>hfradio</username>
+        <email>hfradiogrp7@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Young Coconut Farms</name>
+          <color>#b83df5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Dense Coconut Farms</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Traditional Coconut Farms</name>
+          <color>#fafa37</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic Coconut Farms</name>
+          <color>#3df53d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Agroforestry Coconut Farms</name>
+          <color>#ff6a4d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-06-15 16:20:13.835561+00:00</dumped>
+  </meta>
+  <image id="0" name="Amrita_800_1.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2376.74" ytl="11.46" xbr="2889.27" ybr="523.99" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2997.24" ytl="531.49" xbr="3509.77" ybr="1044.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3146.74" ytl="526.67" xbr="3659.27" ybr="1039.20" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2481.23" ytl="531.49" xbr="2993.76" ybr="1044.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5881.11" ytl="10.65" xbr="6393.64" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5741.26" ytl="526.66" xbr="6253.79" ybr="1039.20" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6083.66" ytl="10.65" xbr="6596.19" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5639.99" ytl="10.65" xbr="6152.52" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3141.91" ytl="15.48" xbr="3654.45" ybr="528.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2266.97" ytl="1048.47" xbr="2779.50" ybr="1561.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2727.18" ytl="10.65" xbr="3239.71" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3056.98" ytl="1041.29" xbr="3569.51" ybr="1553.82" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2483.10" ytl="1046.11" xbr="2995.63" ybr="1558.65" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2729.85" ytl="531.71" xbr="3242.38" ybr="1044.25" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.09" ytl="1.01" xbr="8187.63" ybr="513.55" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3296.23" ytl="1042.68" xbr="3808.77" ybr="1555.21" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2785.05" ytl="1042.68" xbr="3297.58" ybr="1555.21" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="Amrita_800_2.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5333.17" ytl="2757.73" xbr="5845.70" ybr="3270.26" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4820.78" ytl="2761.08" xbr="5333.31" ybr="3273.61" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4616.49" ytl="2339.11" xbr="5129.02" ybr="2851.64" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5118.84" ytl="2245.33" xbr="5631.37" ybr="2757.87" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6341.21" ytl="2252.03" xbr="6853.74" ybr="2764.57" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6287.63" ytl="1739.64" xbr="6800.16" ybr="2252.17" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5828.82" ytl="2241.98" xbr="6341.35" ybr="2754.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5380.06" ytl="2245.33" xbr="5892.59" ybr="2757.87" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5175.77" ytl="2047.74" xbr="5688.30" ybr="2560.28" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5664.72" ytl="1739.64" xbr="6177.25" ybr="2252.17" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2759.43" ytl="2682.70" xbr="3271.96" ybr="3195.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.65" ytl="3771.39" xbr="8188.18" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.65" ytl="3438.82" xbr="8188.18" ybr="3951.35" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6094.87" ytl="2247.58" xbr="6607.40" ybr="2760.11" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5098.21" ytl="2761.98" xbr="5610.75" ybr="3274.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3330.48" ytl="3769.12" xbr="3843.01" ybr="4281.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5373.75" ytl="3274.74" xbr="5886.28" ybr="3787.27" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5608.65" ytl="3770.11" xbr="6121.18" ybr="4282.64" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5967.00" ytl="2035.99" xbr="6479.54" ybr="2548.53" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5372.52" ytl="3511.06" xbr="5885.05" ybr="4023.59" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5883.24" ytl="3003.13" xbr="6395.77" ybr="3515.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2922.05" ytl="2887.75" xbr="3434.58" ybr="3400.28" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6098.89" ytl="2761.98" xbr="6611.42" ybr="3274.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2814.74" ytl="3772.47" xbr="3327.27" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3086.00" ytl="3762.42" xbr="3598.54" ybr="4274.96" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3015.68" ytl="1645.87" xbr="3528.21" ybr="2158.40" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2764.50" ytl="1143.52" xbr="3277.03" ybr="1656.05" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2610.45" ytl="1893.69" xbr="3122.98" ybr="2406.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3122.84" ytl="2161.61" xbr="3635.38" ybr="2674.14" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5376.71" ytl="3789.21" xbr="5889.24" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5889.10" ytl="3775.82" xbr="6401.63" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6401.49" ytl="3769.12" xbr="6914.03" ybr="4281.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5105.44" ytl="3273.47" xbr="5617.97" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5606.67" ytl="3270.68" xbr="6119.20" ybr="3783.22" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6133.58" ytl="3273.47" xbr="6646.11" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6354.61" ytl="3273.47" xbr="6867.14" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4107.44" ytl="2536.69" xbr="4619.98" ybr="3049.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6357.96" ytl="2764.43" xbr="6870.49" ybr="3276.96" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5845.56" ytl="2761.08" xbr="6358.10" ybr="3273.61" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2292.30" ytl="1270.78" xbr="2804.83" ybr="1783.32" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3280.25" ytl="1649.21" xbr="3792.78" ybr="2161.75" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2767.85" ytl="1652.56" xbr="3280.38" ybr="2165.10" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2429.60" ytl="1655.91" xbr="2942.14" ybr="2168.45" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3407.51" ytl="2161.61" xbr="3920.04" ybr="2674.14" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2895.11" ytl="2164.96" xbr="3407.65" ybr="2677.49" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2382.72" ytl="2168.31" xbr="2895.25" ybr="2680.84" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3524.72" ytl="2674.00" xbr="4037.25" ybr="3186.54" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3008.98" ytl="2677.35" xbr="3521.51" ybr="3189.89" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2493.23" ytl="2680.70" xbr="3005.77" ybr="3193.24" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2486.54" ytl="3193.09" xbr="2999.07" ybr="3705.63" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2998.93" ytl="3196.44" xbr="3511.46" ybr="3708.98" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3518.02" ytl="3005.55" xbr="4030.56" ybr="3518.09" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2546.82" ytl="3558.13" xbr="3059.35" ybr="4070.67" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2744.41" ytl="3394.03" xbr="3256.94" ybr="3906.57" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3086.00" ytl="1136.82" xbr="3598.54" ybr="1649.36" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2570.26" ytl="1140.17" xbr="3082.79" ybr="1652.71" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="Amrita_800_3.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1.92" ytl="3767.38" xbr="514.46" ybr="4279.91" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="415.90" ytl="3437.13" xbr="928.43" ybr="3949.67" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1.92" ytl="3430.15" xbr="514.46" ybr="3942.69" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="513.57" ytl="3765.05" xbr="1026.11" ybr="4277.59" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1949.44" ytl="264.16" xbr="2461.98" ybr="776.70" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1431.08" ytl="303.89" xbr="1943.62" ybr="816.42" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="782.22" ytl="341.10" xbr="1294.75" ybr="853.63" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2172.60" ytl="238.37" xbr="2685.14" ybr="750.91" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2035.85" ytl="263.49" xbr="2548.39" ybr="776.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1522.34" ytl="285.82" xbr="2034.88" ybr="798.35" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1003.25" ytl="319.30" xbr="1515.78" ybr="831.84" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="484.16" ytl="361.17" xbr="996.69" ybr="873.70" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="Amrita_800_4.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="510.06" ytl="3.49" xbr="1022.59" ybr="516.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="0.00" ytl="3.49" xbr="511.73" ybr="516.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="212.22" ytl="5.46" xbr="724.75" ybr="518.00" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="Krandangnga_800_1.png" width="8192" height="4283">
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5197.43" ytl="3021.00" xbr="5709.97" ybr="3533.54" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5688.36" ytl="3095.84" xbr="6200.90" ybr="3608.37" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5712.31" ytl="3601.73" xbr="6224.84" ybr="4114.27" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5203.42" ytl="3565.81" xbr="5715.95" ybr="4078.35" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5029.80" ytl="3754.40" xbr="5542.33" ybr="4266.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5544.68" ytl="3769.37" xbr="6057.21" ybr="4281.90" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5841.03" ytl="3751.41" xbr="6353.56" ybr="4263.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6221.20" ytl="3218.57" xbr="6733.73" ybr="3731.11" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6331.96" ytl="3736.44" xbr="6844.49" ybr="4248.98" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6748.05" ytl="3673.58" xbr="7260.58" ybr="4186.11" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3820.44" ytl="3772.36" xbr="4332.97" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3721.66" ytl="2976.10" xbr="4234.19" ybr="3488.64" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3637.84" ytl="3344.29" xbr="4150.37" ybr="3856.83" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3371.42" ytl="3398.18" xbr="3883.95" ybr="3910.71" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2718.85" ytl="3793.31" xbr="3231.38" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2928.39" ytl="3502.95" xbr="3440.92" ybr="4015.48" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3045.13" ytl="3772.36" xbr="3557.67" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3.78" ytl="3.59" xbr="516.31" ybr="516.13" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="521.64" ytl="15.56" xbr="1034.18" ybr="528.10" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="530.63" ytl="344.84" xbr="1043.16" ybr="857.38" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="21.74" ytl="335.86" xbr="534.27" ybr="848.40" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1048.49" ytl="0.00" xbr="1561.03" ybr="495.17" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1506.49" ytl="261.03" xbr="2019.03" ybr="773.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1871.70" ytl="371.79" xbr="2384.23" ybr="884.32" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4085.62" ytl="3512.13" xbr="4598.15" ybr="4024.67" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4584.53" ytl="3342.50" xbr="5097.07" ybr="3855.04" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4687.02" ytl="3101.85" xbr="5199.56" ybr="3614.39" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4984.97" ytl="3331.52" xbr="5497.50" ybr="3844.06" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4469.77" ytl="3703.95" xbr="4982.30" ybr="4216.49" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4283.55" ytl="3343.94" xbr="4796.09" ybr="3856.47" z_order="0">
+    </box>
+    <box label="Young Coconut Farms" source="manual" occluded="0" xtl="4444.94" ytl="3480.49" xbr="4957.48" ybr="3993.03" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1705.98" ytl="1053.13" xbr="2218.51" ybr="1565.67" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1948.45" ytl="771.75" xbr="2460.98" ybr="1284.28" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2424.41" ytl="747.80" xbr="2936.94" ybr="1260.33" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2909.35" ytl="1038.16" xbr="3421.88" ybr="1550.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2930.30" ytl="1556.03" xbr="3442.83" ybr="2068.57" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2942.28" ytl="2073.90" xbr="3454.81" ybr="2586.44" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2394.47" ytl="1262.67" xbr="2907.01" ybr="1775.21" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2125.06" ytl="1690.74" xbr="2637.59" ybr="2203.28" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7641.88" ytl="3.40" xbr="8154.41" ybr="515.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7656.77" ytl="509.91" xbr="8169.31" ybr="1022.45" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7671.67" ytl="1053.67" xbr="8184.21" ybr="1566.20" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="573.81" ytl="1439.75" xbr="1086.35" ybr="1952.29" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1094.09" ytl="1540.14" xbr="1606.62" ybr="2052.68" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1357.98" ytl="1334.40" xbr="1870.51" ybr="1846.93" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1595.03" ytl="1701.15" xbr="2107.56" ybr="2213.69" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1841.02" ytl="1969.51" xbr="2353.56" ybr="2482.05" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1407.18" ytl="2081.33" xbr="1919.71" ybr="2593.87" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1022.53" ytl="1853.22" xbr="1535.06" ybr="2365.76" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="512.65" ytl="1781.66" xbr="1025.18" ybr="2294.20" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="230.87" ytl="1768.24" xbr="743.40" ybr="2280.78" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3.03" ytl="753.42" xbr="515.56" ybr="1265.95" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3.02" ytl="1275.86" xbr="515.56" ybr="1788.39" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="509.95" ytl="836.18" xbr="1022.48" ybr="1348.71" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1032.39" ytl="1001.70" xbr="1544.93" ybr="1514.24" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3.02" ytl="2258.67" xbr="515.56" ybr="2771.21" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="515.12" ytl="2269.02" xbr="1027.65" ybr="2781.55" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="804.79" ytl="2362.13" xbr="1317.33" ybr="2874.66" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1032.39" ytl="2563.86" xbr="1544.93" ybr="3076.40" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="18.54" ytl="2719.04" xbr="531.08" ybr="3231.58" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="520.30" ytl="2843.19" xbr="1032.83" ybr="3355.72" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1699.67" ytl="2615.59" xbr="2212.20" ybr="3128.13" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2408.33" ytl="2517.31" xbr="2920.86" ybr="3029.84" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2713.52" ytl="2848.36" xbr="3226.06" ybr="3360.90" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2211.77" ytl="3039.75" xbr="2724.30" ybr="3552.29" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1735.88" ytl="3117.34" xbr="2248.41" ybr="3629.88" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1285.86" ytl="3370.80" xbr="1798.39" ybr="3883.34" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1772.09" ytl="3582.88" xbr="2284.62" ybr="4095.42" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2273.84" ytl="3474.26" xbr="2786.37" ybr="3986.79" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1259.99" ytl="3758.76" xbr="1772.53" ybr="4271.29" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3921.34" ytl="0.00" xbr="4433.87" ybr="504.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4438.61" ytl="5.10" xbr="4951.14" ybr="517.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4955.88" ytl="5.10" xbr="5468.41" ybr="517.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5477.46" ytl="5.10" xbr="5989.99" ybr="517.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5990.42" ytl="9.41" xbr="6502.95" ybr="521.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6507.69" ytl="5.10" xbr="7020.22" ybr="517.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6973.23" ytl="0.00" xbr="7485.76" ybr="504.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4602.41" ytl="518.06" xbr="5114.94" ybr="1030.59" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4042.03" ytl="828.42" xbr="4554.57" ybr="1340.96" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4554.99" ytl="880.15" xbr="5067.52" ybr="1392.68" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5236.07" ytl="931.87" xbr="5748.60" ybr="1444.41" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4917.08" ytl="845.66" xbr="5429.61" ybr="1358.20" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5119.68" ytl="526.68" xbr="5632.21" ybr="1039.21" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5632.64" ytl="518.06" xbr="6145.17" ybr="1030.59" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6128.36" ytl="530.99" xbr="6640.89" ybr="1043.52" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6253.36" ytl="1048.26" xbr="6765.90" ybr="1560.80" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6365.44" ytl="1255.17" xbr="6877.97" ybr="1767.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5749.02" ytl="1052.57" xbr="6261.56" ybr="1565.11" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6602.52" ytl="587.03" xbr="7115.05" ybr="1099.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7115.48" ytl="565.47" xbr="7628.01" ybr="1078.01" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6878.40" ytl="1104.30" xbr="7390.93" ybr="1616.83" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7391.36" ytl="1087.06" xbr="7903.89" ybr="1599.59" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7149.96" ytl="1604.33" xbr="7662.50" ybr="2116.86" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7671.55" ytl="1582.77" xbr="8184.08" ybr="2095.31" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7667.24" ytl="2104.35" xbr="8179.77" ybr="2616.89" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7145.66" ytl="2112.98" xbr="7658.19" ybr="2625.51" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6537.86" ytl="1725.02" xbr="7050.40" ybr="2237.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6628.38" ytl="2242.29" xbr="7140.92" ybr="2754.83" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7654.30" ytl="2613.00" xbr="8166.84" ybr="3125.54" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7137.03" ytl="2630.25" xbr="7649.57" ybr="3142.78" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7124.10" ytl="3143.20" xbr="7636.64" ybr="3655.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7649.99" ytl="3147.52" xbr="8162.53" ybr="3660.05" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7662.93" ytl="3664.79" xbr="8175.46" ybr="4177.32" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7137.03" ytl="3656.17" xbr="7649.57" ybr="4168.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6624.07" ytl="2750.94" xbr="7136.61" ybr="3263.48" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6093.87" ytl="2759.56" xbr="6606.40" ybr="3272.10" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6102.49" ytl="2225.05" xbr="6615.03" ybr="2737.59" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6020.59" ytl="1712.09" xbr="6533.12" ybr="2224.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5507.63" ytl="1561.22" xbr="6020.16" ybr="2073.76" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5499.01" ytl="2078.49" xbr="6011.54" ybr="2591.03" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5580.91" ytl="2591.45" xbr="6093.44" ybr="3103.99" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5001.24" ytl="1554.20" xbr="5513.77" ybr="2066.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4986.27" ytl="2072.07" xbr="5498.80" ybr="2584.61" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5070.09" ytl="2589.94" xbr="5582.62" ybr="3102.48" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4462.42" ytl="2072.07" xbr="4974.95" ybr="2584.61" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4477.38" ytl="1560.19" xbr="4989.91" ybr="2072.73" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4552.22" ytl="2586.95" xbr="5064.75" ybr="3099.48" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3956.52" ytl="1461.41" xbr="4469.05" ybr="1973.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3950.53" ytl="1982.27" xbr="4463.07" ybr="2494.81" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3965.50" ytl="2287.60" xbr="4478.03" ybr="2800.14" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3456.61" ytl="2392.37" xbr="3969.14" ybr="2904.91" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3453.62" ytl="1880.49" xbr="3966.15" ybr="2393.03" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3447.63" ytl="1374.60" xbr="3960.16" ybr="1887.13" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3459.60" ytl="934.56" xbr="3972.14" ybr="1447.09" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2396.93" ytl="186.19" xbr="2909.46" ybr="698.73" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2905.81" ytl="198.16" xbr="3418.35" ybr="710.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3336.87" ytl="419.68" xbr="3849.40" ybr="932.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2896.83" ytl="497.51" xbr="3409.37" ybr="1010.05" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3390.76" ytl="665.15" xbr="3903.29" ybr="1177.68" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="Krandangnga_800_2.png" width="8192" height="4283">
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4366.75" ytl="2396.29" xbr="4879.28" ybr="2903.57" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4345.79" ytl="2902.19" xbr="4858.33" ybr="3409.46" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4851.69" ytl="2911.17" xbr="5364.22" ybr="3418.45" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1163.33" ytl="532.69" xbr="1675.86" ybr="1045.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="646.06" ytl="532.69" xbr="1158.59" ybr="1045.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2093.70" ytl="11.82" xbr="2606.23" ybr="524.36" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2607.38" ytl="19.01" xbr="3119.91" ybr="531.54" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1680.60" ytl="525.50" xbr="2193.13" ybr="1038.04" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2194.28" ytl="529.09" xbr="2706.81" ybr="1041.63" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2707.96" ytl="543.46" xbr="3220.49" ybr="1056.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3.06" ytl="8.23" xbr="515.59" ybr="520.77" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="516.74" ytl="4.64" xbr="1029.27" ybr="517.17" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1034.01" ytl="15.41" xbr="1546.54" ybr="527.95" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1540.51" ytl="15.41" xbr="2053.04" ybr="527.95" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="121.60" ytl="525.50" xbr="634.14" ybr="1038.04" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6.65" ytl="1046.36" xbr="519.19" ybr="1558.90" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="520.33" ytl="1053.55" xbr="1032.86" ybr="1566.08" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6.65" ytl="1570.82" xbr="519.19" ybr="2083.35" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="527.52" ytl="1574.41" xbr="1040.05" ybr="2086.95" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="527.52" ytl="2091.68" xbr="1040.05" ybr="2604.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="10.25" ytl="2091.68" xbr="522.78" ybr="2604.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6.65" ytl="2608.95" xbr="519.19" ybr="3121.49" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7674.28" ytl="127.69" xbr="8186.81" ybr="640.23" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7162.40" ytl="4.96" xbr="7674.93" ybr="517.50" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6650.51" ytl="0.00" xbr="7163.05" ybr="511.51" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6381.10" ytl="510.86" xbr="6893.63" ybr="1023.39" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6887.00" ytl="513.85" xbr="7399.53" ybr="1026.39" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7156.41" ytl="519.84" xbr="7668.94" ybr="1032.37" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6006.92" ytl="792.24" xbr="6519.45" ybr="1304.78" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6515.81" ytl="1025.73" xbr="7028.34" ybr="1538.27" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7021.70" ytl="1031.72" xbr="7534.23" ybr="1544.26" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7412.06" ytl="1027.90" xbr="7924.59" ybr="1540.44" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2185.97" ytl="982.17" xbr="2698.50" ybr="1494.71" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1687.06" ytl="896.94" xbr="2199.59" ybr="1409.48" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2699.43" ytl="1059.09" xbr="3211.96" ybr="1571.62" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2743.08" ytl="1566.31" xbr="3255.62" ybr="2078.85" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2231.70" ytl="1711.83" xbr="2744.23" ybr="2224.36" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1150.15" ytl="1040.03" xbr="1662.68" ybr="1552.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1062.84" ytl="1572.20" xbr="1575.37" ybr="2084.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1728.05" ytl="1782.16" xbr="2240.59" ybr="2294.69" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1046.21" ytl="2083.58" xbr="1558.74" ybr="2596.12" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="520.27" ytl="2607.44" xbr="1032.81" ybr="3119.98" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1039.97" ytl="2609.52" xbr="1552.51" ybr="3122.06" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1551.36" ytl="2607.44" xbr="2063.89" ybr="3119.98" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2135.50" ytl="2409.95" xbr="2648.03" ybr="2922.49" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2019.09" ytl="2208.31" xbr="2531.62" ybr="2720.85" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1628.27" ytl="3775.72" xbr="2140.80" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1123.12" ytl="3773.64" xbr="1635.66" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="778.05" ytl="3781.96" xbr="1290.58" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="894.46" ytl="3272.65" xbr="1406.99" ybr="3785.19" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1410.00" ytl="3256.02" xbr="1922.53" ybr="3768.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1921.38" ytl="3262.26" xbr="2433.91" ybr="3774.80" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1684.40" ytl="2815.32" xbr="2196.93" ybr="3327.86" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1917.22" ytl="2784.14" xbr="2429.76" ybr="3296.67" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2004.91" ytl="3776.28" xbr="2517.44" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5638.97" ytl="2408.27" xbr="6151.50" ybr="2915.54" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5641.96" ytl="2920.15" xbr="6154.50" ybr="3427.43" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5130.08" ytl="2408.27" xbr="5642.61" ybr="2915.54" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4612.21" ytl="2393.30" xbr="5124.74" ybr="2900.58" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5133.08" ytl="2920.15" xbr="5645.61" ybr="3427.43" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4618.20" ytl="3411.08" xbr="5130.73" ybr="3918.35" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5115.11" ytl="3420.06" xbr="5627.65" ybr="3927.33" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5471.34" ytl="3432.03" xbr="5983.87" ybr="3939.31" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4273.95" ytl="3779.27" xbr="4786.48" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4342.80" ytl="3405.09" xbr="4855.33" ybr="3912.37" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3980.59" ytl="3776.28" xbr="4493.12" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3423.81" ytl="1585.06" xbr="3936.34" ybr="2092.34" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3450.75" ytl="1091.14" xbr="3963.28" ybr="1598.42" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3444.76" ytl="752.88" xbr="3957.29" ybr="1260.16" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="3714.17" ytl="0.00" xbr="4226.71" ybr="505.80" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="4076.38" ytl="2.26" xbr="4588.91" ybr="508.06" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="3528.58" ytl="325.55" xbr="4041.11" ybr="831.36" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="3786.02" ytl="343.51" xbr="4298.55" ybr="849.32" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="4495.47" ytl="5.25" xbr="5008.00" ybr="511.06" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="2663.40" ytl="2793.27" xbr="3175.94" ybr="3299.08" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="2451.47" ytl="3281.80" xbr="2964.00" ybr="3787.61" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="2799.91" ytl="3285.40" xbr="3312.44" ybr="3791.20" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="2548.45" ytl="3781.12" xbr="3060.99" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="6179.56" ytl="3780.51" xbr="6692.09" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="6675.97" ytl="3773.03" xbr="7188.50" ybr="4278.83" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="6167.08" ytl="3376.39" xbr="6679.62" ybr="3882.20" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3946.50" ytl="1314.69" xbr="4459.03" ybr="1821.96" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4341.22" ytl="1323.31" xbr="4853.75" ybr="1830.59" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4034.94" ytl="1754.71" xbr="4547.47" ybr="2261.98" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4502.99" ytl="1743.92" xbr="5015.53" ybr="2251.20" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4992.62" ytl="1808.63" xbr="5505.15" ybr="2315.90" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4845.95" ytl="1329.79" xbr="5358.48" ybr="1837.06" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2964.72" ytl="2289.22" xbr="3477.25" ybr="2796.50" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6022.91" ytl="1312.93" xbr="6535.44" ybr="1820.21" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6532.81" ytl="1548.47" xbr="7045.35" ybr="2055.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7071.19" ytl="1781.42" xbr="7583.72" ybr="2288.69" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7586.27" ytl="1776.24" xbr="8098.80" ybr="2283.52" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7671.68" ytl="2283.55" xbr="8184.21" ybr="2790.83" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7169.54" ytl="2286.14" xbr="7682.08" ybr="2793.42" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6646.70" ytl="2291.32" xbr="7159.23" ybr="2798.60" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6141.98" ytl="2288.73" xbr="6654.51" ybr="2796.01" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6191.15" ytl="1843.54" xbr="6703.69" ybr="2350.81" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6760.59" ytl="3140.29" xbr="7273.12" ybr="3647.57" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7216.13" ytl="2868.52" xbr="7728.67" ybr="3375.79" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7298.96" ytl="3378.42" xbr="7811.49" ybr="3885.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6330.92" ytl="2676.98" xbr="6843.46" ybr="3184.26" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7682.03" ytl="3388.77" xbr="8192.00" ybr="3896.05" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7679.44" ytl="3774.43" xbr="8191.98" ybr="4281.71" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7332.61" ytl="3784.79" xbr="7845.14" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5652.78" ytl="3771.84" xbr="6165.31" ybr="4279.12" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3486.97" ytl="3783.34" xbr="3999.50" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3834.24" ytl="3267.83" xbr="4346.77" ybr="3775.11" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3258.34" ytl="2791.15" xbr="3770.87" ybr="3298.43" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="249.20" ytl="3199.14" xbr="761.73" ybr="3704.95" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="223.31" ytl="3630.53" xbr="735.84" ybr="4136.34" z_order="0">
+    </box>
+    <box label="Organic Coconut Farms" source="manual" occluded="0" xtl="320.37" ytl="3291.89" xbr="832.91" ybr="3797.70" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3057.74" ytl="3789.81" xbr="3570.27" ybr="4278.69" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3316.57" ytl="3272.15" xbr="3829.11" ybr="3779.43" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5510.62" ytl="1310.99" xbr="6023.16" ybr="1818.26" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5520.98" ytl="860.62" xbr="6033.51" ybr="1367.89" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2668.63" ytl="2017.10" xbr="3181.16" ybr="2524.38" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="Krandangnga_800_3.png" width="8192" height="4283">
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6679.18" ytl="3781.06" xbr="7191.71" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="807.54" ytl="1658.41" xbr="1320.07" ybr="2165.68" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="464.64" ytl="909.24" xbr="977.17" ybr="1416.52" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2.47" ytl="1170.14" xbr="515.00" ybr="1677.42" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="509.37" ytl="1408.68" xbr="1021.90" ybr="1915.96" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="0.00" ytl="1688.22" xbr="507.54" ybr="2195.50" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="378.91" ytl="1915.58" xbr="891.45" ybr="2422.86" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="21.10" ytl="2195.12" xbr="533.63" ybr="2702.40" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="528.00" ytl="2243.58" xbr="1040.53" ybr="2750.85" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="878.36" ytl="2172.76" xbr="1390.89" ybr="2680.04" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1165.35" ytl="2444.84" xbr="1677.89" ybr="2952.12" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="733.00" ytl="2679.66" xbr="1245.53" ybr="3186.94" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1333.08" ytl="2899.56" xbr="1845.61" ybr="3406.84" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="770.27" ytl="3078.47" xbr="1282.80" ybr="3585.75" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="0.00" ytl="3240.10" xbr="508.75" ybr="3747.38" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="9.16" ytl="3755.18" xbr="521.69" ybr="4262.46" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="459.53" ytl="3537.76" xbr="972.06" ybr="4045.04" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="280.94" ytl="3089.98" xbr="793.47" ybr="3597.26" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1668.28" ytl="3770.71" xbr="2180.82" ybr="4277.99" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1342.15" ytl="3768.12" xbr="1854.69" ybr="4275.40" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="29.26" ytl="97.46" xbr="541.79" ybr="604.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="624.58" ytl="1.69" xbr="1137.11" ybr="508.97" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1010.24" ytl="0.00" xbr="1522.77" ybr="506.38" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="777.29" ytl="312.29" xbr="1289.82" ybr="819.57" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1113.77" ytl="628.07" xbr="1626.31" ybr="1135.35" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1525.32" ytl="6.87" xbr="2037.85" ybr="514.15" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2037.81" ytl="6.87" xbr="2550.34" ybr="514.15" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2490.77" ytl="79.34" xbr="3003.30" ybr="586.62" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2646.07" ytl="576.30" xbr="3158.60" ybr="1083.58" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2982.55" ytl="45.70" xbr="3495.08" ybr="552.97" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2679.72" ytl="110.40" xbr="3192.25" ybr="617.68" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2257.82" ytl="511.60" xbr="2770.35" ybr="1018.87" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="1817.80" ytl="1049.97" xbr="2330.33" ybr="1557.25" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2317.35" ytl="1024.09" xbr="2829.88" ybr="1531.36" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2816.90" ytl="1005.97" xbr="3329.43" ybr="1513.24" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2048.16" ytl="1559.87" xbr="2560.69" ybr="2067.15" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2563.24" ytl="1541.75" xbr="3075.77" ybr="2049.03" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2151.69" ytl="2064.60" xbr="2664.23" ybr="2571.87" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2659.01" ytl="2062.01" xbr="3171.54" ybr="2569.29" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3176.68" ytl="2121.54" xbr="3689.21" ybr="2628.82" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2356.17" ytl="2569.32" xbr="2868.71" ybr="3076.60" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2868.66" ytl="2574.50" xbr="3381.20" ybr="3081.78" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3391.51" ytl="2628.85" xbr="3904.04" ybr="3136.13" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2586.53" ytl="3079.22" xbr="3099.07" ybr="3586.50" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3111.97" ytl="3084.40" xbr="3624.50" ybr="3591.68" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3663.28" ytl="2949.80" xbr="4175.82" ybr="3457.08" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="2281.11" ytl="3780.66" xbr="2793.65" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4412.35" ytl="9.95" xbr="4924.89" ybr="517.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4906.21" ytl="3.73" xbr="5418.74" ybr="511.01" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5272.72" ytl="9.95" xbr="5785.25" ybr="517.22" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3983.73" ytl="93.81" xbr="4496.26" ybr="601.08" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3508.51" ytl="416.83" xbr="4021.04" ybr="924.11" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3191.70" ytl="469.63" xbr="3704.23" ybr="976.91" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3483.66" ytl="951.06" xbr="3996.19" ybr="1458.34" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3993.04" ytl="829.93" xbr="4505.58" ybr="1337.21" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4024.10" ytl="547.28" xbr="4536.64" ybr="1054.56" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4561.44" ytl="522.44" xbr="5073.98" ybr="1029.71" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4965.22" ytl="525.54" xbr="5477.75" ybr="1032.82" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4542.81" ytl="1031.82" xbr="5055.34" ybr="1539.10" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4027.21" ytl="1323.78" xbr="4539.74" ybr="1831.06" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6622.23" ytl="159.99" xbr="7134.76" ybr="667.26" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6785.30" ytl="354.11" xbr="7297.83" ybr="861.39" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7163.19" ytl="154.81" xbr="7675.73" ybr="662.09" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7246.02" ytl="778.60" xbr="7758.55" ybr="1285.88" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7680.86" ytl="1174.61" xbr="8192.00" ybr="1681.89" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7654.98" ytl="838.13" xbr="8167.51" ybr="1345.41" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5781.02" ytl="592.24" xbr="6293.56" ybr="1099.52" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5892.32" ytl="786.36" xbr="6404.85" ybr="1293.64" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5636.08" ytl="1288.50" xbr="6148.61" ybr="1795.78" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5126.18" ytl="1304.03" xbr="5638.71" ybr="1811.31" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4587.80" ytl="1544.74" xbr="5100.33" ybr="2052.02" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4077.90" ytl="1829.46" xbr="4590.43" ybr="2336.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="3573.18" ytl="1676.75" xbr="4085.71" ybr="2184.03" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4083.08" ytl="2336.78" xbr="4595.61" ybr="2844.05" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4598.16" ytl="2067.59" xbr="5110.69" ybr="2574.87" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4603.33" ytl="2580.08" xbr="5115.86" ybr="3087.36" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5115.82" ytl="2598.20" xbr="5628.35" ybr="3105.47" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5126.18" ytl="2098.65" xbr="5638.71" ybr="2605.93" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5126.18" ytl="1700.04" xbr="5638.71" ybr="2207.32" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5646.43" ytl="1795.81" xbr="6158.96" ybr="2303.09" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5651.61" ytl="2308.30" xbr="6164.14" ybr="2815.58" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6174.45" ytl="2318.66" xbr="6686.98" ybr="2825.93" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6689.53" ytl="2435.13" xbr="7202.06" ybr="2942.41" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6635.17" ytl="1433.45" xbr="7147.71" ybr="1940.72" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6133.04" ytl="1555.10" xbr="6645.57" ybr="2062.38" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5641.25" ytl="2831.15" xbr="6153.79" ybr="3338.42" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6140.80" ytl="1042.61" xbr="6653.33" ybr="1549.89" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6655.88" ytl="920.96" xbr="7168.41" ybr="1428.23" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7491.91" ytl="1979.59" xbr="8004.44" ybr="2486.86" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7683.45" ytl="2489.49" xbr="8192.00" ybr="2996.76" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7170.96" ytl="2492.07" xbr="7683.49" ybr="2999.35" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6179.63" ytl="2825.97" xbr="6692.16" ybr="3333.25" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6694.70" ytl="2947.62" xbr="7207.24" ybr="3454.90" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7214.96" ytl="3007.15" xbr="7727.49" ybr="3514.43" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7670.51" ytl="3009.74" xbr="8183.04" ybr="3517.02" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4603.33" ytl="3092.57" xbr="5115.86" ybr="3599.85" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5113.23" ytl="3100.33" xbr="5625.77" ybr="3607.61" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5623.14" ytl="3348.81" xbr="6135.67" ybr="3856.09" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6127.86" ytl="3338.46" xbr="6640.39" ybr="3845.74" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6642.94" ytl="3465.29" xbr="7155.47" ybr="3972.57" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7163.19" ytl="3530.00" xbr="7675.73" ybr="4037.27" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7683.45" ytl="3519.64" xbr="8192.00" ybr="4026.92" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7678.27" ytl="3775.89" xbr="8190.81" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="7173.55" ytl="3786.24" xbr="7686.08" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="6158.92" ytl="3778.48" xbr="6671.45" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="4952.76" ytl="3610.23" xbr="5465.29" ybr="4117.51" z_order="0">
+    </box>
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="5470.42" ytl="3775.89" xbr="5982.96" ybr="4283.00" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="Krandangnga_800_4.png" width="8192" height="4283">
+    <box label="Dense Coconut Farms" source="manual" occluded="0" xtl="534.70" ytl="2098.87" xbr="1047.23" ybr="2611.40" z_order="0">
+    </box>
+  </image>
+</annotations>

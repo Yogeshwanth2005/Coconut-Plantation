@@ -1,0 +1,1297 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4641.18,
+              260.27
+            ],
+            [
+              5152.14,
+              260.27
+            ],
+            [
+              5152.14,
+              771.22
+            ],
+            [
+              4641.18,
+              771.22
+            ],
+            [
+              4641.18,
+              260.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5283.22,
+              313.51
+            ],
+            [
+              5794.17,
+              313.51
+            ],
+            [
+              5794.17,
+              824.47
+            ],
+            [
+              5283.22,
+              824.47
+            ],
+            [
+              5283.22,
+              313.51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5936.94,
+              180.33
+            ],
+            [
+              6447.9,
+              180.33
+            ],
+            [
+              6447.9,
+              691.29
+            ],
+            [
+              5936.94,
+              691.29
+            ],
+            [
+              5936.94,
+              180.33
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7274.44,
+              150.28
+            ],
+            [
+              7785.4,
+              150.28
+            ],
+            [
+              7785.4,
+              661.23
+            ],
+            [
+              7274.44,
+              661.23
+            ],
+            [
+              7274.44,
+              150.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5223.11,
+              2088.9
+            ],
+            [
+              5734.06,
+              2088.9
+            ],
+            [
+              5734.06,
+              2599.85
+            ],
+            [
+              5223.11,
+              2599.85
+            ],
+            [
+              5223.11,
+              2088.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.91,
+              3433.91
+            ],
+            [
+              541.86,
+              3433.91
+            ],
+            [
+              541.86,
+              3944.87
+            ],
+            [
+              30.91,
+              3944.87
+            ],
+            [
+              30.91,
+              3433.91
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              459.21,
+              3711.93
+            ],
+            [
+              970.17,
+              3711.93
+            ],
+            [
+              970.17,
+              4222.89
+            ],
+            [
+              459.21,
+              4222.89
+            ],
+            [
+              459.21,
+              3711.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1105.42,
+              3802.1
+            ],
+            [
+              1616.37,
+              3802.1
+            ],
+            [
+              1616.37,
+              4283.0
+            ],
+            [
+              1105.42,
+              4283.0
+            ],
+            [
+              1105.42,
+              3802.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1684.0,
+              841.57
+            ],
+            [
+              2194.95,
+              841.57
+            ],
+            [
+              2194.95,
+              1352.52
+            ],
+            [
+              1684.0,
+              1352.52
+            ],
+            [
+              1684.0,
+              841.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2360.26,
+              766.43
+            ],
+            [
+              2871.22,
+              766.43
+            ],
+            [
+              2871.22,
+              1277.38
+            ],
+            [
+              2360.26,
+              1277.38
+            ],
+            [
+              2360.26,
+              766.43
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2536.84,
+              135.26
+            ],
+            [
+              3047.8,
+              135.26
+            ],
+            [
+              3047.8,
+              646.21
+            ],
+            [
+              2536.84,
+              646.21
+            ],
+            [
+              2536.84,
+              135.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2867.46,
+              736.38
+            ],
+            [
+              3378.41,
+              736.38
+            ],
+            [
+              3378.41,
+              1247.33
+            ],
+            [
+              2867.46,
+              1247.33
+            ],
+            [
+              2867.46,
+              736.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1988.32,
+              3396.35
+            ],
+            [
+              2499.27,
+              3396.35
+            ],
+            [
+              2499.27,
+              3907.3
+            ],
+            [
+              1988.32,
+              3907.3
+            ],
+            [
+              1988.32,
+              3396.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2581.93,
+              3336.23
+            ],
+            [
+              3092.88,
+              3336.23
+            ],
+            [
+              3092.88,
+              3847.19
+            ],
+            [
+              2581.93,
+              3847.19
+            ],
+            [
+              2581.93,
+              3336.23
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.18,
+              2547.26
+            ],
+            [
+              553.14,
+              2547.26
+            ],
+            [
+              553.14,
+              3058.22
+            ],
+            [
+              42.18,
+              3058.22
+            ],
+            [
+              42.18,
+              2547.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.75,
+              1412.64
+            ],
+            [
+              590.71,
+              1412.64
+            ],
+            [
+              590.71,
+              1923.6
+            ],
+            [
+              79.75,
+              1923.6
+            ],
+            [
+              79.75,
+              1412.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              169.92,
+              1540.38
+            ],
+            [
+              680.87,
+              1540.38
+            ],
+            [
+              680.87,
+              2051.33
+            ],
+            [
+              169.92,
+              2051.33
+            ],
+            [
+              169.92,
+              1540.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1041.55,
+              1592.98
+            ],
+            [
+              1552.5,
+              1592.98
+            ],
+            [
+              1552.5,
+              2103.93
+            ],
+            [
+              1041.55,
+              2103.93
+            ],
+            [
+              1041.55,
+              1592.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3981.63,
+              1251.59
+            ],
+            [
+              4492.59,
+              1251.59
+            ],
+            [
+              4492.59,
+              1762.54
+            ],
+            [
+              3981.63,
+              1762.54
+            ],
+            [
+              3981.63,
+              1251.59
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3284.58,
+              1977.07
+            ],
+            [
+              3795.53,
+              1977.07
+            ],
+            [
+              3795.53,
+              2488.03
+            ],
+            [
+              3284.58,
+              2488.03
+            ],
+            [
+              3284.58,
+              1977.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6231.61,
+              852.38
+            ],
+            [
+              6742.57,
+              852.38
+            ],
+            [
+              6742.57,
+              1363.34
+            ],
+            [
+              6231.61,
+              1363.34
+            ],
+            [
+              6231.61,
+              852.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6687.27,
+              919.61
+            ],
+            [
+              7198.22,
+              919.61
+            ],
+            [
+              7198.22,
+              1430.57
+            ],
+            [
+              6687.27,
+              1430.57
+            ],
+            [
+              6687.27,
+              919.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5534.93,
+              3732.97
+            ],
+            [
+              6045.89,
+              3732.97
+            ],
+            [
+              6045.89,
+              4243.93
+            ],
+            [
+              5534.93,
+              4243.93
+            ],
+            [
+              5534.93,
+              3732.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4363.28,
+              3501.16
+            ],
+            [
+              4874.24,
+              3501.16
+            ],
+            [
+              4874.24,
+              4012.12
+            ],
+            [
+              4363.28,
+              4012.12
+            ],
+            [
+              4363.28,
+              3501.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4956.65,
+              1412.29
+            ],
+            [
+              5467.61,
+              1412.29
+            ],
+            [
+              5467.61,
+              1923.24
+            ],
+            [
+              4956.65,
+              1923.24
+            ],
+            [
+              4956.65,
+              1412.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5512.39,
+              1478.76
+            ],
+            [
+              6023.35,
+              1478.76
+            ],
+            [
+              6023.35,
+              1989.72
+            ],
+            [
+              5512.39,
+              1989.72
+            ],
+            [
+              5512.39,
+              1478.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6075.94,
+              1583.96
+            ],
+            [
+              6586.9,
+              1583.96
+            ],
+            [
+              6586.9,
+              2094.91
+            ],
+            [
+              6075.94,
+              2094.91
+            ],
+            [
+              6075.94,
+              1583.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6609.44,
+              1659.1
+            ],
+            [
+              7120.4,
+              1659.1
+            ],
+            [
+              7120.4,
+              2170.05
+            ],
+            [
+              6609.44,
+              2170.05
+            ],
+            [
+              6609.44,
+              1659.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7210.56,
+              1816.89
+            ],
+            [
+              7721.52,
+              1816.89
+            ],
+            [
+              7721.52,
+              2327.85
+            ],
+            [
+              7210.56,
+              2327.85
+            ],
+            [
+              7210.56,
+              1816.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7593.78,
+              1861.98
+            ],
+            [
+              8104.73,
+              1861.98
+            ],
+            [
+              8104.73,
+              2372.93
+            ],
+            [
+              7593.78,
+              2372.93
+            ],
+            [
+              7593.78,
+              1861.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4929.31,
+              3641.29
+            ],
+            [
+              5440.26,
+              3641.29
+            ],
+            [
+              5440.26,
+              4152.25
+            ],
+            [
+              4929.31,
+              4152.25
+            ],
+            [
+              4929.31,
+              3641.29
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2561.31,
+              2384.8
+            ],
+            [
+              3072.27,
+              2384.8
+            ],
+            [
+              3072.27,
+              2895.76
+            ],
+            [
+              2561.31,
+              2895.76
+            ],
+            [
+              2561.31,
+              2384.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4761.39,
+              2097.26
+            ],
+            [
+              5272.35,
+              2097.26
+            ],
+            [
+              5272.35,
+              2608.21
+            ],
+            [
+              4761.39,
+              2608.21
+            ],
+            [
+              4761.39,
+              2097.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3949.39,
+              2144.02
+            ],
+            [
+              4460.34,
+              2144.02
+            ],
+            [
+              4460.34,
+              2654.97
+            ],
+            [
+              3949.39,
+              2654.97
+            ],
+            [
+              3949.39,
+              2144.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5460.65,
+              14.64
+            ],
+            [
+              5971.61,
+              14.64
+            ],
+            [
+              5971.61,
+              525.59
+            ],
+            [
+              5460.65,
+              525.59
+            ],
+            [
+              5460.65,
+              14.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4909.46,
+              14.64
+            ],
+            [
+              5420.41,
+              14.64
+            ],
+            [
+              5420.41,
+              525.59
+            ],
+            [
+              4909.46,
+              525.59
+            ],
+            [
+              4909.46,
+              14.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6414.17,
+              191.66
+            ],
+            [
+              6925.13,
+              191.66
+            ],
+            [
+              6925.13,
+              702.62
+            ],
+            [
+              6414.17,
+              702.62
+            ],
+            [
+              6414.17,
+              191.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "2",
+        "image": "Wat Phleng_800_2.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              614.54,
+              2868.62
+            ],
+            [
+              1125.49,
+              2868.62
+            ],
+            [
+              1125.49,
+              3379.58
+            ],
+            [
+              614.54,
+              3379.58
+            ],
+            [
+              614.54,
+              2868.62
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

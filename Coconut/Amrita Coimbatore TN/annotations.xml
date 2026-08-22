@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2477800</id>
+      <size>8</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-05-16 19:10:49.815778+00:00</created>
+      <updated>2025-05-17 12:41:31.117027+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>7</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2480079</id>
+          <start>0</start>
+          <stop>7</stop>
+          <url>https://app.cvat.ai/api/jobs/2477800</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>hfradio</username>
+        <email>hfradiogrp7@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Young Coconut Farms</name>
+          <color>#b83df5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Dense Coconut Farms</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Traditional Coconut Farms</name>
+          <color>#fafa37</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic Coconut Farms</name>
+          <color>#3df53d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Agroforestry Coconut Farms</name>
+          <color>#ff6a4d</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-06-07 09:39:39.904767+00:00</dumped>
+  </meta>
+  <image id="0" name="Amrita_800_1.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2266.97" ytl="1048.47" xbr="2779.50" ybr="1561.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5881.11" ytl="10.65" xbr="6393.64" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2481.23" ytl="531.49" xbr="2993.76" ybr="1044.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3146.74" ytl="526.67" xbr="3659.27" ybr="1039.20" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2997.24" ytl="531.49" xbr="3509.77" ybr="1044.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2785.05" ytl="1042.68" xbr="3297.58" ybr="1555.21" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3296.23" ytl="1042.68" xbr="3808.77" ybr="1555.21" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.09" ytl="1.01" xbr="8187.63" ybr="513.55" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2729.85" ytl="531.71" xbr="3242.38" ybr="1044.25" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2483.10" ytl="1046.11" xbr="2995.63" ybr="1558.65" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3056.98" ytl="1041.29" xbr="3569.51" ybr="1553.82" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2376.74" ytl="11.46" xbr="2889.27" ybr="523.99" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2727.18" ytl="10.65" xbr="3239.71" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3141.91" ytl="15.48" xbr="3654.45" ybr="528.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5639.99" ytl="10.65" xbr="6152.52" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6083.66" ytl="10.65" xbr="6596.19" ybr="523.19" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5741.26" ytl="526.66" xbr="6253.79" ybr="1039.20" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="Amrita_800_2.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2744.41" ytl="3394.03" xbr="3256.94" ybr="3906.57" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3330.48" ytl="3769.12" xbr="3843.01" ybr="4281.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2814.74" ytl="3772.47" xbr="3327.27" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3086.00" ytl="3762.42" xbr="3598.54" ybr="4274.96" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3015.68" ytl="1645.87" xbr="3528.21" ybr="2158.40" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2764.50" ytl="1143.52" xbr="3277.03" ybr="1656.05" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2610.45" ytl="1893.69" xbr="3122.98" ybr="2406.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3122.84" ytl="2161.61" xbr="3635.38" ybr="2674.14" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5376.71" ytl="3789.21" xbr="5889.24" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5889.10" ytl="3775.82" xbr="6401.63" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6401.49" ytl="3769.12" xbr="6914.03" ybr="4281.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5105.44" ytl="3273.47" xbr="5617.97" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5606.67" ytl="3270.68" xbr="6119.20" ybr="3783.22" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6133.58" ytl="3273.47" xbr="6646.11" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6354.61" ytl="3273.47" xbr="6867.14" ybr="3786.01" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4107.44" ytl="2536.69" xbr="4619.98" ybr="3049.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6357.96" ytl="2764.43" xbr="6870.49" ybr="3276.96" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5845.56" ytl="2761.08" xbr="6358.10" ybr="3273.61" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5333.17" ytl="2757.73" xbr="5845.70" ybr="3270.26" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4820.78" ytl="2761.08" xbr="5333.31" ybr="3273.61" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="4616.49" ytl="2339.11" xbr="5129.02" ybr="2851.64" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5118.84" ytl="2245.33" xbr="5631.37" ybr="2757.87" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6287.63" ytl="1739.64" xbr="6800.16" ybr="2252.17" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5828.82" ytl="2241.98" xbr="6341.35" ybr="2754.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5380.06" ytl="2245.33" xbr="5892.59" ybr="2757.87" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5175.77" ytl="2047.74" xbr="5688.30" ybr="2560.28" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5664.72" ytl="1739.64" xbr="6177.25" ybr="2252.17" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2759.43" ytl="2682.70" xbr="3271.96" ybr="3195.23" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.65" ytl="3771.39" xbr="8188.18" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="7675.65" ytl="3438.82" xbr="8188.18" ybr="3951.35" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6094.87" ytl="2247.58" xbr="6607.40" ybr="2760.11" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5098.21" ytl="2761.98" xbr="5610.75" ybr="3274.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6098.89" ytl="2761.98" xbr="6611.42" ybr="3274.52" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5373.75" ytl="3274.74" xbr="5886.28" ybr="3787.27" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5608.65" ytl="3770.11" xbr="6121.18" ybr="4282.64" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5967.00" ytl="2035.99" xbr="6479.54" ybr="2548.53" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5372.52" ytl="3511.06" xbr="5885.05" ybr="4023.59" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="5883.24" ytl="3003.13" xbr="6395.77" ybr="3515.66" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="6341.21" ytl="2252.03" xbr="6853.74" ybr="2764.57" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3086.00" ytl="1136.82" xbr="3598.54" ybr="1649.36" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2570.26" ytl="1140.17" xbr="3082.79" ybr="1652.71" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2292.30" ytl="1270.78" xbr="2804.83" ybr="1783.32" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3280.25" ytl="1649.21" xbr="3792.78" ybr="2161.75" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2767.85" ytl="1652.56" xbr="3280.38" ybr="2165.10" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2429.60" ytl="1655.91" xbr="2942.14" ybr="2168.45" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3407.51" ytl="2161.61" xbr="3920.04" ybr="2674.14" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2895.11" ytl="2164.96" xbr="3407.65" ybr="2677.49" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2382.72" ytl="2168.31" xbr="2895.25" ybr="2680.84" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3524.72" ytl="2674.00" xbr="4037.25" ybr="3186.54" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3008.98" ytl="2677.35" xbr="3521.51" ybr="3189.89" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2493.23" ytl="2680.70" xbr="3005.77" ybr="3193.24" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2486.54" ytl="3193.09" xbr="2999.07" ybr="3705.63" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2998.93" ytl="3196.44" xbr="3511.46" ybr="3708.98" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="3518.02" ytl="3005.55" xbr="4030.56" ybr="3518.09" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2546.82" ytl="3558.13" xbr="3059.35" ybr="4070.67" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2922.05" ytl="2887.75" xbr="3434.58" ybr="3400.28" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="Amrita_800_3.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1.92" ytl="3767.38" xbr="514.46" ybr="4279.91" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1.92" ytl="3430.15" xbr="514.46" ybr="3942.69" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="415.90" ytl="3437.13" xbr="928.43" ybr="3949.67" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="484.16" ytl="361.17" xbr="996.69" ybr="873.70" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1003.25" ytl="319.30" xbr="1515.78" ybr="831.84" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1522.34" ytl="285.82" xbr="2034.88" ybr="798.35" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2035.85" ytl="263.49" xbr="2548.39" ybr="776.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="2172.60" ytl="238.37" xbr="2685.14" ybr="750.91" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1431.08" ytl="303.89" xbr="1943.62" ybr="816.42" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="1949.44" ytl="264.16" xbr="2461.98" ybr="776.70" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="513.57" ytl="3765.05" xbr="1026.11" ybr="4277.59" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="782.22" ytl="341.10" xbr="1294.75" ybr="853.63" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="Amrita_800_4.png" width="8192" height="4283">
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="212.22" ytl="5.46" xbr="724.75" ybr="518.00" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="510.06" ytl="3.49" xbr="1022.59" ybr="516.02" z_order="0">
+    </box>
+    <box label="Traditional Coconut Farms" source="manual" occluded="0" xtl="0.00" ytl="3.49" xbr="511.73" ybr="516.02" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="Krandangnga_800_1.png" width="8192" height="4283">
+  </image>
+  <image id="5" name="Krandangnga_800_2.png" width="8192" height="4283">
+  </image>
+  <image id="6" name="Krandangnga_800_3.png" width="8192" height="4283">
+  </image>
+  <image id="7" name="Krandangnga_800_4.png" width="8192" height="4283">
+  </image>
+</annotations>

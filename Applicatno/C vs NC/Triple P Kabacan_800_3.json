@@ -1,0 +1,3530 @@
+[
+    {
+        "Box ID": "TR-3-C-1",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                999,
+                667
+            ],
+            "Top-right": [
+                1127,
+                667
+            ],
+            "Bottom-right": [
+                1127,
+                795
+            ],
+            "Bottom-left": [
+                999,
+                795
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-2",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2613,
+                1197
+            ],
+            "Top-right": [
+                2741,
+                1197
+            ],
+            "Bottom-right": [
+                2741,
+                1325
+            ],
+            "Bottom-left": [
+                2613,
+                1325
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-3",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2006,
+                1550
+            ],
+            "Top-right": [
+                2134,
+                1550
+            ],
+            "Bottom-right": [
+                2134,
+                1678
+            ],
+            "Bottom-left": [
+                2006,
+                1678
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-4",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2053,
+                1394
+            ],
+            "Top-right": [
+                2181,
+                1394
+            ],
+            "Bottom-right": [
+                2181,
+                1522
+            ],
+            "Bottom-left": [
+                2053,
+                1522
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-5",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2365,
+                1564
+            ],
+            "Top-right": [
+                2493,
+                1564
+            ],
+            "Bottom-right": [
+                2493,
+                1692
+            ],
+            "Bottom-left": [
+                2365,
+                1692
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-6",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2095,
+                1773
+            ],
+            "Top-right": [
+                2223,
+                1773
+            ],
+            "Bottom-right": [
+                2223,
+                1901
+            ],
+            "Bottom-left": [
+                2095,
+                1901
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-7",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2659,
+                1760
+            ],
+            "Top-right": [
+                2787,
+                1760
+            ],
+            "Bottom-right": [
+                2787,
+                1888
+            ],
+            "Bottom-left": [
+                2659,
+                1888
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-8",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3002,
+                1833
+            ],
+            "Top-right": [
+                3130,
+                1833
+            ],
+            "Bottom-right": [
+                3130,
+                1961
+            ],
+            "Bottom-left": [
+                3002,
+                1961
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-9",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3725,
+                1724
+            ],
+            "Top-right": [
+                3853,
+                1724
+            ],
+            "Bottom-right": [
+                3853,
+                1852
+            ],
+            "Bottom-left": [
+                3725,
+                1852
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-10",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3172,
+                1693
+            ],
+            "Top-right": [
+                3300,
+                1693
+            ],
+            "Bottom-right": [
+                3300,
+                1821
+            ],
+            "Bottom-left": [
+                3172,
+                1821
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-11",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3208,
+                1497
+            ],
+            "Top-right": [
+                3336,
+                1497
+            ],
+            "Bottom-right": [
+                3336,
+                1625
+            ],
+            "Bottom-left": [
+                3208,
+                1625
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-12",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2940,
+                1383
+            ],
+            "Top-right": [
+                3068,
+                1383
+            ],
+            "Bottom-right": [
+                3068,
+                1511
+            ],
+            "Bottom-left": [
+                2940,
+                1511
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-13",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3150,
+                1263
+            ],
+            "Top-right": [
+                3278,
+                1263
+            ],
+            "Bottom-right": [
+                3278,
+                1391
+            ],
+            "Bottom-left": [
+                3150,
+                1391
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-14",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2897,
+                1071
+            ],
+            "Top-right": [
+                3025,
+                1071
+            ],
+            "Bottom-right": [
+                3025,
+                1199
+            ],
+            "Bottom-left": [
+                2897,
+                1199
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-15",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2709,
+                1028
+            ],
+            "Top-right": [
+                2837,
+                1028
+            ],
+            "Bottom-right": [
+                2837,
+                1156
+            ],
+            "Bottom-left": [
+                2709,
+                1156
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-16",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2487,
+                1005
+            ],
+            "Top-right": [
+                2615,
+                1005
+            ],
+            "Bottom-right": [
+                2615,
+                1133
+            ],
+            "Bottom-left": [
+                2487,
+                1133
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-17",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2254,
+                708
+            ],
+            "Top-right": [
+                2382,
+                708
+            ],
+            "Bottom-right": [
+                2382,
+                836
+            ],
+            "Bottom-left": [
+                2254,
+                836
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-18",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1873,
+                724
+            ],
+            "Top-right": [
+                2001,
+                724
+            ],
+            "Bottom-right": [
+                2001,
+                852
+            ],
+            "Bottom-left": [
+                1873,
+                852
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-19",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1818,
+                27
+            ],
+            "Top-right": [
+                1946,
+                27
+            ],
+            "Bottom-right": [
+                1946,
+                155
+            ],
+            "Bottom-left": [
+                1818,
+                155
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-20",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1579,
+                1115
+            ],
+            "Top-right": [
+                1707,
+                1115
+            ],
+            "Bottom-right": [
+                1707,
+                1243
+            ],
+            "Bottom-left": [
+                1579,
+                1243
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-21",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1248,
+                970
+            ],
+            "Top-right": [
+                1376,
+                970
+            ],
+            "Bottom-right": [
+                1376,
+                1098
+            ],
+            "Bottom-left": [
+                1248,
+                1098
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-22",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2070,
+                877
+            ],
+            "Top-right": [
+                2198,
+                877
+            ],
+            "Bottom-right": [
+                2198,
+                1005
+            ],
+            "Bottom-left": [
+                2070,
+                1005
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-23",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1198,
+                812
+            ],
+            "Top-right": [
+                1326,
+                812
+            ],
+            "Bottom-right": [
+                1326,
+                940
+            ],
+            "Bottom-left": [
+                1198,
+                940
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-24",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                855,
+                792
+            ],
+            "Top-right": [
+                983,
+                792
+            ],
+            "Bottom-right": [
+                983,
+                920
+            ],
+            "Bottom-left": [
+                855,
+                920
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-25",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                858,
+                645
+            ],
+            "Top-right": [
+                986,
+                645
+            ],
+            "Bottom-right": [
+                986,
+                773
+            ],
+            "Bottom-left": [
+                858,
+                773
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-26",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                694,
+                547
+            ],
+            "Top-right": [
+                822,
+                547
+            ],
+            "Bottom-right": [
+                822,
+                675
+            ],
+            "Bottom-left": [
+                694,
+                675
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-27",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                387,
+                494
+            ],
+            "Top-right": [
+                515,
+                494
+            ],
+            "Bottom-right": [
+                515,
+                622
+            ],
+            "Bottom-left": [
+                387,
+                622
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-28",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                180,
+                437
+            ],
+            "Top-right": [
+                308,
+                437
+            ],
+            "Bottom-right": [
+                308,
+                565
+            ],
+            "Bottom-left": [
+                180,
+                565
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-29",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1366,
+                793
+            ],
+            "Top-right": [
+                1494,
+                793
+            ],
+            "Bottom-right": [
+                1494,
+                921
+            ],
+            "Bottom-left": [
+                1366,
+                921
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-30",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1393,
+                1003
+            ],
+            "Top-right": [
+                1521,
+                1003
+            ],
+            "Bottom-right": [
+                1521,
+                1131
+            ],
+            "Bottom-left": [
+                1393,
+                1131
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-31",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1557,
+                842
+            ],
+            "Top-right": [
+                1685,
+                842
+            ],
+            "Bottom-right": [
+                1685,
+                970
+            ],
+            "Bottom-left": [
+                1557,
+                970
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-32",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                536,
+                519
+            ],
+            "Top-right": [
+                664,
+                519
+            ],
+            "Bottom-right": [
+                664,
+                647
+            ],
+            "Bottom-left": [
+                536,
+                647
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-33",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                24,
+                384
+            ],
+            "Top-right": [
+                152,
+                384
+            ],
+            "Bottom-right": [
+                152,
+                512
+            ],
+            "Bottom-left": [
+                24,
+                512
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-34",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                14,
+                556
+            ],
+            "Top-right": [
+                142,
+                556
+            ],
+            "Bottom-right": [
+                142,
+                684
+            ],
+            "Bottom-left": [
+                14,
+                684
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-35",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                147,
+                683
+            ],
+            "Top-right": [
+                275,
+                683
+            ],
+            "Bottom-right": [
+                275,
+                811
+            ],
+            "Bottom-left": [
+                147,
+                811
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-36",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                320,
+                683
+            ],
+            "Top-right": [
+                448,
+                683
+            ],
+            "Bottom-right": [
+                448,
+                811
+            ],
+            "Bottom-left": [
+                320,
+                811
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-37",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                673,
+                766
+            ],
+            "Top-right": [
+                801,
+                766
+            ],
+            "Bottom-right": [
+                801,
+                894
+            ],
+            "Bottom-left": [
+                673,
+                894
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-38",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1012,
+                860
+            ],
+            "Top-right": [
+                1140,
+                860
+            ],
+            "Bottom-right": [
+                1140,
+                988
+            ],
+            "Bottom-left": [
+                1012,
+                988
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-39",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1074,
+                1015
+            ],
+            "Top-right": [
+                1202,
+                1015
+            ],
+            "Bottom-right": [
+                1202,
+                1143
+            ],
+            "Bottom-left": [
+                1074,
+                1143
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-40",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1252,
+                1117
+            ],
+            "Top-right": [
+                1380,
+                1117
+            ],
+            "Bottom-right": [
+                1380,
+                1245
+            ],
+            "Bottom-left": [
+                1252,
+                1245
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-41",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1432,
+                1207
+            ],
+            "Top-right": [
+                1560,
+                1207
+            ],
+            "Bottom-right": [
+                1560,
+                1335
+            ],
+            "Bottom-left": [
+                1432,
+                1335
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-42",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1650,
+                1335
+            ],
+            "Top-right": [
+                1778,
+                1335
+            ],
+            "Bottom-right": [
+                1778,
+                1463
+            ],
+            "Bottom-left": [
+                1650,
+                1463
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-43",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1846,
+                1451
+            ],
+            "Top-right": [
+                1974,
+                1451
+            ],
+            "Bottom-right": [
+                1974,
+                1579
+            ],
+            "Bottom-left": [
+                1846,
+                1579
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-44",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2572,
+                1390
+            ],
+            "Top-right": [
+                2700,
+                1390
+            ],
+            "Bottom-right": [
+                2700,
+                1518
+            ],
+            "Bottom-left": [
+                2572,
+                1518
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-45",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2234,
+                1421
+            ],
+            "Top-right": [
+                2362,
+                1421
+            ],
+            "Bottom-right": [
+                2362,
+                1549
+            ],
+            "Bottom-left": [
+                2234,
+                1549
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-46",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2387,
+                1393
+            ],
+            "Top-right": [
+                2515,
+                1393
+            ],
+            "Bottom-right": [
+                2515,
+                1521
+            ],
+            "Bottom-left": [
+                2387,
+                1521
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-47",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2408,
+                1221
+            ],
+            "Top-right": [
+                2536,
+                1221
+            ],
+            "Bottom-right": [
+                2536,
+                1349
+            ],
+            "Bottom-left": [
+                2408,
+                1349
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-48",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2193,
+                1581
+            ],
+            "Top-right": [
+                2321,
+                1581
+            ],
+            "Bottom-right": [
+                2321,
+                1709
+            ],
+            "Bottom-left": [
+                2193,
+                1709
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-49",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2514,
+                1576
+            ],
+            "Top-right": [
+                2642,
+                1576
+            ],
+            "Bottom-right": [
+                2642,
+                1704
+            ],
+            "Bottom-left": [
+                2514,
+                1704
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-50",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1927,
+                1751
+            ],
+            "Top-right": [
+                2055,
+                1751
+            ],
+            "Bottom-right": [
+                2055,
+                1879
+            ],
+            "Bottom-left": [
+                1927,
+                1879
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-51",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2290,
+                1771
+            ],
+            "Top-right": [
+                2418,
+                1771
+            ],
+            "Bottom-right": [
+                2418,
+                1899
+            ],
+            "Bottom-left": [
+                2290,
+                1899
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-52",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2494,
+                1771
+            ],
+            "Top-right": [
+                2622,
+                1771
+            ],
+            "Bottom-right": [
+                2622,
+                1899
+            ],
+            "Bottom-left": [
+                2494,
+                1899
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-53",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2875,
+                1577
+            ],
+            "Top-right": [
+                3003,
+                1577
+            ],
+            "Bottom-right": [
+                3003,
+                1705
+            ],
+            "Bottom-left": [
+                2875,
+                1705
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-54",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2822,
+                1767
+            ],
+            "Top-right": [
+                2950,
+                1767
+            ],
+            "Bottom-right": [
+                2950,
+                1895
+            ],
+            "Bottom-left": [
+                2822,
+                1895
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-55",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3176,
+                2000
+            ],
+            "Top-right": [
+                3304,
+                2000
+            ],
+            "Bottom-right": [
+                3304,
+                2128
+            ],
+            "Bottom-left": [
+                3176,
+                2128
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-56",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3482,
+                1369
+            ],
+            "Top-right": [
+                3610,
+                1369
+            ],
+            "Bottom-right": [
+                3610,
+                1497
+            ],
+            "Bottom-left": [
+                3482,
+                1497
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-57",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3453,
+                1915
+            ],
+            "Top-right": [
+                3581,
+                1915
+            ],
+            "Bottom-right": [
+                3581,
+                2043
+            ],
+            "Bottom-left": [
+                3453,
+                2043
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-58",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3472,
+                1619
+            ],
+            "Top-right": [
+                3600,
+                1619
+            ],
+            "Bottom-right": [
+                3600,
+                1747
+            ],
+            "Bottom-left": [
+                3472,
+                1747
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-59",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3043,
+                1596
+            ],
+            "Top-right": [
+                3171,
+                1596
+            ],
+            "Bottom-right": [
+                3171,
+                1724
+            ],
+            "Bottom-left": [
+                3043,
+                1724
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-60",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2784,
+                1373
+            ],
+            "Top-right": [
+                2912,
+                1373
+            ],
+            "Bottom-right": [
+                2912,
+                1501
+            ],
+            "Bottom-left": [
+                2784,
+                1501
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-61",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2233,
+                1225
+            ],
+            "Top-right": [
+                2361,
+                1225
+            ],
+            "Bottom-right": [
+                2361,
+                1353
+            ],
+            "Bottom-left": [
+                2233,
+                1353
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-62",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2239,
+                1063
+            ],
+            "Top-right": [
+                2367,
+                1063
+            ],
+            "Bottom-right": [
+                2367,
+                1191
+            ],
+            "Bottom-left": [
+                2239,
+                1191
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-63",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2058,
+                1236
+            ],
+            "Top-right": [
+                2186,
+                1236
+            ],
+            "Bottom-right": [
+                2186,
+                1364
+            ],
+            "Bottom-left": [
+                2058,
+                1364
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-64",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2059,
+                1057
+            ],
+            "Top-right": [
+                2187,
+                1057
+            ],
+            "Bottom-right": [
+                2187,
+                1185
+            ],
+            "Bottom-left": [
+                2059,
+                1185
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-65",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1902,
+                1229
+            ],
+            "Top-right": [
+                2030,
+                1229
+            ],
+            "Bottom-right": [
+                2030,
+                1357
+            ],
+            "Bottom-left": [
+                1902,
+                1357
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-66",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1909,
+                1053
+            ],
+            "Top-right": [
+                2037,
+                1053
+            ],
+            "Bottom-right": [
+                2037,
+                1181
+            ],
+            "Bottom-left": [
+                1909,
+                1181
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-67",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2265,
+                897
+            ],
+            "Top-right": [
+                2393,
+                897
+            ],
+            "Bottom-right": [
+                2393,
+                1025
+            ],
+            "Bottom-left": [
+                2265,
+                1025
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-68",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1733,
+                1011
+            ],
+            "Top-right": [
+                1861,
+                1011
+            ],
+            "Bottom-right": [
+                1861,
+                1139
+            ],
+            "Bottom-left": [
+                1733,
+                1139
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-69",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1891,
+                887
+            ],
+            "Top-right": [
+                2019,
+                887
+            ],
+            "Bottom-right": [
+                2019,
+                1015
+            ],
+            "Bottom-left": [
+                1891,
+                1015
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-70",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2686,
+                1553
+            ],
+            "Top-right": [
+                2814,
+                1553
+            ],
+            "Bottom-right": [
+                2814,
+                1681
+            ],
+            "Bottom-left": [
+                2686,
+                1681
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-71",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1746,
+                1162
+            ],
+            "Top-right": [
+                1874,
+                1162
+            ],
+            "Bottom-right": [
+                1874,
+                1290
+            ],
+            "Bottom-left": [
+                1746,
+                1290
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-72",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1713,
+                843
+            ],
+            "Top-right": [
+                1841,
+                843
+            ],
+            "Bottom-right": [
+                1841,
+                971
+            ],
+            "Bottom-left": [
+                1713,
+                971
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-73",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                503,
+                705
+            ],
+            "Top-right": [
+                631,
+                705
+            ],
+            "Bottom-right": [
+                631,
+                833
+            ],
+            "Bottom-left": [
+                503,
+                833
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-74",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1871,
+                701
+            ],
+            "Top-right": [
+                1999,
+                701
+            ],
+            "Bottom-right": [
+                1999,
+                829
+            ],
+            "Bottom-left": [
+                1871,
+                829
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-75",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1825,
+                525
+            ],
+            "Top-right": [
+                1953,
+                525
+            ],
+            "Bottom-right": [
+                1953,
+                653
+            ],
+            "Bottom-left": [
+                1825,
+                653
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-76",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2001,
+                551
+            ],
+            "Top-right": [
+                2129,
+                551
+            ],
+            "Bottom-right": [
+                2129,
+                679
+            ],
+            "Bottom-left": [
+                2001,
+                679
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-77",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2072,
+                715
+            ],
+            "Top-right": [
+                2200,
+                715
+            ],
+            "Bottom-right": [
+                2200,
+                843
+            ],
+            "Bottom-left": [
+                2072,
+                843
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-78",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2184,
+                542
+            ],
+            "Top-right": [
+                2312,
+                542
+            ],
+            "Bottom-right": [
+                2312,
+                670
+            ],
+            "Bottom-left": [
+                2184,
+                670
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-79",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2259,
+                414
+            ],
+            "Top-right": [
+                2387,
+                414
+            ],
+            "Bottom-right": [
+                2387,
+                542
+            ],
+            "Bottom-left": [
+                2259,
+                542
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-80",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2000,
+                28
+            ],
+            "Top-right": [
+                2128,
+                28
+            ],
+            "Bottom-right": [
+                2128,
+                156
+            ],
+            "Bottom-left": [
+                2000,
+                156
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-81",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1987,
+                385
+            ],
+            "Top-right": [
+                2115,
+                385
+            ],
+            "Bottom-right": [
+                2115,
+                513
+            ],
+            "Bottom-left": [
+                1987,
+                513
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-82",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1822,
+                372
+            ],
+            "Top-right": [
+                1950,
+                372
+            ],
+            "Bottom-right": [
+                1950,
+                500
+            ],
+            "Bottom-left": [
+                1822,
+                500
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-83",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2259,
+                246
+            ],
+            "Top-right": [
+                2387,
+                246
+            ],
+            "Bottom-right": [
+                2387,
+                374
+            ],
+            "Bottom-left": [
+                2259,
+                374
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-84",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2034,
+                210
+            ],
+            "Top-right": [
+                2162,
+                210
+            ],
+            "Bottom-right": [
+                2162,
+                338
+            ],
+            "Bottom-left": [
+                2034,
+                338
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-85",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1871,
+                188
+            ],
+            "Top-right": [
+                1999,
+                188
+            ],
+            "Bottom-right": [
+                1999,
+                316
+            ],
+            "Bottom-left": [
+                1871,
+                316
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-86",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2202,
+                51
+            ],
+            "Top-right": [
+                2330,
+                51
+            ],
+            "Bottom-right": [
+                2330,
+                179
+            ],
+            "Bottom-left": [
+                2202,
+                179
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-87",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1903,
+                1917
+            ],
+            "Top-right": [
+                2031,
+                1917
+            ],
+            "Bottom-right": [
+                2031,
+                2045
+            ],
+            "Bottom-left": [
+                1903,
+                2045
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-88",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3018,
+                3084
+            ],
+            "Top-right": [
+                3146,
+                3084
+            ],
+            "Bottom-right": [
+                3146,
+                3212
+            ],
+            "Bottom-left": [
+                3018,
+                3212
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-89",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3155,
+                3045
+            ],
+            "Top-right": [
+                3283,
+                3045
+            ],
+            "Bottom-right": [
+                3283,
+                3173
+            ],
+            "Bottom-left": [
+                3155,
+                3173
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-90",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3274,
+                2926
+            ],
+            "Top-right": [
+                3402,
+                2926
+            ],
+            "Bottom-right": [
+                3402,
+                3054
+            ],
+            "Bottom-left": [
+                3274,
+                3054
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-91",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3296,
+                2761
+            ],
+            "Top-right": [
+                3424,
+                2761
+            ],
+            "Bottom-right": [
+                3424,
+                2889
+            ],
+            "Bottom-left": [
+                3296,
+                2889
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-92",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3242,
+                2348
+            ],
+            "Top-right": [
+                3370,
+                2348
+            ],
+            "Bottom-right": [
+                3370,
+                2476
+            ],
+            "Bottom-left": [
+                3242,
+                2476
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-93",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3423,
+                2355
+            ],
+            "Top-right": [
+                3551,
+                2355
+            ],
+            "Bottom-right": [
+                3551,
+                2483
+            ],
+            "Bottom-left": [
+                3423,
+                2483
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-94",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3613,
+                2117
+            ],
+            "Top-right": [
+                3741,
+                2117
+            ],
+            "Bottom-right": [
+                3741,
+                2245
+            ],
+            "Bottom-left": [
+                3613,
+                2245
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-95",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3052,
+                2312
+            ],
+            "Top-right": [
+                3180,
+                2312
+            ],
+            "Bottom-right": [
+                3180,
+                2440
+            ],
+            "Bottom-left": [
+                3052,
+                2440
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-96",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2067,
+                1960
+            ],
+            "Top-right": [
+                2195,
+                1960
+            ],
+            "Bottom-right": [
+                2195,
+                2088
+            ],
+            "Bottom-left": [
+                2067,
+                2088
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-97",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2890,
+                2269
+            ],
+            "Top-right": [
+                3018,
+                2269
+            ],
+            "Bottom-right": [
+                3018,
+                2397
+            ],
+            "Bottom-left": [
+                2890,
+                2397
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-98",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2722,
+                2269
+            ],
+            "Top-right": [
+                2850,
+                2269
+            ],
+            "Bottom-right": [
+                2850,
+                2397
+            ],
+            "Bottom-left": [
+                2722,
+                2397
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-99",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2560,
+                2300
+            ],
+            "Top-right": [
+                2688,
+                2300
+            ],
+            "Bottom-right": [
+                2688,
+                2428
+            ],
+            "Bottom-left": [
+                2560,
+                2428
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-100",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2614,
+                1988
+            ],
+            "Top-right": [
+                2742,
+                1988
+            ],
+            "Bottom-right": [
+                2742,
+                2116
+            ],
+            "Bottom-left": [
+                2614,
+                2116
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-101",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2150,
+                2159
+            ],
+            "Top-right": [
+                2278,
+                2159
+            ],
+            "Bottom-right": [
+                2278,
+                2287
+            ],
+            "Bottom-left": [
+                2150,
+                2287
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-102",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1955,
+                2156
+            ],
+            "Top-right": [
+                2083,
+                2156
+            ],
+            "Bottom-right": [
+                2083,
+                2284
+            ],
+            "Bottom-left": [
+                1955,
+                2284
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-103",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2355,
+                2197
+            ],
+            "Top-right": [
+                2483,
+                2197
+            ],
+            "Bottom-right": [
+                2483,
+                2325
+            ],
+            "Bottom-left": [
+                2355,
+                2325
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-104",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1952,
+                2351
+            ],
+            "Top-right": [
+                2080,
+                2351
+            ],
+            "Bottom-right": [
+                2080,
+                2479
+            ],
+            "Bottom-left": [
+                1952,
+                2479
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-105",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2537,
+                2591
+            ],
+            "Top-right": [
+                2665,
+                2591
+            ],
+            "Bottom-right": [
+                2665,
+                2719
+            ],
+            "Bottom-left": [
+                2537,
+                2719
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-106",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1975,
+                2511
+            ],
+            "Top-right": [
+                2103,
+                2511
+            ],
+            "Bottom-right": [
+                2103,
+                2639
+            ],
+            "Bottom-left": [
+                1975,
+                2639
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-107",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2338,
+                2546
+            ],
+            "Top-right": [
+                2466,
+                2546
+            ],
+            "Bottom-right": [
+                2466,
+                2674
+            ],
+            "Bottom-left": [
+                2338,
+                2674
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-108",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2333,
+                2370
+            ],
+            "Top-right": [
+                2461,
+                2370
+            ],
+            "Bottom-right": [
+                2461,
+                2498
+            ],
+            "Bottom-left": [
+                2333,
+                2498
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-109",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2152,
+                2333
+            ],
+            "Top-right": [
+                2280,
+                2333
+            ],
+            "Bottom-right": [
+                2280,
+                2461
+            ],
+            "Bottom-left": [
+                2152,
+                2461
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-110",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1990,
+                2733
+            ],
+            "Top-right": [
+                2118,
+                2733
+            ],
+            "Bottom-right": [
+                2118,
+                2861
+            ],
+            "Bottom-left": [
+                1990,
+                2861
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-111",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2162,
+                2543
+            ],
+            "Top-right": [
+                2290,
+                2543
+            ],
+            "Bottom-right": [
+                2290,
+                2671
+            ],
+            "Bottom-left": [
+                2162,
+                2671
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-112",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2075,
+                2822
+            ],
+            "Top-right": [
+                2203,
+                2822
+            ],
+            "Bottom-right": [
+                2203,
+                2950
+            ],
+            "Bottom-left": [
+                2075,
+                2950
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-113",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2203,
+                2864
+            ],
+            "Top-right": [
+                2331,
+                2864
+            ],
+            "Bottom-right": [
+                2331,
+                2992
+            ],
+            "Bottom-left": [
+                2203,
+                2992
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-114",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2408,
+                2907
+            ],
+            "Top-right": [
+                2536,
+                2907
+            ],
+            "Bottom-right": [
+                2536,
+                3035
+            ],
+            "Bottom-left": [
+                2408,
+                3035
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-115",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2585,
+                2837
+            ],
+            "Top-right": [
+                2713,
+                2837
+            ],
+            "Bottom-right": [
+                2713,
+                2965
+            ],
+            "Bottom-left": [
+                2585,
+                2965
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-116",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2351,
+                2722
+            ],
+            "Top-right": [
+                2479,
+                2722
+            ],
+            "Bottom-right": [
+                2479,
+                2850
+            ],
+            "Bottom-left": [
+                2351,
+                2850
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-117",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2825,
+                2877
+            ],
+            "Top-right": [
+                2953,
+                2877
+            ],
+            "Bottom-right": [
+                2953,
+                3005
+            ],
+            "Bottom-left": [
+                2825,
+                3005
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-118",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3027,
+                2837
+            ],
+            "Top-right": [
+                3155,
+                2837
+            ],
+            "Bottom-right": [
+                3155,
+                2965
+            ],
+            "Bottom-left": [
+                3027,
+                2965
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-119",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2740,
+                2652
+            ],
+            "Top-right": [
+                2868,
+                2652
+            ],
+            "Bottom-right": [
+                2868,
+                2780
+            ],
+            "Bottom-left": [
+                2740,
+                2780
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-120",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2409,
+                1957
+            ],
+            "Top-right": [
+                2537,
+                1957
+            ],
+            "Bottom-right": [
+                2537,
+                2085
+            ],
+            "Bottom-left": [
+                2409,
+                2085
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-121",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3053,
+                2671
+            ],
+            "Top-right": [
+                3181,
+                2671
+            ],
+            "Bottom-right": [
+                3181,
+                2799
+            ],
+            "Bottom-left": [
+                3053,
+                2799
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-122",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2899,
+                2498
+            ],
+            "Top-right": [
+                3027,
+                2498
+            ],
+            "Bottom-right": [
+                3027,
+                2626
+            ],
+            "Bottom-left": [
+                2899,
+                2626
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-123",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3056,
+                2492
+            ],
+            "Top-right": [
+                3184,
+                2492
+            ],
+            "Bottom-right": [
+                3184,
+                2620
+            ],
+            "Bottom-left": [
+                3056,
+                2620
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-124",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2744,
+                2475
+            ],
+            "Top-right": [
+                2872,
+                2475
+            ],
+            "Bottom-right": [
+                2872,
+                2603
+            ],
+            "Bottom-left": [
+                2744,
+                2603
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-125",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2987,
+                2065
+            ],
+            "Top-right": [
+                3115,
+                2065
+            ],
+            "Bottom-right": [
+                3115,
+                2193
+            ],
+            "Bottom-left": [
+                2987,
+                2193
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-126",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2802,
+                1952
+            ],
+            "Top-right": [
+                2930,
+                1952
+            ],
+            "Bottom-right": [
+                2930,
+                2080
+            ],
+            "Bottom-left": [
+                2802,
+                2080
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-127",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3372,
+                2176
+            ],
+            "Top-right": [
+                3500,
+                2176
+            ],
+            "Bottom-right": [
+                3500,
+                2304
+            ],
+            "Bottom-left": [
+                3372,
+                2304
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-128",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3655,
+                1932
+            ],
+            "Top-right": [
+                3783,
+                1932
+            ],
+            "Bottom-right": [
+                3783,
+                2060
+            ],
+            "Bottom-left": [
+                3655,
+                2060
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-129",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3740,
+                1253
+            ],
+            "Top-right": [
+                3868,
+                1253
+            ],
+            "Bottom-right": [
+                3868,
+                1381
+            ],
+            "Bottom-left": [
+                3740,
+                1381
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-130",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3687,
+                1563
+            ],
+            "Top-right": [
+                3815,
+                1563
+            ],
+            "Bottom-right": [
+                3815,
+                1691
+            ],
+            "Bottom-left": [
+                3687,
+                1691
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-131",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3919,
+                1419
+            ],
+            "Top-right": [
+                4047,
+                1419
+            ],
+            "Bottom-right": [
+                4047,
+                1547
+            ],
+            "Bottom-left": [
+                3919,
+                1547
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-132",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3374,
+                1129
+            ],
+            "Top-right": [
+                3502,
+                1129
+            ],
+            "Bottom-right": [
+                3502,
+                1257
+            ],
+            "Bottom-left": [
+                3374,
+                1257
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-133",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3071,
+                1067
+            ],
+            "Top-right": [
+                3199,
+                1067
+            ],
+            "Bottom-right": [
+                3199,
+                1195
+            ],
+            "Bottom-left": [
+                3071,
+                1195
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-134",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                3308,
+                2567
+            ],
+            "Top-right": [
+                3436,
+                2567
+            ],
+            "Bottom-right": [
+                3436,
+                2695
+            ],
+            "Bottom-left": [
+                3308,
+                2695
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-135",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2771,
+                2105
+            ],
+            "Top-right": [
+                2899,
+                2105
+            ],
+            "Bottom-right": [
+                2899,
+                2233
+            ],
+            "Bottom-left": [
+                2771,
+                2233
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-136",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2403,
+                3177
+            ],
+            "Top-right": [
+                2531,
+                3177
+            ],
+            "Bottom-right": [
+                2531,
+                3305
+            ],
+            "Bottom-left": [
+                2403,
+                3305
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-137",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2854,
+                3419
+            ],
+            "Top-right": [
+                2982,
+                3419
+            ],
+            "Bottom-right": [
+                2982,
+                3547
+            ],
+            "Bottom-left": [
+                2854,
+                3547
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-138",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2427,
+                3475
+            ],
+            "Top-right": [
+                2555,
+                3475
+            ],
+            "Bottom-right": [
+                2555,
+                3603
+            ],
+            "Bottom-left": [
+                2427,
+                3603
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-139",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2095,
+                3109
+            ],
+            "Top-right": [
+                2223,
+                3109
+            ],
+            "Bottom-right": [
+                2223,
+                3237
+            ],
+            "Bottom-left": [
+                2095,
+                3237
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-140",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1926,
+                2947
+            ],
+            "Top-right": [
+                2054,
+                2947
+            ],
+            "Bottom-right": [
+                2054,
+                3075
+            ],
+            "Bottom-left": [
+                1926,
+                3075
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-141",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                83,
+                2798
+            ],
+            "Top-right": [
+                211,
+                2798
+            ],
+            "Bottom-right": [
+                211,
+                2926
+            ],
+            "Bottom-left": [
+                83,
+                2926
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-142",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                154,
+                3001
+            ],
+            "Top-right": [
+                282,
+                3001
+            ],
+            "Bottom-right": [
+                282,
+                3129
+            ],
+            "Bottom-left": [
+                154,
+                3129
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-143",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2620,
+                3790
+            ],
+            "Top-right": [
+                2748,
+                3790
+            ],
+            "Bottom-right": [
+                2748,
+                3918
+            ],
+            "Bottom-left": [
+                2620,
+                3918
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-144",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2224,
+                3734
+            ],
+            "Top-right": [
+                2352,
+                3734
+            ],
+            "Bottom-right": [
+                2352,
+                3862
+            ],
+            "Bottom-left": [
+                2224,
+                3862
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-145",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                2403,
+                3748
+            ],
+            "Top-right": [
+                2531,
+                3748
+            ],
+            "Bottom-right": [
+                2531,
+                3876
+            ],
+            "Bottom-left": [
+                2403,
+                3876
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-146",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1406,
+                2117
+            ],
+            "Top-right": [
+                1534,
+                2117
+            ],
+            "Bottom-right": [
+                1534,
+                2245
+            ],
+            "Bottom-left": [
+                1406,
+                2245
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "TR-3-C-147",
+        "Category": "TR-3-C",
+        "Coordinates": {
+            "Top-left": [
+                1062,
+                1558
+            ],
+            "Top-right": [
+                1190,
+                1558
+            ],
+            "Bottom-right": [
+                1190,
+                1686
+            ],
+            "Bottom-left": [
+                1062,
+                1686
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    }
+]

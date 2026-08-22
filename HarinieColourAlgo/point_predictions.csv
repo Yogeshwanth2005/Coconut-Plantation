@@ -1,0 +1,1840 @@
+filename,x,y,expected,predicted,result
+Amrita_800_1.png,77,256,non-green-800,non-green-800,correct
+Amrita_800_1.png,483,74,non-green-800,non-green-800,correct
+Amrita_800_1.png,57,69,green-800,green-800,correct
+Amrita_800_1.png,182,54,green-800,coconut-800,wrong
+Amrita_800_1.png,13,197,green-800,coconut-800,wrong
+Amrita_800_1.png,15,235,green-800,green-800,correct
+Amrita_800_1.png,16,212,green-800,green-800,correct
+Amrita_800_1.png,331,130,green-800,green-800,correct
+Amrita_800_1.png,330,109,green-800,green-800,correct
+Amrita_800_1.png,188,197,green-800,coconut-800,wrong
+Amrita_800_1.png,194,250,green-800,coconut-800,wrong
+Amrita_800_1.png,39,204,green-800,coconut-800,wrong
+Amrita_800_1.png,117,33,green-800,green-800,correct
+Amrita_800_1.png,250,115,green-800,green-800,correct
+Amrita_800_1.png,252,125,green-800,green-800,correct
+Amrita_800_1.png,257,87,green-800,green-800,correct
+Amrita_800_1.png,168,255,non-green-800,non-green-800,correct
+Amrita_800_1.png,417,219,non-green-800,non-green-800,correct
+Amrita_800_1.png,425,258,non-green-800,non-green-800,correct
+Amrita_800_1.png,399,108,non-green-800,non-green-800,correct
+Amrita_800_1.png,430,45,non-green-800,non-green-800,correct
+Amrita_800_1.png,10,78,non-green-800,non-green-800,correct
+Amrita_800_1.png,422,237,non-green-800,non-green-800,correct
+Amrita_800_1.png,264,67,non-green-800,non-green-800,correct
+Amrita_800_1.png,343,66,non-green-800,non-green-800,correct
+Amrita_800_1.png,283,3,non-green-800,non-green-800,correct
+Amrita_800_1.png,33,50,non-green-800,non-green-800,correct
+Amrita_800_1.png,6,56,non-green-800,non-green-800,correct
+Amrita_800_1.png,104,133,non-green-800,non-green-800,correct
+Amrita_800_1.png,450,83,non-green-800,non-green-800,correct
+Amrita_800_1.png,450,108,non-green-800,non-green-800,correct
+Amrita_800_1.png,344,207,non-green-800,non-green-800,correct
+Amrita_800_1.png,400,141,non-green-800,non-green-800,correct
+Amrita_800_1.png,339,252,non-green-800,non-green-800,correct
+Amrita_800_1.png,385,241,non-green-800,non-green-800,correct
+Amrita_800_1.png,443,138,non-green-800,non-green-800,correct
+Amrita_800_1.png,448,159,non-green-800,non-green-800,correct
+Amrita_800_1.png,98,225,non-green-800,non-green-800,correct
+Amrita_800_1.png,493,222,non-green-800,non-green-800,correct
+Amrita_800_1.png,497,177,non-green-800,non-green-800,correct
+Amrita_800_1.png,237,228,non-green-800,non-green-800,correct
+Amrita_800_1.png,187,122,non-green-800,non-green-800,correct
+Amrita_800_1.png,433,94,non-green-800,non-green-800,correct
+Amrita_800_1.png,40,92,non-green-800,non-green-800,correct
+Amrita_800_1.png,24,21,non-green-800,non-green-800,correct
+Amrita_800_1.png,41,88,non-green-800,non-green-800,correct
+Amrita_800_1.png,114,109,non-green-800,non-green-800,correct
+Amrita_800_1.png,92,138,non-green-800,non-green-800,correct
+Amrita_800_1.png,85,26,non-green-800,non-green-800,correct
+Amrita_800_1.png,100,26,non-green-800,non-green-800,correct
+Amrita_800_1.png,262,53,non-green-800,non-green-800,correct
+Amrita_800_1.png,459,201,non-green-800,non-green-800,correct
+Amrita_800_1.png,316,167,non-green-800,non-green-800,correct
+Amrita_800_1.png,181,254,non-green-800,sea-800,wrong
+Amrita_800_1.png,333,49,non-green-800,non-green-800,correct
+Amrita_800_1.png,426,79,non-green-800,non-green-800,correct
+Amrita_800_1.png,181,150,non-green-800,non-green-800,correct
+Amrita_800_1.png,367,22,coconut-800,coconut-800,correct
+Amrita_800_1.png,397,16,coconut-800,green-800,wrong
+Amrita_800_1.png,387,16,coconut-800,coconut-800,correct
+Amrita_800_1.png,401,22,coconut-800,green-800,wrong
+Amrita_800_1.png,372,30,coconut-800,coconut-800,correct
+Amrita_800_1.png,398,10,coconut-800,coconut-800,correct
+Amrita_800_1.png,112,76,green-800,green-800,correct
+Amrita_800_1.png,141,49,green-800,coconut-800,wrong
+Amrita_800_1.png,59,19,green-800,coconut-800,wrong
+Amrita_800_1.png,73,37,green-800,coconut-800,wrong
+Amrita_800_1.png,114,10,green-800,coconut-800,wrong
+Amrita_800_1.png,167,157,green-800,green-800,correct
+Amrita_800_1.png,307,179,green-800,green-800,correct
+Amrita_800_1.png,77,49,green-800,coconut-800,wrong
+Amrita_800_1.png,32,67,green-800,green-800,correct
+Amrita_800_1.png,85,130,green-800,green-800,correct
+Amrita_800_1.png,109,257,green-800,green-800,correct
+Amrita_800_1.png,287,78,green-800,green-800,correct
+Amrita_800_1.png,375,55,green-800,green-800,correct
+Amrita_800_1.png,392,186,green-800,coconut-800,wrong
+Amrita_800_1.png,396,215,green-800,green-800,correct
+Amrita_800_1.png,448,60,green-800,green-800,correct
+Amrita_800_1.png,474,165,green-800,green-800,correct
+Amrita_800_1.png,262,235,green-800,green-800,correct
+Amrita_800_1.png,233,24,green-800,green-800,correct
+Amrita_800_1.png,261,34,green-800,green-800,correct
+Amrita_800_1.png,391,58,green-800,green-800,correct
+Amrita_800_1.png,198,72,coconut-800,coconut-800,correct
+Amrita_800_1.png,213,43,coconut-800,coconut-800,correct
+Amrita_800_1.png,199,51,coconut-800,coconut-800,correct
+Amrita_800_1.png,206,58,coconut-800,coconut-800,correct
+Amrita_800_1.png,191,64,coconut-800,coconut-800,correct
+Amrita_800_1.png,190,27,coconut-800,coconut-800,correct
+Amrita_800_1.png,215,71,coconut-800,coconut-800,correct
+Amrita_800_1.png,219,58,coconut-800,coconut-800,correct
+Amrita_800_1.png,180,75,coconut-800,coconut-800,correct
+Amrita_800_1.png,187,74,coconut-800,coconut-800,correct
+Amrita_800_1.png,195,55,coconut-800,coconut-800,correct
+Amrita_800_1.png,218,11,coconut-800,coconut-800,correct
+Amrita_800_1.png,185,28,coconut-800,coconut-800,correct
+Amrita_800_1.png,212,40,coconut-800,coconut-800,correct
+Amrita_800_1.png,193,32,coconut-800,coconut-800,correct
+Amrita_800_1.png,197,17,coconut-800,coconut-800,correct
+Amrita_800_1.png,173,25,coconut-800,coconut-800,correct
+Amrita_800_1.png,217,87,coconut-800,coconut-800,correct
+Amrita_800_1.png,226,82,coconut-800,coconut-800,correct
+Amrita_800_1.png,222,43,coconut-800,coconut-800,correct
+Amrita_800_1.png,214,58,coconut-800,coconut-800,correct
+Amrita_800_1.png,201,59,coconut-800,coconut-800,correct
+Amrita_800_1.png,208,44,coconut-800,coconut-800,correct
+Amrita_800_1.png,199,45,coconut-800,coconut-800,correct
+Amrita_800_1.png,198,41,coconut-800,coconut-800,correct
+Amrita_800_1.png,208,26,coconut-800,coconut-800,correct
+Amrita_800_1.png,179,43,coconut-800,coconut-800,correct
+Amrita_800_1.png,178,37,coconut-800,coconut-800,correct
+Amrita_800_1.png,363,24,coconut-800,coconut-800,correct
+Amrita_800_1.png,193,36,coconut-800,coconut-800,correct
+Amrita_800_1.png,203,12,coconut-800,coconut-800,correct
+Amrita_800_1.png,197,36,coconut-800,coconut-800,correct
+Amrita_800_1.png,174,43,coconut-800,coconut-800,correct
+Amrita_800_1.png,174,38,coconut-800,coconut-800,correct
+Amrita_800_1.png,228,13,coconut-800,coconut-800,correct
+Amrita_800_1.png,215,17,coconut-800,coconut-800,correct
+Amrita_800_1.png,229,77,coconut-800,coconut-800,correct
+Amrita_800_1.png,191,15,coconut-800,coconut-800,correct
+Amrita_800_1.png,173,19,coconut-800,coconut-800,correct
+Amrita_800_1.png,171,31,coconut-800,coconut-800,correct
+Amrita_800_1.png,183,74,coconut-800,coconut-800,correct
+Amrita_800_1.png,176,85,coconut-800,coconut-800,correct
+Amrita_800_1.png,172,86,coconut-800,coconut-800,correct
+Amrita_800_1.png,160,87,coconut-800,coconut-800,correct
+Amrita_800_1.png,179,85,coconut-800,coconut-800,correct
+Amrita_800_1.png,172,57,coconut-800,coconut-800,correct
+Amrita_800_1.png,172,52,coconut-800,coconut-800,correct
+Amrita_800_1.png,482,142,non-green-800,non-green-800,correct
+Amrita_800_1.png,417,195,non-green-800,non-green-800,correct
+Amrita_800_1.png,428,169,non-green-800,non-green-800,correct
+Amrita_800_1.png,413,78,non-green-800,non-green-800,correct
+Amrita_800_1.png,96,118,non-green-800,non-green-800,correct
+Amrita_800_1.png,164,134,non-green-800,non-green-800,correct
+Amrita_800_1.png,322,225,non-green-800,non-green-800,correct
+Amrita_800_1.png,335,216,non-green-800,non-green-800,correct
+Amrita_800_1.png,326,258,non-green-800,non-green-800,correct
+Amrita_800_1.png,364,192,non-green-800,non-green-800,correct
+Amrita_800_1.png,273,4,non-green-800,non-green-800,correct
+Amrita_800_1.png,90,27,non-green-800,non-green-800,correct
+Amrita_800_1.png,95,27,non-green-800,non-green-800,correct
+Amrita_800_1.png,193,42,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,226,80,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,229,85,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,205,89,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,208,96,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,223,107,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,278,53,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,285,50,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,292,48,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,148,18,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,140,21,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,137,12,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,412,207,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,345,239,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,219,126,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,104,18,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,376,137,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,381,126,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,358,243,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,320,90,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,201,251,non-green-800,non-green-800,correct
+Kradangnga_800_4.png,309,41,green-800,green-800,correct
+Kradangnga_800_4.png,317,61,green-800,green-800,correct
+Kradangnga_800_4.png,328,90,green-800,green-800,correct
+Kradangnga_800_4.png,339,110,green-800,green-800,correct
+Kradangnga_800_4.png,357,137,green-800,green-800,correct
+Kradangnga_800_4.png,377,167,green-800,green-800,correct
+Kradangnga_800_4.png,393,188,green-800,green-800,correct
+Kradangnga_800_4.png,422,232,green-800,green-800,correct
+Kradangnga_800_4.png,436,256,green-800,green-800,correct
+Kradangnga_800_4.png,395,244,green-800,coconut-800,wrong
+Kradangnga_800_4.png,334,33,green-800,green-800,correct
+Kradangnga_800_4.png,395,24,green-800,coconut-800,wrong
+Kradangnga_800_4.png,112,16,green-800,coconut-800,wrong
+Kradangnga_800_4.png,384,160,green-800,coconut-800,wrong
+Kradangnga_800_4.png,55,100,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,76,162,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,61,108,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,54,243,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,236,177,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,261,174,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,322,129,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,256,237,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,412,140,coconut-800,coconut-800,correct
+Kradangnga_800_4.png,66,108,coconut-800,coconut-800,correct
+Sambava_800_4.png,79,115,sea-800,sea-800,correct
+Sambava_800_4.png,111,97,sea-800,sea-800,correct
+Sambava_800_4.png,109,136,sea-800,sea-800,correct
+Sambava_800_4.png,112,167,sea-800,sea-800,correct
+Sambava_800_4.png,130,172,sea-800,sea-800,correct
+Sambava_800_4.png,171,152,sea-800,sea-800,correct
+Sambava_800_4.png,175,137,sea-800,sea-800,correct
+Sambava_800_4.png,176,118,sea-800,sea-800,correct
+Sambava_800_4.png,183,87,sea-800,sea-800,correct
+Sambava_800_4.png,211,65,sea-800,sea-800,correct
+Sambava_800_4.png,219,75,sea-800,sea-800,correct
+Sambava_800_4.png,220,90,sea-800,sea-800,correct
+Sambava_800_4.png,217,108,sea-800,sea-800,correct
+Sambava_800_4.png,214,125,sea-800,sea-800,correct
+Sambava_800_4.png,211,151,sea-800,sea-800,correct
+Sambava_800_4.png,225,189,sea-800,sea-800,correct
+Sambava_800_4.png,230,181,sea-800,sea-800,correct
+Sambava_800_4.png,240,125,sea-800,sea-800,correct
+Sambava_800_4.png,244,108,sea-800,sea-800,correct
+Sambava_800_4.png,247,82,sea-800,sea-800,correct
+Sambava_800_4.png,284,62,sea-800,sea-800,correct
+Sambava_800_4.png,294,54,sea-800,sea-800,correct
+Sambava_800_4.png,313,54,sea-800,sea-800,correct
+Sambava_800_4.png,324,70,sea-800,sea-800,correct
+Sambava_800_4.png,319,102,sea-800,sea-800,correct
+Sambava_800_4.png,349,89,sea-800,sea-800,correct
+Sambava_800_4.png,391,87,sea-800,sea-800,correct
+Sambava_800_4.png,429,57,sea-800,sea-800,correct
+Sambava_800_4.png,452,57,sea-800,sea-800,correct
+Sambava_800_4.png,80,194,sea-800,sea-800,correct
+Sambava_800_4.png,62,179,sea-800,sea-800,correct
+Sambava_800_4.png,58,238,sea-800,sea-800,correct
+Sambava_800_4.png,114,234,sea-800,sea-800,correct
+Sambava_800_4.png,155,230,sea-800,sea-800,correct
+Sambava_800_4.png,187,230,sea-800,sea-800,correct
+Sambava_800_4.png,298,215,sea-800,sea-800,correct
+Sambava_800_4.png,296,179,sea-800,sea-800,correct
+Sambava_800_4.png,265,177,sea-800,sea-800,correct
+Sambava_800_4.png,279,137,sea-800,sea-800,correct
+Sambava_800_4.png,7,254,sea-800,sea-800,correct
+Sambava_800_4.png,21,261,sea-800,sea-800,correct
+Sambava_800_4.png,33,260,sea-800,sea-800,correct
+Sambava_800_4.png,21,242,sea-800,sea-800,correct
+Sambava_800_4.png,15,252,sea-800,sea-800,correct
+Sambava_800_4.png,26,246,sea-800,sea-800,correct
+Sambava_800_4.png,31,226,sea-800,sea-800,correct
+Sambava_800_4.png,12,222,sea-800,sea-800,correct
+Sambava_800_4.png,6,243,sea-800,sea-800,correct
+Sambava_800_4.png,15,234,sea-800,sea-800,correct
+Sambava_800_4.png,20,210,sea-800,sea-800,correct
+Sambava_800_4.png,7,194,sea-800,sea-800,correct
+Sambava_800_4.png,21,224,sea-800,sea-800,correct
+Sambava_800_4.png,34,196,sea-800,sea-800,correct
+Sambava_800_4.png,7,210,sea-800,sea-800,correct
+Sambava_800_4.png,20,184,sea-800,sea-800,correct
+Sambava_800_4.png,21,202,sea-800,sea-800,correct
+Sambava_800_4.png,32,210,sea-800,sea-800,correct
+Sambava_800_4.png,38,223,sea-800,sea-800,correct
+Sambava_800_4.png,41,237,sea-800,sea-800,correct
+Sambava_800_4.png,40,250,sea-800,sea-800,correct
+Sambava_800_4.png,49,261,sea-800,sea-800,correct
+Sambava_800_4.png,62,258,sea-800,sea-800,correct
+Sambava_800_4.png,48,246,sea-800,sea-800,correct
+Sambava_800_4.png,68,244,sea-800,sea-800,correct
+Sambava_800_4.png,69,225,sea-800,sea-800,correct
+Sambava_800_4.png,58,248,sea-800,sea-800,correct
+Sambava_800_4.png,75,252,sea-800,sea-800,correct
+Sambava_800_4.png,85,261,sea-800,sea-800,correct
+Sambava_800_4.png,73,262,sea-800,sea-800,correct
+Sambava_800_4.png,90,235,sea-800,sea-800,correct
+Sambava_800_4.png,97,206,sea-800,sea-800,correct
+Sambava_800_4.png,109,195,sea-800,sea-800,correct
+Sambava_800_4.png,107,213,sea-800,sea-800,correct
+Sambava_800_4.png,90,225,sea-800,sea-800,correct
+Sambava_800_4.png,77,211,sea-800,sea-800,correct
+Sambava_800_4.png,86,212,sea-800,sea-800,correct
+Sambava_800_4.png,80,231,sea-800,sea-800,correct
+Sambava_800_4.png,84,247,sea-800,sea-800,correct
+Sambava_800_4.png,97,255,sea-800,sea-800,correct
+Sambava_800_4.png,72,236,sea-800,sea-800,correct
+Sambava_800_4.png,60,233,sea-800,sea-800,correct
+Sambava_800_4.png,52,225,sea-800,sea-800,correct
+Sambava_800_4.png,54,210,sea-800,sea-800,correct
+Sambava_800_4.png,65,207,sea-800,sea-800,correct
+Sambava_800_4.png,61,220,sea-800,sea-800,correct
+Sambava_800_4.png,67,195,sea-800,sea-800,correct
+Sambava_800_4.png,52,195,sea-800,sea-800,correct
+Sambava_800_4.png,47,206,sea-800,sea-800,correct
+Sambava_800_4.png,45,215,sea-800,sea-800,correct
+Sambava_800_4.png,38,207,sea-800,sea-800,correct
+Sambava_800_4.png,44,186,sea-800,sea-800,correct
+Sambava_800_4.png,41,165,sea-800,sea-800,correct
+Sambava_800_4.png,31,162,sea-800,sea-800,correct
+Sambava_800_4.png,20,168,sea-800,sea-800,correct
+Sambava_800_4.png,30,174,sea-800,sea-800,correct
+Sambava_800_4.png,36,185,sea-800,sea-800,correct
+Sambava_800_4.png,24,189,sea-800,sea-800,correct
+Sambava_800_4.png,16,196,sea-800,sea-800,correct
+Sambava_800_4.png,12,206,sea-800,sea-800,correct
+Sambava_800_4.png,4,223,sea-800,sea-800,correct
+Sambava_800_4.png,6,233,sea-800,sea-800,correct
+Sambava_800_4.png,29,234,sea-800,sea-800,correct
+Sambava_800_4.png,23,233,sea-800,sea-800,correct
+Sambava_800_4.png,49,142,sea-800,sea-800,correct
+Sambava_800_4.png,55,165,sea-800,sea-800,correct
+Sambava_800_4.png,80,156,sea-800,sea-800,correct
+Sambava_800_4.png,84,177,sea-800,sea-800,correct
+Sambava_800_4.png,97,186,sea-800,sea-800,correct
+Sambava_800_4.png,95,132,sea-800,sea-800,correct
+Sambava_800_4.png,93,151,sea-800,sea-800,correct
+Sambava_800_4.png,95,168,sea-800,sea-800,correct
+Sambava_800_4.png,111,150,sea-800,sea-800,correct
+Sambava_800_4.png,122,161,sea-800,sea-800,correct
+Sambava_800_4.png,120,184,sea-800,sea-800,correct
+Sambava_800_4.png,125,202,sea-800,sea-800,correct
+Sambava_800_4.png,128,224,sea-800,sea-800,correct
+Sambava_800_4.png,129,238,sea-800,sea-800,correct
+Sambava_800_4.png,127,258,sea-800,sea-800,correct
+Sambava_800_4.png,112,263,sea-800,sea-800,correct
+Sambava_800_4.png,107,244,sea-800,sea-800,correct
+Sambava_800_4.png,100,225,sea-800,sea-800,correct
+Sambava_800_4.png,106,227,sea-800,sea-800,correct
+Sambava_800_4.png,97,242,sea-800,sea-800,correct
+Sambava_800_4.png,107,252,sea-800,sea-800,correct
+Sambava_800_4.png,100,262,sea-800,sea-800,correct
+Sambava_800_4.png,84,206,sea-800,sea-800,correct
+Sambava_800_4.png,74,199,sea-800,sea-800,correct
+Sambava_800_4.png,74,178,sea-800,sea-800,correct
+Sambava_800_4.png,63,186,sea-800,sea-800,correct
+Sambava_800_4.png,49,180,sea-800,sea-800,correct
+Sambava_800_4.png,46,173,sea-800,sea-800,correct
+Sambava_800_4.png,63,154,sea-800,sea-800,correct
+Sambava_800_4.png,65,125,sea-800,sea-800,correct
+Sambava_800_4.png,4,174,sea-800,sea-800,correct
+Sambava_800_4.png,12,186,sea-800,sea-800,correct
+Sambava_800_4.png,6,184,sea-800,sea-800,correct
+Sambava_800_4.png,11,172,sea-800,sea-800,correct
+Sambava_800_4.png,8,150,sea-800,sea-800,correct
+Sambava_800_4.png,13,120,sea-800,sea-800,correct
+Sambava_800_4.png,27,140,sea-800,sea-800,correct
+Sambava_800_4.png,17,131,sea-800,sea-800,correct
+Sambava_800_4.png,35,113,sea-800,sea-800,correct
+Sambava_800_4.png,20,153,sea-800,sea-800,correct
+Sambava_800_4.png,38,153,sea-800,sea-800,correct
+Sambava_800_4.png,35,130,sea-800,sea-800,correct
+Sambava_800_4.png,55,119,sea-800,sea-800,correct
+Sambava_800_4.png,46,133,sea-800,sea-800,correct
+Sambava_800_4.png,62,141,sea-800,sea-800,correct
+Sambava_800_4.png,71,148,sea-800,sea-800,correct
+Sambava_800_4.png,49,156,sea-800,sea-800,correct
+Sambava_800_4.png,73,168,sea-800,sea-800,correct
+Sambava_800_4.png,11,83,sea-800,sea-800,correct
+Sambava_800_4.png,21,106,sea-800,sea-800,correct
+Sambava_800_4.png,25,124,sea-800,sea-800,correct
+Sambava_800_4.png,34,72,sea-800,sea-800,correct
+Sambava_800_4.png,14,97,sea-800,sea-800,correct
+Sambava_800_4.png,30,94,sea-800,sea-800,correct
+Sambava_800_4.png,45,101,sea-800,sea-800,correct
+Sambava_800_4.png,60,68,sea-800,sea-800,correct
+Sambava_800_4.png,42,89,sea-800,sea-800,correct
+Sambava_800_4.png,58,95,sea-800,sea-800,correct
+Sambava_800_4.png,17,140,sea-800,sea-800,correct
+Sambava_800_4.png,12,158,sea-800,sea-800,correct
+Sambava_800_4.png,5,164,sea-800,sea-800,correct
+Sambava_800_4.png,7,132,sea-800,sea-800,correct
+Sambava_800_4.png,10,147,sea-800,sea-800,correct
+Sambava_800_4.png,4,143,sea-800,sea-800,correct
+Sambava_800_4.png,7,115,sea-800,sea-800,correct
+Sambava_800_4.png,8,126,sea-800,sea-800,correct
+Sambava_800_4.png,34,136,sea-800,sea-800,correct
+Sambava_800_4.png,40,146,sea-800,sea-800,correct
+Sambava_800_4.png,26,154,sea-800,sea-800,correct
+Sambava_800_4.png,55,149,sea-800,sea-800,correct
+Sambava_800_4.png,57,132,sea-800,sea-800,correct
+Sambava_800_4.png,71,136,sea-800,sea-800,correct
+Sambava_800_4.png,83,144,sea-800,sea-800,correct
+Sambava_800_4.png,84,125,sea-800,sea-800,correct
+Sambava_800_4.png,97,143,sea-800,sea-800,correct
+Sambava_800_4.png,103,161,sea-800,sea-800,correct
+Sambava_800_4.png,103,175,sea-800,sea-800,correct
+Sambava_800_4.png,108,187,sea-800,sea-800,correct
+Sambava_800_4.png,89,196,sea-800,sea-800,correct
+Sambava_800_4.png,122,211,sea-800,sea-800,correct
+Sambava_800_4.png,120,224,sea-800,sea-800,correct
+Sambava_800_4.png,120,242,sea-800,sea-800,correct
+Sambava_800_4.png,118,255,sea-800,sea-800,correct
+Sambava_800_4.png,144,264,sea-800,sea-800,correct
+Sambava_800_4.png,146,236,sea-800,sea-800,correct
+Sambava_800_4.png,147,207,sea-800,sea-800,correct
+Sambava_800_4.png,150,182,sea-800,sea-800,correct
+Sambava_800_4.png,149,135,sea-800,sea-800,correct
+Sambava_800_4.png,149,136,sea-800,sea-800,correct
+Sambava_800_4.png,150,110,sea-800,sea-800,correct
+Sambava_800_4.png,157,74,sea-800,sea-800,correct
+Sambava_800_4.png,173,33,sea-800,sea-800,correct
+Sambava_800_4.png,214,18,sea-800,sea-800,correct
+Sambava_800_4.png,191,14,sea-800,sea-800,correct
+Sambava_800_4.png,189,28,sea-800,sea-800,correct
+Sambava_800_4.png,199,51,sea-800,sea-800,correct
+Sambava_800_4.png,218,37,sea-800,sea-800,correct
+Sambava_800_4.png,202,35,sea-800,sea-800,correct
+Sambava_800_4.png,184,47,sea-800,sea-800,correct
+Sambava_800_4.png,173,53,sea-800,sea-800,correct
+Sambava_800_4.png,185,71,sea-800,sea-800,correct
+Sambava_800_4.png,198,84,sea-800,sea-800,correct
+Sambava_800_4.png,195,110,sea-800,sea-800,correct
+Sambava_800_4.png,186,130,sea-800,sea-800,correct
+Sambava_800_4.png,179,158,sea-800,sea-800,correct
+Sambava_800_4.png,173,187,sea-800,sea-800,correct
+Sambava_800_4.png,168,217,sea-800,sea-800,correct
+Sambava_800_4.png,188,195,sea-800,sea-800,correct
+Sambava_800_4.png,198,166,sea-800,sea-800,correct
+Sambava_800_4.png,184,180,sea-800,sea-800,correct
+Sambava_800_4.png,201,191,sea-800,sea-800,correct
+Sambava_800_4.png,169,203,sea-800,sea-800,correct
+Sambava_800_4.png,184,209,sea-800,sea-800,correct
+Sambava_800_4.png,158,209,sea-800,sea-800,correct
+Sambava_800_4.png,145,222,sea-800,sea-800,correct
+Sambava_800_4.png,136,212,sea-800,sea-800,correct
+Sambava_800_4.png,136,194,sea-800,sea-800,correct
+Sambava_800_4.png,149,191,sea-800,sea-800,correct
+Sambava_800_4.png,157,196,sea-800,sea-800,correct
+Sambava_800_4.png,166,170,sea-800,sea-800,correct
+Sambava_800_4.png,147,168,sea-800,sea-800,correct
+Sambava_800_4.png,143,146,sea-800,sea-800,correct
+Sambava_800_4.png,135,165,sea-800,sea-800,correct
+Sambava_800_4.png,124,144,sea-800,sea-800,correct
+Sambava_800_4.png,126,125,sea-800,sea-800,correct
+Sambava_800_4.png,131,96,sea-800,sea-800,correct
+Sambava_800_4.png,138,55,sea-800,sea-800,correct
+Sambava_800_4.png,143,26,sea-800,sea-800,correct
+Sambava_800_4.png,157,12,sea-800,sea-800,correct
+Sambava_800_4.png,157,35,sea-800,sea-800,correct
+Sambava_800_4.png,158,54,sea-800,sea-800,correct
+Sambava_800_4.png,169,70,sea-800,sea-800,correct
+Sambava_800_4.png,165,91,sea-800,sea-800,correct
+Sambava_800_4.png,159,104,sea-800,sea-800,correct
+Sambava_800_4.png,139,87,sea-800,sea-800,correct
+Sambava_800_4.png,141,74,sea-800,sea-800,correct
+Sambava_800_4.png,144,64,sea-800,sea-800,correct
+Sambava_800_4.png,145,62,sea-800,sea-800,correct
+Sambava_800_4.png,147,49,sea-800,sea-800,correct
+Sambava_800_4.png,136,42,sea-800,sea-800,correct
+Sambava_800_4.png,125,38,sea-800,sea-800,correct
+Sambava_800_4.png,102,51,sea-800,sea-800,correct
+Sambava_800_4.png,110,70,sea-800,sea-800,correct
+Sambava_800_4.png,116,85,sea-800,sea-800,correct
+Sambava_800_4.png,91,87,sea-800,sea-800,correct
+Sambava_800_4.png,81,66,sea-800,sea-800,correct
+Sambava_800_4.png,73,91,sea-800,sea-800,correct
+Sambava_800_4.png,107,111,sea-800,sea-800,correct
+Sambava_800_4.png,65,109,sea-800,sea-800,correct
+Sambava_800_4.png,59,84,sea-800,sea-800,correct
+Sambava_800_4.png,84,103,sea-800,sea-800,correct
+Sambava_800_4.png,74,79,sea-800,sea-800,correct
+Sambava_800_4.png,99,90,sea-800,sea-800,correct
+Sambava_800_4.png,93,119,sea-800,sea-800,correct
+Sambava_800_4.png,110,128,sea-800,sea-800,correct
+Sambava_800_4.png,126,78,sea-800,sea-800,correct
+Sambava_800_4.png,67,33,sea-800,sea-800,correct
+Sambava_800_4.png,82,46,sea-800,sea-800,correct
+Sambava_800_4.png,92,14,sea-800,sea-800,correct
+Sambava_800_4.png,29,24,sea-800,sea-800,correct
+Sambava_800_4.png,31,42,sea-800,sea-800,correct
+Sambava_800_4.png,41,56,sea-800,sea-800,correct
+Sambava_800_4.png,40,38,sea-800,sea-800,correct
+Sambava_800_4.png,61,47,sea-800,sea-800,correct
+Sambava_800_4.png,57,17,sea-800,sea-800,correct
+Sambava_800_4.png,54,37,sea-800,sea-800,correct
+Sambava_800_4.png,48,48,sea-800,sea-800,correct
+Sambava_800_4.png,19,53,sea-800,sea-800,correct
+Sambava_800_4.png,19,77,sea-800,sea-800,correct
+Sambava_800_4.png,25,63,sea-800,sea-800,correct
+Sambava_800_4.png,11,65,sea-800,sea-800,correct
+Sambava_800_4.png,11,31,sea-800,sea-800,correct
+Sambava_800_4.png,12,12,sea-800,sea-800,correct
+Sambava_800_4.png,20,45,sea-800,sea-800,correct
+Sambava_800_4.png,7,47,sea-800,sea-800,correct
+Sambava_800_4.png,36,105,sea-800,sea-800,correct
+Sambava_800_4.png,32,82,sea-800,sea-800,correct
+Sambava_800_4.png,49,63,sea-800,sea-800,correct
+Sambava_800_4.png,47,79,sea-800,sea-800,correct
+Sambava_800_4.png,41,71,sea-800,sea-800,correct
+Sambava_800_4.png,50,95,sea-800,sea-800,correct
+Sambava_800_4.png,50,112,sea-800,sea-800,correct
+Sambava_800_4.png,39,118,sea-800,sea-800,correct
+Sambava_800_4.png,69,117,sea-800,sea-800,correct
+Sambava_800_4.png,72,125,sea-800,sea-800,correct
+Sambava_800_4.png,163,262,sea-800,sea-800,correct
+Sambava_800_4.png,172,237,sea-800,sea-800,correct
+Sambava_800_4.png,157,249,sea-800,sea-800,correct
+Sambava_800_4.png,140,249,sea-800,sea-800,correct
+Sambava_800_4.png,135,228,sea-800,sea-800,correct
+Sambava_800_4.png,494,6,sea-800,sea-800,correct
+Sambava_800_4.png,499,21,sea-800,sea-800,correct
+Sambava_800_4.png,486,43,sea-800,sea-800,correct
+Sambava_800_4.png,499,51,sea-800,sea-800,correct
+Sambava_800_4.png,502,36,sea-800,sea-800,correct
+Sambava_800_4.png,489,29,sea-800,sea-800,correct
+Sambava_800_4.png,496,39,sea-800,sea-800,correct
+Sambava_800_4.png,506,23,sea-800,sea-800,correct
+Sambava_800_4.png,508,9,sea-800,sea-800,correct
+Sambava_800_4.png,503,4,sea-800,sea-800,correct
+Sambava_800_4.png,501,12,sea-800,sea-800,correct
+Sambava_800_4.png,488,17,sea-800,sea-800,correct
+Sambava_800_4.png,480,5,sea-800,sea-800,correct
+Sambava_800_4.png,468,15,sea-800,sea-800,correct
+Sambava_800_4.png,467,33,sea-800,sea-800,correct
+Sambava_800_4.png,473,55,sea-800,sea-800,correct
+Sambava_800_4.png,472,71,sea-800,sea-800,correct
+Sambava_800_4.png,464,87,sea-800,sea-800,correct
+Sambava_800_4.png,447,104,sea-800,sea-800,correct
+Sambava_800_4.png,436,122,sea-800,sea-800,correct
+Sambava_800_4.png,436,140,sea-800,sea-800,correct
+Sambava_800_4.png,442,154,sea-800,sea-800,correct
+Sambava_800_4.png,464,141,sea-800,sea-800,correct
+Sambava_800_4.png,452,128,sea-800,sea-800,correct
+Sambava_800_4.png,448,141,sea-800,sea-800,correct
+Sambava_800_4.png,456,153,sea-800,sea-800,correct
+Sambava_800_4.png,453,167,sea-800,sea-800,correct
+Sambava_800_4.png,443,178,sea-800,sea-800,correct
+Sambava_800_4.png,434,182,sea-800,sea-800,correct
+Sambava_800_4.png,412,174,sea-800,sea-800,correct
+Sambava_800_4.png,404,159,sea-800,sea-800,correct
+Sambava_800_4.png,407,135,sea-800,sea-800,correct
+Sambava_800_4.png,415,112,sea-800,sea-800,correct
+Sambava_800_4.png,427,104,sea-800,sea-800,correct
+Sambava_800_4.png,439,113,sea-800,sea-800,correct
+Sambava_800_4.png,466,108,sea-800,sea-800,correct
+Sambava_800_4.png,474,119,sea-800,sea-800,correct
+Sambava_800_4.png,478,135,sea-800,sea-800,correct
+Sambava_800_4.png,473,157,sea-800,sea-800,correct
+Sambava_800_4.png,472,179,sea-800,sea-800,correct
+Sambava_800_4.png,484,188,sea-800,sea-800,correct
+Sambava_800_4.png,494,163,sea-800,sea-800,correct
+Sambava_800_4.png,492,141,sea-800,sea-800,correct
+Sambava_800_4.png,491,129,sea-800,sea-800,correct
+Sambava_800_4.png,487,108,sea-800,sea-800,correct
+Sambava_800_4.png,483,91,sea-800,sea-800,correct
+Sambava_800_4.png,492,73,sea-800,sea-800,correct
+Sambava_800_4.png,495,71,sea-800,sea-800,correct
+Sambava_800_4.png,500,86,sea-800,sea-800,correct
+Sambava_800_4.png,501,108,sea-800,sea-800,correct
+Sambava_800_4.png,503,134,sea-800,sea-800,correct
+Sambava_800_4.png,504,152,sea-800,sea-800,correct
+Sambava_800_4.png,503,170,sea-800,sea-800,correct
+Sambava_800_4.png,491,95,sea-800,sea-800,correct
+Sambava_800_4.png,487,82,sea-800,sea-800,correct
+Sambava_800_4.png,477,85,sea-800,sea-800,correct
+Sambava_800_4.png,242,54,sea-800,sea-800,correct
+Sambava_800_4.png,263,86,sea-800,sea-800,correct
+Sambava_800_4.png,268,105,sea-800,sea-800,correct
+Sambava_800_4.png,290,84,sea-800,sea-800,correct
+Sambava_800_4.png,296,105,sea-800,sea-800,correct
+Sambava_800_4.png,305,128,sea-800,sea-800,correct
+Sambava_800_4.png,250,145,sea-800,sea-800,correct
+Sambava_800_4.png,243,161,sea-800,sea-800,correct
+Sambava_800_4.png,245,190,sea-800,sea-800,correct
+Sambava_800_4.png,237,220,sea-800,sea-800,correct
+Sambava_800_4.png,240,240,sea-800,sea-800,correct
+Sambava_800_4.png,275,247,sea-800,sea-800,correct
+Sambava_800_4.png,312,256,sea-800,sea-800,correct
+Sambava_800_4.png,275,214,sea-800,sea-800,correct
+Sambava_800_4.png,299,232,sea-800,sea-800,correct
+Sambava_800_4.png,268,229,sea-800,sea-800,correct
+Sambava_800_4.png,252,219,sea-800,sea-800,correct
+Sambava_800_4.png,267,194,sea-800,sea-800,correct
+Sambava_800_4.png,289,205,sea-800,sea-800,correct
+Sambava_800_4.png,316,204,sea-800,sea-800,correct
+Sambava_800_4.png,325,170,sea-800,sea-800,correct
+Sambava_800_4.png,312,152,sea-800,sea-800,correct
+Sambava_800_4.png,288,153,sea-800,sea-800,correct
+Sambava_800_4.png,281,173,sea-800,sea-800,correct
+Sambava_800_4.png,292,194,sea-800,sea-800,correct
+Sambava_800_4.png,312,186,sea-800,sea-800,correct
+Sambava_800_4.png,302,164,sea-800,sea-800,correct
+Sambava_800_4.png,289,168,sea-800,sea-800,correct
+Sambava_800_4.png,267,158,sea-800,sea-800,correct
+Sambava_800_4.png,260,150,sea-800,sea-800,correct
+Sambava_800_4.png,279,114,sea-800,sea-800,correct
+Sambava_800_4.png,277,95,sea-800,sea-800,correct
+Sambava_800_4.png,274,76,sea-800,sea-800,correct
+Sambava_800_4.png,269,64,sea-800,sea-800,correct
+Sambava_800_4.png,269,45,sea-800,sea-800,correct
+Sambava_800_4.png,286,23,sea-800,sea-800,correct
+Sambava_800_4.png,320,9,sea-800,sea-800,correct
+Sambava_800_4.png,343,31,sea-800,sea-800,correct
+Sambava_800_4.png,345,57,sea-800,sea-800,correct
+Sambava_800_4.png,361,70,sea-800,sea-800,correct
+Sambava_800_4.png,376,59,sea-800,sea-800,correct
+Sambava_800_4.png,397,38,sea-800,sea-800,correct
+Sambava_800_4.png,401,12,sea-800,sea-800,correct
+Sambava_800_4.png,384,6,sea-800,sea-800,correct
+Sambava_800_4.png,370,8,sea-800,sea-800,correct
+Sambava_800_4.png,363,20,sea-800,sea-800,correct
+Sambava_800_4.png,361,30,sea-800,sea-800,correct
+Sambava_800_4.png,363,45,sea-800,sea-800,correct
+Sambava_800_4.png,372,45,sea-800,sea-800,correct
+Sambava_800_4.png,381,40,sea-800,sea-800,correct
+Sambava_800_4.png,388,28,sea-800,sea-800,correct
+Sambava_800_4.png,379,18,sea-800,sea-800,correct
+Sambava_800_4.png,372,24,sea-800,sea-800,correct
+Sambava_800_4.png,373,32,sea-800,sea-800,correct
+Sambava_800_4.png,405,27,sea-800,sea-800,correct
+Sambava_800_4.png,411,35,sea-800,sea-800,correct
+Sambava_800_4.png,430,28,sea-800,sea-800,correct
+Sambava_800_4.png,390,18,sea-800,sea-800,correct
+Sambava_800_4.png,396,5,sea-800,sea-800,correct
+Sambava_800_4.png,427,9,sea-800,sea-800,correct
+Sambava_800_4.png,419,20,sea-800,sea-800,correct
+Sambava_800_4.png,412,7,sea-800,sea-800,correct
+Sambava_800_4.png,431,19,sea-800,sea-800,correct
+Sambava_800_4.png,396,62,sea-800,sea-800,correct
+Sambava_800_4.png,390,52,sea-800,sea-800,correct
+Sambava_800_4.png,406,54,sea-800,sea-800,correct
+Sambava_800_4.png,403,46,sea-800,sea-800,correct
+Sambava_800_4.png,422,44,sea-800,sea-800,correct
+Sambava_800_4.png,416,60,sea-800,sea-800,correct
+Sambava_800_4.png,409,79,sea-800,sea-800,correct
+Sambava_800_4.png,400,98,sea-800,sea-800,correct
+Sambava_800_4.png,389,114,sea-800,sea-800,correct
+Sambava_800_4.png,372,136,sea-800,sea-800,correct
+Sambava_800_4.png,356,133,sea-800,sea-800,correct
+Sambava_800_4.png,355,119,sea-800,sea-800,correct
+Sambava_800_4.png,370,109,sea-800,sea-800,correct
+Sambava_800_4.png,324,128,sea-800,sea-800,correct
+Sambava_800_4.png,333,107,sea-800,sea-800,correct
+Sambava_800_4.png,335,85,sea-800,sea-800,correct
+Sambava_800_4.png,320,115,sea-800,sea-800,correct
+Sambava_800_4.png,306,99,sea-800,sea-800,correct
+Sambava_800_4.png,313,77,sea-800,sea-800,correct
+Sambava_800_4.png,320,87,sea-800,sea-800,correct
+Sambava_800_4.png,304,83,sea-800,sea-800,correct
+Sambava_800_4.png,302,67,sea-800,sea-800,correct
+Sambava_800_4.png,311,40,sea-800,sea-800,correct
+Sambava_800_4.png,325,55,sea-800,sea-800,correct
+Sambava_800_4.png,364,53,sea-800,sea-800,correct
+Sambava_800_4.png,345,73,sea-800,sea-800,correct
+Sambava_800_4.png,332,44,sea-800,sea-800,correct
+Sambava_800_4.png,347,46,sea-800,sea-800,correct
+Sambava_800_4.png,120,11,sea-800,sea-800,correct
+Sambava_800_4.png,114,48,sea-800,sea-800,correct
+Sambava_800_4.png,122,67,sea-800,sea-800,correct
+Sambava_800_4.png,125,53,sea-800,sea-800,correct
+Sambava_800_4.png,98,69,sea-800,sea-800,correct
+Sambava_800_4.png,103,84,sea-800,sea-800,correct
+Sambava_800_4.png,85,79,sea-800,sea-800,correct
+Sambava_800_4.png,88,59,sea-800,sea-800,correct
+Sambava_800_4.png,64,57,sea-800,sea-800,correct
+Sambava_800_4.png,80,27,sea-800,sea-800,correct
+Sambava_800_4.png,95,35,sea-800,sea-800,correct
+Sambava_800_4.png,110,20,sea-800,sea-800,correct
+Sambava_800_4.png,129,14,sea-800,sea-800,correct
+Sambava_800_4.png,129,15,sea-800,sea-800,correct
+Sambava_800_4.png,109,31,sea-800,sea-800,correct
+Sambava_800_4.png,109,30,sea-800,sea-800,correct
+Sambava_800_4.png,35,10,sea-800,sea-800,correct
+Sambava_800_4.png,43,23,sea-800,sea-800,correct
+Sambava_800_4.png,68,16,sea-800,sea-800,correct
+Sambava_800_4.png,57,5,sea-800,sea-800,correct
+Sambava_800_4.png,45,10,sea-800,sea-800,correct
+Sambava_800_4.png,25,4,sea-800,sea-800,correct
+Sambava_800_4.png,14,6,sea-800,sea-800,correct
+Sambava_800_4.png,2,9,sea-800,sea-800,correct
+Sambava_800_4.png,4,20,sea-800,sea-800,correct
+Sambava_800_4.png,20,29,sea-800,sea-800,correct
+Sambava_800_4.png,22,18,sea-800,sea-800,correct
+Sambava_800_4.png,226,257,sea-800,sea-800,correct
+Sambava_800_4.png,222,238,sea-800,sea-800,correct
+Sambava_800_4.png,222,213,sea-800,sea-800,correct
+Sambava_800_4.png,204,213,sea-800,sea-800,correct
+Sambava_800_4.png,204,231,sea-800,sea-800,correct
+Sambava_800_4.png,201,251,sea-800,sea-800,correct
+Sambava_800_4.png,180,256,sea-800,sea-800,correct
+Sambava_800_4.png,186,243,sea-800,sea-800,correct
+Sambava_800_4.png,192,261,sea-800,sea-800,correct
+Sambava_800_4.png,196,243,sea-800,sea-800,correct
+Sambava_800_4.png,210,240,sea-800,sea-800,correct
+Sambava_800_4.png,213,258,sea-800,sea-800,correct
+Sambava_800_4.png,216,227,sea-800,sea-800,correct
+Sambava_800_4.png,231,233,sea-800,sea-800,correct
+Sambava_800_4.png,233,246,sea-800,sea-800,correct
+Sambava_800_4.png,217,249,sea-800,sea-800,correct
+Sambava_800_4.png,239,256,sea-800,sea-800,correct
+Sambava_800_4.png,259,247,sea-800,sea-800,correct
+Sambava_800_4.png,247,241,sea-800,sea-800,correct
+Sambava_800_4.png,248,258,sea-800,sea-800,correct
+Sambava_800_4.png,252,232,sea-800,sea-800,correct
+Sambava_800_4.png,238,231,sea-800,sea-800,correct
+Sambava_800_4.png,244,210,sea-800,sea-800,correct
+Sambava_800_4.png,292,37,sea-800,sea-800,correct
+Sambava_800_4.png,283,46,sea-800,sea-800,correct
+Sambava_800_4.png,311,25,sea-800,sea-800,correct
+Sambava_800_4.png,264,25,sea-800,sea-800,correct
+Sambava_800_4.png,253,55,sea-800,sea-800,correct
+Sambava_800_4.png,199,23,sea-800,sea-800,correct
+Sambava_800_4.png,240,21,sea-800,sea-800,correct
+Sambava_800_4.png,226,48,sea-800,sea-800,correct
+Sambava_800_4.png,230,73,sea-800,sea-800,correct
+Sambava_800_4.png,230,96,sea-800,sea-800,correct
+Sambava_800_4.png,225,124,sea-800,sea-800,correct
+Sambava_800_4.png,222,154,sea-800,sea-800,correct
+Sambava_800_4.png,217,178,sea-800,sea-800,correct
+Sambava_800_4.png,211,169,sea-800,sea-800,correct
+Sambava_800_4.png,194,153,sea-800,sea-800,correct
+Sambava_800_4.png,199,129,sea-800,sea-800,correct
+Sambava_800_4.png,191,140,sea-800,sea-800,correct
+Sambava_800_4.png,212,138,sea-800,sea-800,correct
+Sambava_800_4.png,186,122,sea-800,sea-800,correct
+Sambava_800_4.png,161,133,sea-800,sea-800,correct
+Sambava_800_4.png,158,153,sea-800,sea-800,correct
+Sambava_800_4.png,150,86,sea-800,sea-800,correct
+Sambava_800_4.png,153,62,sea-800,sea-800,correct
+Sambava_800_4.png,160,43,sea-800,sea-800,correct
+Sambava_800_4.png,213,53,sea-800,sea-800,correct
+Sambava_800_4.png,226,63,sea-800,sea-800,correct
+Sambava_800_4.png,252,67,sea-800,sea-800,correct
+Sambava_800_4.png,260,74,sea-800,sea-800,correct
+Sambava_800_4.png,261,60,sea-800,sea-800,correct
+Sambava_800_4.png,236,67,sea-800,sea-800,correct
+Sambava_800_4.png,248,30,sea-800,sea-800,correct
+Sambava_800_4.png,251,42,sea-800,sea-800,correct
+Sambava_800_4.png,233,37,sea-800,sea-800,correct
+Sambava_800_4.png,258,36,sea-800,sea-800,correct
+Sambava_800_4.png,254,18,sea-800,sea-800,correct
+Sambava_800_4.png,235,7,sea-800,sea-800,correct
+Sambava_800_4.png,225,26,sea-800,sea-800,correct
+Sambava_800_4.png,254,5,sea-800,sea-800,correct
+Sambava_800_4.png,273,15,sea-800,sea-800,correct
+Sambava_800_4.png,275,31,sea-800,sea-800,correct
+Sambava_800_4.png,293,72,sea-800,sea-800,correct
+Sambava_800_4.png,300,40,sea-800,sea-800,correct
+Sambava_800_4.png,304,23,sea-800,sea-800,correct
+Sambava_800_4.png,294,28,sea-800,sea-800,correct
+Sambava_800_4.png,300,15,sea-800,sea-800,correct
+Sambava_800_4.png,312,4,sea-800,sea-800,correct
+Sambava_800_4.png,311,15,sea-800,sea-800,correct
+Sambava_800_4.png,325,18,sea-800,sea-800,correct
+Sambava_800_4.png,335,7,sea-800,sea-800,correct
+Sambava_800_4.png,351,2,sea-800,sea-800,correct
+Sambava_800_4.png,347,15,sea-800,sea-800,correct
+Sambava_800_4.png,333,28,sea-800,sea-800,correct
+Sambava_800_4.png,325,38,sea-800,sea-800,correct
+Sambava_800_4.png,315,30,sea-800,sea-800,correct
+Sambava_800_4.png,332,22,sea-800,sea-800,correct
+Sambava_800_4.png,338,14,sea-800,sea-800,correct
+Sambava_800_4.png,288,6,sea-800,sea-800,correct
+Sambava_800_4.png,289,6,sea-800,sea-800,correct
+Sambava_800_4.png,289,15,sea-800,sea-800,correct
+Sambava_800_4.png,298,3,sea-800,sea-800,correct
+Sambava_800_4.png,275,7,sea-800,sea-800,correct
+Sambava_800_4.png,341,244,sea-800,sea-800,correct
+Sambava_800_4.png,343,203,sea-800,sea-800,correct
+Sambava_800_4.png,362,223,sea-800,sea-800,correct
+Sambava_800_4.png,372,178,sea-800,sea-800,correct
+Sambava_800_4.png,342,157,sea-800,sea-800,correct
+Sambava_800_4.png,345,179,sea-800,sea-800,correct
+Sambava_800_4.png,383,200,sea-800,sea-800,correct
+Sambava_800_4.png,377,157,sea-800,sea-800,correct
+Sambava_800_4.png,389,137,sea-800,sea-800,correct
+Sambava_800_4.png,400,118,sea-800,sea-800,correct
+Sambava_800_4.png,408,104,sea-800,sea-800,correct
+Sambava_800_4.png,422,89,sea-800,sea-800,correct
+Sambava_800_4.png,435,83,sea-800,sea-800,correct
+Sambava_800_4.png,445,71,sea-800,sea-800,correct
+Sambava_800_4.png,424,74,sea-800,sea-800,correct
+Sambava_800_4.png,455,80,sea-800,sea-800,correct
+Sambava_800_4.png,439,97,sea-800,sea-800,correct
+Sambava_800_4.png,440,55,sea-800,sea-800,correct
+Sambava_800_4.png,443,29,sea-800,sea-800,correct
+Sambava_800_4.png,442,12,sea-800,sea-800,correct
+Sambava_800_4.png,457,5,sea-800,sea-800,correct
+Sambava_800_4.png,454,24,sea-800,sea-800,correct
+Sambava_800_4.png,391,181,sea-800,sea-800,correct
+Sambava_800_4.png,408,199,sea-800,sea-800,correct
+Sambava_800_4.png,408,231,sea-800,sea-800,correct
+Sambava_800_4.png,440,214,sea-800,sea-800,correct
+Sambava_800_4.png,442,237,sea-800,sea-800,correct
+Sambava_800_4.png,448,251,sea-800,sea-800,correct
+Sambava_800_4.png,464,231,sea-800,sea-800,correct
+Sambava_800_4.png,464,231,sea-800,sea-800,correct
+Sambava_800_4.png,471,217,sea-800,sea-800,correct
+Sambava_800_4.png,473,230,sea-800,sea-800,correct
+Sambava_800_4.png,450,226,sea-800,sea-800,correct
+Sambava_800_4.png,458,202,sea-800,sea-800,correct
+Sambava_800_4.png,439,198,sea-800,sea-800,correct
+Sambava_800_4.png,429,205,sea-800,sea-800,correct
+Sambava_800_4.png,423,226,sea-800,sea-800,correct
+Sambava_800_4.png,420,247,sea-800,sea-800,correct
+Sambava_800_4.png,409,262,sea-800,sea-800,correct
+Sambava_800_4.png,381,258,sea-800,sea-800,correct
+Sambava_800_4.png,379,240,sea-800,sea-800,correct
+Sambava_800_4.png,384,218,sea-800,sea-800,correct
+Sambava_800_4.png,399,214,sea-800,sea-800,correct
+Sambava_800_4.png,389,244,sea-800,sea-800,correct
+Sambava_800_4.png,306,228,sea-800,sea-800,correct
+Sambava_800_4.png,314,239,sea-800,sea-800,correct
+Sambava_800_4.png,327,223,sea-800,sea-800,correct
+Sambava_800_4.png,312,226,sea-800,sea-800,correct
+Sambava_800_4.png,326,233,sea-800,sea-800,correct
+Sambava_800_4.png,251,95,sea-800,sea-800,correct
+Sambava_800_4.png,237,82,sea-800,sea-800,correct
+Sambava_800_4.png,271,120,sea-800,sea-800,correct
+Sambava_800_4.png,250,129,sea-800,sea-800,correct
+Sambava_800_4.png,266,140,sea-800,sea-800,correct
+Sambava_800_4.png,262,135,sea-800,sea-800,correct
+Sambava_800_4.png,258,116,sea-800,sea-800,correct
+Sambava_800_4.png,241,115,sea-800,sea-800,correct
+Sambava_800_4.png,235,114,sea-800,sea-800,correct
+Sambava_800_4.png,235,135,sea-800,sea-800,correct
+Sambava_800_4.png,226,144,sea-800,sea-800,correct
+Sambava_800_4.png,222,137,sea-800,sea-800,correct
+Sambava_800_4.png,209,119,sea-800,sea-800,correct
+Sambava_800_4.png,203,119,sea-800,sea-800,correct
+Sambava_800_4.png,206,101,sea-800,sea-800,correct
+Sambava_800_4.png,184,101,sea-800,sea-800,correct
+Sambava_800_4.png,184,114,sea-800,sea-800,correct
+Sambava_800_4.png,172,103,sea-800,sea-800,correct
+Sambava_800_4.png,158,119,sea-800,sea-800,correct
+Sambava_800_4.png,141,120,sea-800,sea-800,correct
+Sambava_800_4.png,127,108,sea-800,sea-800,correct
+Sambava_800_4.png,138,133,sea-800,sea-800,correct
+Sambava_800_4.png,135,143,sea-800,sea-800,correct
+Sambava_800_4.png,155,161,sea-800,sea-800,correct
+Sambava_800_4.png,167,163,sea-800,sea-800,correct
+Sambava_800_4.png,186,171,sea-800,sea-800,correct
+Sambava_800_4.png,202,178,sea-800,sea-800,correct
+Sambava_800_4.png,195,208,sea-800,sea-800,correct
+Sambava_800_4.png,185,220,sea-800,sea-800,correct
+Sambava_800_4.png,176,224,sea-800,sea-800,correct
+Sambava_800_4.png,181,236,sea-800,sea-800,correct
+Sambava_800_4.png,176,246,sea-800,sea-800,correct
+Sambava_800_4.png,167,255,sea-800,sea-800,correct
+Sambava_800_4.png,164,242,sea-800,sea-800,correct
+Sambava_800_4.png,165,226,sea-800,sea-800,correct
+Sambava_800_4.png,157,220,sea-800,sea-800,correct
+Sambava_800_4.png,154,240,sea-800,sea-800,correct
+Sambava_800_4.png,147,253,sea-800,sea-800,correct
+Sambava_800_4.png,153,260,sea-800,sea-800,correct
+Sambava_800_4.png,138,258,sea-800,sea-800,correct
+Sambava_800_4.png,132,263,sea-800,sea-800,correct
+Sambava_800_4.png,133,246,sea-800,sea-800,correct
+Sambava_800_4.png,125,249,sea-800,sea-800,correct
+Sambava_800_4.png,137,239,sea-800,sea-800,correct
+Sambava_800_4.png,148,244,sea-800,sea-800,correct
+Sambava_800_4.png,148,215,sea-800,sea-800,correct
+Sambava_800_4.png,137,201,sea-800,sea-800,correct
+Sambava_800_4.png,147,200,sea-800,sea-800,correct
+Sambava_800_4.png,127,192,sea-800,sea-800,correct
+Sambava_800_4.png,118,201,sea-800,sea-800,correct
+Sambava_800_4.png,116,215,sea-800,sea-800,correct
+Sambava_800_4.png,99,213,sea-800,sea-800,correct
+Sambava_800_4.png,108,204,sea-800,sea-800,correct
+Sambava_800_4.png,99,194,sea-800,sea-800,correct
+Sambava_800_4.png,87,186,sea-800,sea-800,correct
+Sambava_800_4.png,75,186,sea-800,sea-800,correct
+Sambava_800_4.png,62,170,sea-800,sea-800,correct
+Sambava_800_4.png,67,163,sea-800,sea-800,correct
+Sambava_800_4.png,75,156,sea-800,sea-800,correct
+Sambava_800_4.png,85,168,sea-800,sea-800,correct
+Sambava_800_4.png,90,161,sea-800,sea-800,correct
+Sambava_800_4.png,81,161,sea-800,sea-800,correct
+Sambava_800_4.png,98,175,sea-800,sea-800,correct
+Sambava_800_4.png,106,168,sea-800,sea-800,correct
+Sambava_800_4.png,98,156,sea-800,sea-800,correct
+Sambava_800_4.png,88,145,sea-800,sea-800,correct
+Sambava_800_4.png,87,137,sea-800,sea-800,correct
+Sambava_800_4.png,77,137,sea-800,sea-800,correct
+Sambava_800_4.png,102,124,sea-800,sea-800,correct
+Sambava_800_4.png,103,134,sea-800,sea-800,correct
+Sambava_800_4.png,104,142,sea-800,sea-800,correct
+Sambava_800_4.png,104,149,sea-800,sea-800,correct
+Sambava_800_4.png,111,158,sea-800,sea-800,correct
+Sambava_800_4.png,119,156,sea-800,sea-800,correct
+Sambava_800_4.png,120,170,sea-800,sea-800,correct
+Sambava_800_4.png,118,192,sea-800,sea-800,correct
+Sambava_800_4.png,112,181,sea-800,sea-800,correct
+Sambava_800_4.png,129,182,sea-800,sea-800,correct
+Sambava_800_4.png,138,185,sea-800,sea-800,correct
+Sambava_800_4.png,142,178,sea-800,sea-800,correct
+Sambava_800_4.png,138,173,sea-800,sea-800,correct
+Sambava_800_4.png,143,161,sea-800,sea-800,correct
+Sambava_800_4.png,130,155,sea-800,sea-800,correct
+Sambava_800_4.png,141,155,sea-800,sea-800,correct
+Sambava_800_4.png,150,153,sea-800,sea-800,correct
+Sambava_800_4.png,154,142,sea-800,sea-800,correct
+Sambava_800_4.png,129,133,sea-800,sea-800,correct
+Sambava_800_4.png,122,133,sea-800,sea-800,correct
+Sambava_800_4.png,121,125,sea-800,sea-800,correct
+Sambava_800_4.png,119,122,sea-800,sea-800,correct
+Sambava_800_4.png,112,118,sea-800,sea-800,correct
+Sambava_800_4.png,101,110,sea-800,sea-800,correct
+Sambava_800_4.png,100,101,sea-800,sea-800,correct
+Sambava_800_4.png,89,94,sea-800,sea-800,correct
+Sambava_800_4.png,83,90,sea-800,sea-800,correct
+Sambava_800_4.png,76,103,sea-800,sea-800,correct
+Sambava_800_4.png,66,99,sea-800,sea-800,correct
+Sambava_800_4.png,67,81,sea-800,sea-800,correct
+Sambava_800_4.png,72,65,sea-800,sea-800,correct
+Sambava_800_4.png,75,54,sea-800,sea-800,correct
+Sambava_800_4.png,71,47,sea-800,sea-800,correct
+Sambava_800_4.png,76,38,sea-800,sea-800,correct
+Sambava_800_4.png,88,34,sea-800,sea-800,correct
+Sambava_800_4.png,95,22,sea-800,sea-800,correct
+Sambava_800_4.png,85,18,sea-800,sea-800,correct
+Sambava_800_4.png,78,19,sea-800,sea-800,correct
+Sambava_800_4.png,68,22,sea-800,sea-800,correct
+Sambava_800_4.png,60,25,sea-800,sea-800,correct
+Sambava_800_4.png,45,25,sea-800,sea-800,correct
+Sambava_800_4.png,36,33,sea-800,sea-800,correct
+Sambava_800_4.png,28,34,sea-800,sea-800,correct
+Sambava_800_4.png,16,35,sea-800,sea-800,correct
+Sambava_800_4.png,13,41,sea-800,sea-800,correct
+Sambava_800_4.png,11,53,sea-800,sea-800,correct
+Sambava_800_4.png,5,61,sea-800,sea-800,correct
+Sambava_800_4.png,6,72,sea-800,sea-800,correct
+Sambava_800_4.png,6,80,sea-800,sea-800,correct
+Sambava_800_4.png,6,92,sea-800,sea-800,correct
+Sambava_800_4.png,7,102,sea-800,sea-800,correct
+Sambava_800_4.png,14,110,sea-800,sea-800,correct
+Sambava_800_4.png,24,113,sea-800,sea-800,correct
+Sambava_800_4.png,31,118,sea-800,sea-800,correct
+Sambava_800_4.png,29,105,sea-800,sea-800,correct
+Sambava_800_4.png,22,96,sea-800,sea-800,correct
+Sambava_800_4.png,21,87,sea-800,sea-800,correct
+Sambava_800_4.png,24,81,sea-800,sea-800,correct
+Sambava_800_4.png,26,70,sea-800,sea-800,correct
+Sambava_800_4.png,19,67,sea-800,sea-800,correct
+Sambava_800_4.png,15,58,sea-800,sea-800,correct
+Sambava_800_4.png,15,47,sea-800,sea-800,correct
+Sambava_800_4.png,6,37,sea-800,sea-800,correct
+Sambava_800_4.png,5,29,sea-800,sea-800,correct
+Sambava_800_4.png,11,25,sea-800,sea-800,correct
+Sambava_800_4.png,8,13,sea-800,sea-800,correct
+Sambava_800_4.png,8,3,sea-800,sea-800,correct
+Sambava_800_4.png,16,22,sea-800,sea-800,correct
+Sambava_800_4.png,29,18,sea-800,sea-800,correct
+Sambava_800_4.png,22,10,sea-800,sea-800,correct
+Sambava_800_4.png,32,5,sea-800,sea-800,correct
+Sambava_800_4.png,38,5,sea-800,sea-800,correct
+Sambava_800_4.png,42,19,sea-800,sea-800,correct
+Sambava_800_4.png,38,18,sea-800,sea-800,correct
+Sambava_800_4.png,45,33,sea-800,sea-800,correct
+Sambava_800_4.png,39,45,sea-800,sea-800,correct
+Sambava_800_4.png,32,49,sea-800,sea-800,correct
+Sambava_800_4.png,33,61,sea-800,sea-800,correct
+Sambava_800_4.png,28,53,sea-800,sea-800,correct
+Sambava_800_4.png,503,210,sea-800,sea-800,correct
+Sambava_800_4.png,500,233,sea-800,sea-800,correct
+Sambava_800_4.png,500,253,sea-800,sea-800,correct
+Sambava_800_4.png,507,231,sea-800,sea-800,correct
+Sambava_800_4.png,503,193,sea-800,sea-800,correct
+Sambava_800_4.png,498,188,sea-800,sea-800,correct
+Sambava_800_4.png,495,215,sea-800,sea-800,correct
+Sambava_800_4.png,506,218,sea-800,sea-800,correct
+Sambava_800_4.png,495,240,sea-800,sea-800,correct
+Sambava_800_4.png,506,247,sea-800,sea-800,correct
+Sambava_800_4.png,503,261,sea-800,sea-800,correct
+Sambava_800_4.png,161,184,sea-800,sea-800,correct
+Sambava_800_4.png,178,199,sea-800,sea-800,correct
+Sambava_800_4.png,212,194,sea-800,sea-800,correct
+Sambava_800_4.png,224,165,sea-800,sea-800,correct
+Sambava_800_4.png,243,177,sea-800,sea-800,correct
+Sambava_800_4.png,231,204,sea-800,sea-800,correct
+Sambava_800_4.png,218,203,sea-800,sea-800,correct
+Sambava_800_4.png,142,99,sea-800,sea-800,correct
+Sambava_800_4.png,149,98,sea-800,sea-800,correct
+Sambava_800_4.png,126,92,sea-800,sea-800,correct
+Sambava_800_4.png,107,61,sea-800,sea-800,correct
+Sambava_800_4.png,169,42,sea-800,sea-800,correct
+Sambava_800_4.png,169,15,sea-800,sea-800,correct
+Sambava_800_4.png,186,3,sea-800,sea-800,correct
+Sambava_800_4.png,180,37,sea-800,sea-800,correct
+Sambava_800_4.png,200,71,sea-800,sea-800,correct
+Sambava_800_4.png,206,81,sea-800,sea-800,correct
+Sambava_800_4.png,238,96,sea-800,sea-800,correct
+Sambava_800_4.png,239,145,sea-800,sea-800,correct
+Sambava_800_4.png,254,160,sea-800,sea-800,correct
+Sambava_800_4.png,253,178,sea-800,sea-800,correct
+Sambava_800_4.png,254,200,sea-800,sea-800,correct
+Sambava_800_4.png,265,217,sea-800,sea-800,correct
+Sambava_800_4.png,276,158,sea-800,sea-800,correct
+Sambava_800_4.png,294,117,sea-800,sea-800,correct
+Sambava_800_4.png,295,135,sea-800,sea-800,correct
+Sambava_800_4.png,314,133,sea-800,sea-800,correct
+Sambava_800_4.png,312,115,sea-800,sea-800,correct
+Sambava_800_4.png,305,114,sea-800,sea-800,correct
+Sambava_800_4.png,284,130,sea-800,sea-800,correct
+Sambava_800_4.png,300,152,sea-800,sea-800,correct
+Sambava_800_4.png,301,140,sea-800,sea-800,correct
+Sambava_800_4.png,280,192,sea-800,sea-800,correct
+Sambava_800_4.png,282,220,sea-800,sea-800,correct
+Sambava_800_4.png,281,236,sea-800,sea-800,correct
+Sambava_800_4.png,287,250,sea-800,sea-800,correct
+Sambava_800_4.png,290,262,sea-800,sea-800,correct
+Sambava_800_4.png,299,261,sea-800,sea-800,correct
+Sambava_800_4.png,297,244,sea-800,sea-800,correct
+Sambava_800_4.png,287,226,sea-800,sea-800,correct
+Sambava_800_4.png,279,260,sea-800,sea-800,correct
+Sambava_800_4.png,265,255,sea-800,sea-800,correct
+Sambava_800_4.png,259,239,sea-800,sea-800,correct
+Sambava_800_4.png,273,236,sea-800,sea-800,correct
+Sambava_800_4.png,234,265,sea-800,sea-800,correct
+Sambava_800_4.png,209,246,sea-800,sea-800,correct
+Sambava_800_4.png,197,222,sea-800,sea-800,correct
+Sambava_800_4.png,226,223,sea-800,sea-800,correct
+Sambava_800_4.png,211,223,sea-800,sea-800,correct
+Sambava_800_4.png,199,144,sea-800,sea-800,correct
+Sambava_800_4.png,183,152,sea-800,sea-800,correct
+Sambava_800_4.png,187,163,sea-800,sea-800,correct
+Sambava_800_4.png,193,122,sea-800,sea-800,correct
+Sambava_800_4.png,194,96,sea-800,sea-800,correct
+Sambava_800_4.png,176,94,sea-800,sea-800,correct
+Sambava_800_4.png,173,78,sea-800,sea-800,correct
+Sambava_800_4.png,159,83,sea-800,sea-800,correct
+Sambava_800_4.png,180,60,sea-800,sea-800,correct
+Sambava_800_4.png,162,67,sea-800,sea-800,correct
+Sambava_800_4.png,190,43,sea-800,sea-800,correct
+Sambava_800_4.png,73,7,sea-800,sea-800,correct
+Sambava_800_4.png,86,4,sea-800,sea-800,correct
+Sambava_800_4.png,105,5,sea-800,sea-800,correct
+Sambava_800_4.png,125,26,sea-800,sea-800,correct
+Sambava_800_4.png,145,39,sea-800,sea-800,correct
+Sambava_800_4.png,142,10,sea-800,sea-800,correct
+Sambava_800_4.png,153,25,sea-800,sea-800,correct
+Sambava_800_4.png,169,6,sea-800,sea-800,correct
+Sambava_800_4.png,177,20,sea-800,sea-800,correct
+Sambava_800_4.png,157,27,sea-800,sea-800,correct
+Sambava_800_4.png,119,22,sea-800,sea-800,correct
+Sambava_800_4.png,117,2,sea-800,sea-800,correct
+Sambava_800_4.png,104,38,sea-800,sea-800,correct
+Sambava_800_4.png,95,61,sea-800,sea-800,correct
+Sambava_800_4.png,201,12,sea-800,sea-800,correct
+Sambava_800_4.png,224,5,sea-800,sea-800,correct
+Sambava_800_4.png,204,5,sea-800,sea-800,correct
+Sambava_800_4.png,241,40,sea-800,sea-800,correct
+Sambava_800_4.png,280,104,sea-800,sea-800,correct
+Sambava_800_4.png,290,95,sea-800,sea-800,correct
+Sambava_800_4.png,276,88,sea-800,sea-800,correct
+Sambava_800_4.png,263,15,sea-800,sea-800,correct
+Sambava_800_4.png,352,104,sea-800,sea-800,correct
+Sambava_800_4.png,335,129,sea-800,sea-800,correct
+Sambava_800_4.png,332,146,sea-800,sea-800,correct
+Sambava_800_4.png,347,147,sea-800,sea-800,correct
+Sambava_800_4.png,344,131,sea-800,sea-800,correct
+Sambava_800_4.png,343,115,sea-800,sea-800,correct
+Sambava_800_4.png,323,144,sea-800,sea-800,correct
+Sambava_800_4.png,320,160,sea-800,sea-800,correct
+Sambava_800_4.png,309,171,sea-800,sea-800,correct
+Sambava_800_4.png,302,187,sea-800,sea-800,correct
+Sambava_800_4.png,302,197,sea-800,sea-800,correct
+Sambava_800_4.png,305,208,sea-800,sea-800,correct
+Sambava_800_4.png,310,216,sea-800,sea-800,correct
+Sambava_800_4.png,332,196,sea-800,sea-800,correct
+Sambava_800_4.png,324,181,sea-800,sea-800,correct
+Sambava_800_4.png,328,211,sea-800,sea-800,correct
+Sambava_800_4.png,342,221,sea-800,sea-800,correct
+Sambava_800_4.png,343,230,sea-800,sea-800,correct
+Sambava_800_4.png,330,245,sea-800,sea-800,correct
+Sambava_800_4.png,323,254,sea-800,sea-800,correct
+Sambava_800_4.png,324,264,sea-800,sea-800,correct
+Sambava_800_4.png,335,264,sea-800,sea-800,correct
+Sambava_800_4.png,354,261,sea-800,sea-800,correct
+Sambava_800_4.png,335,257,sea-800,sea-800,correct
+Sambava_800_4.png,351,253,sea-800,sea-800,correct
+Sambava_800_4.png,352,237,sea-800,sea-800,correct
+Sambava_800_4.png,364,243,sea-800,sea-800,correct
+Sambava_800_4.png,367,254,sea-800,sea-800,correct
+Sambava_800_4.png,370,205,sea-800,sea-800,correct
+Sambava_800_4.png,365,192,sea-800,sea-800,correct
+Sambava_800_4.png,360,176,sea-800,sea-800,correct
+Sambava_800_4.png,362,157,sea-800,sea-800,correct
+Sambava_800_4.png,356,146,sea-800,sea-800,correct
+Sambava_800_4.png,351,174,sea-800,sea-800,correct
+Sambava_800_4.png,352,196,sea-800,sea-800,correct
+Sambava_800_4.png,334,188,sea-800,sea-800,correct
+Sambava_800_4.png,334,173,sea-800,sea-800,correct
+Sambava_800_4.png,329,160,sea-800,sea-800,correct
+Sambava_800_4.png,358,168,sea-800,sea-800,correct
+Sambava_800_4.png,353,205,sea-800,sea-800,correct
+Sambava_800_4.png,351,219,sea-800,sea-800,correct
+Sambava_800_4.png,367,219,sea-800,sea-800,correct
+Sambava_800_4.png,378,228,sea-800,sea-800,correct
+Sambava_800_4.png,404,243,sea-800,sea-800,correct
+Sambava_800_4.png,393,258,sea-800,sea-800,correct
+Sambava_800_4.png,391,233,sea-800,sea-800,correct
+Sambava_800_4.png,377,247,sea-800,sea-800,correct
+Sambava_800_4.png,371,236,sea-800,sea-800,correct
+Sambava_800_4.png,357,213,sea-800,sea-800,correct
+Sambava_800_4.png,407,251,sea-800,sea-800,correct
+Sambava_800_4.png,418,264,sea-800,sea-800,correct
+Sambava_800_4.png,397,254,sea-800,sea-800,correct
+Sambava_800_4.png,434,260,sea-800,sea-800,correct
+Sambava_800_4.png,430,249,sea-800,sea-800,correct
+Sambava_800_4.png,430,236,sea-800,sea-800,correct
+Sambava_800_4.png,416,234,sea-800,sea-800,correct
+Sambava_800_4.png,414,240,sea-800,sea-800,correct
+Sambava_800_4.png,419,207,sea-800,sea-800,correct
+Sambava_800_4.png,399,225,sea-800,sea-800,correct
+Sambava_800_4.png,394,205,sea-800,sea-800,correct
+Sambava_800_4.png,397,196,sea-800,sea-800,correct
+Sambava_800_4.png,385,195,sea-800,sea-800,correct
+Sambava_800_4.png,389,169,sea-800,sea-800,correct
+Sambava_800_4.png,391,157,sea-800,sea-800,correct
+Sambava_800_4.png,383,151,sea-800,sea-800,correct
+Sambava_800_4.png,373,149,sea-800,sea-800,correct
+Sambava_800_4.png,370,153,sea-800,sea-800,correct
+Sambava_800_4.png,369,161,sea-800,sea-800,correct
+Sambava_800_4.png,374,167,sea-800,sea-800,correct
+Sambava_800_4.png,378,171,sea-800,sea-800,correct
+Sambava_800_4.png,384,177,sea-800,sea-800,correct
+Sambava_800_4.png,382,182,sea-800,sea-800,correct
+Sambava_800_4.png,358,184,sea-800,sea-800,correct
+Sambava_800_4.png,351,186,sea-800,sea-800,correct
+Sambava_800_4.png,346,192,sea-800,sea-800,correct
+Sambava_800_4.png,402,183,sea-800,sea-800,correct
+Sambava_800_4.png,399,172,sea-800,sea-800,correct
+Sambava_800_4.png,430,170,sea-800,sea-800,correct
+Sambava_800_4.png,421,183,sea-800,sea-800,correct
+Sambava_800_4.png,424,196,sea-800,sea-800,correct
+Sambava_800_4.png,453,214,sea-800,sea-800,correct
+Sambava_800_4.png,460,220,sea-800,sea-800,correct
+Sambava_800_4.png,414,216,sea-800,sea-800,correct
+Sambava_800_4.png,436,247,sea-800,sea-800,correct
+Sambava_800_4.png,449,262,sea-800,sea-800,correct
+Sambava_800_4.png,422,257,sea-800,sea-800,correct
+Sambava_800_4.png,421,265,sea-800,sea-800,correct
+Sambava_800_4.png,399,265,sea-800,sea-800,correct
+Sambava_800_4.png,382,265,sea-800,sea-800,correct
+Sambava_800_4.png,384,250,sea-800,sea-800,correct
+Sambava_800_4.png,396,236,sea-800,sea-800,correct
+Sambava_800_4.png,405,214,sea-800,sea-800,correct
+Sambava_800_4.png,389,214,sea-800,sea-800,correct
+Sambava_800_4.png,409,205,sea-800,sea-800,correct
+Sambava_800_4.png,409,188,sea-800,sea-800,correct
+Sambava_800_4.png,380,212,sea-800,sea-800,correct
+Sambava_800_4.png,372,194,sea-800,sea-800,correct
+Sambava_800_4.png,363,207,sea-800,sea-800,correct
+Sambava_800_4.png,378,218,sea-800,sea-800,correct
+Sambava_800_4.png,352,158,sea-800,sea-800,correct
+Sambava_800_4.png,360,110,sea-800,sea-800,correct
+Sambava_800_4.png,360,93,sea-800,sea-800,correct
+Sambava_800_4.png,377,80,sea-800,sea-800,correct
+Sambava_800_4.png,386,66,sea-800,sea-800,correct
+Sambava_800_4.png,381,96,sea-800,sea-800,correct
+Sambava_800_4.png,376,119,sea-800,sea-800,correct
+Sambava_800_4.png,368,99,sea-800,sea-800,correct
+Sambava_800_4.png,363,79,sea-800,sea-800,correct
+Sambava_800_4.png,371,91,sea-800,sea-800,correct
+Sambava_800_4.png,374,72,sea-800,sea-800,correct
+Sambava_800_4.png,346,123,sea-800,sea-800,correct
+Sambava_800_4.png,333,95,sea-800,sea-800,correct
+Sambava_800_4.png,326,89,sea-800,sea-800,correct
+Sambava_800_4.png,420,144,sea-800,sea-800,correct
+Sambava_800_4.png,401,145,sea-800,sea-800,correct
+Sambava_800_4.png,420,159,sea-800,sea-800,correct
+Sambava_800_4.png,422,127,sea-800,sea-800,correct
+Sambava_800_4.png,391,100,sea-800,sea-800,correct
+Sambava_800_4.png,397,81,sea-800,sea-800,correct
+Sambava_800_4.png,174,122,sea-800,sea-800,correct
+Sambava_800_4.png,162,114,sea-800,sea-800,correct
+Sambava_800_4.png,340,103,sea-800,sea-800,correct
+Sambava_800_4.png,336,57,sea-800,sea-800,correct
+Sambava_800_4.png,339,40,sea-800,sea-800,correct
+Sambava_800_4.png,351,62,sea-800,sea-800,correct
+Sambava_800_4.png,392,126,sea-800,sea-800,correct
+Sambava_800_4.png,452,182,sea-800,sea-800,correct
+Sambava_800_4.png,471,199,sea-800,sea-800,correct
+Sambava_800_4.png,477,203,sea-800,sea-800,correct
+Sambava_800_4.png,481,213,sea-800,sea-800,correct
+Sambava_800_4.png,478,240,sea-800,sea-800,correct
+Sambava_800_4.png,472,256,sea-800,sea-800,correct
+Sambava_800_4.png,459,257,sea-800,sea-800,correct
+Sambava_800_4.png,459,244,sea-800,sea-800,correct
+Sambava_800_4.png,464,246,sea-800,sea-800,correct
+Sambava_800_4.png,432,229,sea-800,sea-800,correct
+Sambava_800_4.png,430,227,sea-800,sea-800,correct
+Sambava_800_4.png,447,197,sea-800,sea-800,correct
+Sambava_800_4.png,424,215,sea-800,sea-800,correct
+Sambava_800_4.png,440,225,sea-800,sea-800,correct
+Sambava_800_4.png,428,155,sea-800,sea-800,correct
+Sambava_800_4.png,451,91,sea-800,sea-800,correct
+Sambava_800_4.png,433,66,sea-800,sea-800,correct
+Sambava_800_4.png,456,69,sea-800,sea-800,correct
+Sambava_800_4.png,489,55,sea-800,sea-800,correct
+Sambava_800_4.png,461,46,sea-800,sea-800,correct
+Sambava_800_4.png,441,45,sea-800,sea-800,correct
+Sambava_800_4.png,432,44,sea-800,sea-800,correct
+Sambava_800_4.png,455,36,sea-800,sea-800,correct
+Sambava_800_4.png,455,19,sea-800,sea-800,correct
+Sambava_800_4.png,469,5,sea-800,sea-800,correct
+Sambava_800_4.png,438,24,sea-800,sea-800,correct
+Sambava_800_4.png,445,3,sea-800,sea-800,correct
+Sambava_800_4.png,425,5,sea-800,sea-800,correct
+Sambava_800_4.png,410,19,sea-800,sea-800,correct
+Sambava_800_4.png,424,35,sea-800,sea-800,correct
+Sambava_800_4.png,377,53,sea-800,sea-800,correct
+Sambava_800_4.png,361,11,sea-800,sea-800,correct
+Sambava_800_4.png,353,29,sea-800,sea-800,correct
+Sambava_800_4.png,369,64,sea-800,sea-800,correct
+Sambava_800_4.png,301,54,sea-800,sea-800,correct
+Sambava_800_4.png,277,81,sea-800,sea-800,correct
+Sambava_800_4.png,285,119,sea-800,sea-800,correct
+Sambava_800_4.png,259,105,sea-800,sea-800,correct
+Sambava_800_4.png,252,106,sea-800,sea-800,correct
+Sambava_800_4.png,269,91,sea-800,sea-800,correct
+Sambava_800_4.png,240,153,sea-800,sea-800,correct
+Sambava_800_4.png,230,156,sea-800,sea-800,correct
+Sambava_800_4.png,251,154,sea-800,sea-800,correct
+Sambava_800_4.png,258,210,sea-800,sea-800,correct
+Sambava_800_4.png,275,204,sea-800,sea-800,correct
+Sambava_800_4.png,286,215,sea-800,sea-800,correct
+Sambava_800_4.png,253,191,sea-800,sea-800,correct
+Sambava_800_4.png,270,168,sea-800,sea-800,correct
+Sambava_800_4.png,288,151,sea-800,sea-800,correct
+Sambava_800_4.png,247,119,sea-800,sea-800,correct
+Sambava_800_4.png,415,166,sea-800,sea-800,correct
+Sambava_800_4.png,422,176,sea-800,sea-800,correct
+Sambava_800_4.png,397,169,sea-800,sea-800,correct
+Sambava_800_4.png,439,166,sea-800,sea-800,correct
+Sambava_800_4.png,261,58,sea-800,sea-800,correct
+Sambava_800_4.png,275,71,sea-800,sea-800,correct
+Sambava_800_4.png,282,74,sea-800,sea-800,correct
+Sambava_800_4.png,453,115,sea-800,sea-800,correct
+Sambava_800_4.png,463,124,sea-800,sea-800,correct
+Sambava_800_4.png,481,171,sea-800,sea-800,correct
+Sambava_800_4.png,466,167,sea-800,sea-800,correct
+Sambava_800_4.png,490,176,sea-800,sea-800,correct
+Sambava_800_4.png,489,200,sea-800,sea-800,correct
+Sambava_800_4.png,480,196,sea-800,sea-800,correct
+Sambava_800_4.png,465,189,sea-800,sea-800,correct
+Sambava_800_4.png,487,212,sea-800,sea-800,correct
+Sambava_800_4.png,487,230,sea-800,sea-800,correct
+Sambava_800_4.png,486,246,sea-800,sea-800,correct
+Sambava_800_4.png,485,263,sea-800,sea-800,correct
+Sambava_800_4.png,507,180,sea-800,sea-800,correct
+Sambava_800_4.png,507,160,sea-800,sea-800,correct
+Sambava_800_4.png,487,152,sea-800,sea-800,correct
+Sambava_800_4.png,476,144,sea-800,sea-800,correct
+Sambava_800_4.png,504,118,sea-800,sea-800,correct
+Sambava_800_4.png,489,117,sea-800,sea-800,correct
+Sambava_800_4.png,505,95,sea-800,sea-800,correct
+Sambava_800_4.png,504,68,sea-800,sea-800,correct
+Sambava_800_4.png,509,48,sea-800,sea-800,correct
+Sambava_800_4.png,481,65,sea-800,sea-800,correct
+Sambava_800_4.png,465,63,sea-800,sea-800,correct
+Sambava_800_4.png,478,20,sea-800,sea-800,correct
+Sambava_800_4.png,465,25,sea-800,sea-800,correct
+Sambava_800_4.png,463,58,sea-800,sea-800,correct
+Sambava_800_4.png,449,42,sea-800,sea-800,correct
+Sambava_800_4.png,445,79,sea-800,sea-800,correct
+Sambava_800_4.png,433,73,sea-800,sea-800,correct
+Sambava_800_4.png,412,69,sea-800,sea-800,correct
+Sambava_800_4.png,422,81,sea-800,sea-800,correct
+Sambava_800_4.png,410,88,sea-800,sea-800,correct
+Sambava_800_4.png,394,72,sea-800,sea-800,correct
+Sambava_800_4.png,400,90,sea-800,sea-800,correct
+Sambava_800_4.png,419,103,sea-800,sea-800,correct
+Sambava_800_4.png,411,97,sea-800,sea-800,correct
+Sambava_800_4.png,432,96,sea-800,sea-800,correct
+Sambava_800_4.png,427,115,sea-800,sea-800,correct
+Sambava_800_4.png,409,123,sea-800,sea-800,correct
+Sambava_800_4.png,419,133,sea-800,sea-800,correct
+Sambava_800_4.png,409,147,sea-800,sea-800,correct
+Sambava_800_4.png,399,135,sea-800,sea-800,correct
+Sambava_800_4.png,380,130,sea-800,sea-800,correct
+Sambava_800_4.png,363,127,sea-800,sea-800,correct
+Sambava_800_4.png,378,106,sea-800,sea-800,correct
+Sambava_800_4.png,442,132,sea-800,sea-800,correct
+Sambava_800_4.png,458,177,sea-800,sea-800,correct
+Sambava_800_4.png,479,180,sea-800,sea-800,correct
+Sambava_800_4.png,478,223,sea-800,sea-800,correct
+Sambava_800_4.png,477,249,sea-800,sea-800,correct
+Sambava_800_4.png,466,262,sea-800,sea-800,correct
+Sambava_800_4.png,448,238,sea-800,sea-800,correct
+Sambava_800_4.png,464,208,sea-800,sea-800,correct
+Sambava_800_4.png,444,205,sea-800,sea-800,correct
+Sambava_800_4.png,456,189,sea-800,sea-800,correct
+Sambava_800_4.png,437,189,sea-800,sea-800,correct
+Sambava_800_4.png,443,169,sea-800,sea-800,correct
+Sambava_800_4.png,478,102,sea-800,sea-800,correct
+Sambava_800_4.png,483,123,sea-800,sea-800,correct
+Sambava_800_4.png,464,97,sea-800,sea-800,correct
+Sambava_800_4.png,478,78,sea-800,sea-800,correct
+Sambava_800_4.png,465,76,sea-800,sea-800,correct
+Sambava_800_4.png,497,62,sea-800,sea-800,correct
+Sambava_800_4.png,477,42,sea-800,sea-800,correct
+Sambava_800_4.png,479,31,sea-800,sea-800,correct
+Triple P Kabacan_800_1.png,366,83,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,284,162,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,403,34,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,375,200,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,394,176,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,384,183,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,363,182,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,361,200,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,358,196,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,374,195,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,404,180,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,408,172,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,408,207,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,400,200,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,411,188,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,418,170,non-green-800,sea-800,wrong
+Triple P Kabacan_800_1.png,403,192,non-green-800,sea-800,wrong
+Triple P Kabacan_800_1.png,383,197,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,364,221,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,352,221,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,351,207,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,359,211,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,356,215,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,351,198,non-green-800,sea-800,wrong
+Triple P Kabacan_800_1.png,375,180,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,365,192,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,358,187,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,382,172,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,367,172,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,394,167,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,255,193,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,263,187,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,270,180,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,277,175,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,269,193,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,262,195,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,281,185,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,274,184,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,279,193,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,293,188,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,289,177,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,286,188,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,297,179,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,303,186,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,310,176,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,312,183,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,320,175,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,323,182,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,329,173,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,337,173,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,335,181,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,285,136,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,54,70,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,47,61,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,57,78,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,54,56,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,47,51,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,51,21,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,48,44,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,47,40,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,70,74,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,56,62,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,14,3,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,52,75,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,65,79,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,43,77,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,35,73,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,49,69,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,43,54,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,43,46,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,38,39,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,31,55,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,35,62,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,9,6,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,9,6,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,343,40,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,333,52,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,335,35,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,340,48,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,334,44,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,359,39,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,351,44,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,352,31,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,341,30,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,366,32,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,369,41,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,376,35,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,386,37,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,393,34,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,399,39,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,407,41,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,368,110,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,412,177,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,390,83,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,376,83,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,352,124,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,171,208,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,295,85,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,301,75,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,287,145,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,314,138,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,291,77,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,376,135,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,8,47,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,15,46,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,10,55,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,8,63,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,18,65,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,17,51,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,371,127,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,325,88,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,114,18,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,80,76,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,44,27,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,45,18,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,57,25,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,52,15,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,52,30,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,220,63,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,224,93,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,214,91,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,208,101,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,205,86,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,206,67,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,206,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,218,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,212,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,215,63,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,237,64,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,253,65,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,256,60,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,234,69,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,223,68,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,215,72,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,209,72,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,204,72,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,206,77,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,203,81,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,222,77,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,228,78,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,225,82,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,241,84,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,236,83,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,233,88,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,228,88,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,217,87,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,211,77,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,212,68,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,231,64,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,240,69,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,244,69,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,247,74,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,250,80,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,246,84,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,238,89,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,222,88,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,214,81,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,208,91,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,211,86,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,217,77,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,287,47,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,293,47,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,285,42,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,290,43,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,293,38,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,296,43,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,282,37,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,266,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,263,41,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,296,23,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,305,23,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,230,30,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,236,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,232,34,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,222,34,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,213,29,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,220,20,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,230,20,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,236,21,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,242,21,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,245,26,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,250,26,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,247,30,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,239,26,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,205,24,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,211,23,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,211,34,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,207,48,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,212,48,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,257,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,252,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,254,27,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,267,17,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,269,21,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,247,21,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,244,16,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,250,16,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,238,16,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,233,15,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,272,27,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,282,27,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,275,22,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,272,17,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,205,43,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,214,19,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,208,19,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,204,19,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,212,14,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,205,14,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,291,23,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,285,24,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,280,23,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,278,18,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,296,33,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,246,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,240,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,237,45,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,219,39,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,262,61,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,259,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,261,26,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,263,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,258,22,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,293,27,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,252,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,254,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,254,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,450,110,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,450,105,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,446,108,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,454,109,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,431,115,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,436,113,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,431,110,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,441,111,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,445,114,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,439,117,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,435,118,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,464,120,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,459,122,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,454,120,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,485,81,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,475,82,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,475,87,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,89,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,466,92,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,460,89,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,460,94,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,451,95,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,445,97,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,480,101,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,469,100,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,465,98,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,465,109,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,108,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,106,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,483,109,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,456,98,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,450,100,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,456,92,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,473,125,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,449,127,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,453,130,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,458,132,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,468,133,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,473,130,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,478,122,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,450,121,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,136,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,463,136,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,453,141,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,459,140,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,455,136,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,477,143,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,481,147,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,487,139,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,483,136,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,482,131,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,487,133,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,487,144,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,482,141,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,506,135,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,501,138,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,501,132,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,421,115,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,411,103,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,409,100,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,421,103,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,422,98,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,114,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,469,111,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,111,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,484,114,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,117,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,483,119,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,120,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,494,103,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,485,104,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,493,109,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,488,116,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,127,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,507,129,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,507,123,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,498,106,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,105,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,109,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,470,95,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,475,93,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,94,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,97,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,494,88,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,499,84,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,504,82,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,87,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,508,85,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,484,97,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,485,93,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,489,90,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,494,83,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,489,80,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,489,85,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,480,84,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,474,64,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,468,64,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,497,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,500,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,471,40,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,467,39,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,469,45,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,442,42,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,458,44,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,452,43,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,457,52,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,465,49,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,462,52,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,481,69,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,486,69,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,490,62,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,496,60,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,505,65,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,488,41,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,470,35,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,461,38,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,455,38,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,453,34,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,433,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,423,35,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,420,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,425,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,431,31,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,428,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,455,114,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,460,112,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,459,116,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,440,122,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,435,124,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,442,94,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,451,88,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,447,86,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,460,101,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,449,76,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,453,63,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,456,60,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,444,62,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,448,57,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,459,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,463,62,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,464,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,451,52,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,441,51,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,438,47,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,433,47,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,435,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,437,32,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,487,51,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,492,51,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,491,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,505,60,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,473,30,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,479,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,481,59,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,499,91,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,509,90,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,509,96,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,509,101,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,504,99,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,508,118,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,115,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,503,120,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,13,67,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,11,41,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,328,133,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,408,86,non-green-800,non-green-800,correct
+Triple P Kabacan_800_1.png,284,216,green-800,green-800,correct
+Triple P Kabacan_800_1.png,291,219,green-800,green-800,correct
+Triple P Kabacan_800_1.png,301,217,green-800,green-800,correct
+Triple P Kabacan_800_1.png,292,212,green-800,green-800,correct
+Triple P Kabacan_800_1.png,307,206,green-800,green-800,correct
+Triple P Kabacan_800_1.png,316,203,green-800,green-800,correct
+Triple P Kabacan_800_1.png,324,219,green-800,green-800,correct
+Triple P Kabacan_800_1.png,328,201,green-800,green-800,correct
+Triple P Kabacan_800_1.png,329,213,green-800,green-800,correct
+Triple P Kabacan_800_1.png,305,198,green-800,green-800,correct
+Triple P Kabacan_800_1.png,308,222,green-800,green-800,correct
+Triple P Kabacan_800_1.png,313,215,green-800,green-800,correct
+Triple P Kabacan_800_1.png,225,194,green-800,green-800,correct
+Triple P Kabacan_800_1.png,227,186,green-800,green-800,correct
+Triple P Kabacan_800_1.png,219,188,green-800,green-800,correct
+Triple P Kabacan_800_1.png,237,185,green-800,green-800,correct
+Triple P Kabacan_800_1.png,229,181,green-800,green-800,correct
+Triple P Kabacan_800_1.png,241,179,green-800,green-800,correct
+Triple P Kabacan_800_1.png,251,179,green-800,green-800,correct
+Triple P Kabacan_800_1.png,246,185,green-800,green-800,correct
+Triple P Kabacan_800_1.png,237,192,green-800,green-800,correct
+Triple P Kabacan_800_1.png,231,198,green-800,green-800,correct
+Triple P Kabacan_800_1.png,222,201,green-800,green-800,correct
+Triple P Kabacan_800_1.png,416,6,green-800,green-800,correct
+Triple P Kabacan_800_1.png,426,14,green-800,green-800,correct
+Triple P Kabacan_800_1.png,428,5,green-800,green-800,correct
+Triple P Kabacan_800_1.png,437,13,green-800,green-800,correct
+Triple P Kabacan_800_1.png,437,5,green-800,green-800,correct
+Triple P Kabacan_800_1.png,448,14,green-800,green-800,correct
+Triple P Kabacan_800_1.png,451,5,green-800,green-800,correct
+Triple P Kabacan_800_1.png,457,18,green-800,green-800,correct
+Triple P Kabacan_800_1.png,460,8,green-800,green-800,correct
+Triple P Kabacan_800_1.png,468,16,green-800,green-800,correct
+Triple P Kabacan_800_1.png,471,8,green-800,green-800,correct
+Triple P Kabacan_800_1.png,480,6,green-800,green-800,correct
+Triple P Kabacan_800_1.png,480,14,green-800,green-800,correct
+Triple P Kabacan_800_1.png,478,22,green-800,green-800,correct
+Triple P Kabacan_800_1.png,468,22,green-800,green-800,correct
+Triple P Kabacan_800_1.png,447,20,green-800,green-800,correct
+Triple P Kabacan_800_1.png,303,9,green-800,green-800,correct
+Triple P Kabacan_800_1.png,468,222,green-800,green-800,correct
+Triple P Kabacan_800_1.png,481,222,green-800,green-800,correct
+Triple P Kabacan_800_1.png,475,228,green-800,green-800,correct
+Triple P Kabacan_800_1.png,468,235,green-800,green-800,correct
+Triple P Kabacan_800_1.png,470,243,green-800,green-800,correct
+Triple P Kabacan_800_1.png,448,180,green-800,green-800,correct
+Triple P Kabacan_800_1.png,440,182,green-800,green-800,correct
+Triple P Kabacan_800_1.png,463,179,green-800,green-800,correct
+Triple P Kabacan_800_1.png,457,186,green-800,green-800,correct
+Triple P Kabacan_800_1.png,49,218,green-800,green-800,correct
+Triple P Kabacan_800_1.png,70,176,green-800,green-800,correct
+Triple P Kabacan_800_1.png,97,138,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,92,126,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,95,131,green-800,green-800,correct
+Triple P Kabacan_800_1.png,111,147,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,130,148,green-800,green-800,correct
+Triple P Kabacan_800_1.png,148,208,green-800,green-800,correct
+Triple P Kabacan_800_1.png,471,166,green-800,green-800,correct
+Triple P Kabacan_800_1.png,491,207,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,366,11,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,159,54,green-800,green-800,correct
+Triple P Kabacan_800_1.png,150,107,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,146,115,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,134,114,green-800,green-800,correct
+Triple P Kabacan_800_1.png,134,108,green-800,green-800,correct
+Triple P Kabacan_800_1.png,220,73,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,225,73,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,231,73,coconut-800,green-800,wrong
+Triple P Kabacan_800_1.png,225,63,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,229,59,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,223,59,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,210,53,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,215,53,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,204,53,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,202,58,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,204,62,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,210,107,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,201,110,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,206,96,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,216,97,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,213,102,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,256,70,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,258,65,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,264,65,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,270,66,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,251,70,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,247,64,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,270,56,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,268,50,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,265,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,263,51,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,285,52,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,271,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,237,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,242,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,240,59,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,226,54,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,235,49,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,224,49,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,219,48,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,216,44,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,222,44,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,256,51,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,254,55,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,249,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,257,40,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,260,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,267,41,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,271,36,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,282,46,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,245,60,coconut-800,coconut-800,correct
+Triple P Kabacan_800_1.png,233,127,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,255,107,green-800,green-800,correct
+Triple P Kabacan_800_1.png,244,122,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,148,192,green-800,green-800,correct
+Triple P Kabacan_800_1.png,213,155,green-800,green-800,correct
+Triple P Kabacan_800_1.png,175,107,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,140,197,green-800,green-800,correct
+Triple P Kabacan_800_1.png,110,175,green-800,green-800,correct
+Triple P Kabacan_800_1.png,96,158,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,144,228,green-800,green-800,correct
+Triple P Kabacan_800_1.png,148,199,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,254,91,green-800,green-800,correct
+Triple P Kabacan_800_1.png,383,54,green-800,green-800,correct
+Triple P Kabacan_800_1.png,387,56,green-800,green-800,correct
+Triple P Kabacan_800_1.png,381,62,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,391,49,green-800,green-800,correct
+Triple P Kabacan_800_1.png,347,65,green-800,green-800,correct
+Triple P Kabacan_800_1.png,299,3,green-800,green-800,correct
+Triple P Kabacan_800_1.png,306,2,green-800,green-800,correct
+Triple P Kabacan_800_1.png,85,115,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,154,187,green-800,green-800,correct
+Triple P Kabacan_800_1.png,179,249,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,135,220,green-800,green-800,correct
+Triple P Kabacan_800_1.png,147,176,green-800,green-800,correct
+Triple P Kabacan_800_1.png,144,161,green-800,green-800,correct
+Triple P Kabacan_800_1.png,51,253,green-800,green-800,correct
+Triple P Kabacan_800_1.png,175,260,green-800,green-800,correct
+Triple P Kabacan_800_1.png,139,172,green-800,green-800,correct
+Triple P Kabacan_800_1.png,132,193,green-800,green-800,correct
+Triple P Kabacan_800_1.png,142,211,green-800,green-800,correct
+Triple P Kabacan_800_1.png,166,261,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,158,251,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,138,98,green-800,green-800,correct
+Triple P Kabacan_800_1.png,482,164,green-800,green-800,correct
+Triple P Kabacan_800_1.png,493,167,green-800,green-800,correct
+Triple P Kabacan_800_1.png,118,199,green-800,green-800,correct
+Triple P Kabacan_800_1.png,118,218,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,88,243,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,83,142,green-800,green-800,correct
+Triple P Kabacan_800_1.png,74,132,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,151,248,green-800,green-800,correct
+Triple P Kabacan_800_1.png,134,234,green-800,green-800,correct
+Triple P Kabacan_800_1.png,134,226,green-800,green-800,correct
+Triple P Kabacan_800_1.png,136,208,green-800,green-800,correct
+Triple P Kabacan_800_1.png,142,190,green-800,green-800,correct
+Triple P Kabacan_800_1.png,113,208,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,118,211,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,119,205,green-800,green-800,correct
+Triple P Kabacan_800_1.png,163,149,green-800,green-800,correct
+Triple P Kabacan_800_1.png,150,133,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,146,120,green-800,green-800,correct
+Triple P Kabacan_800_1.png,113,230,green-800,green-800,correct
+Triple P Kabacan_800_1.png,113,223,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,164,124,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,163,91,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,181,69,green-800,coconut-800,wrong
+Triple P Kabacan_800_1.png,126,100,green-800,green-800,correct

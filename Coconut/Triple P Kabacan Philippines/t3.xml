@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2831010</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-08-10 02:43:24.111540+00:00</created>
+      <updated>2025-08-10 02:50:52.561103+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2832895</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/2831010</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>cvat99</username>
+        <email>cvat.annotations1@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>dense_grown</name>
+          <color>#e8d32a</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>less_dense_grown</name>
+          <color>#d402a8</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-08-10 02:51:13.367606+00:00</dumped>
+  </meta>
+  <image id="0" name="Triple P Kabacan_800_3.png" width="8192" height="4283">
+    <box label="dense_grown" source="file" occluded="0" xtl="1889.65" ytl="14.30" xbr="2398.02" ybr="522.67" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="1889.65" ytl="514.30" xbr="2398.02" ybr="1022.67" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2272.95" ytl="3122.67" xbr="2781.31" ybr="3631.04" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2281.28" ytl="3531.01" xbr="2789.65" ybr="4039.37" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2639.61" ytl="3481.01" xbr="3147.98" ybr="3989.37" z_order="0">
+    </box>
+    <box label="less_dense_grown" source="file" occluded="0" xtl="6.28" ytl="2532.16" xbr="514.65" ybr="3040.53" z_order="0">
+    </box>
+    <box label="less_dense_grown" source="file" occluded="0" xtl="6.28" ytl="3065.48" xbr="514.65" ybr="3573.84" z_order="0">
+    </box>
+    <box label="less_dense_grown" source="file" occluded="0" xtl="1413.95" ytl="2657.93" xbr="1922.32" ybr="3166.30" z_order="0">
+    </box>
+    <box label="less_dense_grown" source="file" occluded="0" xtl="1343.45" ytl="2111.56" xbr="1851.82" ybr="2619.93" z_order="0">
+    </box>
+    <box label="less_dense_grown" source="file" occluded="0" xtl="1096.63" ytl="2358.30" xbr="1605.00" ybr="2866.67" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2931.35" ytl="1545.24" xbr="3439.72" ybr="2053.60" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="3256.30" ytl="2078.59" xbr="3764.66" ybr="2586.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2747.96" ytl="2070.26" xbr="3256.33" ybr="2578.62" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2989.63" ytl="2578.59" xbr="3498.00" ybr="3086.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2472.96" ytl="2595.26" xbr="2981.33" ybr="3103.62" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2231.30" ytl="2061.92" xbr="2739.66" ybr="2570.29" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2514.63" ytl="1028.59" xbr="3023.00" ybr="1536.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="2006.30" ytl="1003.59" xbr="2514.66" ybr="1511.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="1481.30" ytl="778.59" xbr="1989.66" ybr="1286.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="956.30" ytl="695.26" xbr="1464.66" ybr="1203.62" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="431.30" ytl="545.26" xbr="939.66" ybr="1053.62" z_order="0">
+    </box>
+    <box label="dense_grown" source="file" occluded="0" xtl="6.30" ytl="328.59" xbr="514.66" ybr="836.96" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="2570.19" ytl="3120.84" xbr="3078.56" ybr="3629.20" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="3442.24" ytl="1215.20" xbr="3950.61" ybr="1723.57" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="3344.24" ytl="1549.48" xbr="3852.61" ybr="2057.84" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="3031.35" ytl="1080.55" xbr="3539.72" ybr="1588.92" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="1947.96" ytl="2585.13" xbr="2456.33" ybr="3093.50" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="1928.49" ytl="2055.16" xbr="2436.85" ybr="2563.52" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="2802.48" ytl="1549.77" xbr="3310.85" ybr="2058.13" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="1976.57" ytl="1536.53" xbr="2484.94" ybr="2044.90" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="2442.16" ytl="1749.07" xbr="2950.53" ybr="2257.43" z_order="0">
+    </box>
+    <box label="dense_grown" source="manual" occluded="0" xtl="2156.84" ytl="1530.90" xbr="2665.21" ybr="2039.26" z_order="0">
+    </box>
+  </image>
+</annotations>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2441600</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-05-09 12:05:32.030284+00:00</created>
+      <updated>2025-08-21 11:04:22.215183+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2443875</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/2441600</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>harinie</username>
+        <email>sviharinie@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>green-800</name>
+          <color>#fa3253</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>non-green-800</name>
+          <color>#3d3df5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>green-400</name>
+          <color>#f90925</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>non-green-400</name>
+          <color>#f9eb1b</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>green-300</name>
+          <color>#401cf3</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>non-green-300</name>
+          <color>#fa32b7</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Coconut-300</name>
+          <color>#f67f07</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Cocount-400</name>
+          <color>#0fdcf8</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Coconut-800</name>
+          <color>#9df32c</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-11-13 11:13:33.003120+00:00</dumped>
+  </meta>
+  <image id="0" name="Karavatti_800_1.png" width="8192" height="4283">
+    <points label="non-green-400" source="Ground truth" occluded="0" points="7596.31,83.43;8124.34,473.91;8095.50,1046.31;7889.17,820.01;7873.64,757.89;7784.90,768.98;7822.61,138.90;7851.45,67.90;7718.34,107.84;7738.30,569.31;7651.78,478.34;7722.77,946.47;7376.67,773.42;7392.20,735.70;7407.73,939.81;6873.05,216.55;6143.12,45.71" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="629.88,533.83;521.37,344.94;951.38,1008.04;818.76,1237.11;1120.17,1389.83;2128.88,324.85;754.46,280.64;1461.76,1554.60;119.49,1494.31;352.58,1630.95;364.64,1787.69;445.01,939.72;219.96,871.40;151.64,847.29;716.68,466.71;3838.87,1686.01;2802.02,2501.02;4878.53,812.73;5352.34,1447.29;5897.29,2980.86;5834.59,3058.02;6148.06,2667.40;5998.56,1736.65;4432.44,1980.59;4744.30,1857.61" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="3670.23,2532.78;3462.86,2569.60;3154.71,2290.52" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="4075.29,893.17;4724.54,1674.22" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="5742.02,282.68;6554.07,305.94" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="6565.70,1608.71;6602.53,1562.20;6840.91,1839.34;6726.56,1963.38;7408.76,1333.50;7108.36,1730.81" z_order="0">
+    </points>
+    <points label="green-400" source="Ground truth" occluded="0" points="7645.12,846.63;7722.77,833.32;7647.34,800.04;7685.06,724.61;7691.71,653.61;7614.06,607.02;7540.85,558.21;7518.66,877.69;7452.10,888.79;7531.97,977.53;7571.91,1017.47;7700.59,411.79" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="7980.13,1456.75;7631.81,1696.36;7611.84,1751.83;7338.95,1871.63;7256.87,1749.61;7086.03,1412.38;7137.06,1414.60;7130.41,1330.29;7574.13,1219.36" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="6029.97,1880.51;5475.32,1749.61;5539.66,1769.58;5834.74,1226.02" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="6123.16,879.91;6069.91,871.04" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="4523.54,729.05;4665.53,791.17;4576.78,611.46;4186.31,735.70;4237.34,697.99;4150.81,303.07;4053.19,280.89;4192.96,223.20;3582.85,198.80;3715.96,407.35;3456.39,760.11;3456.39,862.16;3423.11,917.63;3360.98,935.38;3425.32,988.62;3733.71,1139.49;3676.03,1146.15;3527.38,249.83;3412.01,30.18" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="4064.28,1700.80;4157.47,1552.15;4348.27,1838.35;3483.01,1638.68;3527.38,1527.75;3312.18,1620.93;2959.42,1385.76;2990.48,1412.38" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="2480.12,3123.12;2741.34,3042.75;2849.85,2934.24;2552.46,3589.30;2447.97,3673.70;1455.33,3995.20;1374.96,3914.82;1262.43,3955.01;1961.70,3950.99;1865.25,4159.97;1744.68,3649.58" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="209.51,2122.45;297.92,2190.77;478.77,1652.25;1234.30,2146.56;1198.13,2042.07;1282.53,2146.56;1519.63,2267.13;2431.89,2303.29;1374.96,1202.15;1652.25,1306.64;1825.06,872.61;1933.57,860.55;2122.45,772.14;2046.09,1097.66;2612.74,876.63;2564.51,812.33;2568.53,744.01;2460.03,920.84;2769.47,1286.54;2773.49,1218.22;5675.05,1269.66" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2633.01,365.81;2388.45,250.54;2253.70,425.78" z_order="0">
+    </points>
+    <points label="non-green-400" source="Ground truth" occluded="0" points="7694.48,2117.22;7381.02,2004.70;8172.72,1872.08;7770.84,3009.39;7043.44,2229.75;6750.07,2157.41;7348.87,2434.71;7610.09,2418.63;7678.41,1466.18" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="7031.20,4252.90;6755.16,3830.72;6958.13,3587.15;4944.63,1273.25" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="134.94,16.99;415.33,210.46;771.43,288.97;777.04,348.79;414.40,453.46" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="497.49,638.52;523.66,691.80;143.26,808.63" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="61.01,723.58;98.40,717.97;175.04,827.32;689.09,522.63;731.15,496.46;537.68,383.37" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="935.83,246.91;962.00,275.88;919.01,275.88;745.17,333.83;776.94,271.21;659.18,360.00" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="1171.45,141.29;1071.45,388.97;1069.58,390.84;991.07,356.26;944.34,336.63;847.13,287.10;1122.85,370.28;691.05,231.02;663.01,272.14;688.25,308.60;688.25,404.86" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="1168.74,868.18;1092.41,865.06;1076.84,879.08;1245.07,801.98;1322.18,802.75;1263.76,1064.45;1254.42,1012.27;1237.28,979.56" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="1245.77,682.03;1298.74,651.65;1266.80,718.64;1318.99,780.95" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="1204.49,433.57;1544.08,197.58;1420.24,206.92" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="1787.86,92.43;1905.47,344.00;1930.40,342.44" z_order="0">
+    </points>
+    <points label="green-300" source="Ground truth" occluded="0" points="2024.64,529.37;2009.84,511.46;1985.70,528.59;2095.52,364.25;2164.06,344.00;2201.44,410.98" z_order="0">
+    </points>
+    <points label="non-green-300" source="Ground truth" occluded="0" points="1530.84,653.21;1452.17,635.30;1545.64,647.76;1521.49,636.08" z_order="0">
+    </points>
+    <points label="Cocount-400" source="Ground truth" occluded="0" points="3885.65,2706.83;4001.39,2712.62;4637.96,3285.53;4724.77,3221.87" z_order="0">
+    </points>
+    <points label="Cocount-400" source="Ground truth" occluded="0" points="3912.27,3232.87;3987.50,3371.76;3935.42,3360.18;3499.07,3557.52;4301.74,2745.60;4335.30,2697.57;3993.29,2298.26;3644.91,2305.79;3728.24,2166.90;3381.02,1875.23;3235.18,2014.12;3172.68,1993.29;4676.16,2347.45;4780.32,2266.43;4676.16,2202.78;4867.13,2017.59;4953.93,1919.21;5000.23,1791.90;5006.02,1716.67;4577.78,2700.46;4641.43,3047.68;4230.56,3012.96;4149.54,3030.32;4201.62,3209.72;4392.59,3047.68;4045.37,2191.20;4114.81,2104.40;3212.04,3244.44;3321.99,3180.79;3287.27,3290.74;5979.98,1569.10;6105.56,1492.13;6172.68,1709.14;5155.32,2929.05;5179.63,2996.76;4739.24,3570.25;3881.60,2821.99;3824.31,2312.15;3962.62,1988.08;3719.56,1897.80;3657.64,1835.88;3700.46,1526.27;3509.49,2345.72;3590.51,3322.57;3457.41,3708.56;3309.84,3603.24;2966.67,3536.69;2800.00,3384.49;4386.23,3417.48;4962.62,3098.61;5091.67,3365.39;5029.75,3541.32;5272.80,3479.40;5582.41,3193.52;5501.39,3084.14;5911.11,3384.49;6154.17,3398.38;6764.12,2664.58;6430.21,2731.71;6254.28,1650.12;6354.40,1511.81;6716.09,1640.28;6716.09,1540.16;6497.34,1430.79;5239.24,2192.94;5334.72,2293.06;5000.81,2121.76;4872.34,2192.94;4510.07,2459.72;4390.86,2836.46;4477.08,2740.97;4500.81,3122.34;4305.21,3236.34;4243.29,2845.72;4243.29,2836.46;4138.54,3374.65;4319.68,3527.43;4071.99,3608.45;4153.01,3679.63;4581.83,2907.64;4695.83,2831.83;4624.65,2726.50;4748.50,2540.74;4462.62,2617.13;4400.69,2150.12;4176.74,2531.48;4214.93,1893.17;4343.40,2074.31;4438.89,2074.31;4238.66,2279.17;4305.21,2455.09;3833.56,2455.09;3962.62,2497.92;3890.86,2917.48;3747.92,2907.64;3781.48,3007.75;3962.62,2779.17;4038.43,2864.81;3738.66,2688.89;3581.25,2693.52;3662.27,2045.37;3871.76,2202.78;4234.03,1759.49;3995.60,1859.61;4247.92,2026.27;4829.51,2740.97;4882.18,2984.03;5391.43,3250.81;5196.41,3698.73;5053.47,3651.27;5025.12,3722.45;4848.61,3446.41;5930.21,3484.61;5934.84,3474.77;6020.49,2588.77;5934.84,2288.43;6249.07,1806.94;5787.27,1502.55" z_order="0">
+    </points>
+    <points label="Cocount-400" source="Ground truth" occluded="0" points="1042.48,3085.30;584.34,3745.99;391.43,3639.89;540.93,4146.26;690.43,4146.26;782.06,3480.75;709.72,2757.37;1085.88,2892.40;1331.83,2781.48;1061.77,3292.67;955.67,3196.22;1630.83,3032.25;1703.16,3094.95;1669.41,3263.73;1548.84,3731.52;1698.34,3360.18;1544.02,3606.13;1939.47,2149.73;1871.95,2193.13" z_order="0">
+    </points>
+    <points label="Cocount-400" source="Ground truth" occluded="0" points="615.83,1132.50;732.50,840.83;665.83,1024.17;907.50,682.50;732.50,940.83;115.83,1124.17;99.17,1257.50;5444.17,903.33;5395.83,827.50;6375.83,730.83;6553.33,1149.17;6645.83,907.50;6950.83,565.83;6291.67,1361.67;6018.33,1378.33;6119.17,1313.33;5596.67,1494.17;5656.67,1414.17;5616.67,964.17;5226.67,574.17;5142.50,626.67;5034.17,686.67;4973.33,534.17;5355.83,417.50;5700.83,779.17;5649.17,638.33;5528.33,634.17;5797.50,678.33;5845.83,783.33;5930.00,421.67;5592.50,485.83;5564.17,534.17" z_order="0">
+    </points>
+    <points label="Coconut-300" source="Ground truth" occluded="0" points="4525.13,1191.50;4620.01,1194.29;4608.85,982.19;4519.55,1060.33;4463.73,971.02;4380.00,906.83;4427.45,834.27;4343.72,990.56;4248.84,954.28;4176.27,926.37;4463.73,1297.55;4360.47,1264.06;4575.36,1353.36;4636.76,1356.15;4566.99,1445.46;4631.18,1467.79;4678.62,1336.62;4748.39,1389.64;4751.18,1244.52;4779.09,1202.66" z_order="0">
+    </points>
+    <points label="Coconut-300" source="Ground truth" occluded="0" points="3786.12,1950.88;3599.13,1914.60;3822.40,1802.96;3727.51,1816.92;3666.11,1702.50;3601.92,1613.19;3548.90,1747.15;3434.48,1761.10;3596.34,2112.75;3618.67,2221.59;3587.97,2411.36;3777.75,2620.67;4241.02,2123.91;4090.32,2179.72;4031.71,2107.16;3978.68,2151.82;3892.17,2076.46;4327.54,1900.64;4341.49,2269.03;4059.62,2422.53;4832.67,2411.36;4838.26,2313.68;4804.77,2129.49;4788.02,2009.48;4723.83,1978.79;4788.02,1582.49;4573.13,1610.40;5351.77,1710.87;5354.56,1629.93;5374.09,1978.79;5259.67,1811.34;5326.65,1766.68;5399.21,2433.69;5212.23,2394.62;5496.89,2277.40;5376.88,2149.03;5307.11,2207.63;5371.30,2517.41;5427.12,2509.04" z_order="0">
+    </points>
+    <points label="Coconut-300" source="Ground truth" occluded="0" points="5541.82,2495.18;5469.73,2404.48;5704.62,2541.69;5632.52,2444.02;5506.94,2630.07;5651.13,2711.47;5369.72,2806.82;5827.88,2734.73;5755.78,2746.35;5025.52,2548.67;4920.86,2564.95;4858.07,2625.42;4958.08,2641.70;5002.26,2727.75;4979.01,2874.27;4890.63,2892.87;4837.14,3123.11;5411.58,2864.96;5511.59,2953.34;5376.70,2623.09;5725.55,2844.03;6067.43,2883.57;5993.00,3064.97;5904.63,3125.44;5732.53,3076.60;5690.67,3030.09;5623.22,3039.39;5655.78,3092.88;5544.15,3125.44;5376.70,2967.29;5281.35,2967.29;5299.95,2844.03;5997.65,2469.60;6093.01,2385.87;6113.94,2467.27;6160.45,2374.25;6076.73,2278.89;5899.98,2174.24;6039.52,2034.70;6239.53,2044.00;6304.64,2030.04;6390.69,2160.28;6279.06,2518.44;6316.27,2455.64;6274.41,2623.09;6332.55,2611.46;6290.69,2739.38;6330.23,2760.31;6334.88,2699.84;6313.95,2827.75;6218.59,2820.78;6253.48,2869.61;6272.09,2906.83" z_order="0">
+    </points>
+    <points label="Coconut-300" source="Ground truth" occluded="0" points="2329.03,2438.71;2228.56,2290.80;2130.89,2098.23;2055.53,2145.68;2384.85,2388.48;2421.13,2480.57;2552.30,2963.39;2585.79,2907.57;2641.60,2941.06;2599.74,2996.88;2460.20,3303.87;2423.92,3234.10;2340.20,3253.63;2236.94,3200.61;2264.84,3222.93;1185.36,2914.55;1188.15,2814.08;1296.99,2861.52;990.00,2596.39;1062.56,2568.49;1048.61,2956.41;920.23,3028.97;853.25,3126.65;1171.40,2437.32;1160.24,2367.55;1269.08,2373.13;1341.64,2350.80;1467.23,2007.53;1408.62,2066.14;1386.30,1999.16;833.71,2398.25;878.37,2423.36;883.95,2456.85" z_order="0">
+    </points>
+    <points label="Coconut-300" source="Ground truth" occluded="0" points="206.76,3405.22;269.75,3418.14;720.35,3414.91;880.24,3403.60;629.91,3527.96;728.43,3490.82;836.63,3650.71;917.39,3539.27;1120.88,3293.78;919.00,3246.94;1069.20,3557.03;983.60,3616.79;1119.27,3489.20;1078.89,3439.14;1096.66,3385.84;1036.90,3379.38;1169.34,3240.48;453.87,3778.30;402.18,3800.91;450.64,3692.70;487.78,3548.96;171.23,3506.97;93.71,3521.50;103.40,3424.60;166.39,3448.83;164.77,3392.30;51.72,3482.74;75.94,3595.80;147.01,3628.10;176.08,3581.26;213.22,3859.05;53.33,3829.98;376.34,3729.85;379.57,3679.78;709.05,3620.02;770.42,3687.85;692.89,3850.97;650.90,3838.05;552.38,3850.97;883.47,3497.28;799.49,3466.59;822.10,3385.84;772.03,3418.14;868.94,3343.85;387.65,3208.18;326.28,3209.80;148.62,3174.27;72.71,3087.05;85.63,3200.11;48.49,3143.58;618.60,3109.66;536.23,3161.35;877.01,3187.19;936.77,3096.74;952.92,3334.16;998.14,3560.26;1035.29,3521.50;956.15,3492.43;1111.19,3691.08;1082.12,3791.22;1243.63,3678.16;1137.03,3547.34;1245.24,3568.34;1296.93,3599.03;1117.65,3631.33;1080.51,3235.64;990.06,3243.71;977.14,3384.22;941.61,3431.06;1293.70,3678.16;1451.97,3694.31;1472.97,3754.07;1487.50,3618.41;1429.36,3589.34;1490.73,3584.49;1356.68,3657.17;1041.75,3167.81;1075.66,3114.51;1091.81,3078.98;508.78,3850.97;135.70,3794.45;279.44,3834.82;214.84,3476.28;24.26,3867.13;74.33,3854.20;573.38,3342.23;718.74,3563.49;765.57,3594.18;1346.99,3145.20;894.78,3729.85;854.40,3771.84;784.95,3728.23;754.27,3842.90;671.90,3697.54;620.22,3739.54;1169.34,3786.37;1326.00,3563.49;1329.23,3558.65;1461.66,3547.34;1493.96,3723.39;1393.83,3770.22;1474.58,3309.93;1529.49,3277.63;604.07,3188.80;431.26,3485.97;387.65,3487.59;221.30,3781.53;497.47,3689.47;558.84,3796.06;852.79,3456.90;815.64,3527.96;1521.42,3351.92;1497.19,3411.68;1531.11,3540.88;1482.66,3655.55;1382.52,3718.54;888.32,3791.22;40.41,3523.12;793.03,3129.04;1020.75,3345.46" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="3778.00,569.00;5028.00,1479.00;7888.00,2609.00;2108.00,1619.00;2298.00,1649.00;2358.00,3549.00;2508.00,3499.00;1078.00,1749.00;1778.00,1809.00;1918.00,879.00;2078.00,899.00;2168.00,959.00;3438.00,829.00;3758.00,3909.00;3758.00,3899.00;2998.00,3219.00;3318.00,2869.00;8038.00,1309.00;3798.00,449.00" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="1938.00,2649.00;2528.00,2269.00;7678.00,519.00;2278.00,2889.00" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="3938.00,3959.00" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="8108.00,3999.00" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="6128.00,2179.00;4388.00,1529.00" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="6977.00,1298.00;7107.00,1348.00" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="7797.00,2978.00;8027.00,1898.00" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="1796.64,184.29" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="6564.13,1576.08" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3060.67,1785.48;2990.29,1735.62;1470.23,1554.69" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="1394.21,1202.92;1825.48,888.07;2127.10,758.43" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="2648.22,1308.81;2784.97,1290.46;2511.20,1285.80;2852.19,1353.02" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2933.43,318.10" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="8123.76,3012.43" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="1325.55,2677.83" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="722.41,3176.85" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="7653.57,846.39;7462.18,891.58" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3851.92,1656.14" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="938.96,1018.96" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2810.47,2467.50" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3674.79,2523.81;3470.02,2547.49" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3128.83,2277.35" z_order="0">
+    </points>
+    <points label="non-green-800" source="Ground truth" occluded="0" points="3192.78,2224.85" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3810.51,1059.30" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2648.09,1017.85" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2498.61,980.40" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="541.58,349.68" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="169.75,822.08" z_order="0">
+    </points>
+    <points label="green-800" source="manual" occluded="0" points="787.51,1269.39;573.56,1559.05;243.42,2215.71;623.59,1603.49;120.80,1494.20" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="2128.71,333.41" z_order="0">
+    </points>
+    <points label="green-800" source="Ground truth" occluded="0" points="3553.00,114.00" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="4396.85,3027.06;6466.17,1293.17" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5410.86,261.30" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="593.22,3964.23" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="6369.86,3314.47" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5969.42,1540.86;5673.97,1036.70;6125.10,1032.34;4652.27,1365.89" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="4704.35,2124.23" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="4498.22,2754.69" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="6182.21,3736.50" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5057.65,3691.47" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="3874.81,2691.52" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5293.10,304.34;6973.99,498.78" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="3578.97,3238.14" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5387.06,856.63" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="7615.67,3439.23" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5214.92,2919.96;4353.67,3419.28" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="6008.94,606.73;6352.45,704.67" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5199.42,3327.12;6010.06,2434.71;7150.38,2045.64" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="4161.27,3555.72" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="3378.80,1330.50;1915.02,495.69" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="6300.68,2820.48;5624.38,3816.56;6907.37,658.77" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="1172.46,2850.64" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="6253.05,1536.95;6609.20,99.75" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5614.88,584.31" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="3289.42,1797.13;6748.72,597.30" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5248.48,2202.75" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5580.40,2536.86" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="7421.09,2772.35" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="2814.47,591.83" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="4122.20,3758.29" z_order="0">
+    </points>
+    <points label="Coconut-800" source="Ground truth" occluded="0" points="5825.18,721.50" z_order="0">
+    </points>
+  </image>
+</annotations>

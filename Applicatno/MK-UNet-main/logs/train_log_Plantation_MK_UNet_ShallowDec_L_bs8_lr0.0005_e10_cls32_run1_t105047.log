@@ -1,0 +1,30 @@
+[2026-05-18 10:50:49,056] flops: 8.092686976, params: 6.710358, Total params: : 6.7104
+[2026-05-18 11:06:51,476] Epoch: 1, Dataset: test, Dice: 0.9882, IoU: 0.9876
+[2026-05-18 11:09:35,912] Epoch: 1, Dataset: val, Dice: 0.9883, IoU: 0.9877
+[2026-05-18 11:09:35,912] ### Best Model Saved (Dice improved from 0.0000 to 0.9883) ###
+[2026-05-18 11:20:59,077] Epoch: 2, Dataset: test, Dice: 0.9872, IoU: 0.9866
+[2026-05-18 11:21:46,652] Epoch: 2, Dataset: val, Dice: 0.9871, IoU: 0.9865
+[2026-05-18 11:33:13,765] Epoch: 3, Dataset: test, Dice: 0.9873, IoU: 0.9866
+[2026-05-18 11:34:00,887] Epoch: 3, Dataset: val, Dice: 0.9871, IoU: 0.9864
+[2026-05-18 11:45:29,169] Epoch: 4, Dataset: test, Dice: 0.9874, IoU: 0.9867
+[2026-05-18 11:46:17,421] Epoch: 4, Dataset: val, Dice: 0.9872, IoU: 0.9865
+[2026-05-18 11:57:44,339] Epoch: 5, Dataset: test, Dice: 0.9868, IoU: 0.9860
+[2026-05-18 11:58:33,991] Epoch: 5, Dataset: val, Dice: 0.9865, IoU: 0.9857
+[2026-05-18 12:09:13,802] Epoch: 6, Dataset: test, Dice: 0.9863, IoU: 0.9855
+[2026-05-18 12:10:00,739] Epoch: 6, Dataset: val, Dice: 0.9868, IoU: 0.9860
+[2026-05-18 12:20:32,581] Epoch: 7, Dataset: test, Dice: 0.9873, IoU: 0.9865
+[2026-05-18 12:21:18,472] Epoch: 7, Dataset: val, Dice: 0.9872, IoU: 0.9864
+[2026-05-18 12:31:49,094] Epoch: 8, Dataset: test, Dice: 0.9875, IoU: 0.9867
+[2026-05-18 12:32:34,965] Epoch: 8, Dataset: val, Dice: 0.9872, IoU: 0.9864
+[2026-05-18 12:43:07,985] Epoch: 9, Dataset: test, Dice: 0.9884, IoU: 0.9877
+[2026-05-18 12:43:53,757] Epoch: 9, Dataset: val, Dice: 0.9886, IoU: 0.9879
+[2026-05-18 12:43:53,757] ### Best Model Saved (Dice improved from 0.9883 to 0.9886) ###
+[2026-05-18 12:54:25,254] Epoch: 10, Dataset: test, Dice: 0.9881, IoU: 0.9873
+[2026-05-18 12:55:10,417] Epoch: 10, Dataset: val, Dice: 0.9879, IoU: 0.9872
+[2026-05-18 12:55:10,683] 
+========================================
+FINAL RESULTS: Plantation_MK_UNet_ShallowDec_L_bs8_lr0.0005_e10_cls32_run1_t105047
+Best Val Dice: 0.9886
+Test Dice at Best Val: 0.9884
+Total Train Time: 6252.06s
+========================================

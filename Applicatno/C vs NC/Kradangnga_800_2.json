@@ -1,0 +1,3362 @@
+[
+    {
+        "Box ID": "KR-2-C-1",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2012,
+                1080
+            ],
+            "Top-right": [
+                2140,
+                1080
+            ],
+            "Bottom-right": [
+                2140,
+                1208
+            ],
+            "Bottom-left": [
+                2012,
+                1208
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-2",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2718,
+                796
+            ],
+            "Top-right": [
+                2846,
+                796
+            ],
+            "Bottom-right": [
+                2846,
+                924
+            ],
+            "Bottom-left": [
+                2718,
+                924
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-3",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2837,
+                1029
+            ],
+            "Top-right": [
+                2965,
+                1029
+            ],
+            "Bottom-right": [
+                2965,
+                1157
+            ],
+            "Bottom-left": [
+                2837,
+                1157
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-4",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2451,
+                993
+            ],
+            "Top-right": [
+                2579,
+                993
+            ],
+            "Bottom-right": [
+                2579,
+                1121
+            ],
+            "Bottom-left": [
+                2451,
+                1121
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-5",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2229,
+                741
+            ],
+            "Top-right": [
+                2357,
+                741
+            ],
+            "Bottom-right": [
+                2357,
+                869
+            ],
+            "Bottom-left": [
+                2229,
+                869
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-6",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1856,
+                758
+            ],
+            "Top-right": [
+                1984,
+                758
+            ],
+            "Bottom-right": [
+                1984,
+                886
+            ],
+            "Bottom-left": [
+                1856,
+                886
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-7",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1456,
+                1093
+            ],
+            "Top-right": [
+                1584,
+                1093
+            ],
+            "Bottom-right": [
+                1584,
+                1221
+            ],
+            "Bottom-left": [
+                1456,
+                1221
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-8",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3495,
+                769
+            ],
+            "Top-right": [
+                3623,
+                769
+            ],
+            "Bottom-right": [
+                3623,
+                897
+            ],
+            "Bottom-left": [
+                3495,
+                897
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-9",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3512,
+                969
+            ],
+            "Top-right": [
+                3640,
+                969
+            ],
+            "Bottom-right": [
+                3640,
+                1097
+            ],
+            "Bottom-left": [
+                3512,
+                1097
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-10",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3309,
+                1335
+            ],
+            "Top-right": [
+                3437,
+                1335
+            ],
+            "Bottom-right": [
+                3437,
+                1463
+            ],
+            "Bottom-left": [
+                3309,
+                1463
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-11",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3158,
+                1010
+            ],
+            "Top-right": [
+                3286,
+                1010
+            ],
+            "Bottom-right": [
+                3286,
+                1138
+            ],
+            "Bottom-left": [
+                3158,
+                1138
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-12",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3626,
+                1227
+            ],
+            "Top-right": [
+                3754,
+                1227
+            ],
+            "Bottom-right": [
+                3754,
+                1355
+            ],
+            "Bottom-left": [
+                3626,
+                1355
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-13",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3604,
+                1585
+            ],
+            "Top-right": [
+                3732,
+                1585
+            ],
+            "Bottom-right": [
+                3732,
+                1713
+            ],
+            "Bottom-left": [
+                3604,
+                1713
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-14",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2984,
+                1443
+            ],
+            "Top-right": [
+                3112,
+                1443
+            ],
+            "Bottom-right": [
+                3112,
+                1571
+            ],
+            "Bottom-left": [
+                2984,
+                1571
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-15",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2937,
+                1213
+            ],
+            "Top-right": [
+                3065,
+                1213
+            ],
+            "Bottom-right": [
+                3065,
+                1341
+            ],
+            "Bottom-left": [
+                2937,
+                1341
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-16",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2440,
+                621
+            ],
+            "Top-right": [
+                2568,
+                621
+            ],
+            "Bottom-right": [
+                2568,
+                749
+            ],
+            "Bottom-left": [
+                2440,
+                749
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-17",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1942,
+                524
+            ],
+            "Top-right": [
+                2070,
+                524
+            ],
+            "Bottom-right": [
+                2070,
+                652
+            ],
+            "Bottom-left": [
+                1942,
+                652
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-18",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1378,
+                724
+            ],
+            "Top-right": [
+                1506,
+                724
+            ],
+            "Bottom-right": [
+                1506,
+                852
+            ],
+            "Bottom-left": [
+                1378,
+                852
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-19",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1381,
+                890
+            ],
+            "Top-right": [
+                1509,
+                890
+            ],
+            "Bottom-right": [
+                1509,
+                1018
+            ],
+            "Bottom-left": [
+                1381,
+                1018
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-20",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1367,
+                1380
+            ],
+            "Top-right": [
+                1495,
+                1380
+            ],
+            "Bottom-right": [
+                1495,
+                1508
+            ],
+            "Bottom-left": [
+                1367,
+                1508
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-21",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1392,
+                1618
+            ],
+            "Top-right": [
+                1520,
+                1618
+            ],
+            "Bottom-right": [
+                1520,
+                1746
+            ],
+            "Bottom-left": [
+                1392,
+                1746
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-22",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2333,
+                1230
+            ],
+            "Top-right": [
+                2461,
+                1230
+            ],
+            "Bottom-right": [
+                2461,
+                1358
+            ],
+            "Bottom-left": [
+                2333,
+                1358
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-23",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2164,
+                1066
+            ],
+            "Top-right": [
+                2292,
+                1066
+            ],
+            "Bottom-right": [
+                2292,
+                1194
+            ],
+            "Bottom-left": [
+                2164,
+                1194
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-24",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2042,
+                776
+            ],
+            "Top-right": [
+                2170,
+                776
+            ],
+            "Bottom-right": [
+                2170,
+                904
+            ],
+            "Bottom-left": [
+                2042,
+                904
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-25",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2973,
+                730
+            ],
+            "Top-right": [
+                3101,
+                730
+            ],
+            "Bottom-right": [
+                3101,
+                858
+            ],
+            "Bottom-left": [
+                2973,
+                858
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-26",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3070,
+                1651
+            ],
+            "Top-right": [
+                3198,
+                1651
+            ],
+            "Bottom-right": [
+                3198,
+                1779
+            ],
+            "Bottom-left": [
+                3070,
+                1779
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-27",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3767,
+                1651
+            ],
+            "Top-right": [
+                3895,
+                1651
+            ],
+            "Bottom-right": [
+                3895,
+                1779
+            ],
+            "Bottom-left": [
+                3767,
+                1779
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-28",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                207,
+                64
+            ],
+            "Top-right": [
+                335,
+                64
+            ],
+            "Bottom-right": [
+                335,
+                192
+            ],
+            "Bottom-left": [
+                207,
+                192
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-29",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                124,
+                345
+            ],
+            "Top-right": [
+                252,
+                345
+            ],
+            "Bottom-right": [
+                252,
+                473
+            ],
+            "Bottom-left": [
+                124,
+                473
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-30",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                798,
+                203
+            ],
+            "Top-right": [
+                926,
+                203
+            ],
+            "Bottom-right": [
+                926,
+                331
+            ],
+            "Bottom-left": [
+                798,
+                331
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-31",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                888,
+                462
+            ],
+            "Top-right": [
+                1016,
+                462
+            ],
+            "Bottom-right": [
+                1016,
+                590
+            ],
+            "Bottom-left": [
+                888,
+                590
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-32",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                554,
+                113
+            ],
+            "Top-right": [
+                682,
+                113
+            ],
+            "Bottom-right": [
+                682,
+                241
+            ],
+            "Bottom-left": [
+                554,
+                241
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-33",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1540,
+                215
+            ],
+            "Top-right": [
+                1668,
+                215
+            ],
+            "Bottom-right": [
+                1668,
+                343
+            ],
+            "Bottom-left": [
+                1540,
+                343
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-34",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1809,
+                218
+            ],
+            "Top-right": [
+                1937,
+                218
+            ],
+            "Bottom-right": [
+                1937,
+                346
+            ],
+            "Bottom-left": [
+                1809,
+                346
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-35",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2277,
+                66
+            ],
+            "Top-right": [
+                2405,
+                66
+            ],
+            "Bottom-right": [
+                2405,
+                194
+            ],
+            "Bottom-left": [
+                2277,
+                194
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-36",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2124,
+                415
+            ],
+            "Top-right": [
+                2252,
+                415
+            ],
+            "Bottom-right": [
+                2252,
+                543
+            ],
+            "Bottom-left": [
+                2124,
+                543
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-37",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2673,
+                577
+            ],
+            "Top-right": [
+                2801,
+                577
+            ],
+            "Bottom-right": [
+                2801,
+                705
+            ],
+            "Bottom-left": [
+                2673,
+                705
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-38",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2898,
+                130
+            ],
+            "Top-right": [
+                3026,
+                130
+            ],
+            "Bottom-right": [
+                3026,
+                258
+            ],
+            "Bottom-left": [
+                2898,
+                258
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-39",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                705,
+                1145
+            ],
+            "Top-right": [
+                833,
+                1145
+            ],
+            "Bottom-right": [
+                833,
+                1273
+            ],
+            "Bottom-left": [
+                705,
+                1273
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-40",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                478,
+                1253
+            ],
+            "Top-right": [
+                606,
+                1253
+            ],
+            "Bottom-right": [
+                606,
+                1381
+            ],
+            "Bottom-left": [
+                478,
+                1381
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-41",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                654,
+                1858
+            ],
+            "Top-right": [
+                782,
+                1858
+            ],
+            "Bottom-right": [
+                782,
+                1986
+            ],
+            "Bottom-left": [
+                654,
+                1986
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-42",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                937,
+                1841
+            ],
+            "Top-right": [
+                1065,
+                1841
+            ],
+            "Bottom-right": [
+                1065,
+                1969
+            ],
+            "Bottom-left": [
+                937,
+                1969
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-43",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1264,
+                1927
+            ],
+            "Top-right": [
+                1392,
+                1927
+            ],
+            "Bottom-right": [
+                1392,
+                2055
+            ],
+            "Bottom-left": [
+                1264,
+                2055
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-44",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1657,
+                1956
+            ],
+            "Top-right": [
+                1785,
+                1956
+            ],
+            "Bottom-right": [
+                1785,
+                2084
+            ],
+            "Bottom-left": [
+                1657,
+                2084
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-45",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1928,
+                1983
+            ],
+            "Top-right": [
+                2056,
+                1983
+            ],
+            "Bottom-right": [
+                2056,
+                2111
+            ],
+            "Bottom-left": [
+                1928,
+                2111
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-46",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2068,
+                1995
+            ],
+            "Top-right": [
+                2196,
+                1995
+            ],
+            "Bottom-right": [
+                2196,
+                2123
+            ],
+            "Bottom-left": [
+                2068,
+                2123
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-47",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2705,
+                1961
+            ],
+            "Top-right": [
+                2833,
+                1961
+            ],
+            "Bottom-right": [
+                2833,
+                2089
+            ],
+            "Bottom-left": [
+                2705,
+                2089
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-48",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                532,
+                1004
+            ],
+            "Top-right": [
+                660,
+                1004
+            ],
+            "Bottom-right": [
+                660,
+                1132
+            ],
+            "Bottom-left": [
+                532,
+                1132
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-49",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                14,
+                1658
+            ],
+            "Top-right": [
+                142,
+                1658
+            ],
+            "Bottom-right": [
+                142,
+                1786
+            ],
+            "Bottom-left": [
+                14,
+                1786
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-50",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                273,
+                1839
+            ],
+            "Top-right": [
+                401,
+                1839
+            ],
+            "Bottom-right": [
+                401,
+                1967
+            ],
+            "Bottom-left": [
+                273,
+                1967
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-51",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                495,
+                1517
+            ],
+            "Top-right": [
+                623,
+                1517
+            ],
+            "Bottom-right": [
+                623,
+                1645
+            ],
+            "Bottom-left": [
+                495,
+                1645
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-52",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                708,
+                1416
+            ],
+            "Top-right": [
+                836,
+                1416
+            ],
+            "Bottom-right": [
+                836,
+                1544
+            ],
+            "Bottom-left": [
+                708,
+                1544
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-53",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1113,
+                1087
+            ],
+            "Top-right": [
+                1241,
+                1087
+            ],
+            "Bottom-right": [
+                1241,
+                1215
+            ],
+            "Bottom-left": [
+                1113,
+                1215
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-54",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1308,
+                1170
+            ],
+            "Top-right": [
+                1436,
+                1170
+            ],
+            "Bottom-right": [
+                1436,
+                1298
+            ],
+            "Bottom-left": [
+                1308,
+                1298
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-55",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                749,
+                950
+            ],
+            "Top-right": [
+                877,
+                950
+            ],
+            "Bottom-right": [
+                877,
+                1078
+            ],
+            "Bottom-left": [
+                749,
+                1078
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-56",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1137,
+                520
+            ],
+            "Top-right": [
+                1265,
+                520
+            ],
+            "Bottom-right": [
+                1265,
+                648
+            ],
+            "Bottom-left": [
+                1137,
+                648
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-57",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1089,
+                276
+            ],
+            "Top-right": [
+                1217,
+                276
+            ],
+            "Bottom-right": [
+                1217,
+                404
+            ],
+            "Bottom-left": [
+                1089,
+                404
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-58",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                703,
+                2366
+            ],
+            "Top-right": [
+                831,
+                2366
+            ],
+            "Bottom-right": [
+                831,
+                2494
+            ],
+            "Bottom-left": [
+                703,
+                2494
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-59",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1693,
+                3719
+            ],
+            "Top-right": [
+                1821,
+                3719
+            ],
+            "Bottom-right": [
+                1821,
+                3847
+            ],
+            "Bottom-left": [
+                1693,
+                3847
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-60",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1793,
+                3178
+            ],
+            "Top-right": [
+                1921,
+                3178
+            ],
+            "Bottom-right": [
+                1921,
+                3306
+            ],
+            "Bottom-left": [
+                1793,
+                3306
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-61",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1814,
+                3682
+            ],
+            "Top-right": [
+                1942,
+                3682
+            ],
+            "Bottom-right": [
+                1942,
+                3810
+            ],
+            "Bottom-left": [
+                1814,
+                3810
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-62",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1785,
+                3495
+            ],
+            "Top-right": [
+                1913,
+                3495
+            ],
+            "Bottom-right": [
+                1913,
+                3623
+            ],
+            "Bottom-left": [
+                1785,
+                3623
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-63",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1843,
+                3319
+            ],
+            "Top-right": [
+                1971,
+                3319
+            ],
+            "Bottom-right": [
+                1971,
+                3447
+            ],
+            "Bottom-left": [
+                1843,
+                3447
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-64",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2041,
+                3618
+            ],
+            "Top-right": [
+                2169,
+                3618
+            ],
+            "Bottom-right": [
+                2169,
+                3746
+            ],
+            "Bottom-left": [
+                2041,
+                3746
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-65",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2123,
+                3323
+            ],
+            "Top-right": [
+                2251,
+                3323
+            ],
+            "Bottom-right": [
+                2251,
+                3451
+            ],
+            "Bottom-left": [
+                2123,
+                3451
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-66",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2738,
+                3104
+            ],
+            "Top-right": [
+                2866,
+                3104
+            ],
+            "Bottom-right": [
+                2866,
+                3232
+            ],
+            "Bottom-left": [
+                2738,
+                3232
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-67",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2586,
+                3407
+            ],
+            "Top-right": [
+                2714,
+                3407
+            ],
+            "Bottom-right": [
+                2714,
+                3535
+            ],
+            "Bottom-left": [
+                2586,
+                3535
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-68",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3019,
+                3860
+            ],
+            "Top-right": [
+                3147,
+                3860
+            ],
+            "Bottom-right": [
+                3147,
+                3988
+            ],
+            "Bottom-left": [
+                3019,
+                3988
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-69",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2808,
+                2836
+            ],
+            "Top-right": [
+                2936,
+                2836
+            ],
+            "Bottom-right": [
+                2936,
+                2964
+            ],
+            "Bottom-left": [
+                2808,
+                2964
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-70",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2054,
+                2977
+            ],
+            "Top-right": [
+                2182,
+                2977
+            ],
+            "Bottom-right": [
+                2182,
+                3105
+            ],
+            "Bottom-left": [
+                2054,
+                3105
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-71",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2328,
+                2680
+            ],
+            "Top-right": [
+                2456,
+                2680
+            ],
+            "Bottom-right": [
+                2456,
+                2808
+            ],
+            "Bottom-left": [
+                2328,
+                2808
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-72",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1918,
+                2633
+            ],
+            "Top-right": [
+                2046,
+                2633
+            ],
+            "Bottom-right": [
+                2046,
+                2761
+            ],
+            "Bottom-left": [
+                1918,
+                2761
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-73",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1750,
+                2707
+            ],
+            "Top-right": [
+                1878,
+                2707
+            ],
+            "Bottom-right": [
+                1878,
+                2835
+            ],
+            "Bottom-left": [
+                1750,
+                2835
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-74",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1603,
+                2858
+            ],
+            "Top-right": [
+                1731,
+                2858
+            ],
+            "Bottom-right": [
+                1731,
+                2986
+            ],
+            "Bottom-left": [
+                1603,
+                2986
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-75",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1506,
+                2991
+            ],
+            "Top-right": [
+                1634,
+                2991
+            ],
+            "Bottom-right": [
+                1634,
+                3119
+            ],
+            "Bottom-left": [
+                1506,
+                3119
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-76",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1416,
+                3151
+            ],
+            "Top-right": [
+                1544,
+                3151
+            ],
+            "Bottom-right": [
+                1544,
+                3279
+            ],
+            "Bottom-left": [
+                1416,
+                3279
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-77",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1359,
+                3315
+            ],
+            "Top-right": [
+                1487,
+                3315
+            ],
+            "Bottom-right": [
+                1487,
+                3443
+            ],
+            "Bottom-left": [
+                1359,
+                3443
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-78",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1297,
+                3567
+            ],
+            "Top-right": [
+                1425,
+                3567
+            ],
+            "Bottom-right": [
+                1425,
+                3695
+            ],
+            "Bottom-left": [
+                1297,
+                3695
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-79",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                279,
+                2200
+            ],
+            "Top-right": [
+                407,
+                2200
+            ],
+            "Bottom-right": [
+                407,
+                2328
+            ],
+            "Bottom-left": [
+                279,
+                2328
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-80",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1226,
+                3895
+            ],
+            "Top-right": [
+                1354,
+                3895
+            ],
+            "Bottom-right": [
+                1354,
+                4023
+            ],
+            "Bottom-left": [
+                1226,
+                4023
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-81",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                234,
+                2848
+            ],
+            "Top-right": [
+                362,
+                2848
+            ],
+            "Bottom-right": [
+                362,
+                2976
+            ],
+            "Bottom-left": [
+                234,
+                2976
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-82",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                431,
+                2721
+            ],
+            "Top-right": [
+                559,
+                2721
+            ],
+            "Bottom-right": [
+                559,
+                2849
+            ],
+            "Bottom-left": [
+                431,
+                2849
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-83",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                414,
+                2889
+            ],
+            "Top-right": [
+                542,
+                2889
+            ],
+            "Bottom-right": [
+                542,
+                3017
+            ],
+            "Bottom-left": [
+                414,
+                3017
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-84",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                30,
+                2424
+            ],
+            "Top-right": [
+                158,
+                2424
+            ],
+            "Bottom-right": [
+                158,
+                2552
+            ],
+            "Bottom-left": [
+                30,
+                2552
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-85",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6257,
+                1079
+            ],
+            "Top-right": [
+                6385,
+                1079
+            ],
+            "Bottom-right": [
+                6385,
+                1207
+            ],
+            "Bottom-left": [
+                6257,
+                1207
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-86",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6720,
+                1171
+            ],
+            "Top-right": [
+                6848,
+                1171
+            ],
+            "Bottom-right": [
+                6848,
+                1299
+            ],
+            "Bottom-left": [
+                6720,
+                1299
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-87",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7187,
+                1184
+            ],
+            "Top-right": [
+                7315,
+                1184
+            ],
+            "Bottom-right": [
+                7315,
+                1312
+            ],
+            "Bottom-left": [
+                7187,
+                1312
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-88",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7503,
+                892
+            ],
+            "Top-right": [
+                7631,
+                892
+            ],
+            "Bottom-right": [
+                7631,
+                1020
+            ],
+            "Bottom-left": [
+                7503,
+                1020
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-89",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7925,
+                417
+            ],
+            "Top-right": [
+                8053,
+                417
+            ],
+            "Bottom-right": [
+                8053,
+                545
+            ],
+            "Bottom-left": [
+                7925,
+                545
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-90",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                8011,
+                245
+            ],
+            "Top-right": [
+                8139,
+                245
+            ],
+            "Bottom-right": [
+                8139,
+                373
+            ],
+            "Bottom-left": [
+                8011,
+                373
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-91",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7417,
+                116
+            ],
+            "Top-right": [
+                7545,
+                116
+            ],
+            "Bottom-right": [
+                7545,
+                244
+            ],
+            "Bottom-left": [
+                7417,
+                244
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-92",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6995,
+                218
+            ],
+            "Top-right": [
+                7123,
+                218
+            ],
+            "Bottom-right": [
+                7123,
+                346
+            ],
+            "Bottom-left": [
+                6995,
+                346
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-93",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6767,
+                634
+            ],
+            "Top-right": [
+                6895,
+                634
+            ],
+            "Bottom-right": [
+                6895,
+                762
+            ],
+            "Bottom-left": [
+                6767,
+                762
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-94",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7122,
+                934
+            ],
+            "Top-right": [
+                7250,
+                934
+            ],
+            "Bottom-right": [
+                7250,
+                1062
+            ],
+            "Bottom-left": [
+                7122,
+                1062
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-95",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7138,
+                2491
+            ],
+            "Top-right": [
+                7266,
+                2491
+            ],
+            "Bottom-right": [
+                7266,
+                2619
+            ],
+            "Bottom-left": [
+                7138,
+                2619
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-96",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6710,
+                2475
+            ],
+            "Top-right": [
+                6838,
+                2475
+            ],
+            "Bottom-right": [
+                6838,
+                2603
+            ],
+            "Bottom-left": [
+                6710,
+                2603
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-97",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6345,
+                2497
+            ],
+            "Top-right": [
+                6473,
+                2497
+            ],
+            "Bottom-right": [
+                6473,
+                2625
+            ],
+            "Bottom-left": [
+                6345,
+                2625
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-98",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5855,
+                2501
+            ],
+            "Top-right": [
+                5983,
+                2501
+            ],
+            "Bottom-right": [
+                5983,
+                2629
+            ],
+            "Bottom-left": [
+                5855,
+                2629
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-99",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5716,
+                2825
+            ],
+            "Top-right": [
+                5844,
+                2825
+            ],
+            "Bottom-right": [
+                5844,
+                2953
+            ],
+            "Bottom-left": [
+                5716,
+                2953
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-100",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5640,
+                3100
+            ],
+            "Top-right": [
+                5768,
+                3100
+            ],
+            "Bottom-right": [
+                5768,
+                3228
+            ],
+            "Bottom-left": [
+                5640,
+                3228
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-101",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7452,
+                3099
+            ],
+            "Top-right": [
+                7580,
+                3099
+            ],
+            "Bottom-right": [
+                7580,
+                3227
+            ],
+            "Bottom-left": [
+                7452,
+                3227
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-102",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7423,
+                3456
+            ],
+            "Top-right": [
+                7551,
+                3456
+            ],
+            "Bottom-right": [
+                7551,
+                3584
+            ],
+            "Bottom-left": [
+                7423,
+                3584
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-103",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6991,
+                3188
+            ],
+            "Top-right": [
+                7119,
+                3188
+            ],
+            "Bottom-right": [
+                7119,
+                3316
+            ],
+            "Bottom-left": [
+                6991,
+                3316
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-104",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6511,
+                2874
+            ],
+            "Top-right": [
+                6639,
+                2874
+            ],
+            "Bottom-right": [
+                6639,
+                3002
+            ],
+            "Bottom-left": [
+                6511,
+                3002
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-105",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7394,
+                2487
+            ],
+            "Top-right": [
+                7522,
+                2487
+            ],
+            "Bottom-right": [
+                7522,
+                2615
+            ],
+            "Bottom-left": [
+                7394,
+                2615
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-106",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7704,
+                2612
+            ],
+            "Top-right": [
+                7832,
+                2612
+            ],
+            "Bottom-right": [
+                7832,
+                2740
+            ],
+            "Bottom-left": [
+                7704,
+                2740
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-107",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                8015,
+                2679
+            ],
+            "Top-right": [
+                8143,
+                2679
+            ],
+            "Bottom-right": [
+                8143,
+                2807
+            ],
+            "Bottom-left": [
+                8015,
+                2807
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-108",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5290,
+                2907
+            ],
+            "Top-right": [
+                5418,
+                2907
+            ],
+            "Bottom-right": [
+                5418,
+                3035
+            ],
+            "Bottom-left": [
+                5290,
+                3035
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-109",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5103,
+                2839
+            ],
+            "Top-right": [
+                5231,
+                2839
+            ],
+            "Bottom-right": [
+                5231,
+                2967
+            ],
+            "Bottom-left": [
+                5103,
+                2967
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-110",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4849,
+                2698
+            ],
+            "Top-right": [
+                4977,
+                2698
+            ],
+            "Bottom-right": [
+                4977,
+                2826
+            ],
+            "Bottom-left": [
+                4849,
+                2826
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-111",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4501,
+                2841
+            ],
+            "Top-right": [
+                4629,
+                2841
+            ],
+            "Bottom-right": [
+                4629,
+                2969
+            ],
+            "Bottom-left": [
+                4501,
+                2969
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-112",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4833,
+                3208
+            ],
+            "Top-right": [
+                4961,
+                3208
+            ],
+            "Bottom-right": [
+                4961,
+                3336
+            ],
+            "Bottom-left": [
+                4833,
+                3336
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-113",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5249,
+                3349
+            ],
+            "Top-right": [
+                5377,
+                3349
+            ],
+            "Bottom-right": [
+                5377,
+                3477
+            ],
+            "Bottom-left": [
+                5249,
+                3477
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-C-114",
+        "Category": "KR-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5521,
+                3333
+            ],
+            "Top-right": [
+                5649,
+                3333
+            ],
+            "Bottom-right": [
+                5649,
+                3461
+            ],
+            "Bottom-left": [
+                5521,
+                3461
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-1",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                3999,
+                2466
+            ],
+            "Top-right": [
+                4127,
+                2466
+            ],
+            "Bottom-right": [
+                4127,
+                2594
+            ],
+            "Bottom-left": [
+                3999,
+                2594
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-2",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                4083,
+                2657
+            ],
+            "Top-right": [
+                4211,
+                2657
+            ],
+            "Bottom-right": [
+                4211,
+                2785
+            ],
+            "Bottom-left": [
+                4083,
+                2785
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-3",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                4286,
+                2487
+            ],
+            "Top-right": [
+                4414,
+                2487
+            ],
+            "Bottom-right": [
+                4414,
+                2615
+            ],
+            "Bottom-left": [
+                4286,
+                2615
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-4",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                3936,
+                2321
+            ],
+            "Top-right": [
+                4064,
+                2321
+            ],
+            "Bottom-right": [
+                4064,
+                2449
+            ],
+            "Bottom-left": [
+                3936,
+                2449
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-5",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                3796,
+                2696
+            ],
+            "Top-right": [
+                3924,
+                2696
+            ],
+            "Bottom-right": [
+                3924,
+                2824
+            ],
+            "Bottom-left": [
+                3796,
+                2824
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-6",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                3765,
+                2892
+            ],
+            "Top-right": [
+                3893,
+                2892
+            ],
+            "Bottom-right": [
+                3893,
+                3020
+            ],
+            "Bottom-left": [
+                3765,
+                3020
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-7",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                3975,
+                2927
+            ],
+            "Top-right": [
+                4103,
+                2927
+            ],
+            "Bottom-right": [
+                4103,
+                3055
+            ],
+            "Bottom-left": [
+                3975,
+                3055
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-8",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                4185,
+                2817
+            ],
+            "Top-right": [
+                4313,
+                2817
+            ],
+            "Bottom-right": [
+                4313,
+                2945
+            ],
+            "Bottom-left": [
+                4185,
+                2945
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-9",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7993,
+                1167
+            ],
+            "Top-right": [
+                8121,
+                1167
+            ],
+            "Bottom-right": [
+                8121,
+                1295
+            ],
+            "Bottom-left": [
+                7993,
+                1295
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-10",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7899,
+                1335
+            ],
+            "Top-right": [
+                8027,
+                1335
+            ],
+            "Bottom-right": [
+                8027,
+                1463
+            ],
+            "Bottom-left": [
+                7899,
+                1463
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-11",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7796,
+                1045
+            ],
+            "Top-right": [
+                7924,
+                1045
+            ],
+            "Bottom-right": [
+                7924,
+                1173
+            ],
+            "Bottom-left": [
+                7796,
+                1173
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-12",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7878,
+                780
+            ],
+            "Top-right": [
+                8006,
+                780
+            ],
+            "Bottom-right": [
+                8006,
+                908
+            ],
+            "Bottom-left": [
+                7878,
+                908
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-13",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7864,
+                1188
+            ],
+            "Top-right": [
+                7992,
+                1188
+            ],
+            "Bottom-right": [
+                7992,
+                1316
+            ],
+            "Bottom-left": [
+                7864,
+                1316
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-14",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5917,
+                292
+            ],
+            "Top-right": [
+                6045,
+                292
+            ],
+            "Bottom-right": [
+                6045,
+                420
+            ],
+            "Bottom-left": [
+                5917,
+                420
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-15",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5751,
+                372
+            ],
+            "Top-right": [
+                5879,
+                372
+            ],
+            "Bottom-right": [
+                5879,
+                500
+            ],
+            "Bottom-left": [
+                5751,
+                500
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-16",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5831,
+                135
+            ],
+            "Top-right": [
+                5959,
+                135
+            ],
+            "Bottom-right": [
+                5959,
+                263
+            ],
+            "Bottom-left": [
+                5831,
+                263
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-17",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                6065,
+                38
+            ],
+            "Top-right": [
+                6193,
+                38
+            ],
+            "Bottom-right": [
+                6193,
+                166
+            ],
+            "Bottom-left": [
+                6065,
+                166
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-18",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5864,
+                561
+            ],
+            "Top-right": [
+                5992,
+                561
+            ],
+            "Bottom-right": [
+                5992,
+                689
+            ],
+            "Bottom-left": [
+                5864,
+                689
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-19",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                2542,
+                1366
+            ],
+            "Top-right": [
+                2670,
+                1366
+            ],
+            "Bottom-right": [
+                2670,
+                1494
+            ],
+            "Bottom-left": [
+                2542,
+                1494
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-20",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                2622,
+                1401
+            ],
+            "Top-right": [
+                2750,
+                1401
+            ],
+            "Bottom-right": [
+                2750,
+                1529
+            ],
+            "Bottom-left": [
+                2622,
+                1529
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-21",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                2714,
+                1438
+            ],
+            "Top-right": [
+                2842,
+                1438
+            ],
+            "Bottom-right": [
+                2842,
+                1566
+            ],
+            "Bottom-left": [
+                2714,
+                1566
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-22",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1647,
+                529
+            ],
+            "Top-right": [
+                1775,
+                529
+            ],
+            "Bottom-right": [
+                1775,
+                657
+            ],
+            "Bottom-left": [
+                1647,
+                657
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-23",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1704,
+                1714
+            ],
+            "Top-right": [
+                1832,
+                1714
+            ],
+            "Bottom-right": [
+                1832,
+                1842
+            ],
+            "Bottom-left": [
+                1704,
+                1842
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-24",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1770,
+                1755
+            ],
+            "Top-right": [
+                1898,
+                1755
+            ],
+            "Bottom-right": [
+                1898,
+                1883
+            ],
+            "Bottom-left": [
+                1770,
+                1883
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-25",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                855,
+                3461
+            ],
+            "Top-right": [
+                983,
+                3461
+            ],
+            "Bottom-right": [
+                983,
+                3589
+            ],
+            "Bottom-left": [
+                855,
+                3589
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "KR-2-NC-26",
+        "Category": "KR-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                707,
+                3766
+            ],
+            "Top-right": [
+                835,
+                3766
+            ],
+            "Bottom-right": [
+                835,
+                3894
+            ],
+            "Bottom-left": [
+                707,
+                3894
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    }
+]

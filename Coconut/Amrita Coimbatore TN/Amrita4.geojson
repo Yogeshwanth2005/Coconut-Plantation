@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              212.22,
+              5.46
+            ],
+            [
+              724.75,
+              5.46
+            ],
+            [
+              724.75,
+              518.0
+            ],
+            [
+              212.22,
+              518.0
+            ],
+            [
+              212.22,
+              5.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              510.06,
+              3.49
+            ],
+            [
+              1022.59,
+              3.49
+            ],
+            [
+              1022.59,
+              516.02
+            ],
+            [
+              510.06,
+              516.02
+            ],
+            [
+              510.06,
+              3.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              3.49
+            ],
+            [
+              511.73,
+              3.49
+            ],
+            [
+              511.73,
+              516.02
+            ],
+            [
+              0.0,
+              516.02
+            ],
+            [
+              0.0,
+              3.49
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.52,
+              1154.34
+            ],
+            [
+              513.68,
+              1154.34
+            ],
+            [
+              513.68,
+              1665.43
+            ],
+            [
+              2.52,
+              1665.43
+            ],
+            [
+              2.52,
+              1154.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2.51,
+              1678.35
+            ],
+            [
+              513.67,
+              1678.35
+            ],
+            [
+              513.67,
+              2189.45
+            ],
+            [
+              2.51,
+              2189.45
+            ],
+            [
+              2.51,
+              1678.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              240.45,
+              1308.22
+            ],
+            [
+              751.62,
+              1308.22
+            ],
+            [
+              751.62,
+              1819.31
+            ],
+            [
+              240.45,
+              1819.31
+            ],
+            [
+              240.45,
+              1308.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              231.64,
+              1748.86
+            ],
+            [
+              742.81,
+              1748.86
+            ],
+            [
+              742.81,
+              2259.95
+            ],
+            [
+              231.64,
+              2259.95
+            ],
+            [
+              231.64,
+              1748.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              1845.84
+            ],
+            [
+              504.78,
+              1845.84
+            ],
+            [
+              504.78,
+              2356.93
+            ],
+            [
+              0.0,
+              2356.93
+            ],
+            [
+              0.0,
+              1845.84
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              938.06
+            ],
+            [
+              504.8,
+              938.06
+            ],
+            [
+              504.8,
+              1449.16
+            ],
+            [
+              0.0,
+              1449.16
+            ],
+            [
+              0.0,
+              938.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "dense_grown",
+        "image": "Triple P Kabacan_800_4.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4338.39,
+              2744.68
+            ],
+            [
+              4849.55,
+              2744.68
+            ],
+            [
+              4849.55,
+              3255.77
+            ],
+            [
+              4338.39,
+              3255.77
+            ],
+            [
+              4338.39,
+              2744.68
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

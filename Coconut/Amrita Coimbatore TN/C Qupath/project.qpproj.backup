@@ -1,0 +1,230 @@
+{
+  "version": "0.5.1",
+  "createTimestamp": 1748448539092,
+  "modifyTimestamp": 1748448539092,
+  "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/C%20Qupath/project.qpproj",
+  "lastID": 7,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Sambava_800_1_anotted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 1,
+      "randomizedName": "8b4411c5-ba25-4124-9431-52cfe0fc2382",
+      "imageName": "Sambava_800_1_anotted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Sambava_800_2_anotted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 2,
+      "randomizedName": "47a3fa0d-793c-4615-8365-665bdd94c149",
+      "imageName": "Sambava_800_2_anotted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Wat%20Phleng_800_1_annoted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 3,
+      "randomizedName": "d6d5a0fd-b8fc-41f7-9767-bca15b1f3550",
+      "imageName": "Wat Phleng_800_1_annoted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Wat%20Phleng_800_2_annoted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 4,
+      "randomizedName": "bf1769b3-cecc-4461-ac87-c43167cf109d",
+      "imageName": "Wat Phleng_800_2_annoted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Wat%20Phleng_800_3_annoted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 5,
+      "randomizedName": "11a6e30b-407c-42a1-bf44-20cca5f9cc04",
+      "imageName": "Wat Phleng_800_3_annoted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/D:/Coconut/Amrita%20Coimbatore%20TN/Wat%20Phleng_800_4_annoted.png",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 6,
+      "randomizedName": "1318294d-b5e8-4f23-92b8-0ce946d59a2d",
+      "imageName": "Wat Phleng_800_4_annoted.png",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "pyramidize",
+        "builder": {
+          "builderType": "uri",
+          "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+          "uri": "file:/D:/Coconut/Karavatti%20Lakshadweep/Karavatti_800_1.png",
+          "args": [
+            "--series",
+            "0"
+          ],
+          "metadata": {
+            "name": "Karavatti_800_1.png",
+            "width": 8192,
+            "height": 4283,
+            "sizeZ": 1,
+            "sizeT": 1,
+            "channelType": "DEFAULT",
+            "isRGB": true,
+            "pixelType": "UINT8",
+            "levels": [
+              {
+                "downsample": 1.0,
+                "width": 8192,
+                "height": 4283
+              }
+            ],
+            "channels": [
+              {
+                "name": "Red",
+                "color": -65536
+              },
+              {
+                "name": "Green",
+                "color": -16711936
+              },
+              {
+                "name": "Blue",
+                "color": -16776961
+              }
+            ],
+            "pixelCalibration": {
+              "pixelWidth": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "pixelHeight": {
+                "value": 1.0,
+                "unit": "px"
+              },
+              "zSpacing": {
+                "value": 1.0,
+                "unit": "z-slice"
+              },
+              "timeUnit": "SECONDS",
+              "timepoints": []
+            },
+            "preferredTileWidth": 8192,
+            "preferredTileHeight": 32
+          }
+        },
+        "metadata": {
+          "name": "Karavatti_800_1.png",
+          "width": 8192,
+          "height": 4283,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 8192,
+              "height": 4283
+            },
+            {
+              "downsample": 4.0,
+              "width": 2048,
+              "height": 1070
+            },
+            {
+              "downsample": 16.0,
+              "width": 512,
+              "height": 267
+            },
+            {
+              "downsample": 64.0,
+              "width": 128,
+              "height": 66
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 256,
+          "preferredTileHeight": 32
+        }
+      },
+      "entryID": 7,
+      "randomizedName": "5e81252c-3a25-412e-b66e-ca6f074c4ffd",
+      "imageName": "Karavatti_800_1.png",
+      "metadata": {}
+    }
+  ]
+}

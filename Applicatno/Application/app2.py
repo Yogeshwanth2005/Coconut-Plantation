@@ -1,0 +1,1757 @@
+# app_fixed_points_patched.py
+import sys, csv, random, math, json, numpy as np
+from PyQt5.QtWidgets import (
+    QApplication, QMainWindow, QFileDialog, QGraphicsView, QGraphicsScene,
+    QGraphicsPixmapItem, QAction, QGraphicsRectItem, QGraphicsSimpleTextItem,
+    QMenu, QInputDialog, QMessageBox, QTableWidget, QTableWidgetItem,
+    QVBoxLayout, QWidget, QGraphicsEllipseItem, QLabel, QSizePolicy,QPushButton
+)
+from PyQt5.QtGui import QPixmap, QPen, QBrush, QColor, QFont, QImage, QPainter
+from PyQt5.QtCore import Qt, QRectF, QPointF
+from PyQt5.QtWidgets import QGraphicsItem
+
+# Config
+MIN_W, MIN_H = 20, 20
+POINT_MATCH_TOLERANCE = 6  # pixels for re-using close points
+POINT_RADIUS = 7.5        # radius (bigger points)
+
+# -------------------- Resize Handle --------------------
+class ResizeHandle(QGraphicsRectItem):
+    def __init__(self, parent, role):
+        super().__init__(-4, -4, 8, 8, parent)
+        self.setBrush(QBrush(Qt.green))
+        self.setCursor(Qt.SizeAllCursor)
+        self.role = role
+        self.setAcceptedMouseButtons(Qt.LeftButton)
+
+    def mousePressEvent(self, event):
+        self.start_pos = event.scenePos()
+        self.start_rect = self.parentItem().rect()
+        event.accept()
+
+    def mouseMoveEvent(self, event):
+        delta = event.scenePos() - self.start_pos
+        r = QRectF(self.start_rect)
+        if self.role in ("tl", "ml", "bl"): r.setLeft(r.left() + delta.x())
+        if self.role in ("tr", "mr", "br"): r.setRight(r.right() + delta.x())
+        if self.role in ("tl", "tm", "tr"): r.setTop(r.top() + delta.y())
+        if self.role in ("bl", "bm", "br"): r.setBottom(r.bottom() + delta.y())
+        if r.width() < MIN_W: r.setWidth(MIN_W)
+        if r.height() < MIN_H: r.setHeight(MIN_H)
+        self.parentItem().setRect(r)
+        self.parentItem().update_handles()
+        self.parentItem().update_label_position()
+        event.accept()
+
+    def mouseReleaseEvent(self, event):
+        event.accept()
+
+
+# -----------------------------------------------------------------------
+class DraggablePoint(QGraphicsEllipseItem):
+    def __init__(self, scene_pos, color, viewer):
+        d = POINT_RADIUS * 2
+        super().__init__(-POINT_RADIUS, -POINT_RADIUS, d, d)
+        self.viewer = viewer
+        self.setPen(QPen(Qt.black, 2))          # thicker black border
+        self.setBrush(QBrush(color))            # fill with category/white/gray
+        self.setPos(scene_pos)
+        self.setZValue(1000)
+        self.setFlags(QGraphicsItem.ItemIsMovable |
+                    QGraphicsItem.ItemIsSelectable |
+                    QGraphicsItem.ItemSendsGeometryChanges)
+        self.boxes = set()
+        self._last_pos = scene_pos   # track for undo-move
+
+
+    def itemChange(self, change, value):
+        if change == QGraphicsItem.ItemPositionHasChanged:
+            old_pos = getattr(self, "_last_pos", None)
+            new_pos = self.scenePos()
+            if old_pos is not None and old_pos != new_pos:
+                # log movement
+                try:
+                    self.viewer._undo_stack.append(('move_point', self, old_pos, new_pos))
+                    if hasattr(self.viewer, "history_log") and self.viewer.history_log:
+                        self.viewer.history_log.add_entry("Point Moved",f"From ({old_pos.x():.1f},{old_pos.y():.1f}) → ({new_pos.x():.1f},{new_pos.y():.1f})")
+
+                except Exception:
+                    pass
+            self._last_pos = new_pos
+            # update links; update_all_points_links will notify UI
+            try:
+                self.viewer.update_all_points_links()
+            except Exception:
+                pass
+        return super().itemChange(change, value)
+
+    def contextMenuEvent(self, event):
+        menu = QMenu()
+        act_delete = menu.addAction("Delete Point")
+        chosen = menu.exec_(event.screenPos())
+        if chosen == act_delete:
+            # collect linked boxes first
+            boxes = list(self.boxes)
+
+            # unlink and remove
+            for b in boxes:
+                try:
+                    self.viewer.unlink_point_from_box(self, b)
+                except Exception:
+                    pass
+            try:
+                self.viewer.scene.removeItem(self)
+            except Exception:
+                pass
+
+            # log deletion for undo
+            try:
+                self.viewer._undo_stack.append(('delete_point', self, boxes))
+            except Exception:
+                pass
+
+            # notify UI
+            try:
+                self.viewer._notify_point_change()
+                if hasattr(self.viewer, "history_log") and self.viewer.history_log:
+                    self.viewer.history_log.add_entry("Point Deleted",f"From boxes: {[b.box_id for b in boxes]}")
+
+            except Exception:
+                pass
+
+        event.accept()
+
+
+# -------------------- Box --------------------
+class ResizableBox(QGraphicsRectItem):
+    """Rect with resize handles, manual selection and box ID label, points."""
+    def __init__(self, rect: QRectF, viewer):
+        super().__init__(rect)
+        self.viewer = viewer
+        self.category = ""
+        self.box_id = ""
+        self.point_items = set()  # set of QGraphicsEllipseItem referencing this box
+
+        # Use ItemIsMovable only when enabling move via double-click
+        self.setFlags(QGraphicsRectItem.ItemSendsGeometryChanges)
+        self.setAcceptHoverEvents(True)
+
+        # Resize handles
+        # 🚫 No resize handles (fixed 512x512 box)
+        self.handles = {}
+
+        self.normal_brush = QBrush(QColor(255,0,0,35))   # keep if you want light red when idle
+        self.selected_brush = QBrush(Qt.NoBrush)         # no fill when selected
+
+        self.normal_pen = QPen(Qt.red, 2)
+        self.selected_pen = QPen(Qt.blue, 3)
+        self.setBrush(self.normal_brush)
+        self.setPen(self.normal_pen)
+        self.update_handles()
+        self.set_handles_visible(False)
+
+        # Label (child of rect so it moves with it)
+       # Box ID label (already in your code)
+        self.label_item = QGraphicsSimpleTextItem("", self)
+        self.label_item.setBrush(Qt.blue)
+        self.label_item.setFont(QFont("Arial", 25, QFont.Bold))
+        self.label_item.setVisible(False)   # ✅ hidden by default
+
+
+        # NEW: Point count label (top-right)
+        self.point_count_item = QGraphicsSimpleTextItem("", self)
+        self.point_count_item.setBrush(Qt.blue)
+        self.point_count_item.setFont(QFont("Arial", 23, QFont.Bold))
+
+        self.update_label_position()
+
+
+        # state for double-click-and-hold moving
+        self._move_enabled = False
+        self.overlap_allowed = False
+
+    def set_handles_visible(self, visible: bool):
+    # Do nothing (resize handles disabled)
+        return
+
+
+    def setRect(self, rect):
+        """Force the box to always remain 512x512."""
+        fixed_rect = QRectF(rect.x(), rect.y(), 512, 512)
+        super().setRect(fixed_rect)
+        self.update_label_position()
+
+    
+    def select(self):
+        self.setBrush(QBrush(Qt.NoBrush))      # transparent fill
+        self.setPen(QPen(Qt.yellow, 3))        # yellow border
+        self.set_handles_visible(True)
+
+        # ✅ show label only when selected
+        self.label_item.setVisible(True)
+        self.update_label_position()
+
+
+    def deselect(self):
+        """Restore normal appearance when deselected."""
+        self.setBrush(QBrush(QColor(0, 0, 0, 0)))  # transparent fill
+
+        # ✅ Keep yellow dotted line if marked
+        if getattr(self, "is_marked", False):
+            pen = QPen(Qt.yellow, 3, Qt.DotLine)
+            self.setPen(pen)
+        else:
+            # ✅ Restore category color (or red if no category)
+            if self.category and self.category in self.viewer.category_colors:
+                color = self.viewer.category_colors[self.category]
+            else:
+                color = Qt.red
+            pen = QPen(color, 2, Qt.SolidLine)
+            self.setPen(pen)
+
+        self.set_handles_visible(False)
+        self.label_item.setVisible(False)  # hide label again when deselected
+
+    def update_handles(self):
+        r = self.rect()
+        cx, cy = r.center().x(), r.center().y()
+        positions = {
+            'tl': QPointF(r.left(), r.top()), 'tm': QPointF(cx, r.top()), 'tr': QPointF(r.right(), r.top()),
+            'ml': QPointF(r.left(), cy), 'mr': QPointF(r.right(), cy),
+            'bl': QPointF(r.left(), r.bottom()), 'bm': QPointF(cx, r.bottom()), 'br': QPointF(r.right(), r.bottom())
+        }
+        for role, handle in self.handles.items():
+            handle.setPos(positions[role])
+
+    def update_label_position(self):
+        try:
+            margin = 20
+            hpad = 4
+
+            # Left label (box ID)
+            label_rect = self.label_item.boundingRect()
+            label_h = label_rect.height()
+            x = self.rect().x() + hpad
+            y = self.rect().y() - label_h - margin
+            self.label_item.setPos(x, y)
+
+            # Right label (point count)
+            count_rect = self.point_count_item.boundingRect()
+            count_w, count_h = count_rect.width(), count_rect.height()
+            x_right = self.rect().x() + self.rect().width() - count_w - hpad
+            y_right = self.rect().y() - count_h - margin
+            self.point_count_item.setPos(x_right, y_right)
+        except Exception:
+            pass
+
+
+
+    def set_category(self, category, box_id, color):
+        self.category = category
+        self.box_id = box_id
+        self.setBrush(QBrush(QColor(0, 0, 0, 0)))   # fully transparent fill
+        self.setPen(QPen(color, 2))                 # border in category color
+        self.label_item.setText(self.box_id)
+        self.update_label_position()
+
+    def update_point_count(self):
+        if not hasattr(self, "point_count_item"):
+            return
+
+        scene = self.scene()
+        if scene is None:
+            self.point_count_item.setText("0")
+            self.update_label_position()
+            return
+
+        # Count all points linked to this box (exclusive or shared)
+        count = sum(1 for p in scene.items()
+                    if isinstance(p, QGraphicsEllipseItem) and hasattr(p, "boxes") and self in p.boxes)
+
+        # 🔹 Show total count only (no (+x))
+        self.point_count_item.setText(str(count))
+        self.update_label_position()
+
+
+
+
+    def itemChange(self, change, value):
+        if change == QGraphicsItem.ItemPositionChange:
+            newPos = value
+            if not self.viewer.allow_overlap:
+                # Compute new rect in scene coordinates if moved to newPos
+                new_rect = self.mapRectToScene(self.rect())
+                delta = newPos - self.pos()
+                new_rect.translate(delta)
+
+                for other in self.viewer.boxes:
+                    if other is self:
+                        continue
+                    other_rect = other.mapRectToScene(other.rect())
+                    if new_rect.intersects(other_rect):
+                        # Cancel movement if overlapping
+                        return self.pos()
+
+            # Move exclusive points with box while dragging
+            old_pos = self.pos()
+            dx = newPos.x() - old_pos.x()
+            dy = newPos.y() - old_pos.y()
+            for p in list(self.point_items):
+                if hasattr(p, "boxes") and len(p.boxes) == 1 and self in p.boxes:
+                    p.moveBy(dx, dy)
+
+        if change == QGraphicsItem.ItemPositionHasChanged:
+            # After position changed, recompute which points are inside/outside and relink
+            for item in list(self.scene().items()):
+                if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                    try:
+                        inside = self.rect().contains(self.mapFromScene(item.scenePos()))
+                    except Exception:
+                        inside = False
+                    if inside and item not in self.point_items:
+                        self.viewer.link_point_to_box(item, self)
+                    if (not inside) and item in list(self.point_items):
+                        self.viewer.unlink_point_from_box(item, self)
+
+        return super().itemChange(change, value)
+
+    def mouseDoubleClickEvent(self, event):
+        # Select and enable moving on double-click
+        if event.button() == Qt.LeftButton:
+            if self.viewer.active_box and self.viewer.active_box is not self:
+                try:
+                    self.viewer.active_box.deselect()
+                except Exception:
+                    pass
+            self.viewer.active_box = self
+            self.select()
+            # Enable movement for this box until mouse release
+            self.setFlag(QGraphicsItem.ItemIsMovable, True)
+            self._move_enabled = True
+            event.accept()
+            return
+        super().mouseDoubleClickEvent(event)
+
+    def mouseReleaseEvent(self, event):
+        try:
+            if self._move_enabled and not getattr(self, "_from_duplicate", False):
+                self.setFlag(QGraphicsItem.ItemIsMovable, False)
+                self._move_enabled = False
+
+        except Exception:
+            pass
+        super().mouseReleaseEvent(event)
+
+    def contextMenuEvent(self, event):
+        # Only show menu if this is the active box
+        if self.viewer.active_box is not self:
+            return
+        menu = QMenu()
+
+        # --- Toggle between Mark and Unmark ---
+        if getattr(self, "is_marked", False):
+            act_mark = menu.addAction("Unmark")
+        else:
+            act_mark = menu.addAction("Mark")
+
+        # --- Existing options ---
+        act_copy = menu.addAction("Copy")
+        act_delete = menu.addAction("Delete")
+
+        chosen = menu.exec_(event.screenPos())
+
+        # --- Handle actions ---
+        if chosen == act_mark:
+            if not getattr(self, "is_marked", False):
+                # ✅ MARK: show yellow dotted boundary
+                pen = QPen(Qt.yellow, 3, Qt.DotLine)
+                self.setPen(pen)
+                self.is_marked = True
+                # Optional: add to history log
+                if hasattr(self.viewer, "history_log") and self.viewer.history_log:
+                    self.viewer.history_log.add_entry("Box Marked", f"ID: {self.box_id}")
+            else:
+                # ✅ UNMARK: restore category color boundary
+                if self.category and self.category in self.viewer.category_colors:
+                    color = self.viewer.category_colors[self.category]
+                else:
+                    color = Qt.red  # fallback
+                pen = QPen(color,2, Qt.SolidLine)
+                self.setPen(pen)
+                self.is_marked = False
+
+                # Optional: add to history log
+                if hasattr(self.viewer, "history_log") and self.viewer.history_log:
+                    self.viewer.history_log.add_entry("Box Unmarked", f"ID: {self.box_id}")
+
+        elif chosen == act_copy:
+            self.viewer.duplicate_box(self)
+
+        elif chosen == act_delete:
+            self.viewer.delete_box(self)
+
+        event.accept()
+
+    def get_corners_scene(self):
+        r = self.rect()
+        pts_local = [r.topLeft(), r.topRight(), r.bottomRight(), r.bottomLeft()]
+        scene_pts = [self.mapToScene(p) for p in pts_local]
+        return [(int(p.x()), int(p.y())) for p in scene_pts]
+
+    def get_area(self):
+        r = self.rect()
+        return int(r.width()*r.height())
+
+    def get_properties(self):
+        corners = self.get_corners_scene()
+        coords = {"Top-left": corners[0], "Top-right": corners[1], "Bottom-right": corners[2], "Bottom-left": corners[3]}
+        pts = [(int(p.scenePos().x()), int(p.scenePos().y())) for p in self.point_items]
+        return {"Box ID": self.box_id, "Category": self.category, "Coordinates": coords, "Area": self.get_area(), "Points": pts}
+    
+# -------------------- Image Viewer --------------------
+class ImageViewer(QGraphicsView):
+    def __init__(self):
+        super().__init__()
+        self.scene = QGraphicsScene(self)
+        self.setScene(self.scene)
+        self.image_item = None
+        self.boxes = []
+        self.categories = []
+        self.category_colors = {}
+        self._drawing = False
+        self._current_box = None
+        self._current_label = None
+        self._zoom = 0
+        self.active_box = None
+        self._undo_stack = []  # entries: ('add', box), ('delete', box, [points])
+        self._adding_points = False
+        self._active_box_for_points = None
+        self._pan = False
+        self._pan_start = QPointF()
+        self.allow_overlap = False
+        self._redo_stack = []
+        self.on_points_changed = None
+        self._unsaved_changes = False
+
+
+    def get_random_color(self):
+        return QColor(random.randint(60,230), random.randint(60,230), random.randint(60,230), 160)
+
+    # ---------------- Image ----------------
+    def load_image(self, file_path):
+        pixmap = QPixmap(file_path)
+        self.scene.clear()
+        self.image_item = QGraphicsPixmapItem(pixmap)
+        self.scene.addItem(self.image_item)
+        self.setSceneRect(QRectF(pixmap.rect()))
+        self.resetTransform()
+        self._zoom = 0
+        self.boxes.clear()
+        self._undo_stack.clear()
+        self.active_box = None
+        # notify UI (0 points)
+        try:
+            self._notify_point_change()
+        except Exception:
+            pass
+
+    def wheelEvent(self,event):
+        if not self.image_item: return
+        zoom_in_factor = 1.25; zoom_out_factor = 1/zoom_in_factor
+        old_pos = self.mapToScene(event.pos())
+        zoom_factor = zoom_in_factor if event.angleDelta().y()>0 else zoom_out_factor
+        self.scale(zoom_factor,zoom_factor)
+        new_pos = self.mapToScene(event.pos())
+        delta = new_pos-old_pos
+        self.translate(delta.x(), delta.y())
+
+    def fit_to_window(self):
+        if self.image_item:
+            self.fitInView(self.image_item, Qt.KeepAspectRatio)
+            self._zoom=0
+
+    def actual_size(self):
+        if self.image_item:
+            self.resetTransform()
+            self.setSceneRect(QRectF(self.image_item.pixmap().rect()))
+            self._zoom=0
+
+    # ---------------- Points helpers ----------------
+    def find_existing_point_at(self, scene_pos):
+        for item in self.scene.items():
+            if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                ppos = item.scenePos()
+                if (abs(ppos.x() - scene_pos.x()) <= POINT_MATCH_TOLERANCE and
+                    abs(ppos.y() - scene_pos.y()) <= POINT_MATCH_TOLERANCE):
+                    return item
+        return None
+
+    def create_point_at(self, scene_pos, color=None, update_links=True):
+        color = color if color is not None else Qt.red
+        point = DraggablePoint(scene_pos, color, self)
+        self.scene.addItem(point)
+
+        # log creation
+        self._undo_stack.append(('add_point', point))
+
+        if hasattr(self, "history_log") and self.history_log:
+            self.history_log.add_entry(
+                "Point Added",
+                f"At ({scene_pos.x():.1f}, {scene_pos.y():.1f})"
+            )
+
+        # 🔹 original behavior: full re-link
+        if update_links:
+            self.update_all_points_links()
+
+        # notify UI that points changed
+        self._notify_point_change()
+        self._unsaved_changes = True
+
+        return point
+
+
+
+
+
+    def link_point_to_box(self, point_item, box):
+        if not hasattr(point_item, "boxes"):
+            point_item.boxes = set()
+        point_item.boxes.add(box)
+
+        if not hasattr(box, "point_items"):
+            box.point_items = set()
+        box.point_items.add(point_item)
+
+        # Update point color
+        if len(point_item.boxes) == 1:
+            color = self.category_colors.get(box.category, Qt.red)   # normal category color
+        elif len(point_item.boxes) > 1:
+            color = Qt.white   # 🔹 white for overlapping points
+        else:
+            color = Qt.gray    # orphaned point
+        point_item.setBrush(QBrush(color))
+
+        # 🔹 Update the box’s point count
+        box.update_point_count()
+
+        self._notify_point_change()
+
+
+    def unlink_point_from_box(self, point_item, box):
+        if hasattr(point_item, "boxes") and box in point_item.boxes:
+            point_item.boxes.remove(box)
+        if hasattr(box, "point_items") and point_item in box.point_items:
+            box.point_items.remove(point_item)
+
+        # Update color again
+        if len(point_item.boxes) == 1:
+            remaining_box = next(iter(point_item.boxes))
+            color = self.category_colors.get(remaining_box.category, Qt.red)
+        elif len(point_item.boxes) > 1:
+            color = Qt.white   # 🔹 white for overlapping points
+        else:
+            color = Qt.gray
+        point_item.setBrush(QBrush(color))
+
+        # 🔹 Update the box’s point count
+        box.update_point_count()
+
+        self._notify_point_change()
+
+
+
+    # ---------------- Box Drawing ----------------
+    def start_drawing_box(self):
+        self._drawing = True
+        self.setCursor(Qt.CrossCursor)
+
+    def stop_drawing_box(self):
+        self._drawing = False
+        self.setCursor(Qt.ArrowCursor)
+        if self._current_label:
+            try: self.scene.removeItem(self._current_label)
+            except Exception: pass
+            self._current_label = None
+        if self._current_box:
+            try: self.scene.removeItem(self._current_box)
+            except Exception: pass
+            self._current_box = None
+
+    def mousePressEvent(self,event):
+        pos = self.mapToScene(event.pos())
+
+        # If drawing mode, start a temp box
+        if self._drawing and event.button() == Qt.LeftButton:
+            if not self.allow_overlap:
+                for b in self.boxes:
+                    try:
+                        if b.sceneBoundingRect().contains(pos):
+                            QMessageBox.information(None, "Info", "Cannot start drawing inside an existing box when Overlap is OFF.")
+                            return
+                    except Exception:
+                        pass
+            rect = QRectF(pos,pos)
+            self._current_box = ResizableBox(rect, self)
+            self.scene.addItem(self._current_box)
+
+
+        # Adding points (handle before panning to avoid accidental pan)
+        # Adding points (handle before panning to avoid accidental pan)
+        if self._adding_points and self._active_box_for_points:
+            box = self._active_box_for_points
+            local_pos = box.mapFromScene(pos)
+            if box.rect().contains(local_pos):
+                existing = self.find_existing_point_at(pos)
+                if existing is not None:
+                    # 🔹 link existing point only to the active box
+                    self.link_point_to_box(existing, box)
+                else:
+                    cat_color = self.category_colors.get(box.category, Qt.red)
+                    new_p = self.create_point_at(pos, color=cat_color)
+                    # 🔹 link new point only to the active box
+                    self.link_point_to_box(new_p, box)
+
+
+            else:
+                self.stop_adding_points()
+            return
+
+
+        # Panning if clicked background or image
+        clicked_item = self.itemAt(event.pos())
+        if event.button()==Qt.LeftButton and (clicked_item is None or clicked_item==self.image_item):
+            self._pan=True
+            self._pan_start=event.pos()
+            self.setCursor(Qt.ClosedHandCursor)
+            event.accept()
+            return
+
+        super().mousePressEvent(event)
+
+    def mouseMoveEvent(self,event):
+        if self._drawing and self._current_box:
+            end_pos = self.mapToScene(event.pos())
+            rect = QRectF(self._current_box.rect().topLeft(), end_pos).normalized()
+            if rect.width() < MIN_W: rect.setWidth(MIN_W)
+            if rect.height() < MIN_H: rect.setHeight(MIN_H)
+            self._current_box.setRect(rect)
+            
+
+            # position temp label above the box with extra margin and center horizontally
+            try:
+                margin = 20
+                h = self._current_label.boundingRect().height()
+                x = rect.x() + 4   # same left padding
+                y = rect.y() - h - margin
+                self._current_label.setPos(x, y)
+            except Exception:
+                try:
+                    self._current_label.setPos(rect.x() + 2, rect.y() - 40)
+                except Exception:
+                    pass
+
+
+        elif self._pan:
+            delta = event.pos() - self._pan_start
+            self._pan_start = event.pos()
+            self.horizontalScrollBar().setValue(self.horizontalScrollBar().value()-delta.x())
+            self.verticalScrollBar().setValue(self.verticalScrollBar().value()-delta.y())
+        else:
+            super().mouseMoveEvent(event)
+
+    def mouseReleaseEvent(self, event):
+    # finalize a drawing
+        if self._drawing and self._current_box:
+            rect = self._current_box.rect()
+            if rect.width() < MIN_W or rect.height() < MIN_H:
+                try:
+                    self.scene.removeItem(self._current_box)
+                except Exception:
+                    pass
+                self._current_box = None
+                self._drawing = False
+                self.setCursor(Qt.ArrowCursor)
+                super().mouseReleaseEvent(event)
+                return
+
+            new_scene_rect = self._current_box.sceneBoundingRect()
+
+            if not self.allow_overlap:
+                intersects_any = False
+                for existing in self.boxes:
+                    try:
+                        if new_scene_rect.intersects(existing.sceneBoundingRect()):
+                            intersects_any = True
+                            break
+                    except Exception:
+                        pass
+                if intersects_any:
+                    try:
+                        self.scene.removeItem(self._current_box)
+                    except Exception:
+                        pass
+                    if self._current_label:
+                        try:
+                            self.scene.removeItem(self._current_label)
+                        except Exception:
+                            pass
+                        self._current_label = None
+                    self._current_box = None
+                    self._drawing = False
+                    self.setCursor(Qt.ArrowCursor)
+                    QMessageBox.information(
+                        None,
+                        "Info",
+                        "New box overlaps existing box and Overlap is OFF. Box cancelled."
+                    )
+                    super().mouseReleaseEvent(event)
+                    return
+
+            # link existing points inside new box
+            for item in list(self.scene.items()):
+                if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                    if self._current_box.rect().contains(self._current_box.mapFromScene(item.scenePos())):
+                        self.link_point_to_box(item, self._current_box)
+
+            cat = self._current_box.category if self._current_box.category else ""
+            count = sum(1 for b in self.boxes if b.category == cat)
+            self._current_box.box_id = f"{cat}-{count+1}" if cat else f"unlabeled-{count+1}"
+            self._current_box.update_label_position()
+
+            # ✅ add new box
+            self.boxes.append(self._current_box)
+
+            if hasattr(self, "history_log") and self.history_log:
+                self.history_log.add_entry("Box Added", f"ID: {self._current_box.box_id}")
+
+
+            # ✅ notify history if open
+            main_window = self.window()
+            if hasattr(main_window, "history_window") and main_window.history_window:
+                main_window.history_window.update_if_open()
+
+            # push into undo stack
+            self._undo_stack.append(('add', self._current_box))
+            self.renumber_boxes()
+
+            self._current_box = None
+            if self._current_label:
+                try:
+                    self.scene.removeItem(self._current_label)
+                except Exception:
+                    pass
+                self._current_label = None
+            self._drawing = False
+            self.setCursor(Qt.ArrowCursor)
+            super().mouseReleaseEvent(event)
+            return
+
+        if self._pan:
+            self._pan = False
+            self.setCursor(Qt.ArrowCursor)
+
+        super().mouseReleaseEvent(event)
+
+
+    def mouseDoubleClickEvent(self, event):
+        pos = self.mapToScene(event.pos())
+
+        # If adding points: double-click outside stops
+        if self._adding_points and self._active_box_for_points:
+            box = self._active_box_for_points
+            local_pos = box.mapFromScene(pos)
+            if not box.rect().contains(local_pos):
+                self.stop_adding_points()
+            return
+
+        clicked_item = self.itemAt(event.pos())
+        while clicked_item is not None and not isinstance(clicked_item, ResizableBox):
+            clicked_item = clicked_item.parentItem()
+
+        if isinstance(clicked_item, ResizableBox):
+            if self.active_box and self.active_box is not clicked_item:
+                try:
+                    self.active_box.deselect()
+                except Exception:
+                    pass
+            self.active_box = clicked_item
+            try:
+                self.active_box.select()
+                # ✅ Always show box ID label (even if unlabeled)
+                if not self.active_box.box_id:
+                    # fallback if somehow missing
+                    count = sum(1 for b in self.boxes if b.category == "")
+                    self.active_box.box_id = f"unlabeled-{count+1}"
+                self.active_box.label_item.setText(self.active_box.box_id)
+                self.active_box.update_label_position()
+            except Exception:
+                pass
+        else:
+            if self.active_box:
+                try:
+                    self.active_box.deselect()
+                except Exception:
+                    pass
+                self.active_box = None
+
+        super().mouseDoubleClickEvent(event)
+
+
+    # ---------------- Points ----------------
+    def start_adding_points(self):
+        if not self.active_box:
+            return
+        self._active_box_for_points = self.active_box
+        self._adding_points=True
+        
+
+    def stop_adding_points(self):
+        self._adding_points=False
+        self._active_box_for_points=None
+        
+
+    # ---------------- Box Operations ----------------
+    def duplicate_box(self, box):
+        rect = box.rect()
+        # Offset so new box doesn't exactly overlap
+        new_rect = QRectF(rect.x() + 40, rect.y() + 40, rect.width(), rect.height())
+        new_box = ResizableBox(new_rect, self)
+
+        cat = box.category if box.category else ""
+        if cat and cat not in self.category_colors:
+            self.categories.append(cat)
+            self.category_colors[cat] = self.get_random_color()
+
+        new_box.category = cat
+        count = sum(1 for b in self.boxes if b.category == cat) + 1
+        new_box.box_id = f"{cat}-{count}" if cat else f"unlabeled-{count}"
+
+        if cat:
+            new_box.setBrush(QBrush(QColor(0, 0, 0, 0)))
+            new_box.setPen(QPen(self.category_colors[cat], 2))
+        else:
+            new_box.setBrush(QBrush(QColor(0, 0, 0, 0)))
+            new_box.setPen(QPen(Qt.red, 2))
+
+        new_box.label_item.setText(new_box.box_id)
+        new_box.update_label_position()
+
+        # ❌ Do not copy points anymore
+
+        self.scene.addItem(new_box)
+        new_box.setZValue(5)   # bring in front of others
+
+        self.boxes.append(new_box)
+        self._undo_stack.append(('add', new_box))
+        self.renumber_boxes()
+
+        # ✅ Log duplication into History
+        if hasattr(self, "history_log") and self.history_log:
+            self.history_log.add_entry(
+                "Box Duplicated",
+                f"New ID: {new_box.box_id} from {box.box_id}"
+            )
+
+        # Immediately make it active & movable
+        if self.active_box and self.active_box is not new_box:
+            try:
+                self.active_box.deselect()
+            except Exception:
+                pass
+        self.active_box = new_box
+        new_box.select()
+        new_box.setFlag(QGraphicsItem.ItemIsMovable, True)   # allow immediate move
+        new_box._move_enabled = False                        # not from double-click
+        new_box._from_duplicate = True                       # mark as duplicate
+        self._unsaved_changes = True
+
+    def save_annotated_image(self, file_path):
+        """Save the current image + annotations at original resolution (no quality loss)."""
+        if not self.image_item:
+            return
+
+        # Use the size of the original image
+        rect = self.image_item.pixmap().rect()
+        image = QImage(rect.size(), QImage.Format_ARGB32)
+        image.fill(Qt.white)  # background (or Qt.transparent if you prefer)
+
+        painter = QPainter(image)
+        self.scene.render(painter, target=QRectF(image.rect()), source=QRectF(rect))
+        painter.end()
+
+        image.save(file_path)
+
+
+
+    def delete_box(self, box=None):
+        # Delete a specific box (or active box if None). Save full state for undo.
+        if box is None:
+            box = self.active_box
+        if not box:
+            return
+
+        # collect points linked to this box
+        points = list(box.point_items) if hasattr(box, "point_items") else []
+
+        # unlink points via helper
+        for p in list(points):
+            try:
+                self.unlink_point_from_box(p, box)
+            except Exception:
+                pass
+
+        # remove box (its label is child so removed too)
+        try:
+            self.scene.removeItem(box)
+        except Exception:
+            pass
+        if box in self.boxes:
+            self.boxes.remove(box)
+        if self.active_box is box:
+            self.active_box = None
+
+        # push undo entry
+        self._undo_stack.append(('delete', box, points))
+        self.renumber_boxes()
+
+        # refresh links & remove orphan points
+        self.update_all_points_links()
+                # 🔹 Refresh history window if open
+        main_window = self.window()
+        if hasattr(main_window, "history_window") and main_window.history_window:
+            main_window.history_window.update_if_open()
+        if hasattr(self, "history_log") and self.history_log:
+            self.history_log.add_entry("Box Deleted", f"ID: {box.box_id}")
+        self._unsaved_changes = True
+
+
+
+    def undo(self):
+        if not self._undo_stack:
+            return
+        entry = self._undo_stack.pop()
+        action = entry[0]
+
+        # save to redo stack
+        self._redo_stack.append(entry)
+
+        # --- Point actions ---
+        if action == 'add_point':
+            _, point = entry
+            try:
+                self.scene.removeItem(point)
+            except Exception:
+                pass
+            self.update_all_points_links()
+
+        elif action == 'delete_point':
+            _, point, boxes = entry
+            try:
+                self.scene.addItem(point)
+            except Exception:
+                pass
+            point.boxes = set()
+            for b in boxes:
+                self.link_point_to_box(point, b)
+            self.update_all_points_links()
+
+        elif action == 'move_point':
+            _, point, old_pos, new_pos = entry
+            point.setPos(old_pos)
+            point._last_pos = old_pos
+            self.update_all_points_links()
+
+        # --- Box actions ---
+        elif action == 'add':
+            _, box = entry
+            try:
+                self.remove_box(box)
+            except Exception:
+                pass
+
+        elif action == 'delete':
+            _, box, points = entry
+            try:
+                self.scene.addItem(box)
+            except Exception:
+                pass
+            if box not in self.boxes:
+                self.boxes.append(box)
+
+            box.point_items = set()
+            for p in points:
+                self.link_point_to_box(p, box)
+
+            self.renumber_boxes()
+            self.update_all_points_links()
+
+        # notify UI after undo
+        self._notify_point_change()
+        self._unsaved_changes = True
+
+
+    def redo(self):
+        if not self._redo_stack:
+            return
+        entry = self._redo_stack.pop()
+        action = entry[0]
+
+        # push back into undo stack so we can undo the redo
+        self._undo_stack.append(entry)
+
+        if action == 'add_point':
+            _, point = entry
+            try:
+                self.scene.addItem(point)
+            except Exception:
+               pass
+            self.update_all_points_links()
+
+        elif action == 'delete_point':
+            _, point, boxes = entry
+            try:
+                self.scene.removeItem(point)
+            except Exception:
+                pass
+            self.update_all_points_links()
+
+        elif action == 'move_point':
+            _, point, old_pos, new_pos = entry
+            point.setPos(new_pos)
+            point._last_pos = new_pos
+            self.update_all_points_links()
+
+        elif action == 'add':
+            _, box = entry
+            try:
+                self.scene.addItem(box)
+            except Exception:
+                pass
+            if box not in self.boxes:
+                self.boxes.append(box)
+            self.renumber_boxes()
+            self.update_all_points_links()
+
+        elif action == 'delete':
+            _, box, points = entry
+            try:
+                self.scene.addItem(box)
+            except Exception:
+                pass
+            if box not in self.boxes:
+                self.boxes.append(box)
+
+            # Restore points and re-link them
+            box.point_items = set()
+            for p in points:
+                self.link_point_to_box(p, box)
+
+            self.renumber_boxes()
+            self.update_all_points_links()
+
+        # notify UI after redo
+        self._notify_point_change()
+        self._unsaved_changes = True
+
+
+    def count_points(self):
+        """Return number of point items currently in the scene."""
+        return len([item for item in self.scene.items()
+                    if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes")])
+
+    def _notify_point_change(self):
+        """Call the registered callback (if any) to notify UI of point changes."""
+        try:
+            if callable(self.on_points_changed):
+                self.on_points_changed(self.count_points())
+        except Exception:
+            pass
+
+    # ---------------- Properties / stats ----------------
+    def calculate_properties(self):
+        """Return properties for all boxes as a list of dicts with calculated stats (mean, sd)."""
+        result = []
+        for box in self.boxes:
+            props = box.get_properties()
+            pts = props['Points']
+            n = len(pts)
+            mean = (0.0, 0.0)
+            sd = (0.0, 0.0)
+            if n > 0:
+                arr = np.array(pts, dtype=float)
+                mean_x, mean_y = float(np.mean(arr[:,0])), float(np.mean(arr[:,1]))
+                sd_x, sd_y = float(np.std(arr[:,0], ddof=0)), float(np.std(arr[:,1], ddof=0))
+                mean = (mean_x, mean_y)
+                sd = (sd_x, sd_y)
+            result.append({
+                'Box ID': props['Box ID'],
+                'Category': props['Category'],
+                'Coordinates': props['Coordinates'],
+                'Area': props['Area'],
+                'NumPoints': n,
+                'Mean': mean,
+                'SD': sd
+            })
+        return result
+
+    def show_category_points_stats(self):
+        """Show mean, sd, and sd/mean of point counts per category across boxes."""
+        if not self.boxes:
+            QMessageBox.information(self, "Category Stats", "No boxes created yet.")
+            return
+
+        category_counts = {}
+        for b in self.boxes:
+            cat = b.category if b.category else "unlabeled"
+            category_counts.setdefault(cat, []).append(len(getattr(b, 'point_items', [])))
+
+        lines = ["Category, Mean #Points, SD #Points, SD/Mean"]
+        for cat, counts in category_counts.items():
+            if counts:
+                mean_count = float(np.mean(counts))
+                sd_count = float(np.std(counts, ddof=1)) if len(counts) > 1 else 0.0
+                ratio = sd_count / mean_count if mean_count > 0 else 0.0
+                lines.append(f"{cat}: Mean={mean_count:.2f}, SD={sd_count:.2f}, SD/Mean={ratio:.2f}")
+            else:
+                lines.append(f"{cat}: Mean=0.00, SD=0.00, SD/Mean=0.00")
+
+        QMessageBox.information(self, "Category Points Stats", "\n".join(lines))
+
+
+    # ---------------- Helper: renumber ----------------
+    def renumber_boxes(self):
+       # Group boxes by category (preserve insertion order)
+    # Group boxes by category (preserve insertion order)
+        cat_map = {}
+        for b in self.boxes:
+            cat = b.category if getattr(b, "category", None) else "unlabeled"
+            cat_map.setdefault(cat, []).append(b)
+
+        # Renumber boxes sequentially per category
+        for cat, blist in cat_map.items():
+            for i, b in enumerate(blist, start=1):
+                new_id = f"{cat}-{i}" if cat != "unlabeled" else f"unlabeled-{i}"
+                b.box_id = new_id
+
+                # Update label if it exists
+                label_item = getattr(b, "label_item", None)
+                if label_item:
+                    try:
+                        label_item.setText(new_id)
+                        b.update_label_position()
+                    except Exception:
+                        pass
+
+        # --- Log renumbering action ---
+        history = getattr(self, "history_log", None)
+        if history:
+            history.add_entry("Boxes Renumbered", "Sequential IDs updated")
+
+        
+
+    def show_properties(self):
+        box = self.active_box
+        if not box:
+            QMessageBox.information(self, "Info", "No box selected. Double-click a box first.")
+            return
+
+        rect = box.rect()
+        coords = f"({rect.x():.1f}, {rect.y():.1f}, {rect.width():.1f}, {rect.height():.1f})"
+        area = rect.width() * rect.height()
+        num_points = len(getattr(box, "point_items", []))
+
+        if num_points > 0:
+            xs = [p.scenePos().x() for p in box.point_items]
+            ys = [p.scenePos().y() for p in box.point_items]
+            mean_x = sum(xs) / num_points
+            mean_y = sum(ys) / num_points
+            sd_x = (sum((x - mean_x) ** 2 for x in xs) / num_points) ** 0.5
+            sd_y = (sum((y - mean_y) ** 2 for y in ys) / num_points) ** 0.5
+            points_info = f"\nPoints: {num_points}, Mean=({mean_x:.1f},{mean_y:.1f}), SD=({sd_x:.1f},{sd_y:.1f})"
+        else:
+            points_info = "\nNo points."
+
+        msg = (
+            f"Box ID: {box.box_id}\n"
+            f"Category: {box.category}\n"
+            f"Coordinates: {coords}\n"
+            f"Area: {area:.1f} px²"
+            f"{points_info}"
+        )
+
+        QMessageBox.information(self, "Box Properties", msg)
+
+    def update_all_points_links(self):
+        # Step 1: Clear all box → point links
+        for box in self.boxes:
+            box.point_items.clear()   # correct attribute
+
+        # Step 2: Collect all points from the scene
+        all_points = [item for item in self.scene.items()
+                    if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes")]
+
+        # Step 3: Clear all point → box links
+        for point in all_points:
+            point.boxes.clear()
+
+        # Step 4: Reassign points to boxes
+        for point in all_points:
+            for box in self.boxes:
+                if box.rect().contains(box.mapFromScene(point.scenePos())):
+                    self.link_point_to_box(point, box)
+
+        # Step 5: Update labels/counts
+        for box in self.boxes:
+            box.update_point_count()
+
+        # Step 6: Remove orphan points
+        for point in all_points:
+            if not point.boxes:   # if no box references it
+                try:
+                    self.scene.removeItem(point)
+                except Exception:
+                    pass
+
+        # notify UI after relinking/removals
+        self._notify_point_change()
+
+    def remove_box(self, box):
+        if box in self.boxes:
+            if box.label_item:
+                try:
+                    self.scene.removeItem(box.label_item)
+                except Exception:
+                    pass
+            try:
+                self.scene.removeItem(box)
+            except Exception:
+                pass
+            self.boxes.remove(box)
+
+            # Force relinking after removal
+            self.update_all_points_links()
+
+
+# -------------------- Main Window --------------------
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Image Annotation App (fixed)")
+        self.viewer = ImageViewer()
+        self.setCentralWidget(self.viewer)
+
+        menubar = self.menuBar()
+
+        file_menu=menubar.addMenu("File")
+        open_action=QAction("Open Image",self); open_action.triggered.connect(self.open_image); file_menu.addAction(open_action)
+        import_action=QAction("Import Annotations",self)
+        import_action.triggered.connect(self.import_annotations)
+        file_menu.addAction(import_action)
+        export_action=QAction("Export Annotations",self); export_action.triggered.connect(self.export_annotations); file_menu.addAction(export_action)
+        save_img_action=QAction("Save Annotated Image",self); save_img_action.triggered.connect(self.save_annotated_image); file_menu.addAction(save_img_action)
+
+        # ---------------- History Menu ----------------
+        history_menu = menubar.addMenu("History")
+        open_history_action = QAction("Open History Window", self)
+        open_history_action.triggered.connect(self.open_history_window)
+        history_menu.addAction(open_history_action)
+        open_log_action = QAction("Open History Log", self)
+        open_log_action.triggered.connect(self.open_history_log)
+        history_menu.addAction(open_log_action)
+
+
+
+        view_menu=menubar.addMenu("View")
+        fit_action=QAction("Fit to Window",self); fit_action.triggered.connect(self.viewer.fit_to_window); view_menu.addAction(fit_action)
+        actual_action=QAction("Actual Size",self); actual_action.triggered.connect(self.viewer.actual_size); view_menu.addAction(actual_action)
+
+        draw_menu=menubar.addMenu("Draw")
+        draw_box_action=QAction("Draw Box",self); draw_box_action.triggered.connect(self.viewer.start_drawing_box); draw_menu.addAction(draw_box_action)
+        stop_draw_action=QAction("Stop Drawing",self); stop_draw_action.triggered.connect(self.viewer.stop_drawing_box); draw_menu.addAction(stop_draw_action)
+
+        category_menu=menubar.addMenu("Category")
+        add_cat_action=QAction("Add Category",self); add_cat_action.triggered.connect(self.add_category); category_menu.addAction(add_cat_action)
+        assign_cat_action = QAction("Assign Category to Selected Box", self)
+        assign_cat_action.triggered.connect(self.assign_category_to_selected_box)
+        category_menu.addAction(assign_cat_action)
+
+        points_menu=menubar.addMenu("Points")
+        add_points_action=QAction("Add Points to Selected Box",self); add_points_action.triggered.connect(self.viewer.start_adding_points); points_menu.addAction(add_points_action)
+        stop_points_action=QAction("Stop Adding Points",self); stop_points_action.triggered.connect(self.viewer.stop_adding_points); points_menu.addAction(stop_points_action)
+
+        props_menu=menubar.addMenu("Properties")
+        show_props_action=QAction("Show Selected Box Properties",self); show_props_action.triggered.connect(self.viewer.show_properties); props_menu.addAction(show_props_action)
+        show_all_props_action=QAction("Show All Annotations",self); show_all_props_action.triggered.connect(self.show_all_properties); props_menu.addAction(show_all_props_action)
+        cat_stats_action=QAction("Category Points Stats",self); cat_stats_action.triggered.connect(self.viewer.show_category_points_stats); props_menu.addAction(cat_stats_action)
+
+        undo_action=QAction("Undo",self); undo_action.setShortcut("Ctrl+Z"); undo_action.triggered.connect(self.viewer.undo); menubar.addAction(undo_action)
+
+        redo_action = QAction("Redo", self)
+        redo_action.setShortcut("Ctrl+Y")
+        redo_action.triggered.connect(self.viewer.redo)
+        menubar.addAction(redo_action)
+
+                # --- Copy / Paste box shortcuts ---
+        copy_action = QAction("Copy Box", self)
+        copy_action.setShortcut("Ctrl+C")
+        copy_action.triggered.connect(self.copy_selected_box)
+        self.addAction(copy_action)
+
+        paste_action = QAction("Paste Box", self)
+        paste_action.setShortcut("Ctrl+V")
+        paste_action.triggered.connect(self.paste_box)
+        self.addAction(paste_action)
+
+
+        toolbar = self.addToolBar("Tools")
+        self.overlap_action = QAction("Allow Overlap", self)
+        self.overlap_action.setCheckable(True)
+        self.overlap_action.setChecked(False)
+        self.overlap_action.triggered.connect(self.toggle_overlap)
+        toolbar.addAction(self.overlap_action)
+
+        # --- add right-aligned point count label ---
+        spacer = QWidget()
+        spacer.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Preferred)
+        toolbar.addWidget(spacer)
+
+        self.point_count_label = QLabel("Points: 0", self)
+        # style it a bit larger and bold so it's visible
+        self.point_count_label.setStyleSheet("font-weight: bold; padding-right:8px; font-size: 14px;")
+        toolbar.addWidget(self.point_count_label)
+
+        # connect viewer callback so label updates in real time
+        self.viewer.on_points_changed = self.update_point_count_label
+        # initialize label with current count (if any)
+        try:
+            self.update_point_count_label(self.viewer.count_points())
+        except Exception:
+            pass
+
+    # Create a persistent history log window (hidden by default)
+        self.history_log = HistoryLog(self.viewer)
+        self.viewer.history_log = self.history_log
+
+    def closeEvent(self, event):
+        if not self.viewer._unsaved_changes:  # already saved, no need to ask
+            event.accept()
+            return
+
+        reply = QMessageBox.question(
+            self,
+            "Exit",
+            "Do you want to save annotations before exiting?",
+            QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel,
+            QMessageBox.Yes
+        )
+
+        if reply == QMessageBox.Yes:
+            file_path, _ = QFileDialog.getSaveFileName(
+                self, "Save Annotations", "", "JSON Files (*.json)"
+            )
+            if file_path:
+                export_data = []
+                for box in self.viewer.boxes:
+                    props = box.get_properties()
+                    export_data.append(props)
+                import json
+                with open(file_path, "w") as f:
+                    json.dump(export_data, f, indent=4)
+                self.viewer._unsaved_changes = False
+            event.accept()
+
+        elif reply == QMessageBox.No:
+            event.accept()
+
+        else:
+            event.ignore()
+
+
+    def copy_selected_box(self):
+        """Copy the currently active box (if any)."""
+        box = self.viewer.active_box
+        if not box:
+            QMessageBox.information(self, "Copy", "No box selected. Double-click a box first.")
+            return
+        self._copied_box = box
+
+    def paste_box(self):
+        """Paste (duplicate) the previously copied box."""
+        if not hasattr(self, "_copied_box") or self._copied_box is None:
+            QMessageBox.information(self, "Paste", "No box copied yet. Use Ctrl+C first.")
+            return
+        new_box = self._copied_box
+        self.viewer.duplicate_box(new_box)
+
+    def toggle_overlap(self, checked):
+        self.viewer.allow_overlap = bool(checked)
+        
+
+    def open_history_window(self):
+        self.history_window = HistoryWindow(self.viewer)
+        self.history_window.refresh()
+        self.history_window.show()
+
+    def open_history_log(self):
+        self.history_log.show()
+        self.history_log.raise_()   # bring to front
+        self.history_log.activateWindow()
+
+    def import_annotations(self):
+        file_path, _ = QFileDialog.getOpenFileName(
+            self, "Import Annotations", "", "JSON Files (*.json)"
+        )
+        if not file_path:
+            return
+
+        with open(file_path, "r") as f:
+            data = json.load(f)
+
+        # clear old points
+        if hasattr(self.viewer, "points"):
+            for point in self.viewer.points:
+                self.viewer.scene.removeItem(point)
+            self.viewer.points.clear()
+
+        for entry in data:
+            coords = entry["Coordinates"]
+            x1, y1 = coords["Top-left"]
+            x2, y2 = coords["Bottom-right"]
+            rect = QRectF(x1, y1, x2 - x1, y2 - y1)
+
+            box = ResizableBox(rect, self.viewer)
+            box.category = entry.get("Category", "")
+            box.box_id = entry.get("Box ID", "")
+
+            # Assign category color
+            if box.category and box.category not in self.viewer.category_colors:
+                self.viewer.categories.append(box.category)
+                self.viewer.category_colors[box.category] = self.viewer.get_random_color()
+
+            color = self.viewer.category_colors.get(box.category, Qt.red)
+            box.setBrush(QBrush(QColor(0, 0, 0, 0)))
+            box.setPen(QPen(color, 2))
+            box.label_item.setText(box.box_id)
+            box.update_label_position()
+
+            self.viewer.scene.addItem(box)
+            self.viewer.boxes.append(box)
+
+            # ✅ Add points without duplication
+            for x, y in entry.get("Points", []):
+                pos = QPointF(x, y)
+                existing = self.viewer.find_existing_point_at(pos)
+                if existing:
+                    self.viewer.link_point_to_box(existing, box)
+                else:
+                    new_p = self.viewer.create_point_at(pos, color=color, update_links=False)
+                    self.viewer.link_point_to_box(new_p, box)
+
+        # Run once after all boxes & points are created
+        self.viewer.update_all_points_links()
+
+        QMessageBox.information(self, "Import Complete", f"Annotations loaded from {file_path}")
+
+    def save_annotated_image(self):
+        if not self.viewer.image_item:
+            QMessageBox.information(self, "Save", "No image loaded.")
+            return
+
+        file_path, _ = QFileDialog.getSaveFileName(
+            self, "Save Annotated Image", "", "PNG Files (*.png);;JPEG Files (*.jpg)"
+        )
+        if not file_path:
+            return
+
+        self.viewer.save_annotated_image(file_path)
+        QMessageBox.information(self, "Save Complete", f"Annotated image saved to {file_path}")
+
+
+
+    def open_image(self):
+        file_path,_ = QFileDialog.getOpenFileName(self,"Open Image","","Images (*.png *.jpg *.bmp)")
+        if file_path:
+            self.viewer.load_image(file_path)
+
+    def export_annotations(self):
+        if not self.viewer.boxes:
+            QMessageBox.information(self, "Export", "No boxes to export.")
+            return
+
+        file_path, _ = QFileDialog.getSaveFileName(
+            self, "Export Annotations", "", "JSON Files (*.json)"
+        )
+        if not file_path:
+            return
+
+        export_data = []
+        for box in self.viewer.boxes:
+            props = box.get_properties()
+            export_data.append(props)
+
+        with open(file_path, "w") as f:
+            json.dump(export_data, f, indent=4)
+
+        QMessageBox.information(
+            self, "Export Complete", f"Annotations exported to {file_path}"
+        )
+        self.viewer._unsaved_changes = False
+
+    def assign_category_to_selected_box(self):
+        box = self.viewer.active_box
+        if not box:
+            QMessageBox.information(self, "Info", "Double-click a box to select it first.")
+            return
+        if not self.viewer.categories:
+            QMessageBox.information(self, "Info", "No categories yet. Use Add Category first.")
+            return
+
+        cat, ok = QInputDialog.getItem(self, "Assign Category", "Select Category:", self.viewer.categories, 0, False)
+        if ok and cat:
+            if cat not in self.viewer.category_colors:
+                self.viewer.category_colors[cat] = self.viewer.get_random_color()
+                if cat not in self.viewer.categories:
+                    self.viewer.categories.append(cat)
+
+            count = sum(1 for b in self.viewer.boxes if b.category == cat) + 1
+            box.category = cat
+            box.box_id = f"{cat}-{count}"
+
+            # Transparent fill + category border
+            color = self.viewer.category_colors[cat]
+            box.setBrush(QBrush(QColor(0, 0, 0, 0)))
+            box.setPen(QPen(color, 2))
+
+            box.label_item.setText(box.box_id)
+            box.update_label_position()
+            if hasattr(self.viewer, "history_log") and self.viewer.history_log:
+                self.viewer.history_log.add_entry("Category Changed",f"Box {box.box_id} → {box.category}")
+
+
+            # Recolor points inside this box
+            for p in list(box.point_items):
+                if hasattr(p, 'boxes') and len(p.boxes) == 1 and box in p.boxes:
+                    p.setBrush(QBrush(color))   # exclusive → category color
+                elif hasattr(p, 'boxes') and len(p.boxes) > 1:
+                    p.setBrush(QBrush(QColor(150, 150, 150, 160)))  # shared → neutral gray
+
+            self.viewer.renumber_boxes()
+                        # 🔹 Refresh history window if open
+            if hasattr(self, "history_window") and self.history_window:
+                self.history_window.update_if_open()
+
+
+    def add_category(self):
+        text,ok=QInputDialog.getText(self,"Add Category","Category Name:")
+        if ok and text.strip():
+            cat=text.strip()
+            if cat not in self.viewer.categories:
+                self.viewer.categories.append(cat)
+                self.viewer.category_colors[cat]=self.viewer.get_random_color()
+
+    def show_all_properties(self):
+        props = self.viewer.calculate_properties()
+        if not props:
+            QMessageBox.information(self, "Properties", "No boxes created yet."); return
+        self.table_window=QWidget(); self.table_window.setWindowTitle("All Annotations")
+        layout=QVBoxLayout()
+        table=QTableWidget(); table.setColumnCount(8)
+        table.setHorizontalHeaderLabels(["Box ID","Category","Top-left","Top-right","Bottom-right","Bottom-left","Area","#Points"])
+        table.setRowCount(len(props))
+        for row,p in enumerate(props):
+            table.setItem(row,0,QTableWidgetItem(p['Box ID']))
+            table.setItem(row,1,QTableWidgetItem(p['Category']))
+            coords = p['Coordinates']
+            table.setItem(row,2,QTableWidgetItem(str(coords['Top-left'])))
+            table.setItem(row,3,QTableWidgetItem(str(coords['Top-right'])))
+            table.setItem(row,4,QTableWidgetItem(str(coords['Bottom-right'])))
+            table.setItem(row,5,QTableWidgetItem(str(coords['Bottom-left'])))
+            table.setItem(row,6,QTableWidgetItem(str(p['Area'])))
+            table.setItem(row,7,QTableWidgetItem(str(p['NumPoints'])))
+        layout.addWidget(table)
+        self.table_window.setLayout(layout)
+        self.table_window.resize(900,400)
+        self.table_window.show()
+
+    def update_point_count_label(self, n_points):
+        """Update the top-right label with the number of points."""
+        try:
+            self.point_count_label.setText(f"Points: {n_points}")
+        except Exception:
+            pass
+
+class HistoryWindow(QWidget):
+    def __init__(self, viewer):
+        super().__init__()
+        self.viewer = viewer
+        self.setWindowTitle("History")
+        self.resize(400, 300)
+
+        self.layout = QVBoxLayout()
+        self.table = QTableWidget()
+        self.table.setColumnCount(2)
+        self.table.setHorizontalHeaderLabels(["Box ID", "Category"])
+        self.layout.addWidget(self.table)
+
+        # Button for Show All
+        self.show_all_btn = QPushButton("Show All Boxes")
+        self.show_all_btn.clicked.connect(self.show_all_boxes)
+        self.layout.addWidget(self.show_all_btn)
+
+        self.setLayout(self.layout)
+
+        # double click to show only that box
+        self.table.cellDoubleClicked.connect(self.on_cell_double_clicked)
+
+    def show_all_boxes(self):
+        """Restore visibility for all boxes and points."""
+        for b in self.viewer.boxes:
+            b.setVisible(True)
+        for item in self.viewer.scene.items():
+            if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                item.setVisible(True)
+
+    
+    def refresh(self):
+        boxes = self.viewer.boxes
+        self.table.setRowCount(len(boxes))
+        for row, b in enumerate(boxes):
+            self.table.setItem(row, 0, QTableWidgetItem(b.box_id))
+            self.table.setItem(row, 1, QTableWidgetItem(b.category))
+
+    def update_if_open(self):
+        """Refresh only if window is visible"""
+        if self.isVisible():
+            self.refresh()
+
+    def on_cell_double_clicked(self, row, column):
+        """Show only the clicked box and overlaps."""
+        if row < 0 or row >= len(self.viewer.boxes):
+            return
+        target_box = self.viewer.boxes[row]
+        if not target_box:
+            return
+
+        selected_rect = target_box.sceneBoundingRect()
+
+        for b in self.viewer.boxes:
+            if b is target_box:
+                b.setVisible(True)
+            else:
+                try:
+                    b.setVisible(selected_rect.intersects(b.sceneBoundingRect()))
+                except Exception:
+                    b.setVisible(False)
+
+        for item in self.viewer.scene.items():
+            if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                item.setVisible(any(b.isVisible() for b in item.boxes))
+
+class HistoryLog(QWidget):
+    def __init__(self, viewer):
+        super().__init__()
+        self.viewer = viewer
+        self.setWindowTitle("Operations History")
+        self.resize(500, 400)
+
+        self.layout = QVBoxLayout()
+        self.table = QTableWidget()
+        self.table.setColumnCount(3)
+        self.table.setHorizontalHeaderLabels(["Time", "Operation", "Details"])
+        self.layout.addWidget(self.table)
+
+        # Add Show All button
+        self.show_all_btn = QPushButton("Show All")
+        self.show_all_btn.clicked.connect(self.show_all_boxes)
+        self.layout.addWidget(self.show_all_btn)
+
+        # Enable double-click on rows
+        self.table.cellDoubleClicked.connect(self.on_cell_double_clicked)
+
+        self.setLayout(self.layout)
+
+        # Keep all entries here, so logs persist even if window is closed
+        self.entries = []
+
+    def add_entry(self, operation, details):
+        """Record an operation in memory and update table if visible"""
+        from datetime import datetime
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self.entries.append((timestamp, operation, details))
+
+        if self.isVisible():
+            self._append_row(timestamp, operation, details)
+
+    def _append_row(self, timestamp, operation, details):
+        row = self.table.rowCount()
+        self.table.insertRow(row)
+        self.table.setItem(row, 0, QTableWidgetItem(timestamp))
+        self.table.setItem(row, 1, QTableWidgetItem(operation))
+        self.table.setItem(row, 2, QTableWidgetItem(details))
+        self.table.scrollToBottom()
+
+    def showEvent(self, event):
+        """Refresh table from memory whenever the window is shown"""
+        self.table.setRowCount(0)
+        for ts, op, det in self.entries:
+            self._append_row(ts, op, det)
+        super().showEvent(event)
+
+    def on_cell_double_clicked(self, row, column):
+        """Show only the box related to the selected log entry (with overlaps + points)."""
+        if row < 0 or row >= len(self.entries):
+            return
+        _, op, details = self.entries[row]
+
+        # Extract Box ID if possible
+        box_id = None
+        if "ID:" in details:
+            box_id = details.split("ID:")[-1].strip()
+        elif "Box" in details:
+            box_id = details.split("Box")[-1].split()[0].strip()
+
+        if not box_id:
+            return
+
+        # Find that box
+        target_box = None
+        for b in self.viewer.boxes:
+            if b.box_id == box_id:
+                target_box = b
+                break
+
+        if not target_box:
+            return
+
+        selected_rect = target_box.sceneBoundingRect()
+
+        # Show only target + overlapping boxes
+        for b in self.viewer.boxes:
+            if b is target_box:
+                b.setVisible(True)
+            else:
+                try:
+                    b.setVisible(selected_rect.intersects(b.sceneBoundingRect()))
+                except Exception:
+                    b.setVisible(False)
+
+        # Update points visibility
+        for item in self.viewer.scene.items():
+            if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                item.setVisible(any(b.isVisible() for b in item.boxes))
+
+    def show_all_boxes(self):
+        """Restore all boxes and points to visible"""
+        for b in self.viewer.boxes:
+            b.setVisible(True)
+        for item in self.viewer.scene.items():
+            if isinstance(item, QGraphicsEllipseItem) and hasattr(item, "boxes"):
+                item.setVisible(True)
+  
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.showMaximized()
+    sys.exit(app.exec_())

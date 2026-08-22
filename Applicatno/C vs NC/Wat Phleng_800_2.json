@@ -1,0 +1,4802 @@
+[
+    {
+        "Box ID": "WA-2-C-1",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3594,
+                2017
+            ],
+            "Top-right": [
+                3722,
+                2017
+            ],
+            "Bottom-right": [
+                3722,
+                2145
+            ],
+            "Bottom-left": [
+                3594,
+                2145
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-2",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3950,
+                2078
+            ],
+            "Top-right": [
+                4078,
+                2078
+            ],
+            "Bottom-right": [
+                4078,
+                2206
+            ],
+            "Bottom-left": [
+                3950,
+                2206
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-3",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4235,
+                2410
+            ],
+            "Top-right": [
+                4363,
+                2410
+            ],
+            "Bottom-right": [
+                4363,
+                2538
+            ],
+            "Bottom-left": [
+                4235,
+                2538
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-4",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4460,
+                2076
+            ],
+            "Top-right": [
+                4588,
+                2076
+            ],
+            "Bottom-right": [
+                4588,
+                2204
+            ],
+            "Bottom-left": [
+                4460,
+                2204
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-5",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4243,
+                1912
+            ],
+            "Top-right": [
+                4371,
+                1912
+            ],
+            "Bottom-right": [
+                4371,
+                2040
+            ],
+            "Bottom-left": [
+                4243,
+                2040
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-6",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3946,
+                1857
+            ],
+            "Top-right": [
+                4074,
+                1857
+            ],
+            "Bottom-right": [
+                4074,
+                1985
+            ],
+            "Bottom-left": [
+                3946,
+                1985
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-7",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3903,
+                1558
+            ],
+            "Top-right": [
+                4031,
+                1558
+            ],
+            "Bottom-right": [
+                4031,
+                1686
+            ],
+            "Bottom-left": [
+                3903,
+                1686
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-8",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4444,
+                1498
+            ],
+            "Top-right": [
+                4572,
+                1498
+            ],
+            "Bottom-right": [
+                4572,
+                1626
+            ],
+            "Bottom-left": [
+                4444,
+                1626
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-9",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4952,
+                1430
+            ],
+            "Top-right": [
+                5080,
+                1430
+            ],
+            "Bottom-right": [
+                5080,
+                1558
+            ],
+            "Bottom-left": [
+                4952,
+                1558
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-10",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5444,
+                1553
+            ],
+            "Top-right": [
+                5572,
+                1553
+            ],
+            "Bottom-right": [
+                5572,
+                1681
+            ],
+            "Bottom-left": [
+                5444,
+                1681
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-11",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5677,
+                1717
+            ],
+            "Top-right": [
+                5805,
+                1717
+            ],
+            "Bottom-right": [
+                5805,
+                1845
+            ],
+            "Bottom-left": [
+                5677,
+                1845
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-12",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5417,
+                2199
+            ],
+            "Top-right": [
+                5545,
+                2199
+            ],
+            "Bottom-right": [
+                5545,
+                2327
+            ],
+            "Bottom-left": [
+                5417,
+                2327
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-13",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5103,
+                2215
+            ],
+            "Top-right": [
+                5231,
+                2215
+            ],
+            "Bottom-right": [
+                5231,
+                2343
+            ],
+            "Bottom-left": [
+                5103,
+                2343
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-14",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4895,
+                2387
+            ],
+            "Top-right": [
+                5023,
+                2387
+            ],
+            "Bottom-right": [
+                5023,
+                2515
+            ],
+            "Bottom-left": [
+                4895,
+                2515
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-15",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4765,
+                2689
+            ],
+            "Top-right": [
+                4893,
+                2689
+            ],
+            "Bottom-right": [
+                4893,
+                2817
+            ],
+            "Bottom-left": [
+                4765,
+                2817
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-16",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5175,
+                2791
+            ],
+            "Top-right": [
+                5303,
+                2791
+            ],
+            "Bottom-right": [
+                5303,
+                2919
+            ],
+            "Bottom-left": [
+                5175,
+                2919
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-17",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5554,
+                2400
+            ],
+            "Top-right": [
+                5682,
+                2400
+            ],
+            "Bottom-right": [
+                5682,
+                2528
+            ],
+            "Bottom-left": [
+                5554,
+                2528
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-18",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5878,
+                2324
+            ],
+            "Top-right": [
+                6006,
+                2324
+            ],
+            "Bottom-right": [
+                6006,
+                2452
+            ],
+            "Bottom-left": [
+                5878,
+                2452
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-19",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4576,
+                3575
+            ],
+            "Top-right": [
+                4704,
+                3575
+            ],
+            "Bottom-right": [
+                4704,
+                3703
+            ],
+            "Bottom-left": [
+                4576,
+                3703
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-20",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4992,
+                3594
+            ],
+            "Top-right": [
+                5120,
+                3594
+            ],
+            "Bottom-right": [
+                5120,
+                3722
+            ],
+            "Bottom-left": [
+                4992,
+                3722
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-21",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5377,
+                3690
+            ],
+            "Top-right": [
+                5505,
+                3690
+            ],
+            "Bottom-right": [
+                5505,
+                3818
+            ],
+            "Bottom-left": [
+                5377,
+                3818
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-22",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5697,
+                3655
+            ],
+            "Top-right": [
+                5825,
+                3655
+            ],
+            "Bottom-right": [
+                5825,
+                3783
+            ],
+            "Bottom-left": [
+                5697,
+                3783
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-23",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5808,
+                3987
+            ],
+            "Top-right": [
+                5936,
+                3987
+            ],
+            "Bottom-right": [
+                5936,
+                4115
+            ],
+            "Bottom-left": [
+                5808,
+                4115
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-24",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5091,
+                4094
+            ],
+            "Top-right": [
+                5219,
+                4094
+            ],
+            "Bottom-right": [
+                5219,
+                4222
+            ],
+            "Bottom-left": [
+                5091,
+                4222
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-25",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4500,
+                4041
+            ],
+            "Top-right": [
+                4628,
+                4041
+            ],
+            "Bottom-right": [
+                4628,
+                4169
+            ],
+            "Bottom-left": [
+                4500,
+                4169
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-26",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4111,
+                3964
+            ],
+            "Top-right": [
+                4239,
+                3964
+            ],
+            "Bottom-right": [
+                4239,
+                4092
+            ],
+            "Bottom-left": [
+                4111,
+                4092
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-27",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3725,
+                3804
+            ],
+            "Top-right": [
+                3853,
+                3804
+            ],
+            "Bottom-right": [
+                3853,
+                3932
+            ],
+            "Bottom-left": [
+                3725,
+                3932
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-28",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3210,
+                3713
+            ],
+            "Top-right": [
+                3338,
+                3713
+            ],
+            "Bottom-right": [
+                3338,
+                3841
+            ],
+            "Bottom-left": [
+                3210,
+                3841
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-29",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2844,
+                3633
+            ],
+            "Top-right": [
+                2972,
+                3633
+            ],
+            "Bottom-right": [
+                2972,
+                3761
+            ],
+            "Bottom-left": [
+                2844,
+                3761
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-30",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2417,
+                3579
+            ],
+            "Top-right": [
+                2545,
+                3579
+            ],
+            "Bottom-right": [
+                2545,
+                3707
+            ],
+            "Bottom-left": [
+                2417,
+                3707
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-31",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2035,
+                3541
+            ],
+            "Top-right": [
+                2163,
+                3541
+            ],
+            "Bottom-right": [
+                2163,
+                3669
+            ],
+            "Bottom-left": [
+                2035,
+                3669
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-32",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1692,
+                3408
+            ],
+            "Top-right": [
+                1820,
+                3408
+            ],
+            "Bottom-right": [
+                1820,
+                3536
+            ],
+            "Bottom-left": [
+                1692,
+                3536
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-33",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1478,
+                3232
+            ],
+            "Top-right": [
+                1606,
+                3232
+            ],
+            "Bottom-right": [
+                1606,
+                3360
+            ],
+            "Bottom-left": [
+                1478,
+                3360
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-34",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1784,
+                3160
+            ],
+            "Top-right": [
+                1912,
+                3160
+            ],
+            "Bottom-right": [
+                1912,
+                3288
+            ],
+            "Bottom-left": [
+                1784,
+                3288
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-35",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1494,
+                3938
+            ],
+            "Top-right": [
+                1622,
+                3938
+            ],
+            "Bottom-right": [
+                1622,
+                4066
+            ],
+            "Bottom-left": [
+                1494,
+                4066
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-36",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1078,
+                4037
+            ],
+            "Top-right": [
+                1206,
+                4037
+            ],
+            "Bottom-right": [
+                1206,
+                4165
+            ],
+            "Bottom-left": [
+                1078,
+                4165
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-37",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                803,
+                3858
+            ],
+            "Top-right": [
+                931,
+                3858
+            ],
+            "Bottom-right": [
+                931,
+                3986
+            ],
+            "Bottom-left": [
+                803,
+                3986
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-38",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                834,
+                3350
+            ],
+            "Top-right": [
+                962,
+                3350
+            ],
+            "Bottom-right": [
+                962,
+                3478
+            ],
+            "Bottom-left": [
+                834,
+                3478
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-39",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                715,
+                2679
+            ],
+            "Top-right": [
+                843,
+                2679
+            ],
+            "Bottom-right": [
+                843,
+                2807
+            ],
+            "Bottom-left": [
+                715,
+                2807
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-40",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                796,
+                2244
+            ],
+            "Top-right": [
+                924,
+                2244
+            ],
+            "Bottom-right": [
+                924,
+                2372
+            ],
+            "Bottom-left": [
+                796,
+                2372
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-41",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                868,
+                2053
+            ],
+            "Top-right": [
+                996,
+                2053
+            ],
+            "Bottom-right": [
+                996,
+                2181
+            ],
+            "Bottom-left": [
+                868,
+                2181
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-42",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1150,
+                1748
+            ],
+            "Top-right": [
+                1278,
+                1748
+            ],
+            "Bottom-right": [
+                1278,
+                1876
+            ],
+            "Bottom-left": [
+                1150,
+                1876
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-43",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1467,
+                1786
+            ],
+            "Top-right": [
+                1595,
+                1786
+            ],
+            "Bottom-right": [
+                1595,
+                1914
+            ],
+            "Bottom-left": [
+                1467,
+                1914
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-44",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1967,
+                1542
+            ],
+            "Top-right": [
+                2095,
+                1542
+            ],
+            "Bottom-right": [
+                2095,
+                1670
+            ],
+            "Bottom-left": [
+                1967,
+                1670
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-45",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1917,
+                1336
+            ],
+            "Top-right": [
+                2045,
+                1336
+            ],
+            "Bottom-right": [
+                2045,
+                1464
+            ],
+            "Bottom-left": [
+                1917,
+                1464
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-46",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1406,
+                1191
+            ],
+            "Top-right": [
+                1534,
+                1191
+            ],
+            "Bottom-right": [
+                1534,
+                1319
+            ],
+            "Bottom-left": [
+                1406,
+                1319
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-47",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1089,
+                1149
+            ],
+            "Top-right": [
+                1217,
+                1149
+            ],
+            "Bottom-right": [
+                1217,
+                1277
+            ],
+            "Bottom-left": [
+                1089,
+                1277
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-48",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1028,
+                1256
+            ],
+            "Top-right": [
+                1156,
+                1256
+            ],
+            "Bottom-right": [
+                1156,
+                1384
+            ],
+            "Bottom-left": [
+                1028,
+                1384
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-49",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1284,
+                1302
+            ],
+            "Top-right": [
+                1412,
+                1302
+            ],
+            "Bottom-right": [
+                1412,
+                1430
+            ],
+            "Bottom-left": [
+                1284,
+                1430
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-50",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                1814,
+                936
+            ],
+            "Top-right": [
+                1942,
+                936
+            ],
+            "Bottom-right": [
+                1942,
+                1064
+            ],
+            "Bottom-left": [
+                1814,
+                1064
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-51",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2501,
+                1027
+            ],
+            "Top-right": [
+                2629,
+                1027
+            ],
+            "Bottom-right": [
+                2629,
+                1155
+            ],
+            "Bottom-left": [
+                2501,
+                1155
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-52",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2974,
+                970
+            ],
+            "Top-right": [
+                3102,
+                970
+            ],
+            "Bottom-right": [
+                3102,
+                1098
+            ],
+            "Bottom-left": [
+                2974,
+                1098
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-53",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3321,
+                970
+            ],
+            "Top-right": [
+                3449,
+                970
+            ],
+            "Bottom-right": [
+                3449,
+                1098
+            ],
+            "Bottom-left": [
+                3321,
+                1098
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-54",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3680,
+                1046
+            ],
+            "Top-right": [
+                3808,
+                1046
+            ],
+            "Bottom-right": [
+                3808,
+                1174
+            ],
+            "Bottom-left": [
+                3680,
+                1174
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-55",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3973,
+                1252
+            ],
+            "Top-right": [
+                4101,
+                1252
+            ],
+            "Bottom-right": [
+                4101,
+                1380
+            ],
+            "Bottom-left": [
+                3973,
+                1380
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-56",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3535,
+                1321
+            ],
+            "Top-right": [
+                3663,
+                1321
+            ],
+            "Bottom-right": [
+                3663,
+                1449
+            ],
+            "Bottom-left": [
+                3535,
+                1449
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-57",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3374,
+                1367
+            ],
+            "Top-right": [
+                3502,
+                1367
+            ],
+            "Bottom-right": [
+                3502,
+                1495
+            ],
+            "Bottom-left": [
+                3374,
+                1495
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-58",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2619,
+                1512
+            ],
+            "Top-right": [
+                2747,
+                1512
+            ],
+            "Bottom-right": [
+                2747,
+                1640
+            ],
+            "Bottom-left": [
+                2619,
+                1640
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-59",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3111,
+                1596
+            ],
+            "Top-right": [
+                3239,
+                1596
+            ],
+            "Bottom-right": [
+                3239,
+                1724
+            ],
+            "Bottom-left": [
+                3111,
+                1724
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-60",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2791,
+                1412
+            ],
+            "Top-right": [
+                2919,
+                1412
+            ],
+            "Bottom-right": [
+                2919,
+                1540
+            ],
+            "Bottom-left": [
+                2791,
+                1540
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-61",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2749,
+                1668
+            ],
+            "Top-right": [
+                2877,
+                1668
+            ],
+            "Bottom-right": [
+                2877,
+                1796
+            ],
+            "Bottom-left": [
+                2749,
+                1796
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-62",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3309,
+                2065
+            ],
+            "Top-right": [
+                3437,
+                2065
+            ],
+            "Bottom-right": [
+                3437,
+                2193
+            ],
+            "Bottom-left": [
+                3309,
+                2193
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-63",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3561,
+                2393
+            ],
+            "Top-right": [
+                3689,
+                2393
+            ],
+            "Bottom-right": [
+                3689,
+                2521
+            ],
+            "Bottom-left": [
+                3561,
+                2521
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-64",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3870,
+                2355
+            ],
+            "Top-right": [
+                3998,
+                2355
+            ],
+            "Bottom-right": [
+                3998,
+                2483
+            ],
+            "Bottom-left": [
+                3870,
+                2483
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-65",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4194,
+                2153
+            ],
+            "Top-right": [
+                4322,
+                2153
+            ],
+            "Bottom-right": [
+                4322,
+                2281
+            ],
+            "Bottom-left": [
+                4194,
+                2281
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-66",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4996,
+                2629
+            ],
+            "Top-right": [
+                5124,
+                2629
+            ],
+            "Bottom-right": [
+                5124,
+                2757
+            ],
+            "Bottom-left": [
+                4996,
+                2757
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-67",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5221,
+                2362
+            ],
+            "Top-right": [
+                5349,
+                2362
+            ],
+            "Bottom-right": [
+                5349,
+                2490
+            ],
+            "Bottom-left": [
+                5221,
+                2490
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-68",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4881,
+                2126
+            ],
+            "Top-right": [
+                5009,
+                2126
+            ],
+            "Bottom-right": [
+                5009,
+                2254
+            ],
+            "Bottom-left": [
+                4881,
+                2254
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-69",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6655,
+                2385
+            ],
+            "Top-right": [
+                6783,
+                2385
+            ],
+            "Bottom-right": [
+                6783,
+                2513
+            ],
+            "Bottom-left": [
+                6655,
+                2513
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-70",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6628,
+                2000
+            ],
+            "Top-right": [
+                6756,
+                2000
+            ],
+            "Bottom-right": [
+                6756,
+                2128
+            ],
+            "Bottom-left": [
+                6628,
+                2128
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-71",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6319,
+                1832
+            ],
+            "Top-right": [
+                6447,
+                1832
+            ],
+            "Bottom-right": [
+                6447,
+                1960
+            ],
+            "Bottom-left": [
+                6319,
+                1960
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-72",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6281,
+                1512
+            ],
+            "Top-right": [
+                6409,
+                1512
+            ],
+            "Bottom-right": [
+                6409,
+                1640
+            ],
+            "Bottom-left": [
+                6281,
+                1640
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-73",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6899,
+                1611
+            ],
+            "Top-right": [
+                7027,
+                1611
+            ],
+            "Bottom-right": [
+                7027,
+                1739
+            ],
+            "Bottom-left": [
+                6899,
+                1739
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-74",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7696,
+                1798
+            ],
+            "Top-right": [
+                7824,
+                1798
+            ],
+            "Bottom-right": [
+                7824,
+                1926
+            ],
+            "Bottom-left": [
+                7696,
+                1926
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-75",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7693,
+                2008
+            ],
+            "Top-right": [
+                7821,
+                2008
+            ],
+            "Bottom-right": [
+                7821,
+                2136
+            ],
+            "Bottom-left": [
+                7693,
+                2136
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-76",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7250,
+                2076
+            ],
+            "Top-right": [
+                7378,
+                2076
+            ],
+            "Bottom-right": [
+                7378,
+                2204
+            ],
+            "Bottom-left": [
+                7250,
+                2204
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-77",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7014,
+                1885
+            ],
+            "Top-right": [
+                7142,
+                1885
+            ],
+            "Bottom-right": [
+                7142,
+                2013
+            ],
+            "Bottom-left": [
+                7014,
+                2013
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-78",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6655,
+                1733
+            ],
+            "Top-right": [
+                6783,
+                1733
+            ],
+            "Bottom-right": [
+                6783,
+                1861
+            ],
+            "Bottom-left": [
+                6655,
+                1861
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-79",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7376,
+                1725
+            ],
+            "Top-right": [
+                7504,
+                1725
+            ],
+            "Bottom-right": [
+                7504,
+                1853
+            ],
+            "Bottom-left": [
+                7376,
+                1853
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-80",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7544,
+                2080
+            ],
+            "Top-right": [
+                7672,
+                2080
+            ],
+            "Bottom-right": [
+                7672,
+                2208
+            ],
+            "Bottom-left": [
+                7544,
+                2208
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-81",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7609,
+                2439
+            ],
+            "Top-right": [
+                7737,
+                2439
+            ],
+            "Bottom-right": [
+                7737,
+                2567
+            ],
+            "Bottom-left": [
+                7609,
+                2567
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-82",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7410,
+                2683
+            ],
+            "Top-right": [
+                7538,
+                2683
+            ],
+            "Bottom-right": [
+                7538,
+                2811
+            ],
+            "Bottom-left": [
+                7410,
+                2811
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-83",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7036,
+                2744
+            ],
+            "Top-right": [
+                7164,
+                2744
+            ],
+            "Bottom-right": [
+                7164,
+                2872
+            ],
+            "Bottom-left": [
+                7036,
+                2872
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-84",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6792,
+                2786
+            ],
+            "Top-right": [
+                6920,
+                2786
+            ],
+            "Bottom-right": [
+                6920,
+                2914
+            ],
+            "Bottom-left": [
+                6792,
+                2914
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-85",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6438,
+                2675
+            ],
+            "Top-right": [
+                6566,
+                2675
+            ],
+            "Bottom-right": [
+                6566,
+                2803
+            ],
+            "Bottom-left": [
+                6438,
+                2803
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-86",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6251,
+                2626
+            ],
+            "Top-right": [
+                6379,
+                2626
+            ],
+            "Bottom-right": [
+                6379,
+                2754
+            ],
+            "Bottom-left": [
+                6251,
+                2754
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-87",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6052,
+                2587
+            ],
+            "Top-right": [
+                6180,
+                2587
+            ],
+            "Bottom-right": [
+                6180,
+                2715
+            ],
+            "Bottom-left": [
+                6052,
+                2715
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-88",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5327,
+                2709
+            ],
+            "Top-right": [
+                5455,
+                2709
+            ],
+            "Bottom-right": [
+                5455,
+                2837
+            ],
+            "Bottom-left": [
+                5327,
+                2837
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-89",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6537,
+                3987
+            ],
+            "Top-right": [
+                6665,
+                3987
+            ],
+            "Bottom-right": [
+                6665,
+                4115
+            ],
+            "Bottom-left": [
+                6537,
+                4115
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-90",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6033,
+                3984
+            ],
+            "Top-right": [
+                6161,
+                3984
+            ],
+            "Bottom-right": [
+                6161,
+                4112
+            ],
+            "Bottom-left": [
+                6033,
+                4112
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-91",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6075,
+                3774
+            ],
+            "Top-right": [
+                6203,
+                3774
+            ],
+            "Bottom-right": [
+                6203,
+                3902
+            ],
+            "Bottom-left": [
+                6075,
+                3902
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-92",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7242,
+                4041
+            ],
+            "Top-right": [
+                7370,
+                4041
+            ],
+            "Bottom-right": [
+                7370,
+                4169
+            ],
+            "Bottom-left": [
+                7242,
+                4169
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-93",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7738,
+                4098
+            ],
+            "Top-right": [
+                7866,
+                4098
+            ],
+            "Bottom-right": [
+                7866,
+                4226
+            ],
+            "Bottom-left": [
+                7738,
+                4226
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-94",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6315,
+                4075
+            ],
+            "Top-right": [
+                6443,
+                4075
+            ],
+            "Bottom-right": [
+                6443,
+                4203
+            ],
+            "Bottom-left": [
+                6315,
+                4203
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-95",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6285,
+                3850
+            ],
+            "Top-right": [
+                6413,
+                3850
+            ],
+            "Bottom-right": [
+                6413,
+                3978
+            ],
+            "Bottom-left": [
+                6285,
+                3978
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-96",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5343,
+                4018
+            ],
+            "Top-right": [
+                5471,
+                4018
+            ],
+            "Bottom-right": [
+                5471,
+                4146
+            ],
+            "Bottom-left": [
+                5343,
+                4146
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-97",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4763,
+                3812
+            ],
+            "Top-right": [
+                4891,
+                3812
+            ],
+            "Bottom-right": [
+                4891,
+                3940
+            ],
+            "Bottom-left": [
+                4763,
+                3940
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-98",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4530,
+                3797
+            ],
+            "Top-right": [
+                4658,
+                3797
+            ],
+            "Bottom-right": [
+                4658,
+                3925
+            ],
+            "Bottom-left": [
+                4530,
+                3925
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-99",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4160,
+                3663
+            ],
+            "Top-right": [
+                4288,
+                3663
+            ],
+            "Bottom-right": [
+                4288,
+                3791
+            ],
+            "Bottom-left": [
+                4160,
+                3791
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-100",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3760,
+                3545
+            ],
+            "Top-right": [
+                3888,
+                3545
+            ],
+            "Bottom-right": [
+                3888,
+                3673
+            ],
+            "Bottom-left": [
+                3760,
+                3673
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-101",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3493,
+                3396
+            ],
+            "Top-right": [
+                3621,
+                3396
+            ],
+            "Bottom-right": [
+                3621,
+                3524
+            ],
+            "Bottom-left": [
+                3493,
+                3524
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-102",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3268,
+                3160
+            ],
+            "Top-right": [
+                3396,
+                3160
+            ],
+            "Bottom-right": [
+                3396,
+                3288
+            ],
+            "Bottom-left": [
+                3268,
+                3288
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-103",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3622,
+                3274
+            ],
+            "Top-right": [
+                3750,
+                3274
+            ],
+            "Bottom-right": [
+                3750,
+                3402
+            ],
+            "Bottom-left": [
+                3622,
+                3402
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-104",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3790,
+                3373
+            ],
+            "Top-right": [
+                3918,
+                3373
+            ],
+            "Bottom-right": [
+                3918,
+                3501
+            ],
+            "Bottom-left": [
+                3790,
+                3501
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-105",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4038,
+                3480
+            ],
+            "Top-right": [
+                4166,
+                3480
+            ],
+            "Bottom-right": [
+                4166,
+                3608
+            ],
+            "Bottom-left": [
+                4038,
+                3608
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-106",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4286,
+                3495
+            ],
+            "Top-right": [
+                4414,
+                3495
+            ],
+            "Bottom-right": [
+                4414,
+                3623
+            ],
+            "Bottom-left": [
+                4286,
+                3623
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-107",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4557,
+                3404
+            ],
+            "Top-right": [
+                4685,
+                3404
+            ],
+            "Bottom-right": [
+                4685,
+                3532
+            ],
+            "Bottom-left": [
+                4557,
+                3532
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-108",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2978,
+                2862
+            ],
+            "Top-right": [
+                3106,
+                2862
+            ],
+            "Bottom-right": [
+                3106,
+                2990
+            ],
+            "Bottom-left": [
+                2978,
+                2990
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-109",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2802,
+                2614
+            ],
+            "Top-right": [
+                2930,
+                2614
+            ],
+            "Bottom-right": [
+                2930,
+                2742
+            ],
+            "Bottom-left": [
+                2802,
+                2742
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-110",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2451,
+                2355
+            ],
+            "Top-right": [
+                2579,
+                2355
+            ],
+            "Bottom-right": [
+                2579,
+                2483
+            ],
+            "Bottom-left": [
+                2451,
+                2483
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-111",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2367,
+                2164
+            ],
+            "Top-right": [
+                2495,
+                2164
+            ],
+            "Bottom-right": [
+                2495,
+                2292
+            ],
+            "Bottom-left": [
+                2367,
+                2292
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-112",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2356,
+                1966
+            ],
+            "Top-right": [
+                2484,
+                1966
+            ],
+            "Bottom-right": [
+                2484,
+                2094
+            ],
+            "Bottom-left": [
+                2356,
+                2094
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-113",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2230,
+                1855
+            ],
+            "Top-right": [
+                2358,
+                1855
+            ],
+            "Bottom-right": [
+                2358,
+                1983
+            ],
+            "Bottom-left": [
+                2230,
+                1983
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-114",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2611,
+                2660
+            ],
+            "Top-right": [
+                2739,
+                2660
+            ],
+            "Bottom-right": [
+                2739,
+                2788
+            ],
+            "Bottom-left": [
+                2611,
+                2788
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-115",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2501,
+                2523
+            ],
+            "Top-right": [
+                2629,
+                2523
+            ],
+            "Bottom-right": [
+                2629,
+                2651
+            ],
+            "Bottom-left": [
+                2501,
+                2651
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-116",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5095,
+                1767
+            ],
+            "Top-right": [
+                5223,
+                1767
+            ],
+            "Bottom-right": [
+                5223,
+                1895
+            ],
+            "Bottom-left": [
+                5095,
+                1895
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-117",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5392,
+                1836
+            ],
+            "Top-right": [
+                5520,
+                1836
+            ],
+            "Bottom-right": [
+                5520,
+                1964
+            ],
+            "Bottom-left": [
+                5392,
+                1964
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-118",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5907,
+                1855
+            ],
+            "Top-right": [
+                6035,
+                1855
+            ],
+            "Bottom-right": [
+                6035,
+                1983
+            ],
+            "Bottom-left": [
+                5907,
+                1983
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-119",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6190,
+                1973
+            ],
+            "Top-right": [
+                6318,
+                1973
+            ],
+            "Bottom-right": [
+                6318,
+                2101
+            ],
+            "Bottom-left": [
+                6190,
+                2101
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-120",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6468,
+                1657
+            ],
+            "Top-right": [
+                6596,
+                1657
+            ],
+            "Bottom-right": [
+                6596,
+                1785
+            ],
+            "Bottom-left": [
+                6468,
+                1785
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-121",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6113,
+                1557
+            ],
+            "Top-right": [
+                6241,
+                1557
+            ],
+            "Bottom-right": [
+                6241,
+                1685
+            ],
+            "Bottom-left": [
+                6113,
+                1685
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-122",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5827,
+                1481
+            ],
+            "Top-right": [
+                5955,
+                1481
+            ],
+            "Bottom-right": [
+                5955,
+                1609
+            ],
+            "Bottom-left": [
+                5827,
+                1609
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-123",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6506,
+                1042
+            ],
+            "Top-right": [
+                6634,
+                1042
+            ],
+            "Bottom-right": [
+                6634,
+                1170
+            ],
+            "Bottom-left": [
+                6506,
+                1170
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-124",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6838,
+                1123
+            ],
+            "Top-right": [
+                6966,
+                1123
+            ],
+            "Bottom-right": [
+                6966,
+                1251
+            ],
+            "Bottom-left": [
+                6838,
+                1251
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-125",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7197,
+                1226
+            ],
+            "Top-right": [
+                7325,
+                1226
+            ],
+            "Bottom-right": [
+                7325,
+                1354
+            ],
+            "Bottom-left": [
+                7197,
+                1354
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-126",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7441,
+                1180
+            ],
+            "Top-right": [
+                7569,
+                1180
+            ],
+            "Bottom-right": [
+                7569,
+                1308
+            ],
+            "Bottom-left": [
+                7441,
+                1308
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-127",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7620,
+                1058
+            ],
+            "Top-right": [
+                7748,
+                1058
+            ],
+            "Bottom-right": [
+                7748,
+                1186
+            ],
+            "Bottom-left": [
+                7620,
+                1186
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-128",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7853,
+                1165
+            ],
+            "Top-right": [
+                7981,
+                1165
+            ],
+            "Bottom-right": [
+                7981,
+                1293
+            ],
+            "Bottom-left": [
+                7853,
+                1293
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-129",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7780,
+                1428
+            ],
+            "Top-right": [
+                7908,
+                1428
+            ],
+            "Bottom-right": [
+                7908,
+                1556
+            ],
+            "Bottom-left": [
+                7780,
+                1556
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-130",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4841,
+                501
+            ],
+            "Top-right": [
+                4969,
+                501
+            ],
+            "Bottom-right": [
+                4969,
+                629
+            ],
+            "Bottom-left": [
+                4841,
+                629
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-131",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5687,
+                304
+            ],
+            "Top-right": [
+                5815,
+                304
+            ],
+            "Bottom-right": [
+                5815,
+                432
+            ],
+            "Bottom-left": [
+                5687,
+                432
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-132",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6367,
+                298
+            ],
+            "Top-right": [
+                6495,
+                298
+            ],
+            "Bottom-right": [
+                6495,
+                426
+            ],
+            "Bottom-left": [
+                6367,
+                426
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-133",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6963,
+                382
+            ],
+            "Top-right": [
+                7091,
+                382
+            ],
+            "Bottom-right": [
+                7091,
+                510
+            ],
+            "Bottom-left": [
+                6963,
+                510
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-134",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7625,
+                286
+            ],
+            "Top-right": [
+                7753,
+                286
+            ],
+            "Bottom-right": [
+                7753,
+                414
+            ],
+            "Bottom-left": [
+                7625,
+                414
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-135",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7786,
+                471
+            ],
+            "Top-right": [
+                7914,
+                471
+            ],
+            "Bottom-right": [
+                7914,
+                599
+            ],
+            "Bottom-left": [
+                7786,
+                599
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-136",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                7386,
+                781
+            ],
+            "Top-right": [
+                7514,
+                781
+            ],
+            "Bottom-right": [
+                7514,
+                909
+            ],
+            "Bottom-left": [
+                7386,
+                909
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-137",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6707,
+                716
+            ],
+            "Top-right": [
+                6835,
+                716
+            ],
+            "Bottom-right": [
+                6835,
+                844
+            ],
+            "Bottom-left": [
+                6707,
+                844
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-138",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6218,
+                668
+            ],
+            "Top-right": [
+                6346,
+                668
+            ],
+            "Bottom-right": [
+                6346,
+                796
+            ],
+            "Bottom-left": [
+                6218,
+                796
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-139",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5711,
+                626
+            ],
+            "Top-right": [
+                5839,
+                626
+            ],
+            "Bottom-right": [
+                5839,
+                754
+            ],
+            "Bottom-left": [
+                5711,
+                754
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-140",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5407,
+                590
+            ],
+            "Top-right": [
+                5535,
+                590
+            ],
+            "Bottom-right": [
+                5535,
+                718
+            ],
+            "Bottom-left": [
+                5407,
+                718
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-141",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5097,
+                131
+            ],
+            "Top-right": [
+                5225,
+                131
+            ],
+            "Bottom-right": [
+                5225,
+                259
+            ],
+            "Bottom-left": [
+                5097,
+                259
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-142",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4764,
+                125
+            ],
+            "Top-right": [
+                4892,
+                125
+            ],
+            "Bottom-right": [
+                4892,
+                253
+            ],
+            "Bottom-left": [
+                4764,
+                253
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-143",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4638,
+                352
+            ],
+            "Top-right": [
+                4766,
+                352
+            ],
+            "Bottom-right": [
+                4766,
+                480
+            ],
+            "Bottom-left": [
+                4638,
+                480
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-144",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4650,
+                644
+            ],
+            "Top-right": [
+                4778,
+                644
+            ],
+            "Bottom-right": [
+                4778,
+                772
+            ],
+            "Bottom-left": [
+                4650,
+                772
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-145",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5008,
+                692
+            ],
+            "Top-right": [
+                5136,
+                692
+            ],
+            "Bottom-right": [
+                5136,
+                820
+            ],
+            "Bottom-left": [
+                5008,
+                820
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-146",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5217,
+                328
+            ],
+            "Top-right": [
+                5345,
+                328
+            ],
+            "Bottom-right": [
+                5345,
+                456
+            ],
+            "Bottom-left": [
+                5217,
+                456
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-147",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5389,
+                149
+            ],
+            "Top-right": [
+                5517,
+                149
+            ],
+            "Bottom-right": [
+                5517,
+                277
+            ],
+            "Bottom-left": [
+                5389,
+                277
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-148",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5628,
+                42
+            ],
+            "Top-right": [
+                5756,
+                42
+            ],
+            "Bottom-right": [
+                5756,
+                170
+            ],
+            "Bottom-left": [
+                5628,
+                170
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-149",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6021,
+                161
+            ],
+            "Top-right": [
+                6149,
+                161
+            ],
+            "Bottom-right": [
+                6149,
+                289
+            ],
+            "Bottom-left": [
+                6021,
+                289
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-150",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5950,
+                364
+            ],
+            "Top-right": [
+                6078,
+                364
+            ],
+            "Bottom-right": [
+                6078,
+                492
+            ],
+            "Bottom-left": [
+                5950,
+                492
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-151",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6564,
+                441
+            ],
+            "Top-right": [
+                6692,
+                441
+            ],
+            "Bottom-right": [
+                6692,
+                569
+            ],
+            "Bottom-left": [
+                6564,
+                569
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-152",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6522,
+                155
+            ],
+            "Top-right": [
+                6650,
+                155
+            ],
+            "Bottom-right": [
+                6650,
+                283
+            ],
+            "Bottom-left": [
+                6522,
+                283
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-153",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6206,
+                72
+            ],
+            "Top-right": [
+                6334,
+                72
+            ],
+            "Bottom-right": [
+                6334,
+                200
+            ],
+            "Bottom-left": [
+                6206,
+                200
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-154",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4090,
+                197
+            ],
+            "Top-right": [
+                4218,
+                197
+            ],
+            "Bottom-right": [
+                4218,
+                325
+            ],
+            "Bottom-left": [
+                4090,
+                325
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-155",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3524,
+                298
+            ],
+            "Top-right": [
+                3652,
+                298
+            ],
+            "Bottom-right": [
+                3652,
+                426
+            ],
+            "Bottom-left": [
+                3524,
+                426
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-156",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3035,
+                292
+            ],
+            "Top-right": [
+                3163,
+                292
+            ],
+            "Bottom-right": [
+                3163,
+                420
+            ],
+            "Bottom-left": [
+                3035,
+                420
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-157",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2791,
+                239
+            ],
+            "Top-right": [
+                2919,
+                239
+            ],
+            "Bottom-right": [
+                2919,
+                367
+            ],
+            "Bottom-left": [
+                2791,
+                367
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-158",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                2832,
+                441
+            ],
+            "Top-right": [
+                2960,
+                441
+            ],
+            "Bottom-right": [
+                2960,
+                569
+            ],
+            "Bottom-left": [
+                2832,
+                569
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-159",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3411,
+                590
+            ],
+            "Top-right": [
+                3539,
+                590
+            ],
+            "Bottom-right": [
+                3539,
+                718
+            ],
+            "Bottom-left": [
+                3411,
+                718
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-160",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                3780,
+                686
+            ],
+            "Top-right": [
+                3908,
+                686
+            ],
+            "Bottom-right": [
+                3908,
+                814
+            ],
+            "Bottom-left": [
+                3780,
+                814
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-161",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4132,
+                859
+            ],
+            "Top-right": [
+                4260,
+                859
+            ],
+            "Bottom-right": [
+                4260,
+                987
+            ],
+            "Bottom-left": [
+                4132,
+                987
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-162",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4305,
+                1109
+            ],
+            "Top-right": [
+                4433,
+                1109
+            ],
+            "Bottom-right": [
+                4433,
+                1237
+            ],
+            "Bottom-left": [
+                4305,
+                1237
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-163",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4979,
+                364
+            ],
+            "Top-right": [
+                5107,
+                364
+            ],
+            "Bottom-right": [
+                5107,
+                492
+            ],
+            "Bottom-left": [
+                4979,
+                492
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-164",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5460,
+                369
+            ],
+            "Top-right": [
+                5588,
+                369
+            ],
+            "Bottom-right": [
+                5588,
+                497
+            ],
+            "Bottom-left": [
+                5460,
+                497
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-165",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6273,
+                916
+            ],
+            "Top-right": [
+                6401,
+                916
+            ],
+            "Bottom-right": [
+                6401,
+                1044
+            ],
+            "Bottom-left": [
+                6273,
+                1044
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-166",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                6007,
+                1077
+            ],
+            "Top-right": [
+                6135,
+                1077
+            ],
+            "Bottom-right": [
+                6135,
+                1205
+            ],
+            "Bottom-left": [
+                6007,
+                1205
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-167",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5670,
+                1041
+            ],
+            "Top-right": [
+                5798,
+                1041
+            ],
+            "Bottom-right": [
+                5798,
+                1169
+            ],
+            "Bottom-left": [
+                5670,
+                1169
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-168",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                5294,
+                972
+            ],
+            "Top-right": [
+                5422,
+                972
+            ],
+            "Bottom-right": [
+                5422,
+                1100
+            ],
+            "Bottom-left": [
+                5294,
+                1100
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-169",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4845,
+                924
+            ],
+            "Top-right": [
+                4973,
+                924
+            ],
+            "Bottom-right": [
+                4973,
+                1052
+            ],
+            "Bottom-left": [
+                4845,
+                1052
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-170",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4616,
+                909
+            ],
+            "Top-right": [
+                4744,
+                909
+            ],
+            "Bottom-right": [
+                4744,
+                1037
+            ],
+            "Bottom-left": [
+                4616,
+                1037
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-171",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4445,
+                887
+            ],
+            "Top-right": [
+                4573,
+                887
+            ],
+            "Bottom-right": [
+                4573,
+                1015
+            ],
+            "Bottom-left": [
+                4445,
+                1015
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-172",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4140,
+                550
+            ],
+            "Top-right": [
+                4268,
+                550
+            ],
+            "Bottom-right": [
+                4268,
+                678
+            ],
+            "Bottom-left": [
+                4140,
+                678
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-173",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4393,
+                235
+            ],
+            "Top-right": [
+                4521,
+                235
+            ],
+            "Bottom-right": [
+                4521,
+                363
+            ],
+            "Bottom-left": [
+                4393,
+                363
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-C-174",
+        "Category": "WA-2-C",
+        "Coordinates": {
+            "Top-left": [
+                4264,
+                18
+            ],
+            "Top-right": [
+                4392,
+                18
+            ],
+            "Bottom-right": [
+                4392,
+                146
+            ],
+            "Bottom-left": [
+                4264,
+                146
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-1",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                6581,
+                3180
+            ],
+            "Top-right": [
+                6709,
+                3180
+            ],
+            "Bottom-right": [
+                6709,
+                3308
+            ],
+            "Bottom-left": [
+                6581,
+                3308
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-2",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                6979,
+                3223
+            ],
+            "Top-right": [
+                7107,
+                3223
+            ],
+            "Bottom-right": [
+                7107,
+                3351
+            ],
+            "Bottom-left": [
+                6979,
+                3351
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-3",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                6832,
+                3458
+            ],
+            "Top-right": [
+                6960,
+                3458
+            ],
+            "Bottom-right": [
+                6960,
+                3586
+            ],
+            "Bottom-left": [
+                6832,
+                3586
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-4",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                6395,
+                3438
+            ],
+            "Top-right": [
+                6523,
+                3438
+            ],
+            "Bottom-right": [
+                6523,
+                3566
+            ],
+            "Bottom-left": [
+                6395,
+                3566
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-5",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5849,
+                3345
+            ],
+            "Top-right": [
+                5977,
+                3345
+            ],
+            "Bottom-right": [
+                5977,
+                3473
+            ],
+            "Bottom-left": [
+                5849,
+                3473
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-6",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5443,
+                3262
+            ],
+            "Top-right": [
+                5571,
+                3262
+            ],
+            "Bottom-right": [
+                5571,
+                3390
+            ],
+            "Bottom-left": [
+                5443,
+                3390
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-7",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5204,
+                3131
+            ],
+            "Top-right": [
+                5332,
+                3131
+            ],
+            "Bottom-right": [
+                5332,
+                3259
+            ],
+            "Bottom-left": [
+                5204,
+                3259
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-8",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                5219,
+                3382
+            ],
+            "Top-right": [
+                5347,
+                3382
+            ],
+            "Bottom-right": [
+                5347,
+                3510
+            ],
+            "Bottom-left": [
+                5219,
+                3510
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-9",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7440,
+                3648
+            ],
+            "Top-right": [
+                7568,
+                3648
+            ],
+            "Bottom-right": [
+                7568,
+                3776
+            ],
+            "Bottom-left": [
+                7440,
+                3776
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-10",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                8024,
+                3519
+            ],
+            "Top-right": [
+                8152,
+                3519
+            ],
+            "Bottom-right": [
+                8152,
+                3647
+            ],
+            "Bottom-left": [
+                8024,
+                3647
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-11",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7894,
+                3721
+            ],
+            "Top-right": [
+                8022,
+                3721
+            ],
+            "Bottom-right": [
+                8022,
+                3849
+            ],
+            "Bottom-left": [
+                7894,
+                3849
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-12",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                7694,
+                3568
+            ],
+            "Top-right": [
+                7822,
+                3568
+            ],
+            "Bottom-right": [
+                7822,
+                3696
+            ],
+            "Bottom-left": [
+                7694,
+                3696
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-13",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1180,
+                3249
+            ],
+            "Top-right": [
+                1308,
+                3249
+            ],
+            "Bottom-right": [
+                1308,
+                3377
+            ],
+            "Bottom-left": [
+                1180,
+                3377
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-14",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1173,
+                3101
+            ],
+            "Top-right": [
+                1301,
+                3101
+            ],
+            "Bottom-right": [
+                1301,
+                3229
+            ],
+            "Bottom-left": [
+                1173,
+                3229
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-15",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1998,
+                132
+            ],
+            "Top-right": [
+                2126,
+                132
+            ],
+            "Bottom-right": [
+                2126,
+                260
+            ],
+            "Bottom-left": [
+                1998,
+                260
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-16",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                2175,
+                352
+            ],
+            "Top-right": [
+                2303,
+                352
+            ],
+            "Bottom-right": [
+                2303,
+                480
+            ],
+            "Bottom-left": [
+                2175,
+                480
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-17",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1824,
+                300
+            ],
+            "Top-right": [
+                1952,
+                300
+            ],
+            "Bottom-right": [
+                1952,
+                428
+            ],
+            "Bottom-left": [
+                1824,
+                428
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-18",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1479,
+                239
+            ],
+            "Top-right": [
+                1607,
+                239
+            ],
+            "Bottom-right": [
+                1607,
+                367
+            ],
+            "Bottom-left": [
+                1479,
+                367
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-19",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1455,
+                74
+            ],
+            "Top-right": [
+                1583,
+                74
+            ],
+            "Bottom-right": [
+                1583,
+                202
+            ],
+            "Bottom-left": [
+                1455,
+                202
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-20",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1733,
+                62
+            ],
+            "Top-right": [
+                1861,
+                62
+            ],
+            "Bottom-right": [
+                1861,
+                190
+            ],
+            "Bottom-left": [
+                1733,
+                190
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-21",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1659,
+                221
+            ],
+            "Top-right": [
+                1787,
+                221
+            ],
+            "Bottom-right": [
+                1787,
+                349
+            ],
+            "Bottom-left": [
+                1659,
+                349
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-22",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1192,
+                126
+            ],
+            "Top-right": [
+                1320,
+                126
+            ],
+            "Bottom-right": [
+                1320,
+                254
+            ],
+            "Bottom-left": [
+                1192,
+                254
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-23",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                826,
+                166
+            ],
+            "Top-right": [
+                954,
+                166
+            ],
+            "Bottom-right": [
+                954,
+                294
+            ],
+            "Bottom-left": [
+                826,
+                294
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-24",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                970,
+                288
+            ],
+            "Top-right": [
+                1098,
+                288
+            ],
+            "Bottom-right": [
+                1098,
+                416
+            ],
+            "Bottom-left": [
+                970,
+                416
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-25",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                1223,
+                309
+            ],
+            "Top-right": [
+                1351,
+                309
+            ],
+            "Bottom-right": [
+                1351,
+                437
+            ],
+            "Bottom-left": [
+                1223,
+                437
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    },
+    {
+        "Box ID": "WA-2-NC-26",
+        "Category": "WA-2-NC",
+        "Coordinates": {
+            "Top-left": [
+                2035,
+                334
+            ],
+            "Top-right": [
+                2163,
+                334
+            ],
+            "Bottom-right": [
+                2163,
+                462
+            ],
+            "Bottom-left": [
+                2035,
+                462
+            ]
+        },
+        "Area": 16384,
+        "Points": []
+    }
+]

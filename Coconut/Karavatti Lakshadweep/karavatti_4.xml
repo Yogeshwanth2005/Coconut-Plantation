@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2533110</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-06-04 06:29:55.919111+00:00</created>
+      <updated>2025-06-04 06:50:30.007524+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2535393</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/2533110</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>yogeshwanth</username>
+        <email>yogeshwanthch@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>1</name>
+          <color>#fa3253</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-06-04 07:00:07.064117+00:00</dumped>
+  </meta>
+  <image id="0" name="Karavatti_800_4.png" width="8192" height="4283">
+    <box label="1" source="manual" occluded="0" xtl="12.42" ytl="7.16" xbr="523.38" ybr="518.12" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="12.12" ytl="223.92" xbr="523.07" ybr="734.87" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="19.63" ytl="727.36" xbr="530.59" ybr="1238.31" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="19.63" ytl="1140.63" xbr="530.59" ybr="1651.59" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="12.12" ytl="1538.88" xbr="523.07" ybr="2049.83" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="12.12" ytl="2064.86" xbr="523.07" ybr="2575.81" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="4.60" ytl="2455.59" xbr="515.56" ybr="2966.54" z_order="0">
+    </box>
+    <box label="1" source="manual" occluded="0" xtl="12.12" ytl="3349.76" xbr="523.07" ybr="3860.71" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="12.12" ytl="3808.11" xbr="523.07" ybr="4283.00" z_order="0">
+    </box>
+  </image>
+</annotations>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2552777</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-06-09 08:15:19.812419+00:00</created>
+      <updated>2025-07-09 06:05:20.005723+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2555058</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/2552777</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>harinie</username>
+        <email>sviharinie@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>less_dense_small</name>
+          <color>#b83df5</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>dense_small</name>
+          <color>#ffcc33</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>dense_grown</name>
+          <color>#3d3df5</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>less_dense_grown</name>
+          <color>#b25050</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-07-09 06:05:38.052786+00:00</dumped>
+  </meta>
+  <image id="0" name="Triple P Kabacan_800_4.png" width="8192" height="4283">
+    <box label="dense_grown" source="manual" occluded="0" xtl="2.52" ytl="1154.34" xbr="513.68" ybr="1665.43" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="2.51" ytl="1678.35" xbr="513.67" ybr="2189.45" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="240.45" ytl="1308.22" xbr="751.62" ybr="1819.31" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="231.64" ytl="1748.86" xbr="742.81" ybr="2259.95" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="0.00" ytl="1845.84" xbr="504.78" ybr="2356.93" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="0.00" ytl="938.06" xbr="504.80" ybr="1449.16" z_order="0">
+    </box>
+    <box label="dense_grown" source="Ground truth" occluded="0" xtl="4338.39" ytl="2744.68" xbr="4849.55" ybr="3255.77" z_order="0">
+    </box>
+  </image>
+</annotations>

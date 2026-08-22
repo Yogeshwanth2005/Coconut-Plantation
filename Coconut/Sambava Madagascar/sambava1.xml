@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1380330</id>
+      <name>sambava_1_800</name>
+      <size>4</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-05-12 09:56:30.336380+00:00</created>
+      <updated>2025-05-23 12:42:58.605169+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>3</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2448735</id>
+          <start>0</start>
+          <stop>3</stop>
+          <url>https://app.cvat.ai/api/jobs/2446458</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>advaith1</username>
+        <email>advaithsajeev1244@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Organic</name>
+          <color>#fa3253</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic-early</name>
+          <color>#3d3df5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic-v early</name>
+          <color>#66ff66</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2025-05-23 12:44:47.821708+00:00</dumped>
+  </meta>
+  <image id="0" name="Sambava_800_1.png" width="8192" height="4283">
+    <box label="Organic" source="manual" occluded="0" xtl="2613.28" ytl="491.68" xbr="3124.93" ybr="1003.33" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3047.41" ytl="1284.35" xbr="3559.06" ybr="1796.00" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2849.73" ytl="1284.35" xbr="3359.44" ybr="1796.00" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2905.93" ytl="1749.49" xbr="3417.58" ybr="2261.14" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3223.77" ytl="2164.23" xbr="3737.36" ybr="2675.88" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3291.61" ytl="919.99" xbr="3805.19" ybr="1425.83" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3390.77" ytl="1360.58" xbr="3900.48" ybr="1872.23" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4006.75" ytl="2036.32" xbr="4528.09" ybr="2542.16" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4297.46" ytl="1790.19" xbr="4803.30" ybr="2303.77" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2919.50" ytl="2166.17" xbr="3429.21" ybr="2673.95" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4937.00" ytl="1390.00" xbr="5447.00" ybr="1900.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5187.00" ytl="1480.00" xbr="5697.00" ybr="1990.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4627.00" ytl="1360.00" xbr="5137.00" ybr="1870.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4837.00" ytl="900.00" xbr="5347.00" ybr="1410.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4967.00" ytl="490.00" xbr="5477.00" ybr="1000.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4627.00" ytl="1860.00" xbr="5137.00" ybr="2370.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5127.00" ytl="970.00" xbr="5637.00" ybr="1480.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4977.00" ytl="1930.00" xbr="5487.00" ybr="2440.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4537.00" ytl="570.00" xbr="5047.00" ybr="1080.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5347.00" ytl="440.00" xbr="5857.00" ybr="950.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4757.00" ytl="190.00" xbr="5267.00" ybr="700.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5147.00" ytl="140.00" xbr="5657.00" ybr="650.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4597.00" ytl="1040.00" xbr="5107.00" ybr="1550.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="2627.00" ytl="190.00" xbr="3137.00" ybr="700.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4607.00" ytl="230.00" xbr="5117.00" ybr="730.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5327.00" ytl="1590.00" xbr="5837.00" ybr="2100.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4537.00" ytl="1600.00" xbr="5047.00" ybr="2110.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="2657.00" ytl="40.00" xbr="3177.00" ybr="550.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4787.00" ytl="40.00" xbr="5297.00" ybr="550.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4627.00" ytl="2190.00" xbr="5137.00" ybr="2700.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5217.00" ytl="1140.00" xbr="5727.00" ybr="1650.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5087.00" ytl="2150.00" xbr="5597.00" ybr="2660.00" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5335.10" ytl="88.37" xbr="5846.75" ybr="600.02" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5325.80" ytl="30.23" xbr="5837.45" ybr="541.88" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3981.56" ytl="2418.70" xbr="4495.53" ybr="2930.35" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4276.92" ytl="2451.26" xbr="4788.57" ybr="2965.24" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5514.18" ytl="2158.23" xbr="6021.18" ybr="2669.87" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5495.58" ytl="1995.43" xbr="6007.23" ybr="2507.08" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4439.72" ytl="2130.32" xbr="4951.37" ybr="2637.32" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4321.71" ytl="1187.07" xbr="4840.80" ybr="1703.37" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3548.99" ytl="1891.65" xbr="4067.41" ybr="2402.03" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2829.63" ytl="1216.49" xbr="3348.05" ybr="1726.88" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="2664.25" ytl="615.32" xbr="3175.90" ybr="1126.97" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2963.40" ytl="2521.17" xbr="3474.58" ybr="3032.36" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3267.05" ytl="2940.65" xbr="3778.24" ybr="3451.84" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3464.78" ytl="2545.20" xbr="3975.97" ybr="3056.39" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3156.11" ytl="2224.49" xbr="3667.30" ybr="2735.68" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3188.26" ytl="3168.90" xbr="3699.45" ybr="3680.09" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3503.04" ytl="3073.11" xbr="4014.23" ybr="3584.30" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3988.92" ytl="2170.60" xbr="4507.34" ybr="2680.99" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5391.58" ytl="2007.55" xbr="5910.00" ybr="2517.93" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4656.28" ytl="8.46" xbr="5174.70" ybr="518.85" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3061.04" ytl="648.43" xbr="3574.63" ybr="1154.27" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="389.46" ytl="1175.28" xbr="903.05" ybr="1681.12" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="610.50" ytl="1010.51" xbr="1124.08" ybr="1516.35" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="204.60" ytl="1203.41" xbr="718.19" ybr="1709.25" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="1297.71" ytl="33.95" xbr="1811.29" ybr="539.78" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="1747.81" ytl="9.84" xbr="2261.40" ybr="515.67" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="1410.23" ytl="21.89" xbr="1923.82" ybr="527.73" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="1225.37" ytl="90.21" xbr="1738.96" ybr="596.05" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="424.31" ytl="1335.47" xbr="937.90" ybr="1841.31" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="522.07" ytl="1588.35" xbr="1035.66" ybr="2094.19" z_order="0">
+    </box>
+    <box label="Organic-v early" source="manual" occluded="0" xtl="687.46" ytl="1302.09" xbr="1201.04" ybr="1807.93" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3227.83" ytl="650.62" xbr="3740.23" ybr="1163.02" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2673.24" ytl="1152.17" xbr="3185.64" ybr="1664.56" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2971.59" ytl="1373.41" xbr="3482.78" ybr="1884.59" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3101.80" ytl="1166.04" xbr="3612.99" ybr="1677.23" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2934.46" ytl="1791.04" xbr="3440.83" ybr="2297.40" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="2756.03" ytl="1656.01" xbr="3267.21" ybr="2167.20" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3870.79" ytl="2536.23" xbr="4380.51" ybr="3046.61" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3360.13" ytl="131.71" xbr="3870.85" ybr="642.43" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3438.27" ytl="45.20" xbr="3948.99" ybr="555.92" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3360.07" ytl="572.72" xbr="3872.47" ybr="1085.11" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3303.38" ytl="617.72" xbr="3814.57" ybr="1128.90" z_order="0">
+    </box>
+    <box label="Organic-early" source="manual" occluded="0" xtl="3040.30" ytl="109.67" xbr="3551.02" ybr="620.39" z_order="0">
+    </box>
+  </image>
+</annotations>

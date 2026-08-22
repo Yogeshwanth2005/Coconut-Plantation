@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.92,
+              3767.38
+            ],
+            [
+              514.46,
+              3767.38
+            ],
+            [
+              514.46,
+              4279.91
+            ],
+            [
+              1.92,
+              4279.91
+            ],
+            [
+              1.92,
+              3767.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              415.9,
+              3437.13
+            ],
+            [
+              928.43,
+              3437.13
+            ],
+            [
+              928.43,
+              3949.67
+            ],
+            [
+              415.9,
+              3949.67
+            ],
+            [
+              415.9,
+              3437.13
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1.92,
+              3430.15
+            ],
+            [
+              514.46,
+              3430.15
+            ],
+            [
+              514.46,
+              3942.69
+            ],
+            [
+              1.92,
+              3942.69
+            ],
+            [
+              1.92,
+              3430.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              513.57,
+              3765.05
+            ],
+            [
+              1026.11,
+              3765.05
+            ],
+            [
+              1026.11,
+              4277.59
+            ],
+            [
+              513.57,
+              4277.59
+            ],
+            [
+              513.57,
+              3765.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1949.44,
+              264.16
+            ],
+            [
+              2461.98,
+              264.16
+            ],
+            [
+              2461.98,
+              776.7
+            ],
+            [
+              1949.44,
+              776.7
+            ],
+            [
+              1949.44,
+              264.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1431.08,
+              303.89
+            ],
+            [
+              1943.62,
+              303.89
+            ],
+            [
+              1943.62,
+              816.42
+            ],
+            [
+              1431.08,
+              816.42
+            ],
+            [
+              1431.08,
+              303.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              782.22,
+              341.1
+            ],
+            [
+              1294.75,
+              341.1
+            ],
+            [
+              1294.75,
+              853.63
+            ],
+            [
+              782.22,
+              853.63
+            ],
+            [
+              782.22,
+              341.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2172.6,
+              238.37
+            ],
+            [
+              2685.14,
+              238.37
+            ],
+            [
+              2685.14,
+              750.91
+            ],
+            [
+              2172.6,
+              750.91
+            ],
+            [
+              2172.6,
+              238.37
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2035.85,
+              263.49
+            ],
+            [
+              2548.39,
+              263.49
+            ],
+            [
+              2548.39,
+              776.02
+            ],
+            [
+              2035.85,
+              776.02
+            ],
+            [
+              2035.85,
+              263.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1522.34,
+              285.82
+            ],
+            [
+              2034.88,
+              285.82
+            ],
+            [
+              2034.88,
+              798.35
+            ],
+            [
+              1522.34,
+              798.35
+            ],
+            [
+              1522.34,
+              285.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1003.25,
+              319.3
+            ],
+            [
+              1515.78,
+              319.3
+            ],
+            [
+              1515.78,
+              831.84
+            ],
+            [
+              1003.25,
+              831.84
+            ],
+            [
+              1003.25,
+              319.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "Traditional Coconut Farms",
+        "image": "Amrita_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              484.16,
+              361.17
+            ],
+            [
+              996.69,
+              361.17
+            ],
+            [
+              996.69,
+              873.7
+            ],
+            [
+              484.16,
+              873.7
+            ],
+            [
+              484.16,
+              361.17
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

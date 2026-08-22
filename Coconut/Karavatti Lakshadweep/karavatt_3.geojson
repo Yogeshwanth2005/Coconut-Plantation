@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_3.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.91,
+              3764.18
+            ],
+            [
+              515.86,
+              3764.18
+            ],
+            [
+              515.86,
+              4275.13
+            ],
+            [
+              4.91,
+              4275.13
+            ],
+            [
+              4.91,
+              3764.18
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

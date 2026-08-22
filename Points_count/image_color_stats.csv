@@ -1,0 +1,29 @@
+Image,Color,Annotations,Mean,Std,SD/Mean
+Amrita_800_1.geojson,No Color,2,44.5,0.71,0.0159
+Amrita_800_2.geojson,No Color,2,45.0,1.41,0.0314
+Karavatti_800_1.geojson,"(255, 0, 0)",25,61.92,3.82,0.0617
+Karavatti_800_2.geojson,"(255, 0, 0)",23,62.43,2.41,0.0386
+Kradangnga_800_1.geojson,"(204, 255, 204)",21,49.29,3.52,0.0715
+Kradangnga_800_1.geojson,"(255, 0, 255)",3,88.0,7.81,0.0888
+Kradangnga_800_2.geojson,"(204, 255, 204)",25,52.24,5.77,0.1104
+Kradangnga_800_2.geojson,"(255, 0, 255)",4,79.0,6.58,0.0833
+Kradangnga_800_3.geojson,"(255, 0, 255)",8,78.75,6.61,0.0839
+Kradangnga_800_3.geojson,"(204, 255, 204)",19,49.95,4.3,0.0861
+Kradangnga_800_4.geojson,"(204, 255, 204)",30,42.8,3.09,0.0722
+Sambava_800_1.geojson,"(0, 0, 128)",9,10.33,2.45,0.237
+Sambava_800_1.geojson,"(0, 255, 0)",17,20.82,2.43,0.1167
+Sambava_800_1.geojson,"(128, 0, 128)",26,29.46,3.67,0.1245
+Sambava_800_2.geojson,"(255, 128, 128)",13,18.69,2.93,0.1566
+Sambava_800_2.geojson,"(0, 0, 128)",15,25.33,3.13,0.1236
+Sambava_800_2.geojson,"(153, 204, 153)",18,10.56,1.69,0.1599
+Triple P Kabacan_800_1.geojson,"(230, 179, 77)",14,33.79,1.89,0.0559
+Triple P Kabacan_800_2.geojson,"(230, 179, 77)",2,38.0,1.41,0.0372
+Triple P Kabacan_800_3.geojson,"(230, 179, 77)",26,37.88,2.27,0.0599
+Triple P Kabacan_800_4.geojson,"(230, 179, 77)",5,32.6,0.89,0.0274
+Wat Phleng_800_1.geojson,No Color,29,81.86,16.09,0.1966
+Wat Phleng_800_1.geojson,"(0, 255, 255)",4,71.25,2.5,0.0351
+Wat Phleng_800_2.geojson,No Color,26,84.73,10.25,0.121
+Wat Phleng_800_2.geojson,"(0, 255, 255)",10,70.9,5.26,0.0742
+Wat Phleng_800_3.geojson,No Color,28,77.36,8.6,0.1112
+Wat Phleng_800_4.geojson,No Color,29,76.1,6.16,0.081
+Wat Phleng_800_4.geojson,"(0, 255, 255)",4,71.25,3.77,0.053

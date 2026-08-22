@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2463418</id>
+      <size>3</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-05-14 08:59:02.053459+00:00</created>
+      <updated>2025-05-14 09:35:21.377620+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>2</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2465696</id>
+          <start>0</start>
+          <stop>2</stop>
+          <url>https://app.cvat.ai/api/jobs/2463418</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>advaith1</username>
+        <email>advaithsajeev1244@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Organic</name>
+          <color>#ff007c</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic-early stage</name>
+          <color>#3d3df5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Organic-v early stage</name>
+          <color>#66ff66</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-05-30 21:12:13.899689+00:00</dumped>
+  </meta>
+  <image id="0" name="Sambava_800_2.png" width="8192" height="4283">
+    <box label="Organic" source="manual" occluded="0" xtl="3676.62" ytl="2936.88" xbr="4188.27" ybr="3448.53" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5209.44" ytl="3770.31" xbr="5721.09" ybr="4281.96" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5273.10" ytl="3689.29" xbr="5784.75" ybr="4200.94" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3762.68" ytl="2855.96" xbr="4274.33" ybr="3367.61" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3490.69" ytl="3631.42" xbr="4002.34" ybr="4143.07" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3455.97" ytl="3758.73" xbr="3967.62" ybr="4270.38" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3615.22" ytl="2765.46" xbr="4126.87" ybr="3277.11" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2988.96" ytl="2276.51" xbr="3500.61" ybr="2788.16" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2764.58" ytl="2189.44" xbr="3276.23" ybr="2701.09" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="3230.09" ytl="2340.14" xbr="3741.74" ybr="2851.79" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="3005.70" ytl="2587.97" xbr="3517.35" ybr="3099.61" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2999.01" ytl="2795.60" xbr="3510.66" ybr="3307.25" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2602.26" ytl="1954.47" xbr="3113.90" ybr="2466.12" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2618.45" ytl="2385.25" xbr="3130.10" ybr="2896.90" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2715.89" ytl="2725.27" xbr="3227.54" ybr="3236.92" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2760.44" ytl="3046.88" xbr="3272.09" ybr="3558.53" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="3014.97" ytl="3056.93" xbr="3526.62" ybr="3568.58" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2797.28" ytl="3284.66" xbr="3308.93" ybr="3796.31" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4006.27" ytl="3331.54" xbr="4517.91" ybr="3843.19" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4220.60" ytl="3425.31" xbr="4732.25" ybr="3936.96" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4103.39" ytl="2906.22" xbr="4615.03" ybr="3417.87" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4187.11" ytl="2641.65" xbr="4698.76" ybr="3153.30" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3822.07" ytl="2511.04" xbr="4333.72" ybr="3022.69" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3892.40" ytl="2628.26" xbr="4404.05" ybr="3139.91" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3564.20" ytl="3398.52" xbr="4075.85" ybr="3910.17" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="3306.33" ytl="3756.86" xbr="3817.98" ybr="4268.51" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4873.65" ytl="3770.26" xbr="5385.30" ybr="4281.91" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="5101.38" ytl="3050.23" xbr="5613.03" ybr="3561.88" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4763.13" ytl="2835.89" xbr="5274.78" ybr="3347.54" z_order="0">
+    </box>
+    <box label="Organic" source="manual" occluded="0" xtl="4257.44" ytl="3445.41" xbr="4769.09" ybr="3957.06" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="4297.63" ytl="3774.97" xbr="4809.28" ybr="4283.00" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="4659.32" ytl="3319.51" xbr="5170.97" ybr="3831.16" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2559.30" ytl="1552.20" xbr="3070.95" ybr="2063.85" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2779.20" ytl="1685.30" xbr="3290.85" ybr="2196.95" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2437.77" ytl="1314.93" xbr="2949.42" ybr="1826.58" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2287.88" ytl="1058.76" xbr="2799.53" ybr="1570.41" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="3019.03" ytl="1979.72" xbr="3530.68" ybr="2491.37" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="2822.28" ytl="3590.40" xbr="3333.93" ybr="4102.05" z_order="0">
+    </box>
+    <box label="Organic-early stage" source="manual" occluded="0" xtl="3911.39" ytl="3759.22" xbr="4423.04" ybr="4270.87" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1200.74" ytl="2035.73" xbr="1712.39" ybr="2547.38" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1304.91" ytl="2087.82" xbr="1816.56" ybr="2599.47" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1212.32" ytl="1636.43" xbr="1723.97" ybr="2148.08" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1177.60" ytl="1306.57" xbr="1689.25" ybr="1818.22" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1576.90" ytl="1277.63" xbr="2088.55" ybr="1789.28" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1633.56" ytl="1667.99" xbr="2145.21" ybr="2179.64" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1807.99" ytl="1980.02" xbr="2319.64" ybr="2491.67" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1043.15" ytl="1596.19" xbr="1554.80" ybr="2107.84" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="962.21" ytl="1205.48" xbr="1473.86" ybr="1717.13" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1056.63" ytl="2060.41" xbr="1568.28" ybr="2572.06" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1805.50" ytl="2279.02" xbr="2317.15" ybr="2790.67" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1072.91" ytl="2458.10" xbr="1584.56" ybr="2969.75" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1477.58" ytl="2504.61" xbr="1989.23" ybr="3016.26" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1135.34" ytl="2812.77" xbr="1646.99" ybr="3324.42" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1522.44" ytl="2810.90" xbr="2034.09" ybr="3322.55" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1977.22" ytl="2654.76" xbr="2488.87" ybr="3166.41" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="2063.73" ytl="2152.42" xbr="2575.38" ybr="2664.07" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1508.36" ytl="1834.26" xbr="2020.01" ybr="2345.91" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1301.84" ytl="3198.97" xbr="1813.49" ybr="3710.62" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1536.27" ytl="3176.65" xbr="2047.92" ybr="3688.30" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1089.74" ytl="3215.72" xbr="1601.39" ybr="3727.37" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1128.81" ytl="3539.45" xbr="1640.46" ybr="4051.10" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1477.66" ytl="3478.05" xbr="1989.31" ybr="3989.70" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1176.26" ytl="3759.93" xbr="1687.90" ybr="4271.58" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1592.09" ytl="3745.97" xbr="2103.74" ybr="4257.62" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1915.82" ytl="3743.18" xbr="2427.47" ybr="4254.83" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="2312.12" ytl="3757.14" xbr="2823.77" ybr="4268.79" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="2264.67" ytl="3226.88" xbr="2776.32" ybr="3738.53" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="2150.25" ytl="2713.37" xbr="2661.90" ybr="3225.02" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="2072.76" ytl="2666.17" xbr="2584.41" ybr="3177.82" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1580.86" ytl="2685.46" xbr="2092.51" ybr="3197.11" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1050.38" ytl="1171.19" xbr="1562.03" ybr="1682.84" z_order="0">
+    </box>
+    <box label="Organic-v early stage" source="manual" occluded="0" xtl="1084.14" ytl="1745.07" xbr="1595.79" ybr="2256.72" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="Sambava_800_3.png" width="8192" height="4283">
+  </image>
+  <image id="2" name="Sambava_800_4.png" width="8192" height="4283">
+  </image>
+</annotations>

@@ -1,0 +1,125 @@
+{
+  "builderType": "pyramidize",
+  "builder": {
+    "builderType": "uri",
+    "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+    "uri": "file:///D:/Project/Coconut/Wat%20Phleng%20Thailand/Wat%20Phleng_800_4.png",
+    "args": [
+      "--series",
+      "0"
+    ],
+    "metadata": {
+      "name": "Wat Phleng_800_4.png",
+      "width": 8192,
+      "height": 4283,
+      "sizeZ": 1,
+      "sizeT": 1,
+      "channelType": "DEFAULT",
+      "isRGB": true,
+      "pixelType": "UINT8",
+      "levels": [
+        {
+          "downsample": 1.0,
+          "width": 8192,
+          "height": 4283
+        }
+      ],
+      "channels": [
+        {
+          "name": "Red",
+          "color": -65536
+        },
+        {
+          "name": "Green",
+          "color": -16711936
+        },
+        {
+          "name": "Blue",
+          "color": -16776961
+        }
+      ],
+      "pixelCalibration": {
+        "pixelWidth": {
+          "value": 1.0,
+          "unit": "px"
+        },
+        "pixelHeight": {
+          "value": 1.0,
+          "unit": "px"
+        },
+        "zSpacing": {
+          "value": 1.0,
+          "unit": "z-slice"
+        },
+        "timeUnit": "SECONDS",
+        "timepoints": []
+      },
+      "preferredTileWidth": 8192,
+      "preferredTileHeight": 32
+    }
+  },
+  "metadata": {
+    "name": "Wat Phleng_800_4.png",
+    "width": 8192,
+    "height": 4283,
+    "sizeZ": 1,
+    "sizeT": 1,
+    "channelType": "DEFAULT",
+    "isRGB": true,
+    "pixelType": "UINT8",
+    "levels": [
+      {
+        "downsample": 1.0,
+        "width": 8192,
+        "height": 4283
+      },
+      {
+        "downsample": 4.0,
+        "width": 2048,
+        "height": 1070
+      },
+      {
+        "downsample": 16.0,
+        "width": 512,
+        "height": 267
+      },
+      {
+        "downsample": 64.0,
+        "width": 128,
+        "height": 66
+      }
+    ],
+    "channels": [
+      {
+        "name": "Red",
+        "color": -65536
+      },
+      {
+        "name": "Green",
+        "color": -16711936
+      },
+      {
+        "name": "Blue",
+        "color": -16776961
+      }
+    ],
+    "pixelCalibration": {
+      "pixelWidth": {
+        "value": 1.0,
+        "unit": "px"
+      },
+      "pixelHeight": {
+        "value": 1.0,
+        "unit": "px"
+      },
+      "zSpacing": {
+        "value": 1.0,
+        "unit": "z-slice"
+      },
+      "timeUnit": "SECONDS",
+      "timepoints": []
+    },
+    "preferredTileWidth": 256,
+    "preferredTileHeight": 32
+  }
+}

@@ -1,0 +1,30 @@
+# Images (annotation source tiles, extracted patches, masks, plots)
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+*.gif
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Per-epoch training checkpoint snapshots (keep only final/best models)
+**/checkpoints/*.pth
+Applicatno/Patch Classification/checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS cruft
+Thumbs.db
+.DS_Store

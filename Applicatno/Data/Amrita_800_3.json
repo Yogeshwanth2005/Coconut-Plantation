@@ -1,0 +1,3798 @@
+{
+    "image_width": 8192,
+    "image_height": 4283,
+    "annotations": [
+        {
+            "Box ID": "AM-3-C-1",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    801,
+                    419
+                ],
+                "Top-right": [
+                    929,
+                    419
+                ],
+                "Bottom-right": [
+                    929,
+                    547
+                ],
+                "Bottom-left": [
+                    801,
+                    547
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-2",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    443,
+                    578
+                ],
+                "Top-right": [
+                    571,
+                    578
+                ],
+                "Bottom-right": [
+                    571,
+                    706
+                ],
+                "Bottom-left": [
+                    443,
+                    706
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-3",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    312,
+                    714
+                ],
+                "Top-right": [
+                    440,
+                    714
+                ],
+                "Bottom-right": [
+                    440,
+                    842
+                ],
+                "Bottom-left": [
+                    312,
+                    842
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-4",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    524,
+                    715
+                ],
+                "Top-right": [
+                    652,
+                    715
+                ],
+                "Bottom-right": [
+                    652,
+                    843
+                ],
+                "Bottom-left": [
+                    524,
+                    843
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-5",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    804,
+                    567
+                ],
+                "Top-right": [
+                    932,
+                    567
+                ],
+                "Bottom-right": [
+                    932,
+                    695
+                ],
+                "Bottom-left": [
+                    804,
+                    695
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-6",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1163,
+                    484
+                ],
+                "Top-right": [
+                    1291,
+                    484
+                ],
+                "Bottom-right": [
+                    1291,
+                    612
+                ],
+                "Bottom-left": [
+                    1163,
+                    612
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-7",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1004,
+                    351
+                ],
+                "Top-right": [
+                    1132,
+                    351
+                ],
+                "Bottom-right": [
+                    1132,
+                    479
+                ],
+                "Bottom-left": [
+                    1004,
+                    479
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-8",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1238,
+                    330
+                ],
+                "Top-right": [
+                    1366,
+                    330
+                ],
+                "Bottom-right": [
+                    1366,
+                    458
+                ],
+                "Bottom-left": [
+                    1238,
+                    458
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-9",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    949,
+                    548
+                ],
+                "Top-right": [
+                    1077,
+                    548
+                ],
+                "Bottom-right": [
+                    1077,
+                    676
+                ],
+                "Bottom-left": [
+                    949,
+                    676
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-10",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1302,
+                    614
+                ],
+                "Top-right": [
+                    1430,
+                    614
+                ],
+                "Bottom-right": [
+                    1430,
+                    742
+                ],
+                "Bottom-left": [
+                    1302,
+                    742
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-11",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1298,
+                    472
+                ],
+                "Top-right": [
+                    1426,
+                    472
+                ],
+                "Bottom-right": [
+                    1426,
+                    600
+                ],
+                "Bottom-left": [
+                    1298,
+                    600
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-12",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1649,
+                    523
+                ],
+                "Top-right": [
+                    1777,
+                    523
+                ],
+                "Bottom-right": [
+                    1777,
+                    651
+                ],
+                "Bottom-left": [
+                    1649,
+                    651
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-13",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1785,
+                    519
+                ],
+                "Top-right": [
+                    1913,
+                    519
+                ],
+                "Bottom-right": [
+                    1913,
+                    647
+                ],
+                "Bottom-left": [
+                    1785,
+                    647
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-14",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1924,
+                    508
+                ],
+                "Top-right": [
+                    2052,
+                    508
+                ],
+                "Bottom-right": [
+                    2052,
+                    636
+                ],
+                "Bottom-left": [
+                    1924,
+                    636
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-15",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    2085,
+                    434
+                ],
+                "Top-right": [
+                    2213,
+                    434
+                ],
+                "Bottom-right": [
+                    2213,
+                    562
+                ],
+                "Bottom-left": [
+                    2085,
+                    562
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-16",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1786,
+                    647
+                ],
+                "Top-right": [
+                    1914,
+                    647
+                ],
+                "Bottom-right": [
+                    1914,
+                    775
+                ],
+                "Bottom-left": [
+                    1786,
+                    775
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-17",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    2293,
+                    383
+                ],
+                "Top-right": [
+                    2421,
+                    383
+                ],
+                "Bottom-right": [
+                    2421,
+                    511
+                ],
+                "Bottom-left": [
+                    2293,
+                    511
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-18",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    2284,
+                    514
+                ],
+                "Top-right": [
+                    2412,
+                    514
+                ],
+                "Bottom-right": [
+                    2412,
+                    642
+                ],
+                "Bottom-left": [
+                    2284,
+                    642
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-19",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    2446,
+                    302
+                ],
+                "Top-right": [
+                    2574,
+                    302
+                ],
+                "Bottom-right": [
+                    2574,
+                    430
+                ],
+                "Bottom-left": [
+                    2446,
+                    430
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-20",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    2427,
+                    573
+                ],
+                "Top-right": [
+                    2555,
+                    573
+                ],
+                "Bottom-right": [
+                    2555,
+                    701
+                ],
+                "Bottom-left": [
+                    2427,
+                    701
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-21",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    1488,
+                    397
+                ],
+                "Top-right": [
+                    1616,
+                    397
+                ],
+                "Bottom-right": [
+                    1616,
+                    525
+                ],
+                "Bottom-left": [
+                    1488,
+                    525
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-1",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6024,
+                    1001
+                ],
+                "Top-right": [
+                    6152,
+                    1001
+                ],
+                "Bottom-right": [
+                    6152,
+                    1129
+                ],
+                "Bottom-left": [
+                    6024,
+                    1129
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-2",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6325,
+                    2155
+                ],
+                "Top-right": [
+                    6453,
+                    2155
+                ],
+                "Bottom-right": [
+                    6453,
+                    2283
+                ],
+                "Bottom-left": [
+                    6325,
+                    2283
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-3",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6951,
+                    2727
+                ],
+                "Top-right": [
+                    7079,
+                    2727
+                ],
+                "Bottom-right": [
+                    7079,
+                    2855
+                ],
+                "Bottom-left": [
+                    6951,
+                    2855
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-4",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6069,
+                    3025
+                ],
+                "Top-right": [
+                    6197,
+                    3025
+                ],
+                "Bottom-right": [
+                    6197,
+                    3153
+                ],
+                "Bottom-left": [
+                    6069,
+                    3153
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-5",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    4894,
+                    2089
+                ],
+                "Top-right": [
+                    5022,
+                    2089
+                ],
+                "Bottom-right": [
+                    5022,
+                    2217
+                ],
+                "Bottom-left": [
+                    4894,
+                    2217
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-6",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5437,
+                    837
+                ],
+                "Top-right": [
+                    5565,
+                    837
+                ],
+                "Bottom-right": [
+                    5565,
+                    965
+                ],
+                "Bottom-left": [
+                    5437,
+                    965
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-7",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6826,
+                    343
+                ],
+                "Top-right": [
+                    6954,
+                    343
+                ],
+                "Bottom-right": [
+                    6954,
+                    471
+                ],
+                "Bottom-left": [
+                    6826,
+                    471
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-8",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7702,
+                    676
+                ],
+                "Top-right": [
+                    7830,
+                    676
+                ],
+                "Bottom-right": [
+                    7830,
+                    804
+                ],
+                "Bottom-left": [
+                    7702,
+                    804
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-9",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7440,
+                    1207
+                ],
+                "Top-right": [
+                    7568,
+                    1207
+                ],
+                "Bottom-right": [
+                    7568,
+                    1335
+                ],
+                "Bottom-left": [
+                    7440,
+                    1335
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-10",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6850,
+                    1547
+                ],
+                "Top-right": [
+                    6978,
+                    1547
+                ],
+                "Bottom-right": [
+                    6978,
+                    1675
+                ],
+                "Bottom-left": [
+                    6850,
+                    1675
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-11",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6468,
+                    1743
+                ],
+                "Top-right": [
+                    6596,
+                    1743
+                ],
+                "Bottom-right": [
+                    6596,
+                    1871
+                ],
+                "Bottom-left": [
+                    6468,
+                    1871
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-12",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7607,
+                    1863
+                ],
+                "Top-right": [
+                    7735,
+                    1863
+                ],
+                "Bottom-right": [
+                    7735,
+                    1991
+                ],
+                "Bottom-left": [
+                    7607,
+                    1991
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-13",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7011,
+                    2274
+                ],
+                "Top-right": [
+                    7139,
+                    2274
+                ],
+                "Bottom-right": [
+                    7139,
+                    2402
+                ],
+                "Bottom-left": [
+                    7011,
+                    2402
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-14",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6540,
+                    2709
+                ],
+                "Top-right": [
+                    6668,
+                    2709
+                ],
+                "Bottom-right": [
+                    6668,
+                    2837
+                ],
+                "Bottom-left": [
+                    6540,
+                    2837
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-15",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6343,
+                    3609
+                ],
+                "Top-right": [
+                    6471,
+                    3609
+                ],
+                "Bottom-right": [
+                    6471,
+                    3737
+                ],
+                "Bottom-left": [
+                    6343,
+                    3737
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-16",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5362,
+                    3481
+                ],
+                "Top-right": [
+                    5490,
+                    3481
+                ],
+                "Bottom-right": [
+                    5490,
+                    3609
+                ],
+                "Bottom-left": [
+                    5362,
+                    3609
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-17",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3404,
+                    3493
+                ],
+                "Top-right": [
+                    3532,
+                    3493
+                ],
+                "Bottom-right": [
+                    3532,
+                    3621
+                ],
+                "Bottom-left": [
+                    3404,
+                    3621
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-18",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3207,
+                    3586
+                ],
+                "Top-right": [
+                    3335,
+                    3586
+                ],
+                "Bottom-right": [
+                    3335,
+                    3714
+                ],
+                "Bottom-left": [
+                    3207,
+                    3714
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-19",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6295,
+                    2404
+                ],
+                "Top-right": [
+                    6423,
+                    2404
+                ],
+                "Bottom-right": [
+                    6423,
+                    2532
+                ],
+                "Bottom-left": [
+                    6295,
+                    2532
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-20",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1187,
+                    3537
+                ],
+                "Top-right": [
+                    1315,
+                    3537
+                ],
+                "Bottom-right": [
+                    1315,
+                    3665
+                ],
+                "Bottom-left": [
+                    1187,
+                    3665
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-21",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2034,
+                    2953
+                ],
+                "Top-right": [
+                    2162,
+                    2953
+                ],
+                "Bottom-right": [
+                    2162,
+                    3081
+                ],
+                "Bottom-left": [
+                    2034,
+                    3081
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-22",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2647,
+                    1851
+                ],
+                "Top-right": [
+                    2775,
+                    1851
+                ],
+                "Bottom-right": [
+                    2775,
+                    1979
+                ],
+                "Bottom-left": [
+                    2647,
+                    1979
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-23",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3805,
+                    2551
+                ],
+                "Top-right": [
+                    3933,
+                    2551
+                ],
+                "Bottom-right": [
+                    3933,
+                    2679
+                ],
+                "Bottom-left": [
+                    3805,
+                    2679
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-24",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2359,
+                    3462
+                ],
+                "Top-right": [
+                    2487,
+                    3462
+                ],
+                "Bottom-right": [
+                    2487,
+                    3590
+                ],
+                "Bottom-left": [
+                    2359,
+                    3590
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-25",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7386,
+                    2697
+                ],
+                "Top-right": [
+                    7514,
+                    2697
+                ],
+                "Bottom-right": [
+                    7514,
+                    2825
+                ],
+                "Bottom-left": [
+                    7386,
+                    2825
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-26",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6703,
+                    2203
+                ],
+                "Top-right": [
+                    6831,
+                    2203
+                ],
+                "Bottom-right": [
+                    6831,
+                    2331
+                ],
+                "Bottom-left": [
+                    6703,
+                    2331
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-27",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7874,
+                    2750
+                ],
+                "Top-right": [
+                    8002,
+                    2750
+                ],
+                "Bottom-right": [
+                    8002,
+                    2878
+                ],
+                "Bottom-left": [
+                    7874,
+                    2878
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-28",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2012,
+                    3148
+                ],
+                "Top-right": [
+                    2140,
+                    3148
+                ],
+                "Bottom-right": [
+                    2140,
+                    3276
+                ],
+                "Bottom-left": [
+                    2012,
+                    3276
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-29",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1128,
+                    2190
+                ],
+                "Top-right": [
+                    1256,
+                    2190
+                ],
+                "Bottom-right": [
+                    1256,
+                    2318
+                ],
+                "Bottom-left": [
+                    1128,
+                    2318
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-30",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1038,
+                    2816
+                ],
+                "Top-right": [
+                    1166,
+                    2816
+                ],
+                "Bottom-right": [
+                    1166,
+                    2944
+                ],
+                "Bottom-left": [
+                    1038,
+                    2944
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-31",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1312,
+                    2816
+                ],
+                "Top-right": [
+                    1440,
+                    2816
+                ],
+                "Bottom-right": [
+                    1440,
+                    2944
+                ],
+                "Bottom-left": [
+                    1312,
+                    2944
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-32",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1515,
+                    2661
+                ],
+                "Top-right": [
+                    1643,
+                    2661
+                ],
+                "Bottom-right": [
+                    1643,
+                    2789
+                ],
+                "Bottom-left": [
+                    1515,
+                    2789
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-33",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    275,
+                    2667
+                ],
+                "Top-right": [
+                    403,
+                    2667
+                ],
+                "Bottom-right": [
+                    403,
+                    2795
+                ],
+                "Bottom-left": [
+                    275,
+                    2795
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-34",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    287,
+                    2828
+                ],
+                "Top-right": [
+                    415,
+                    2828
+                ],
+                "Bottom-right": [
+                    415,
+                    2956
+                ],
+                "Bottom-left": [
+                    287,
+                    2956
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-35",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    502,
+                    2864
+                ],
+                "Top-right": [
+                    630,
+                    2864
+                ],
+                "Bottom-right": [
+                    630,
+                    2992
+                ],
+                "Bottom-left": [
+                    502,
+                    2992
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-36",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    490,
+                    2584
+                ],
+                "Top-right": [
+                    618,
+                    2584
+                ],
+                "Bottom-right": [
+                    618,
+                    2712
+                ],
+                "Bottom-left": [
+                    490,
+                    2712
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-37",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    418,
+                    2220
+                ],
+                "Top-right": [
+                    546,
+                    2220
+                ],
+                "Bottom-right": [
+                    546,
+                    2348
+                ],
+                "Bottom-left": [
+                    418,
+                    2348
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-38",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    205,
+                    1615
+                ],
+                "Top-right": [
+                    333,
+                    1615
+                ],
+                "Bottom-right": [
+                    333,
+                    1743
+                ],
+                "Bottom-left": [
+                    205,
+                    1743
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-39",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    716,
+                    1630
+                ],
+                "Top-right": [
+                    844,
+                    1630
+                ],
+                "Bottom-right": [
+                    844,
+                    1758
+                ],
+                "Bottom-left": [
+                    716,
+                    1758
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-40",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    865,
+                    1016
+                ],
+                "Top-right": [
+                    993,
+                    1016
+                ],
+                "Bottom-right": [
+                    993,
+                    1144
+                ],
+                "Bottom-left": [
+                    865,
+                    1144
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-41",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2412,
+                    1343
+                ],
+                "Top-right": [
+                    2540,
+                    1343
+                ],
+                "Bottom-right": [
+                    2540,
+                    1471
+                ],
+                "Bottom-left": [
+                    2412,
+                    1471
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-42",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2859,
+                    969
+                ],
+                "Top-right": [
+                    2987,
+                    969
+                ],
+                "Bottom-right": [
+                    2987,
+                    1097
+                ],
+                "Bottom-left": [
+                    2859,
+                    1097
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-43",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1403,
+                    1566
+                ],
+                "Top-right": [
+                    1531,
+                    1566
+                ],
+                "Bottom-right": [
+                    1531,
+                    1694
+                ],
+                "Bottom-left": [
+                    1403,
+                    1694
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-44",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3399,
+                    1436
+                ],
+                "Top-right": [
+                    3527,
+                    1436
+                ],
+                "Bottom-right": [
+                    3527,
+                    1564
+                ],
+                "Bottom-left": [
+                    3399,
+                    1564
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-45",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3085,
+                    898
+                ],
+                "Top-right": [
+                    3213,
+                    898
+                ],
+                "Bottom-right": [
+                    3213,
+                    1026
+                ],
+                "Bottom-left": [
+                    3085,
+                    1026
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-46",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3962,
+                    857
+                ],
+                "Top-right": [
+                    4090,
+                    857
+                ],
+                "Bottom-right": [
+                    4090,
+                    985
+                ],
+                "Bottom-left": [
+                    3962,
+                    985
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-47",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6877,
+                    767
+                ],
+                "Top-right": [
+                    7005,
+                    767
+                ],
+                "Bottom-right": [
+                    7005,
+                    895
+                ],
+                "Bottom-left": [
+                    6877,
+                    895
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-48",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5383,
+                    608
+                ],
+                "Top-right": [
+                    5511,
+                    608
+                ],
+                "Bottom-right": [
+                    5511,
+                    736
+                ],
+                "Bottom-left": [
+                    5383,
+                    736
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-49",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    4244,
+                    1731
+                ],
+                "Top-right": [
+                    4372,
+                    1731
+                ],
+                "Bottom-right": [
+                    4372,
+                    1859
+                ],
+                "Bottom-left": [
+                    4244,
+                    1859
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-50",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    4153,
+                    1918
+                ],
+                "Top-right": [
+                    4281,
+                    1918
+                ],
+                "Bottom-right": [
+                    4281,
+                    2046
+                ],
+                "Bottom-left": [
+                    4153,
+                    2046
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-51",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6410,
+                    2541
+                ],
+                "Top-right": [
+                    6538,
+                    2541
+                ],
+                "Bottom-right": [
+                    6538,
+                    2669
+                ],
+                "Bottom-left": [
+                    6410,
+                    2669
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-52",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    4726,
+                    3970
+                ],
+                "Top-right": [
+                    4854,
+                    3970
+                ],
+                "Bottom-right": [
+                    4854,
+                    4098
+                ],
+                "Bottom-left": [
+                    4726,
+                    4098
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-53",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3602,
+                    3138
+                ],
+                "Top-right": [
+                    3730,
+                    3138
+                ],
+                "Bottom-right": [
+                    3730,
+                    3266
+                ],
+                "Bottom-left": [
+                    3602,
+                    3266
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-54",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    4680,
+                    2405
+                ],
+                "Top-right": [
+                    4808,
+                    2405
+                ],
+                "Bottom-right": [
+                    4808,
+                    2533
+                ],
+                "Bottom-left": [
+                    4680,
+                    2533
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-55",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5199,
+                    2751
+                ],
+                "Top-right": [
+                    5327,
+                    2751
+                ],
+                "Bottom-right": [
+                    5327,
+                    2879
+                ],
+                "Bottom-left": [
+                    5199,
+                    2879
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-56",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5526,
+                    2852
+                ],
+                "Top-right": [
+                    5654,
+                    2852
+                ],
+                "Bottom-right": [
+                    5654,
+                    2980
+                ],
+                "Bottom-left": [
+                    5526,
+                    2980
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-57",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5699,
+                    3180
+                ],
+                "Top-right": [
+                    5827,
+                    3180
+                ],
+                "Bottom-right": [
+                    5827,
+                    3308
+                ],
+                "Bottom-left": [
+                    5699,
+                    3308
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-58",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5105,
+                    3154
+                ],
+                "Top-right": [
+                    5233,
+                    3154
+                ],
+                "Bottom-right": [
+                    5233,
+                    3282
+                ],
+                "Bottom-left": [
+                    5105,
+                    3282
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-59",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5340,
+                    3034
+                ],
+                "Top-right": [
+                    5468,
+                    3034
+                ],
+                "Bottom-right": [
+                    5468,
+                    3162
+                ],
+                "Bottom-left": [
+                    5340,
+                    3162
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-60",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5846,
+                    2850
+                ],
+                "Top-right": [
+                    5974,
+                    2850
+                ],
+                "Bottom-right": [
+                    5974,
+                    2978
+                ],
+                "Bottom-left": [
+                    5846,
+                    2978
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-61",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6152,
+                    4074
+                ],
+                "Top-right": [
+                    6280,
+                    4074
+                ],
+                "Bottom-right": [
+                    6280,
+                    4202
+                ],
+                "Bottom-left": [
+                    6152,
+                    4202
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-62",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6921,
+                    3961
+                ],
+                "Top-right": [
+                    7049,
+                    3961
+                ],
+                "Bottom-right": [
+                    7049,
+                    4089
+                ],
+                "Bottom-left": [
+                    6921,
+                    4089
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-63",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7303,
+                    3812
+                ],
+                "Top-right": [
+                    7431,
+                    3812
+                ],
+                "Bottom-right": [
+                    7431,
+                    3940
+                ],
+                "Bottom-left": [
+                    7303,
+                    3940
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-64",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7511,
+                    3376
+                ],
+                "Top-right": [
+                    7639,
+                    3376
+                ],
+                "Bottom-right": [
+                    7639,
+                    3504
+                ],
+                "Bottom-left": [
+                    7511,
+                    3504
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-65",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7666,
+                    3406
+                ],
+                "Top-right": [
+                    7794,
+                    3406
+                ],
+                "Bottom-right": [
+                    7794,
+                    3534
+                ],
+                "Bottom-left": [
+                    7666,
+                    3534
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-66",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7774,
+                    3865
+                ],
+                "Top-right": [
+                    7902,
+                    3865
+                ],
+                "Bottom-right": [
+                    7902,
+                    3993
+                ],
+                "Bottom-left": [
+                    7774,
+                    3993
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-67",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7213,
+                    3579
+                ],
+                "Top-right": [
+                    7341,
+                    3579
+                ],
+                "Bottom-right": [
+                    7341,
+                    3707
+                ],
+                "Bottom-left": [
+                    7213,
+                    3707
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-68",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6736,
+                    3490
+                ],
+                "Top-right": [
+                    6864,
+                    3490
+                ],
+                "Bottom-right": [
+                    6864,
+                    3618
+                ],
+                "Bottom-left": [
+                    6736,
+                    3618
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-69",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6361,
+                    3084
+                ],
+                "Top-right": [
+                    6489,
+                    3084
+                ],
+                "Bottom-right": [
+                    6489,
+                    3212
+                ],
+                "Bottom-left": [
+                    6361,
+                    3212
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-70",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5908,
+                    2500
+                ],
+                "Top-right": [
+                    6036,
+                    2500
+                ],
+                "Bottom-right": [
+                    6036,
+                    2628
+                ],
+                "Bottom-left": [
+                    5908,
+                    2628
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-71",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5634,
+                    1994
+                ],
+                "Top-right": [
+                    5762,
+                    1994
+                ],
+                "Bottom-right": [
+                    5762,
+                    2122
+                ],
+                "Bottom-left": [
+                    5634,
+                    2122
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-72",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5354,
+                    1570
+                ],
+                "Top-right": [
+                    5482,
+                    1570
+                ],
+                "Bottom-right": [
+                    5482,
+                    1698
+                ],
+                "Bottom-left": [
+                    5354,
+                    1698
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-73",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5836,
+                    1243
+                ],
+                "Top-right": [
+                    5964,
+                    1243
+                ],
+                "Bottom-right": [
+                    5964,
+                    1371
+                ],
+                "Bottom-left": [
+                    5836,
+                    1371
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-74",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6730,
+                    915
+                ],
+                "Top-right": [
+                    6858,
+                    915
+                ],
+                "Bottom-right": [
+                    6858,
+                    1043
+                ],
+                "Bottom-left": [
+                    6730,
+                    1043
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-75",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6307,
+                    539
+                ],
+                "Top-right": [
+                    6435,
+                    539
+                ],
+                "Bottom-right": [
+                    6435,
+                    667
+                ],
+                "Bottom-left": [
+                    6307,
+                    667
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-76",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5866,
+                    682
+                ],
+                "Top-right": [
+                    5994,
+                    682
+                ],
+                "Bottom-right": [
+                    5994,
+                    810
+                ],
+                "Bottom-left": [
+                    5866,
+                    810
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-77",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5556,
+                    1088
+                ],
+                "Top-right": [
+                    5684,
+                    1088
+                ],
+                "Bottom-right": [
+                    5684,
+                    1216
+                ],
+                "Bottom-left": [
+                    5556,
+                    1216
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-78",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5228,
+                    1296
+                ],
+                "Top-right": [
+                    5356,
+                    1296
+                ],
+                "Bottom-right": [
+                    5356,
+                    1424
+                ],
+                "Bottom-left": [
+                    5228,
+                    1424
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-79",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5096,
+                    1219
+                ],
+                "Top-right": [
+                    5224,
+                    1219
+                ],
+                "Bottom-right": [
+                    5224,
+                    1347
+                ],
+                "Bottom-left": [
+                    5096,
+                    1347
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-80",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7243,
+                    1725
+                ],
+                "Top-right": [
+                    7371,
+                    1725
+                ],
+                "Bottom-right": [
+                    7371,
+                    1853
+                ],
+                "Bottom-left": [
+                    7243,
+                    1853
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-81",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7126,
+                    514
+                ],
+                "Top-right": [
+                    7254,
+                    514
+                ],
+                "Bottom-right": [
+                    7254,
+                    642
+                ],
+                "Bottom-left": [
+                    7126,
+                    642
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-82",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5426,
+                    28
+                ],
+                "Top-right": [
+                    5554,
+                    28
+                ],
+                "Bottom-right": [
+                    5554,
+                    155
+                ],
+                "Bottom-left": [
+                    5426,
+                    155
+                ]
+            },
+            "Area": 16256,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-83",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1095,
+                    2596
+                ],
+                "Top-right": [
+                    1223,
+                    2596
+                ],
+                "Bottom-right": [
+                    1223,
+                    2724
+                ],
+                "Bottom-left": [
+                    1095,
+                    2724
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-84",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1029,
+                    2416
+                ],
+                "Top-right": [
+                    1157,
+                    2416
+                ],
+                "Bottom-right": [
+                    1157,
+                    2544
+                ],
+                "Bottom-left": [
+                    1029,
+                    2544
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-85",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    939,
+                    3839
+                ],
+                "Top-right": [
+                    1067,
+                    3839
+                ],
+                "Bottom-right": [
+                    1067,
+                    3967
+                ],
+                "Bottom-left": [
+                    939,
+                    3967
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-86",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1300,
+                    3959
+                ],
+                "Top-right": [
+                    1428,
+                    3959
+                ],
+                "Bottom-right": [
+                    1428,
+                    4087
+                ],
+                "Bottom-left": [
+                    1300,
+                    4087
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-87",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1464,
+                    3744
+                ],
+                "Top-right": [
+                    1592,
+                    3744
+                ],
+                "Bottom-right": [
+                    1592,
+                    3872
+                ],
+                "Bottom-left": [
+                    1464,
+                    3872
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-88",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1634,
+                    3444
+                ],
+                "Top-right": [
+                    1762,
+                    3444
+                ],
+                "Bottom-right": [
+                    1762,
+                    3572
+                ],
+                "Bottom-left": [
+                    1634,
+                    3572
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-89",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1834,
+                    3339
+                ],
+                "Top-right": [
+                    1962,
+                    3339
+                ],
+                "Bottom-right": [
+                    1962,
+                    3467
+                ],
+                "Bottom-left": [
+                    1834,
+                    3467
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-90",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    1483,
+                    3577
+                ],
+                "Top-right": [
+                    1611,
+                    3577
+                ],
+                "Bottom-right": [
+                    1611,
+                    3705
+                ],
+                "Bottom-left": [
+                    1483,
+                    3705
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-91",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2223,
+                    2755
+                ],
+                "Top-right": [
+                    2351,
+                    2755
+                ],
+                "Bottom-right": [
+                    2351,
+                    2883
+                ],
+                "Bottom-left": [
+                    2223,
+                    2883
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-92",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2247,
+                    2406
+                ],
+                "Top-right": [
+                    2375,
+                    2406
+                ],
+                "Bottom-right": [
+                    2375,
+                    2534
+                ],
+                "Bottom-left": [
+                    2247,
+                    2534
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-93",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2184,
+                    1636
+                ],
+                "Top-right": [
+                    2312,
+                    1636
+                ],
+                "Bottom-right": [
+                    2312,
+                    1764
+                ],
+                "Bottom-left": [
+                    2184,
+                    1764
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-94",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2641,
+                    1285
+                ],
+                "Top-right": [
+                    2769,
+                    1285
+                ],
+                "Bottom-right": [
+                    2769,
+                    1413
+                ],
+                "Bottom-left": [
+                    2641,
+                    1413
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-95",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2853,
+                    1698
+                ],
+                "Top-right": [
+                    2981,
+                    1698
+                ],
+                "Bottom-right": [
+                    2981,
+                    1826
+                ],
+                "Bottom-left": [
+                    2853,
+                    1826
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-96",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3117,
+                    1429
+                ],
+                "Top-right": [
+                    3245,
+                    1429
+                ],
+                "Bottom-right": [
+                    3245,
+                    1557
+                ],
+                "Bottom-left": [
+                    3117,
+                    1557
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-97",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3220,
+                    567
+                ],
+                "Top-right": [
+                    3348,
+                    567
+                ],
+                "Bottom-right": [
+                    3348,
+                    695
+                ],
+                "Bottom-left": [
+                    3220,
+                    695
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-98",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3562,
+                    1036
+                ],
+                "Top-right": [
+                    3690,
+                    1036
+                ],
+                "Bottom-right": [
+                    3690,
+                    1164
+                ],
+                "Bottom-left": [
+                    3562,
+                    1164
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-99",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    3936,
+                    1082
+                ],
+                "Top-right": [
+                    4064,
+                    1082
+                ],
+                "Bottom-right": [
+                    4064,
+                    1210
+                ],
+                "Bottom-left": [
+                    3936,
+                    1210
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-100",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5034,
+                    1826
+                ],
+                "Top-right": [
+                    5162,
+                    1826
+                ],
+                "Bottom-right": [
+                    5162,
+                    1954
+                ],
+                "Bottom-left": [
+                    5034,
+                    1954
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-101",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7283,
+                    1993
+                ],
+                "Top-right": [
+                    7411,
+                    1993
+                ],
+                "Bottom-right": [
+                    7411,
+                    2121
+                ],
+                "Bottom-left": [
+                    7283,
+                    2121
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-102",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5144,
+                    2498
+                ],
+                "Top-right": [
+                    5272,
+                    2498
+                ],
+                "Bottom-right": [
+                    5272,
+                    2626
+                ],
+                "Bottom-left": [
+                    5144,
+                    2626
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-103",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2426,
+                    2077
+                ],
+                "Top-right": [
+                    2554,
+                    2077
+                ],
+                "Bottom-right": [
+                    2554,
+                    2205
+                ],
+                "Bottom-left": [
+                    2426,
+                    2205
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-104",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5292,
+                    1834
+                ],
+                "Top-right": [
+                    5420,
+                    1834
+                ],
+                "Bottom-right": [
+                    5420,
+                    1962
+                ],
+                "Bottom-left": [
+                    5292,
+                    1962
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-105",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5140,
+                    2034
+                ],
+                "Top-right": [
+                    5268,
+                    2034
+                ],
+                "Bottom-right": [
+                    5268,
+                    2162
+                ],
+                "Bottom-left": [
+                    5140,
+                    2162
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-106",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5726,
+                    425
+                ],
+                "Top-right": [
+                    5854,
+                    425
+                ],
+                "Bottom-right": [
+                    5854,
+                    553
+                ],
+                "Bottom-left": [
+                    5726,
+                    553
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-107",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7492,
+                    377
+                ],
+                "Top-right": [
+                    7620,
+                    377
+                ],
+                "Bottom-right": [
+                    7620,
+                    505
+                ],
+                "Bottom-left": [
+                    7492,
+                    505
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-108",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    5112,
+                    127
+                ],
+                "Top-right": [
+                    5240,
+                    127
+                ],
+                "Bottom-right": [
+                    5240,
+                    255
+                ],
+                "Bottom-left": [
+                    5112,
+                    255
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-109",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    2911,
+                    261
+                ],
+                "Top-right": [
+                    3039,
+                    261
+                ],
+                "Bottom-right": [
+                    3039,
+                    389
+                ],
+                "Bottom-left": [
+                    2911,
+                    389
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-110",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    6391,
+                    1002
+                ],
+                "Top-right": [
+                    6519,
+                    1002
+                ],
+                "Bottom-right": [
+                    6519,
+                    1130
+                ],
+                "Bottom-left": [
+                    6391,
+                    1130
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-111",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7173,
+                    1359
+                ],
+                "Top-right": [
+                    7301,
+                    1359
+                ],
+                "Bottom-right": [
+                    7301,
+                    1487
+                ],
+                "Bottom-left": [
+                    7173,
+                    1487
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-NC-112",
+            "Category": "AM-3-NC",
+            "Coordinates": {
+                "Top-left": [
+                    7014,
+                    1835
+                ],
+                "Top-right": [
+                    7142,
+                    1835
+                ],
+                "Bottom-right": [
+                    7142,
+                    1963
+                ],
+                "Bottom-left": [
+                    7014,
+                    1963
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-22",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    79,
+                    3510
+                ],
+                "Top-right": [
+                    207,
+                    3510
+                ],
+                "Bottom-right": [
+                    207,
+                    3638
+                ],
+                "Bottom-left": [
+                    79,
+                    3638
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-23",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    273,
+                    3508
+                ],
+                "Top-right": [
+                    401,
+                    3508
+                ],
+                "Bottom-right": [
+                    401,
+                    3636
+                ],
+                "Bottom-left": [
+                    273,
+                    3636
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-24",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    432,
+                    3505
+                ],
+                "Top-right": [
+                    560,
+                    3505
+                ],
+                "Bottom-right": [
+                    560,
+                    3633
+                ],
+                "Bottom-left": [
+                    432,
+                    3633
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-25",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    563,
+                    3503
+                ],
+                "Top-right": [
+                    691,
+                    3503
+                ],
+                "Bottom-right": [
+                    691,
+                    3631
+                ],
+                "Bottom-left": [
+                    563,
+                    3631
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-26",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    736,
+                    3514
+                ],
+                "Top-right": [
+                    864,
+                    3514
+                ],
+                "Bottom-right": [
+                    864,
+                    3642
+                ],
+                "Bottom-left": [
+                    736,
+                    3642
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-27",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    760,
+                    3650
+                ],
+                "Top-right": [
+                    888,
+                    3650
+                ],
+                "Bottom-right": [
+                    888,
+                    3778
+                ],
+                "Bottom-left": [
+                    760,
+                    3778
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-28",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    624,
+                    3644
+                ],
+                "Top-right": [
+                    752,
+                    3644
+                ],
+                "Bottom-right": [
+                    752,
+                    3772
+                ],
+                "Bottom-left": [
+                    624,
+                    3772
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-29",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    477,
+                    3650
+                ],
+                "Top-right": [
+                    605,
+                    3650
+                ],
+                "Bottom-right": [
+                    605,
+                    3778
+                ],
+                "Bottom-left": [
+                    477,
+                    3778
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-30",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    349,
+                    3651
+                ],
+                "Top-right": [
+                    477,
+                    3651
+                ],
+                "Bottom-right": [
+                    477,
+                    3779
+                ],
+                "Bottom-left": [
+                    349,
+                    3779
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-31",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    211,
+                    3649
+                ],
+                "Top-right": [
+                    339,
+                    3649
+                ],
+                "Bottom-right": [
+                    339,
+                    3777
+                ],
+                "Bottom-left": [
+                    211,
+                    3777
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-32",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    73,
+                    3653
+                ],
+                "Top-right": [
+                    201,
+                    3653
+                ],
+                "Bottom-right": [
+                    201,
+                    3781
+                ],
+                "Bottom-left": [
+                    73,
+                    3781
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-33",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    0,
+                    3883
+                ],
+                "Top-right": [
+                    128,
+                    3883
+                ],
+                "Bottom-right": [
+                    128,
+                    4011
+                ],
+                "Bottom-left": [
+                    0,
+                    4011
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-34",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    128,
+                    3796
+                ],
+                "Top-right": [
+                    256,
+                    3796
+                ],
+                "Bottom-right": [
+                    256,
+                    3924
+                ],
+                "Bottom-left": [
+                    128,
+                    3924
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-35",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    282,
+                    3795
+                ],
+                "Top-right": [
+                    410,
+                    3795
+                ],
+                "Bottom-right": [
+                    410,
+                    3923
+                ],
+                "Bottom-left": [
+                    282,
+                    3923
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-36",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    458,
+                    3796
+                ],
+                "Top-right": [
+                    586,
+                    3796
+                ],
+                "Bottom-right": [
+                    586,
+                    3924
+                ],
+                "Bottom-left": [
+                    458,
+                    3924
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-37",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    601,
+                    3786
+                ],
+                "Top-right": [
+                    729,
+                    3786
+                ],
+                "Bottom-right": [
+                    729,
+                    3914
+                ],
+                "Bottom-left": [
+                    601,
+                    3914
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-38",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    716,
+                    3986
+                ],
+                "Top-right": [
+                    844,
+                    3986
+                ],
+                "Bottom-right": [
+                    844,
+                    4114
+                ],
+                "Bottom-left": [
+                    716,
+                    4114
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-39",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    545,
+                    3966
+                ],
+                "Top-right": [
+                    673,
+                    3966
+                ],
+                "Bottom-right": [
+                    673,
+                    4094
+                ],
+                "Bottom-left": [
+                    545,
+                    4094
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-40",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    365,
+                    3994
+                ],
+                "Top-right": [
+                    493,
+                    3994
+                ],
+                "Bottom-right": [
+                    493,
+                    4122
+                ],
+                "Bottom-left": [
+                    365,
+                    4122
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-41",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    165,
+                    3975
+                ],
+                "Top-right": [
+                    293,
+                    3975
+                ],
+                "Bottom-right": [
+                    293,
+                    4103
+                ],
+                "Bottom-left": [
+                    165,
+                    4103
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-42",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    20,
+                    4036
+                ],
+                "Top-right": [
+                    148,
+                    4036
+                ],
+                "Bottom-right": [
+                    148,
+                    4164
+                ],
+                "Bottom-left": [
+                    20,
+                    4164
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-43",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    839,
+                    4135
+                ],
+                "Top-right": [
+                    967,
+                    4135
+                ],
+                "Bottom-right": [
+                    967,
+                    4263
+                ],
+                "Bottom-left": [
+                    839,
+                    4263
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-44",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    646,
+                    4151
+                ],
+                "Top-right": [
+                    774,
+                    4151
+                ],
+                "Bottom-right": [
+                    774,
+                    4279
+                ],
+                "Bottom-left": [
+                    646,
+                    4279
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-45",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    465,
+                    4131
+                ],
+                "Top-right": [
+                    593,
+                    4131
+                ],
+                "Bottom-right": [
+                    593,
+                    4259
+                ],
+                "Bottom-left": [
+                    465,
+                    4259
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        },
+        {
+            "Box ID": "AM-3-C-46",
+            "Category": "AM-3-C",
+            "Coordinates": {
+                "Top-left": [
+                    170,
+                    4141
+                ],
+                "Top-right": [
+                    298,
+                    4141
+                ],
+                "Bottom-right": [
+                    298,
+                    4269
+                ],
+                "Bottom-left": [
+                    170,
+                    4269
+                ]
+            },
+            "Area": 16384,
+            "Points": []
+        }
+    ]
+}

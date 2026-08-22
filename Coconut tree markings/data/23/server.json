@@ -1,0 +1,58 @@
+{
+  "builderType": "uri",
+  "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+  "uri": "file:/C:/Users/yashw/Pictures/Screenshots/Screenshot%202025-08-10%20115710.png",
+  "args": [
+    "--series",
+    "0"
+  ],
+  "metadata": {
+    "name": "Screenshot 2025-08-10 115710.png",
+    "width": 1736,
+    "height": 899,
+    "sizeZ": 1,
+    "sizeT": 1,
+    "channelType": "DEFAULT",
+    "isRGB": true,
+    "pixelType": "UINT8",
+    "levels": [
+      {
+        "downsample": 1.0,
+        "width": 1736,
+        "height": 899
+      }
+    ],
+    "channels": [
+      {
+        "name": "Red",
+        "color": -65536
+      },
+      {
+        "name": "Green",
+        "color": -16711936
+      },
+      {
+        "name": "Blue",
+        "color": -16776961
+      }
+    ],
+    "pixelCalibration": {
+      "pixelWidth": {
+        "value": 1.0,
+        "unit": "px"
+      },
+      "pixelHeight": {
+        "value": 1.0,
+        "unit": "px"
+      },
+      "zSpacing": {
+        "value": 1.0,
+        "unit": "z-slice"
+      },
+      "timeUnit": "SECONDS",
+      "timepoints": []
+    },
+    "preferredTileWidth": 1736,
+    "preferredTileHeight": 151
+  }
+}

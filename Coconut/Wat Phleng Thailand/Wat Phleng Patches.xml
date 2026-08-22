@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>2810076</id>
+      <size>4</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-08-04 10:20:00.940218+00:00</created>
+      <updated>2025-08-04 10:47:35.523350+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>3</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>2811967</id>
+          <start>0</start>
+          <stop>3</stop>
+          <url>https://app.cvat.ai/api/jobs/2810076</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>cvat99</username>
+        <email>cvat.annotations1@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>1</name>
+          <color>#fa7dbb</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>2</name>
+          <color>#c70866</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2025-08-04 10:48:20.075392+00:00</dumped>
+  </meta>
+  <image id="0" name="Wat Phleng_800_1.png" width="8192" height="4283">
+    <box label="2" source="Ground truth" occluded="0" xtl="3326.11" ytl="766.08" xbr="3837.07" ybr="1277.03" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="455.45" ytl="306.57" xbr="966.40" ybr="817.53" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="7653.89" ytl="1606.50" xbr="8164.84" ybr="2117.46" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6631.98" ytl="2260.22" xbr="7142.94" ybr="2771.18" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="5425.98" ytl="2197.11" xbr="5936.94" ybr="2708.06" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6256.28" ytl="3327.22" xbr="6767.24" ybr="3838.17" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7015.20" ytl="3297.16" xbr="7526.15" ybr="3808.11" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7541.18" ytl="2711.06" xbr="8052.14" ybr="3222.02" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="117.32" ytl="1433.68" xbr="628.27" ybr="1944.63" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4776.01" ytl="937.75" xbr="5286.97" ybr="1448.71" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1973.28" ytl="547.02" xbr="2484.24" ybr="1057.98" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2574.40" ytl="524.48" xbr="3085.36" ybr="1035.44" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="3661.73" ytl="1838.52" xbr="4172.69" ybr="2349.48" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4017.10" ytl="1088.03" xbr="4528.05" ybr="1598.99" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4355.23" ytl="2357.91" xbr="4866.18" ybr="2868.86" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2942.59" ytl="2508.19" xbr="3453.55" ybr="3019.14" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="320.19" ytl="2876.37" xbr="831.15" ybr="3387.33" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="996.46" ytl="3056.71" xbr="1507.41" ybr="3567.66" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="1639.58" ytl="1600.72" xbr="2150.54" ybr="2111.67" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2506.78" ytl="3763.03" xbr="3017.73" ybr="4273.98" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3355.86" ytl="3725.46" xbr="3866.82" ybr="4236.41" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="3994.56" ytl="344.14" xbr="4505.51" ybr="855.10" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="5908.54" ytl="2733.07" xbr="6419.50" ybr="3244.02" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6631.98" ytl="2808.75" xbr="7142.94" ybr="3319.70" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7180.51" ytl="2485.64" xbr="7691.46" ybr="2996.60" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="7112.88" ytl="1674.13" xbr="7623.84" ybr="2185.08" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7601.29" ytl="757.42" xbr="8112.25" ybr="1268.37" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6511.76" ytl="1463.73" xbr="7022.71" ybr="1974.69" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="7496.10" ytl="58.61" xbr="8007.05" ybr="569.56" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="5213.57" ytl="92.16" xbr="5724.53" ybr="603.12" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5309.51" ytl="2883.89" xbr="5820.47" ybr="3394.84" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2724.68" ytl="1629.04" xbr="3235.64" ybr="2140.00" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1236.90" ytl="764.93" xbr="1747.86" ybr="1275.88" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1221.88" ytl="111.21" xbr="1732.83" ybr="622.16" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="57.20" ytl="892.67" xbr="568.16" ybr="1403.62" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="635.78" ytl="937.75" xbr="1146.74" ybr="1448.71" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1499.90" ytl="3635.29" xbr="2010.85" ybr="4146.25" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4347.72" ytl="2981.57" xbr="4858.67" ybr="3492.52" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6271.31" ytl="434.31" xbr="6782.26" ybr="945.27" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="Wat Phleng_800_2.png" width="8192" height="4283">
+    <box label="2" source="Ground truth" occluded="0" xtl="4641.18" ytl="260.27" xbr="5152.14" ybr="771.22" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5283.22" ytl="313.51" xbr="5794.17" ybr="824.47" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5936.94" ytl="180.33" xbr="6447.90" ybr="691.29" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7274.44" ytl="150.28" xbr="7785.40" ybr="661.23" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5223.11" ytl="2088.90" xbr="5734.06" ybr="2599.85" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="30.91" ytl="3433.91" xbr="541.86" ybr="3944.87" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="459.21" ytl="3711.93" xbr="970.17" ybr="4222.89" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1105.42" ytl="3802.10" xbr="1616.37" ybr="4283.00" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1684.00" ytl="841.57" xbr="2194.95" ybr="1352.52" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2360.26" ytl="766.43" xbr="2871.22" ybr="1277.38" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2536.84" ytl="135.26" xbr="3047.80" ybr="646.21" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2867.46" ytl="736.38" xbr="3378.41" ybr="1247.33" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1988.32" ytl="3396.35" xbr="2499.27" ybr="3907.30" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2581.93" ytl="3336.23" xbr="3092.88" ybr="3847.19" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="42.18" ytl="2547.26" xbr="553.14" ybr="3058.22" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="79.75" ytl="1412.64" xbr="590.71" ybr="1923.60" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="169.92" ytl="1540.38" xbr="680.87" ybr="2051.33" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1041.55" ytl="1592.98" xbr="1552.50" ybr="2103.93" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="3981.63" ytl="1251.59" xbr="4492.59" ybr="1762.54" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3284.58" ytl="1977.07" xbr="3795.53" ybr="2488.03" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6231.61" ytl="852.38" xbr="6742.57" ybr="1363.34" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6687.27" ytl="919.61" xbr="7198.22" ybr="1430.57" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5534.93" ytl="3732.97" xbr="6045.89" ybr="4243.93" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="4363.28" ytl="3501.16" xbr="4874.24" ybr="4012.12" z_order="0">
+    </box>
+    <box label="1" source="manual" occluded="0" xtl="4956.65" ytl="1412.29" xbr="5467.61" ybr="1923.24" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5512.39" ytl="1478.76" xbr="6023.35" ybr="1989.72" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="6075.94" ytl="1583.96" xbr="6586.90" ybr="2094.91" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="6609.44" ytl="1659.10" xbr="7120.40" ybr="2170.05" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="7210.56" ytl="1816.89" xbr="7721.52" ybr="2327.85" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="7593.78" ytl="1861.98" xbr="8104.73" ybr="2372.93" z_order="0">
+    </box>
+    <box label="1" source="manual" occluded="0" xtl="4929.31" ytl="3641.29" xbr="5440.26" ybr="4152.25" z_order="0">
+    </box>
+    <box label="1" source="manual" occluded="0" xtl="2561.31" ytl="2384.80" xbr="3072.27" ybr="2895.76" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4761.39" ytl="2097.26" xbr="5272.35" ybr="2608.21" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3949.39" ytl="2144.02" xbr="4460.34" ybr="2654.97" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5460.65" ytl="14.64" xbr="5971.61" ybr="525.59" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4909.46" ytl="14.64" xbr="5420.41" ybr="525.59" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6414.17" ytl="191.66" xbr="6925.13" ybr="702.62" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="614.54" ytl="2868.62" xbr="1125.49" ybr="3379.58" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="Wat Phleng_800_3.png" width="8192" height="4283">
+    <box label="2" source="Ground truth" occluded="0" xtl="2434.53" ytl="3476.18" xbr="2945.49" ybr="3987.13" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3084.06" ytl="3560.11" xbr="3595.02" ybr="4071.06" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6948.86" ytl="3127.48" xbr="7459.81" ybr="3638.44" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7266.11" ytl="3242.85" xbr="7777.07" ybr="3753.80" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7511.27" ytl="3466.37" xbr="8022.23" ybr="3977.33" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7439.17" ytl="3141.90" xbr="7950.12" ybr="3652.86" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7121.91" ytl="1591.66" xbr="7632.86" ybr="2102.61" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7403.11" ytl="1548.40" xbr="7914.07" ybr="2059.35" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7439.17" ytl="495.67" xbr="7950.12" ybr="1006.63" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6970.49" ytl="791.30" xbr="7481.44" ybr="1302.25" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7417.53" ytl="704.77" xbr="7928.49" ybr="1215.73" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3711.37" ytl="1065.30" xbr="4222.32" ybr="1576.25" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1548.24" ytl="812.93" xbr="2059.19" ybr="1323.89" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1101.19" ytl="755.25" xbr="1612.15" ybr="1266.20" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="625.30" ytl="683.14" xbr="1136.26" ybr="1194.10" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="0.00" ytl="2694.86" xbr="508.95" ybr="3205.81" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3263.02" ytl="1655.90" xbr="3773.98" ybr="2166.85" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1831.68" ytl="258.71" xbr="2342.63" ybr="769.66" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1543.49" ytl="211.88" xbr="2054.44" ybr="722.83" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="823.02" ytl="1404.26" xbr="1333.97" ybr="1915.21" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="387.14" ytl="1332.21" xbr="898.09" ybr="1843.16" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1633.55" ytl="1566.36" xbr="2144.50" ybr="2077.32" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3653.06" ytl="3639.70" xbr="4164.01" ybr="4150.66" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6212.10" ytl="2141.73" xbr="6723.06" ybr="2652.69" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6158.61" ytl="2858.04" xbr="6669.57" ybr="3369.00" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4925.77" ytl="517.85" xbr="5436.73" ybr="1028.81" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2793.64" ytl="3602.94" xbr="3304.59" ybr="4113.90" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6154.62" ytl="2457.40" xbr="6665.58" ybr="2968.35" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="Wat Phleng_800_4.png" width="8192" height="4283">
+    <box label="2" source="Ground truth" occluded="0" xtl="1653.94" ytl="1029.42" xbr="2164.90" ybr="1540.38" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2337.72" ytl="1254.84" xbr="2848.67" ybr="1765.80" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2893.76" ytl="1360.04" xbr="3404.71" ybr="1870.99" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3216.86" ytl="1487.78" xbr="3727.82" ybr="1998.73" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1992.07" ytl="2164.04" xbr="2503.03" ybr="2674.99" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2495.51" ytl="2351.89" xbr="3006.47" ybr="2862.85" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3179.29" ytl="2464.60" xbr="3690.25" ybr="2975.56" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="3434.77" ytl="2584.83" xbr="3945.72" ybr="3095.78" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6312.64" ytl="127.74" xbr="6823.60" ybr="638.69" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6440.38" ytl="398.24" xbr="6951.34" ybr="909.20" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6718.40" ytl="646.21" xbr="7229.36" ybr="1157.16" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7357.10" ytl="7.51" xbr="7868.05" ybr="518.47" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5215.60" ytl="7.51" xbr="5726.55" ybr="518.47" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5771.63" ytl="90.17" xbr="6282.59" ybr="601.12" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7124.16" ytl="1991.22" xbr="7635.11" ybr="2502.17" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7612.57" ytl="2239.18" xbr="8123.53" ybr="2750.13" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="7642.63" ytl="3013.13" xbr="8153.58" ybr="3524.08" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="5576.27" ytl="2629.91" xbr="6087.22" ybr="3140.86" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6169.88" ytl="2644.94" xbr="6680.83" ybr="3155.89" z_order="0">
+    </box>
+    <box label="2" source="manual" occluded="0" xtl="3329.81" ytl="563.83" xbr="3840.76" ybr="1074.79" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="849.94" ytl="3313.69" xbr="1360.90" ybr="3824.64" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1383.44" ytl="3448.94" xbr="1894.39" ybr="3959.89" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2863.70" ytl="3509.05" xbr="3374.66" ybr="4020.01" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="1300.78" ytl="2096.41" xbr="1811.74" ybr="2607.37" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="444.18" ytl="30.05" xbr="955.14" ybr="541.01" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="38.43" ytl="841.57" xbr="549.38" ybr="1352.52" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="4336.45" ytl="360.67" xbr="4847.41" ybr="871.63" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="6094.74" ytl="1262.36" xbr="6605.69" ybr="1773.31" z_order="0">
+    </box>
+    <box label="2" source="Ground truth" occluded="0" xtl="2014.62" ytl="3426.40" xbr="2525.57" ybr="3937.35" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5116.14" ytl="3389.00" xbr="5627.09" ybr="3899.95" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5819.77" ytl="3329.84" xbr="6330.73" ybr="3840.79" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5302.94" ytl="3765.72" xbr="5813.90" ybr="4276.68" z_order="0">
+    </box>
+    <box label="1" source="Ground truth" occluded="0" xtl="5863.36" ytl="3740.81" xbr="6374.32" ybr="4251.77" z_order="0">
+    </box>
+  </image>
+</annotations>

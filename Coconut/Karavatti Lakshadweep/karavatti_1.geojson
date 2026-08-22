@@ -1,0 +1,1025 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1281.99,
+              88.67
+            ],
+            [
+              1792.94,
+              88.67
+            ],
+            [
+              1792.94,
+              599.62
+            ],
+            [
+              1281.99,
+              599.62
+            ],
+            [
+              1281.99,
+              88.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2574.71,
+              606.78
+            ],
+            [
+              3085.66,
+              606.78
+            ],
+            [
+              3085.66,
+              1117.74
+            ],
+            [
+              2574.71,
+              1117.74
+            ],
+            [
+              2574.71,
+              606.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3941.96,
+              1478.76
+            ],
+            [
+              4452.91,
+              1478.76
+            ],
+            [
+              4452.91,
+              1989.72
+            ],
+            [
+              3941.96,
+              1989.72
+            ],
+            [
+              3941.96,
+              1478.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3168.01,
+              1899.55
+            ],
+            [
+              3678.97,
+              1899.55
+            ],
+            [
+              3678.97,
+              2410.5
+            ],
+            [
+              3168.01,
+              2410.5
+            ],
+            [
+              3168.01,
+              1899.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3821.73,
+              2170.05
+            ],
+            [
+              4332.69,
+              2170.05
+            ],
+            [
+              4332.69,
+              2681.01
+            ],
+            [
+              3821.73,
+              2681.01
+            ],
+            [
+              3821.73,
+              2170.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4580.65,
+              2162.54
+            ],
+            [
+              5091.61,
+              2162.54
+            ],
+            [
+              5091.61,
+              2673.49
+            ],
+            [
+              4580.65,
+              2673.49
+            ],
+            [
+              4580.65,
+              2162.54
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2987.68,
+              2891.4
+            ],
+            [
+              3498.63,
+              2891.4
+            ],
+            [
+              3498.63,
+              3402.36
+            ],
+            [
+              2987.68,
+              3402.36
+            ],
+            [
+              2987.68,
+              2891.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1875.6,
+              2079.89
+            ],
+            [
+              2386.55,
+              2079.89
+            ],
+            [
+              2386.55,
+              2590.84
+            ],
+            [
+              1875.6,
+              2590.84
+            ],
+            [
+              1875.6,
+              2079.89
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3152.98,
+              1200.74
+            ],
+            [
+              3663.94,
+              1200.74
+            ],
+            [
+              3663.94,
+              1711.7
+            ],
+            [
+              3152.98,
+              1711.7
+            ],
+            [
+              3152.98,
+              1200.74
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4129.81,
+              2996.6
+            ],
+            [
+              4640.76,
+              2996.6
+            ],
+            [
+              4640.76,
+              3507.55
+            ],
+            [
+              4129.81,
+              3507.55
+            ],
+            [
+              4129.81,
+              2996.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5144.2,
+              3146.88
+            ],
+            [
+              5655.16,
+              3146.88
+            ],
+            [
+              5655.16,
+              3657.83
+            ],
+            [
+              5144.2,
+              3657.83
+            ],
+            [
+              5144.2,
+              3146.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2581.92,
+              3702.92
+            ],
+            [
+              3092.87,
+              3702.92
+            ],
+            [
+              3092.87,
+              4213.87
+            ],
+            [
+              2581.92,
+              4213.87
+            ],
+            [
+              2581.92,
+              3702.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3956.99,
+              3620.26
+            ],
+            [
+              4467.94,
+              3620.26
+            ],
+            [
+              4467.94,
+              4131.22
+            ],
+            [
+              3956.99,
+              4131.22
+            ],
+            [
+              3956.99,
+              3620.26
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5805.44,
+              3778.06
+            ],
+            [
+              6316.39,
+              3778.06
+            ],
+            [
+              6316.39,
+              4283.0
+            ],
+            [
+              5805.44,
+              4283.0
+            ],
+            [
+              5805.44,
+              3778.06
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5850.52,
+              2387.96
+            ],
+            [
+              6361.48,
+              2387.96
+            ],
+            [
+              6361.48,
+              2898.92
+            ],
+            [
+              5850.52,
+              2898.92
+            ],
+            [
+              5850.52,
+              2387.96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6196.17,
+              1659.1
+            ],
+            [
+              6707.12,
+              1659.1
+            ],
+            [
+              6707.12,
+              2170.05
+            ],
+            [
+              6196.17,
+              2170.05
+            ],
+            [
+              6196.17,
+              1659.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6361.48,
+              1057.98
+            ],
+            [
+              6872.43,
+              1057.98
+            ],
+            [
+              6872.43,
+              1568.93
+            ],
+            [
+              6361.48,
+              1568.93
+            ],
+            [
+              6361.48,
+              1057.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5399.68,
+              794.99
+            ],
+            [
+              5910.64,
+              794.99
+            ],
+            [
+              5910.64,
+              1305.94
+            ],
+            [
+              5399.68,
+              1305.94
+            ],
+            [
+              5399.68,
+              794.99
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6121.03,
+              261.49
+            ],
+            [
+              6631.98,
+              261.49
+            ],
+            [
+              6631.98,
+              772.44
+            ],
+            [
+              6121.03,
+              772.44
+            ],
+            [
+              6121.03,
+              261.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5129.18,
+              96.18
+            ],
+            [
+              5640.13,
+              96.18
+            ],
+            [
+              5640.13,
+              607.14
+            ],
+            [
+              5129.18,
+              607.14
+            ],
+            [
+              5129.18,
+              96.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4362.74,
+              171.32
+            ],
+            [
+              4873.7,
+              171.32
+            ],
+            [
+              4873.7,
+              682.28
+            ],
+            [
+              4362.74,
+              682.28
+            ],
+            [
+              4362.74,
+              171.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              2905.02,
+              52.6
+            ],
+            [
+              3415.97,
+              52.6
+            ],
+            [
+              3415.97,
+              547.02
+            ],
+            [
+              2905.02,
+              547.02
+            ],
+            [
+              2905.02,
+              52.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1853.06,
+              37.57
+            ],
+            [
+              2364.01,
+              37.57
+            ],
+            [
+              2364.01,
+              509.45
+            ],
+            [
+              1853.06,
+              509.45
+            ],
+            [
+              1853.06,
+              37.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              320.19,
+              126.24
+            ],
+            [
+              831.15,
+              126.24
+            ],
+            [
+              831.15,
+              637.19
+            ],
+            [
+              320.19,
+              637.19
+            ],
+            [
+              320.19,
+              126.24
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              49.69,
+              825.04
+            ],
+            [
+              560.64,
+              825.04
+            ],
+            [
+              560.64,
+              1336.0
+            ],
+            [
+              49.69,
+              1336.0
+            ],
+            [
+              49.69,
+              825.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              650.81,
+              659.73
+            ],
+            [
+              1161.76,
+              659.73
+            ],
+            [
+              1161.76,
+              1170.69
+            ],
+            [
+              650.81,
+              1170.69
+            ],
+            [
+              650.81,
+              659.73
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              891.26,
+              2628.41
+            ],
+            [
+              1402.21,
+              2628.41
+            ],
+            [
+              1402.21,
+              3139.36
+            ],
+            [
+              891.26,
+              3139.36
+            ],
+            [
+              891.26,
+              2628.41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.77,
+              3417.38
+            ],
+            [
+              605.73,
+              3417.38
+            ],
+            [
+              605.73,
+              3928.34
+            ],
+            [
+              94.77,
+              3928.34
+            ],
+            [
+              94.77,
+              3417.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              793.58,
+              3304.67
+            ],
+            [
+              1304.53,
+              3304.67
+            ],
+            [
+              1304.53,
+              3815.63
+            ],
+            [
+              793.58,
+              3815.63
+            ],
+            [
+              793.58,
+              3304.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "classification": "1",
+        "image": "Karavatti_800_1.png"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              1695.26,
+              3530.1
+            ],
+            [
+              2206.22,
+              3530.1
+            ],
+            [
+              2206.22,
+              4041.05
+            ],
+            [
+              1695.26,
+              4041.05
+            ],
+            [
+              1695.26,
+              3530.1
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
