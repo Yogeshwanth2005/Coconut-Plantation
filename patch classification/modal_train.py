@@ -84,8 +84,14 @@ def train():
     print(f"Device: {device}")
 
     data_root = Path(DATA_ROOT)
+
+    # Data may be laid out flat (data_root/<class>/) or pooled under
+    # train/test subfolders (data_root/{train,test}/<class>/) -- support both.
+    split_dirs = [p for p in (data_root / "train", data_root / "test") if p.is_dir()]
+    class_roots = split_dirs if split_dirs else [data_root]
+
     class_names = sorted(
-        (p.name for p in data_root.iterdir() if p.is_dir()),
+        {p.name for root in class_roots for p in root.iterdir() if p.is_dir()},
         key=lambda x: int(x),
     )
     assert len(class_names) == NUM_CLASSES, (
@@ -96,11 +102,15 @@ def train():
     # ---- Group files by (class, box_id) so augmented siblings move together ----
     groups = defaultdict(list)  # (class, box_id) -> [file paths]
     for cls in class_names:
-        for f in (data_root / cls).iterdir():
-            if f.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
+        for root in class_roots:
+            cls_dir = root / cls
+            if not cls_dir.is_dir():
                 continue
-            box_id = box_id_from_filename(f.name)
-            groups[(cls, box_id)].append(f)
+            for f in cls_dir.iterdir():
+                if f.suffix.lower() not in {".png", ".jpg", ".jpeg"}:
+                    continue
+                box_id = box_id_from_filename(f.name)
+                groups[(cls, box_id)].append(f)
 
     # ---- Stratified split at the box-group level ----
     train_files, val_files = [], []
