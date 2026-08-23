@@ -34,7 +34,7 @@ DATA_ROOT = "/data/data/raw"
 OUTPUT_ROOT = "/output"
 
 NUM_CLASSES = 15
-IMG_SIZE = 64
+IMG_SIZE = 128  # must match modal_train.py's IMG_SIZE for the checkpoint being evaluated
 BATCH_SIZE = 32
 VAL_FRACTION = 0.2
 SEED = 42  # must match modal_train.py so this is the same held-out split
@@ -123,7 +123,7 @@ def evaluate():
 
         def __getitem__(self, idx):
             img = Image.open(self.files[idx]).convert("RGB")
-            return self.transform(img), self.labels[idx]
+            return self.transform(img), self.labels[idx], idx
 
     val_ds = PatchDataset(val_files, val_labels, transform)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=2)
@@ -139,17 +139,27 @@ def evaluate():
     model.to(device)
     model.eval()
 
-    all_preds, all_labels = [], []
+    all_preds, all_labels, all_indices = [], [], []
     with torch.no_grad():
-        for images, labels in val_loader:
+        for images, labels, indices in val_loader:
             images = images.to(device)
             outputs = model(images)
             preds = outputs.argmax(1).cpu().numpy()
             all_preds.extend(preds)
             all_labels.extend(labels.numpy())
+            all_indices.extend(indices.numpy())
 
     overall_acc = float(np.mean(np.array(all_preds) == np.array(all_labels)))
     print(f"\nOverall accuracy: {overall_acc:.4f}\n")
+
+    # ---- Dump misclassified files for specific classes of interest ----
+    classes_of_interest = {"6", "11", "12", "13"}
+    print("Misclassified files (true -> pred) for classes of interest:")
+    for pred, true, idx in zip(all_preds, all_labels, all_indices):
+        true_name = class_names[true]
+        pred_name = class_names[pred]
+        if pred != true and (true_name in classes_of_interest or pred_name in classes_of_interest):
+            print(f"  {val_files[idx].name}  [true={true_name} pred={pred_name}]")
 
     report = classification_report(
         all_labels, all_preds,

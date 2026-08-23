@@ -13,6 +13,14 @@ Fixes vs. the original Colab notebook (patch classification/resnet-18.ipynb):
   - Best-val-accuracy checkpoint is saved, not just whatever the final
     epoch happens to produce.
   - Early stopping, since train accuracy hits ~100% by epoch 6-8.
+  - Input size raised 64->128: source patches are natively 512x512, and
+    the row-spacing detail that separates classes 11/12/13 doesn't
+    survive a 64x64 downscale (confirmed by visual inspection of
+    misclassified patches).
+  - Resolution-degradation augmentation: a fraction of training images
+    are blurred/downsampled-then-upsampled each epoch, so the model
+    stays robust to lower-quality real-world source imagery, not just
+    today's 8192x4283 tiles.
 
 Run:
     modal run "patch classification/modal_train.py"
@@ -46,7 +54,7 @@ DATA_ROOT = "/data/data/raw"  # matches `modal volume put coconut-patch-data <lo
 OUTPUT_ROOT = "/output"
 
 NUM_CLASSES = 15
-IMG_SIZE = 64
+IMG_SIZE = 128
 BATCH_SIZE = 32
 MAX_EPOCHS = 100
 PATIENCE = 15
@@ -54,10 +62,56 @@ LEARNING_RATE = 1e-4
 VAL_FRACTION = 0.2
 SEED = 42
 
+# Resolution-degradation augmentation: simulates lower-quality source
+# imagery so the model doesn't only work well on today's high-res tiles.
+DEGRADE_PROB = 0.35          # fraction of training images degraded per epoch
+DEGRADE_MIN_SCALE = 0.25     # degraded down to as little as 25% of IMG_SIZE...
+DEGRADE_MAX_SCALE = 0.75     # ...up to 75%, then upsampled back to IMG_SIZE
+
 
 def box_id_from_filename(name: str) -> str:
     # "AM-1-E-1_0_original.png" -> "AM-1-E-1"
     return re.sub(r"_\d+_.*$", "", name)
+
+
+class RandomResolutionDegrade:
+    """Simulate a lower-quality source photo: shrink then blow back up.
+
+    A picklable class (not a closure) so it works safely with DataLoader
+    worker processes under either 'fork' or 'spawn'.
+    """
+
+    def __init__(self, img_size, prob, min_scale, max_scale):
+        self.img_size = img_size
+        self.prob = prob
+        self.min_scale = min_scale
+        self.max_scale = max_scale
+
+    def __call__(self, img):
+        import random as _random
+        from PIL import Image as _Image
+
+        if _random.random() >= self.prob:
+            return img
+        scale = _random.uniform(self.min_scale, self.max_scale)
+        small_size = max(8, int(self.img_size * scale))
+        img = img.resize((small_size, small_size), _Image.BILINEAR)
+        return img.resize((self.img_size, self.img_size), _Image.BILINEAR)
+
+
+class FixedResolutionDegrade:
+    """Always shrink to a fixed scale then blow back up (for eval)."""
+
+    def __init__(self, img_size, scale):
+        self.img_size = img_size
+        self.scale = scale
+
+    def __call__(self, img):
+        from PIL import Image as _Image
+
+        small_size = max(8, int(self.img_size * self.scale))
+        img = img.resize((small_size, small_size), _Image.BILINEAR)
+        return img.resize((self.img_size, self.img_size), _Image.BILINEAR)
 
 
 @app.function(
@@ -149,12 +203,27 @@ def train():
     print(f"Class weights: {class_weights.cpu().numpy().round(2)}")
 
     # ---- Dataset ----
+    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+
     train_transform = transforms.Compose([
         transforms.Resize((IMG_SIZE, IMG_SIZE)),
+        RandomResolutionDegrade(IMG_SIZE, DEGRADE_PROB, DEGRADE_MIN_SCALE, DEGRADE_MAX_SCALE),
         transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        normalize,
     ])
-    val_transform = train_transform  # augmentation already baked into the dataset
+    val_transform = transforms.Compose([
+        transforms.Resize((IMG_SIZE, IMG_SIZE)),
+        transforms.ToTensor(),
+        normalize,
+    ])
+    # Degraded-val: same held-out images, but always shrunk to the low end
+    # of the degradation range -- measures robustness, not just clean accuracy.
+    val_degraded_transform = transforms.Compose([
+        transforms.Resize((IMG_SIZE, IMG_SIZE)),
+        FixedResolutionDegrade(IMG_SIZE, DEGRADE_MIN_SCALE),
+        transforms.ToTensor(),
+        normalize,
+    ])
 
     class PatchDataset(Dataset):
         def __init__(self, files, labels, transform):
@@ -171,9 +240,11 @@ def train():
 
     train_ds = PatchDataset(train_files, train_labels, train_transform)
     val_ds = PatchDataset(val_files, val_labels, val_transform)
+    val_degraded_ds = PatchDataset(val_files, val_labels, val_degraded_transform)
 
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=2)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=2)
+    val_degraded_loader = DataLoader(val_degraded_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=2)
 
     # ---- Model: same modified ResNet-18 pipeline.py expects ----
     model = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
@@ -239,17 +310,37 @@ def train():
 
     print(f"\nBest val accuracy: {best_val_acc:.4f}")
 
+    # ---- Evaluate the best checkpoint on degraded (low-res-simulated) val images ----
+    model.load_state_dict(best_state)
+    model.to(device)
+    model.eval()
+    correct, total = 0, 0
+    with torch.no_grad():
+        for images, labels in val_degraded_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images)
+            correct += (outputs.argmax(1) == labels).sum().item()
+            total += labels.size(0)
+    degraded_val_acc = correct / total
+    print(f"Degraded-val accuracy (robustness check): {degraded_val_acc:.4f}")
+
     out_path = Path(OUTPUT_ROOT) / "resnet18_density_classifier.pth"
     torch.save(best_state, out_path)
     output_volume.commit()
     print(f"Saved best checkpoint to {out_path}")
 
-    return {"best_val_acc": best_val_acc, "class_names": class_names}
+    return {
+        "best_val_acc": best_val_acc,
+        "degraded_val_acc": degraded_val_acc,
+        "class_names": class_names,
+    }
 
 
 @app.local_entrypoint()
 def main():
     result = train.remote()
-    print(f"\nTraining finished. Best val accuracy: {result['best_val_acc']:.4f}")
+    print(f"\nTraining finished.")
+    print(f"  Clean val accuracy:    {result['best_val_acc']:.4f}")
+    print(f"  Degraded val accuracy: {result['degraded_val_acc']:.4f}")
     print("Download with:")
-    print("  modal volume get coconut-model-output resnet18_density_classifier.pth .")
+    print("  modal volume get coconut-model-output resnet18_density_classifier.pth . --force")
