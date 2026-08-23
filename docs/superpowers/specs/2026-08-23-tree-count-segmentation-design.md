@@ -76,6 +76,26 @@ to extend or validate it. If new training data is ever added, it must be
 marked with the same care — the pipeline provides no mechanism to catch a
 mismarked point on its own.
 
+**Known gap — annotation completeness, not just correctness.** Visual
+review of generated masks (`segmentation/masks/`, checked against source
+tiles in `Coconut/<Site>/`) confirmed that some real trees inside
+annotated boxes were not marked with a point at all, in certain sites/
+regions — the boxes themselves are correct, but not exhaustive; not every
+tree within a marked box necessarily has a corresponding point. This is a
+false-negative gap in the ground truth (a real tree, no point, so no
+blob), not a false-positive one (no evidence yet of a point placed where
+no tree exists).
+
+There is currently no independent way to quantify how many trees are
+missed this way — doing so algorithmically would require the same kind of
+tree-detection capability this project is trying to build, a circular
+dependency. Decision: proceed with the existing annotations as-is. Expect
+this to cause the segmentation model to systematically undercount by some
+unknown but likely small margin, inherited directly from the training
+data. Revisit by re-checking/re-marking specific boxes only if this
+undercount turns out to matter for the accuracy the final pipeline needs
+to hit — not a blocker for starting model training.
+
 ## Architecture
 
 Three stages, replacing the ResNet-18 classifier and the current MK-UNet
