@@ -197,7 +197,7 @@ def train():
         val_ious = []
         n_val_batches = 0
         with torch.no_grad():
-            for images, masks in val_loader:
+            for images, masks, _shape, _name in val_loader:
                 images, masks = images.to(device), masks.to(device)
                 outputs = model(images)[0]
                 val_loss_sum += combined_loss(outputs, masks).item()
