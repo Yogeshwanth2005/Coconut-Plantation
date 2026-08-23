@@ -58,6 +58,24 @@ region.
   works entirely from data that already exists (box + point annotations).
 - Real-time/low-latency inference. This runs as an offline batch pipeline.
 
+## Assumption: annotation quality is the ceiling
+
+Mask generation (stage 1 below) draws a blob at every point in the
+existing annotations and trusts it completely — it has no independent way
+to verify that a given point was placed on an actual coconut tree rather
+than a different tree species that happened to look similar in the photo.
+This is safe only because the original point-marking process was a
+deliberate coconut-vs-other-tree visual judgment, not a looser "this looks
+green" click — confirmed for the existing 26,000+ points used to build
+this pipeline.
+
+This means the ceiling on the whole pipeline's real-world accuracy is set
+by the quality of point annotation, both for the data used to train the
+segmentation model and for any future data (new sites, new imagery) used
+to extend or validate it. If new training data is ever added, it must be
+marked with the same care — the pipeline provides no mechanism to catch a
+mismarked point on its own.
+
 ## Architecture
 
 Three stages, replacing the ResNet-18 classifier and the current MK-UNet
