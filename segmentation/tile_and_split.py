@@ -1,5 +1,5 @@
 """
-Tiles the full-resolution source images + generated blob masks into
+Tiles the Stage-1-masked source images + generated blob masks into
 256x256 crops, and splits them into train/val/test with a SITE-AWARE
 holdout -- Amrita's tiles are held out entirely for test, never seen
 during training. This replaces the old tiling script's approach
@@ -8,6 +8,14 @@ tiles together and randomly shuffled before splitting, making cross-
 site generalization untestable (and, per this session's earlier
 findings, actively leaky -- sibling crops of the same source tile
 could land in both train and test).
+
+Segmentation trains on the Stage-1 color-masked images
+(Applicatno/MK-UNet-main/masked images/ -- non-green/non-coconut/sea
+areas already blanked white) rather than the raw source photos. This
+means the segmentation model never has to learn to distinguish
+buildings/roads/sea/soil from canopy -- Stage 1 already solved that --
+so it can focus entirely on the harder problem this stage exists for:
+which of the green vegetation is specifically coconut canopy.
 
 See docs/superpowers/specs/2026-08-23-tree-count-segmentation-design.md.
 
@@ -34,18 +42,18 @@ import cv2
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent
-COCONUT_DIR = ROOT / "Coconut"
+MASKED_IMAGES_DIR = ROOT / "Applicatno" / "MK-UNet-main" / "masked images"
 MASKS_DIR = Path(__file__).resolve().parent / "masks"
 OUTPUT_DIR = Path(__file__).resolve().parent / "tiled"
 
-SITE_FOLDERS = {
-    "Amrita": "Amrita Coimbatore TN",
-    "Karavatti": "Karavatti Lakshadweep",
-    "Kradangnga": "Kradangnga Thailand",
-    "Sambava": "Sambava Madagascar",
-    "Triple P Kabacan": "Triple P Kabacan Philippines",
-    "Wat Phleng": "Wat Phleng Thailand",
-}
+SITES = [
+    "Amrita",
+    "Karavatti",
+    "Kradangnga",
+    "Sambava",
+    "Triple P Kabacan",
+    "Wat Phleng",
+]
 
 HOLDOUT_SITE = "Amrita"  # entire site held out for test, never trained on
 VAL_FRACTION = 0.15       # of the non-holdout tiles' crops
@@ -90,13 +98,12 @@ def tile_image_and_mask(image_path: Path, mask_path: Path, tile_size: int):
 
 
 def collect_tiles_for_site(site: str) -> list[tuple]:
-    folder = SITE_FOLDERS[site]
     all_tiles = []
     for stem in find_stems_for_site(site):
-        image_path = COCONUT_DIR / folder / f"{stem}.png"
+        image_path = MASKED_IMAGES_DIR / f"{stem}.png"
         mask_path = MASKS_DIR / f"{stem}.png"
         if not image_path.exists():
-            print(f"  WARNING: no source image for {stem}, skipping")
+            print(f"  WARNING: no masked image for {stem}, skipping")
             continue
         tiles = tile_image_and_mask(image_path, mask_path, TILE_SIZE)
         all_tiles.extend(tiles)
@@ -128,7 +135,7 @@ def main():
     print(f"--- Tiling holdout site: {HOLDOUT_SITE} ---")
     test_tiles = collect_tiles_for_site(HOLDOUT_SITE)
 
-    train_val_sites = [s for s in SITE_FOLDERS if s != HOLDOUT_SITE]
+    train_val_sites = [s for s in SITES if s != HOLDOUT_SITE]
     print(f"\n--- Tiling train/val sites: {train_val_sites} ---")
     train_val_tiles = []
     for site in train_val_sites:

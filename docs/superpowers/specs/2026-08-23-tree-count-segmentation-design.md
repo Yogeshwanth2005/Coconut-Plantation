@@ -99,8 +99,26 @@ to hit — not a blocker for starting model training.
 ## Architecture
 
 Three stages, replacing the ResNet-18 classifier and the current MK-UNet
-training entirely. Stage 1 (color classification) is unchanged and sits
-upstream of this.
+training entirely. Stage 1 (color classification) is unchanged in itself,
+but its output now feeds directly into segmentation as an input
+transform (see "Stage 1 integration" below) — previously Stage 1 and
+Stage 2 were only connected via `pipeline.py`'s runtime orchestration,
+not via what either model actually trained on.
+
+### Stage 1 integration: segmentation trains on color-masked images
+
+Segmentation (stage 2 below) trains and runs on Stage-1-masked images —
+non-green/non-coconut/sea regions already blanked white — rather than the
+raw source photo. Concretely, this uses the existing
+`Applicatno/MK-UNet-main/masked images/` files (one per source tile,
+confirmed to cover all 18 annotated tiles at matching 8192×4283
+resolution).
+
+This means segmentation never has to learn to distinguish buildings,
+roads, sea, or bare soil from canopy — Stage 1 already solved that — so
+its whole learning capacity goes toward the actual problem this stage
+exists for: distinguishing coconut canopy from other green vegetation
+within the areas Stage 1 already flagged as plausibly relevant.
 
 ### 1. Mask generation (new, no training)
 
@@ -234,11 +252,21 @@ claim the new pipeline generalizes.
 
 ## Implementation order
 
-1. Mask generation script (blob masks from existing point annotations) —
-   no training required, can be validated visually immediately.
-2. Site-aware train/test split for the new mask dataset.
+1. **Done.** Mask generation script (`segmentation/generate_blob_masks.py`)
+   — blob masks from existing point annotations, no training required,
+   validated visually against `Coconut/<Site>/` source tiles. 26,494
+   points drawn across 18 tiles, 0 out-of-bounds.
+2. **Done.** Site-aware train/test split
+   (`segmentation/tile_and_split.py`) — Amrita held out entirely for
+   test; Karavatti/Kradangnga/Sambava/Triple P Kabacan/Wat Phleng tiled
+   and split 85/15 for train/val. Tiles use the Stage-1-masked images
+   (`Applicatno/MK-UNet-main/masked images/`) as input, not the raw
+   photos, per the Stage 1 integration decision above. 7,399 train /
+   1,305 val / 1,088 test tiles at 256×256, verified visually.
 3. Retrain MK-UNet (binary) on Modal, with fixed train/eval code.
 4. Site-holdout evaluation of the segmentation model.
 5. Connected-component counting logic + count-accuracy evaluation.
 6. Geometric pattern-classification rule + manual-agreement evaluation.
-7. Wire into `pipeline.py`, replacing the ResNet-18 Stage 2/3 calls.
+7. Wire into `pipeline.py`, replacing the ResNet-18 Stage 2/3 calls (and
+   Stage 1's own invocation, since its output is now consumed as a
+   pre-processing step for Stage 2 rather than only at the point level).
