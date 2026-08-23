@@ -87,6 +87,7 @@ def main():
     parser.add_argument("--checkpoint", type=Path, default=Path("mkunet_binary_best.pth"))
     parser.add_argument("--n", type=int, default=12, help="number of random val tiles to inspect")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--site", type=str, default=None, help="only sample tiles whose filename starts with this site prefix")
     args = parser.parse_args()
 
     if not args.checkpoint.exists():
@@ -98,9 +99,10 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = load_model(args.checkpoint, device)
 
-    image_files = sorted(VAL_IMAGES.glob("*.png"))
+    pattern = f"{args.site}*.png" if args.site else "*.png"
+    image_files = sorted(VAL_IMAGES.glob(pattern))
     if not image_files:
-        raise FileNotFoundError(f"No val tiles found in {VAL_IMAGES}")
+        raise FileNotFoundError(f"No val tiles found in {VAL_IMAGES} matching {pattern}")
 
     # Bias the sample toward tiles that actually contain trees, so we're
     # not just looking at empty-background tiles (which dominate numerically).
