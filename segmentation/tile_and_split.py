@@ -1,13 +1,21 @@
 """
 Tiles the Stage-1-masked source images + generated blob masks into
 256x256 crops, and splits them into train/val/test with a SITE-AWARE
-holdout -- Amrita's tiles are held out entirely for test, never seen
-during training. This replaces the old tiling script's approach
-(Applicatno/MK-UNet-main/tile_dataset.py), which pooled all sites'
-tiles together and randomly shuffled before splitting, making cross-
-site generalization untestable (and, per this session's earlier
+holdout -- Amrita and Kradangnga's tiles are held out entirely for test,
+never seen during training. This replaces the old tiling script's
+approach (Applicatno/MK-UNet-main/tile_dataset.py), which pooled all
+sites' tiles together and randomly shuffled before splitting, making
+cross-site generalization untestable (and, per this session's earlier
 findings, actively leaky -- sibling crops of the same source tile
 could land in both train and test).
+
+Kradangnga was previously excluded outright (its point annotations had
+placement mistakes -- points sitting in gaps/shadow rather than on tree
+crowns, found via segmentation/review_tool.py). Rather than train on it
+once "fixed," it's used as a second unseen-site test set: a clean
+generalization signal isn't very sensitive to whether every point is
+perfect, and this way it never risks leaking into what the model was
+fit to.
 
 Segmentation trains on the Stage-1 color-masked images
 (Applicatno/MK-UNet-main/masked images/ -- non-green/non-coconut/sea
@@ -27,12 +35,14 @@ generate_blob_masks.py first).
 
 Output structure:
     segmentation/tiled/
-        train/images/, train/masks/    (Karavatti, Kradangnga, Sambava,
+        train/images/, train/masks/    (Karavatti, Sambava,
                                          Triple P Kabacan, Wat Phleng --
                                          randomly split 85/15 by tile)
         val/images/, val/masks/
-        test/images/, test/masks/      (Amrita only -- held out
-                                         entirely from training)
+        test/images/, test/masks/      (Amrita + Kradangnga -- held out
+                                         entirely from training; filenames
+                                         keep their site prefix so the two
+                                         can still be evaluated separately)
 """
 
 import random
@@ -55,12 +65,7 @@ SITES = [
     "Wat Phleng",
 ]
 
-HOLDOUT_SITE = "Amrita"  # entire site held out for test, never trained on
-# Excluded entirely (not tiled into train/val/test at all) -- Kradangnga's
-# point annotations were found to have counting mistakes. Source images,
-# annotations, and generated masks are left on disk untouched; this just
-# keeps them out of the tiled dataset used for training.
-EXCLUDED_SITES = ["Kradangnga"]
+HOLDOUT_SITES = ["Amrita", "Kradangnga"]  # entire sites held out for test, never trained on
 VAL_FRACTION = 0.15       # of the non-holdout tiles' crops
 TILE_SIZE = 256
 SEED = 42
@@ -135,13 +140,15 @@ def main():
             f"No masks found in {MASKS_DIR} -- run generate_blob_masks.py first."
         )
 
-    print(f"Holdout site (test only, never trained on): {HOLDOUT_SITE}")
-    print(f"Excluded sites (not tiled at all): {EXCLUDED_SITES}\n")
+    print(f"Holdout sites (test only, never trained on): {HOLDOUT_SITES}\n")
 
-    print(f"--- Tiling holdout site: {HOLDOUT_SITE} ---")
-    test_tiles = collect_tiles_for_site(HOLDOUT_SITE)
+    print(f"--- Tiling holdout sites: {HOLDOUT_SITES} ---")
+    test_tiles = []
+    for site in HOLDOUT_SITES:
+        print(f" Site: {site}")
+        test_tiles.extend(collect_tiles_for_site(site))
 
-    train_val_sites = [s for s in SITES if s != HOLDOUT_SITE and s not in EXCLUDED_SITES]
+    train_val_sites = [s for s in SITES if s not in HOLDOUT_SITES]
     print(f"\n--- Tiling train/val sites: {train_val_sites} ---")
     train_val_tiles = []
     for site in train_val_sites:
@@ -163,7 +170,7 @@ def main():
     print(f"{'=' * 50}")
     print(f"Train: {len(train_tiles)} tiles (from {train_val_sites})")
     print(f"Val:   {len(val_tiles)} tiles (from {train_val_sites})")
-    print(f"Test:  {len(test_tiles)} tiles (from {HOLDOUT_SITE} ONLY, unseen during training)")
+    print(f"Test:  {len(test_tiles)} tiles (from {HOLDOUT_SITES}, unseen during training)")
 
     # Foreground (tree) pixel coverage per split, sanity check
     for split_name, tiles in [("train", train_tiles), ("val", val_tiles), ("test", test_tiles)]:

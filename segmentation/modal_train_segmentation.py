@@ -132,16 +132,15 @@ def train():
     )
     print(f"Train tiles: {len(train_loader.dataset)}  |  Val tiles: {len(val_loader.dataset)}")
 
-    # ---- Foreground/background class weight (tree coverage is only ~2.3%) ----
-    # The raw inverse-frequency weight ((1-0.023)/0.023 ~= 42.5) combined with
-    # dice loss double-counts the imbalance correction: visual review of
-    # predictions at IoU~0.16 showed large, merged, oversized blobs and
-    # false alarms in tree-sparse tiles -- the model over-predicting "tree"
-    # broadly rather than drawing tight per-tree blobs. Dice loss already
-    # handles class imbalance on its own, so cross-entropy doesn't need the
-    # full inverse-frequency weight on top of it. Using sqrt of the raw
-    # weight as a gentler compromise.
-    fg_weight = ((1 - 0.023) / 0.023) ** 0.5  # ~6.5
+    # ---- Foreground/background class weight (tree coverage is only ~2.1%) ----
+    # The raw inverse-frequency weight ((1-0.021)/0.021 ~= 46.6) combined with
+    # dice loss double-counts the imbalance correction. A sqrt compromise
+    # (~6.8) was tried first but count-based eval still showed heavy
+    # over-prediction (+64% predicted vs. true tree count on val). Dice loss
+    # already handles class imbalance on its own, so cross-entropy doesn't
+    # need much of the imbalance correction on top of it -- using cube root
+    # as a further, gentler compromise to push precision up.
+    fg_weight = ((1 - 0.021) / 0.021) ** (1 / 3)  # ~3.6
     class_weights = torch.tensor([1.0, fg_weight], dtype=torch.float32).to(device)
     print(f"Class weights [background, tree]: {class_weights.cpu().numpy().round(2)}")
 

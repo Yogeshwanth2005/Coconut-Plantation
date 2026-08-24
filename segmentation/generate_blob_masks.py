@@ -36,6 +36,7 @@ from pathlib import Path
 
 import cv2
 import numpy as np
+from scipy.spatial import cKDTree
 
 ROOT = Path(__file__).resolve().parent.parent
 ANNOTATIONS_DIR = ROOT / "Applicatno" / "annotations"
@@ -58,6 +59,31 @@ SITE_FOLDERS = {
 # so even densely-packed trees get distinct, non-overlapping blobs.
 BLOB_RADIUS = 14
 
+# Annotation boxes were deliberately drawn overlapping each other to ensure
+# full coverage of each source tile (no gaps between patches) -- a tree
+# falling in an overlap region was then marked once per box it appeared in,
+# by design, not by mistake. Confirmed on Sambava_800_1: point (4605, 334)
+# appears twice at the exact same pixel from two different overlapping
+# boxes. Without deduplication this inflates both the mask (merged blobs,
+# 1294 points -> 803 actual blobs on that one tile) and any point-count-
+# based evaluation. Threshold chosen from the observed duplicate distance
+# distribution: true duplicates cluster under ~4px; real distinct trees are
+# essentially never this close (nearest-neighbor p5 across all sites is
+# 36.1px), so 5px cleanly separates the two without needing manual review.
+DEDUP_DISTANCE_PX = 5
+
+
+def dedupe_points(points: list[tuple[float, float]]) -> list[tuple[float, float]]:
+    """Collapses near-identical points (from overlapping annotation boxes)
+    into one, keeping the first occurrence of each cluster."""
+    if len(points) < 2:
+        return points
+    pts = np.array(points)
+    tree = cKDTree(pts)
+    pairs = tree.query_pairs(r=DEDUP_DISTANCE_PX)
+    to_drop = {max(i, j) for i, j in pairs}
+    return [p for idx, p in enumerate(points) if idx not in to_drop]
+
 
 def find_source_image(json_path: Path) -> Path | None:
     """Pairs Applicatno/annotations/<Site>_800_<N>.json with
@@ -76,8 +102,8 @@ def find_source_image(json_path: Path) -> Path | None:
     return candidate if candidate.exists() else None
 
 
-def generate_mask_for_tile(json_path: Path, image_path: Path) -> tuple[np.ndarray, int, int]:
-    """Returns (mask, points_drawn, points_out_of_bounds)."""
+def generate_mask_for_tile(json_path: Path, image_path: Path) -> tuple[np.ndarray, int, int, int]:
+    """Returns (mask, points_drawn, points_out_of_bounds, duplicates_removed)."""
     img = cv2.imread(str(image_path))
     if img is None:
         raise FileNotFoundError(f"Could not load image: {image_path}")
@@ -88,18 +114,21 @@ def generate_mask_for_tile(json_path: Path, image_path: Path) -> tuple[np.ndarra
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    all_points = [tuple(pt) for box in data for pt in box.get("Points", [])]
+    deduped_points = dedupe_points(all_points)
+    duplicates_removed = len(all_points) - len(deduped_points)
+
     drawn = 0
     out_of_bounds = 0
-    for box in data:
-        for x, y in box.get("Points", []):
-            x, y = int(round(x)), int(round(y))
-            if 0 <= x < w and 0 <= y < h:
-                cv2.circle(mask, (x, y), BLOB_RADIUS, 255, thickness=-1)
-                drawn += 1
-            else:
-                out_of_bounds += 1
+    for x, y in deduped_points:
+        x, y = int(round(x)), int(round(y))
+        if 0 <= x < w and 0 <= y < h:
+            cv2.circle(mask, (x, y), BLOB_RADIUS, 255, thickness=-1)
+            drawn += 1
+        else:
+            out_of_bounds += 1
 
-    return mask, drawn, out_of_bounds
+    return mask, drawn, out_of_bounds, duplicates_removed
 
 
 def main():
@@ -110,6 +139,7 @@ def main():
 
     total_drawn = 0
     total_oob = 0
+    total_dupes = 0
     unpaired = []
 
     for jp in json_files:
@@ -119,9 +149,10 @@ def main():
             print(f"  [SKIP] {jp.name}: no matching source image found")
             continue
 
-        mask, drawn, oob = generate_mask_for_tile(jp, image_path)
+        mask, drawn, oob, dupes = generate_mask_for_tile(jp, image_path)
         total_drawn += drawn
         total_oob += oob
+        total_dupes += dupes
 
         out_path = OUTPUT_DIR / f"{jp.stem}.png"
         cv2.imwrite(str(out_path), mask)
@@ -129,11 +160,12 @@ def main():
         coverage_pct = 100.0 * np.count_nonzero(mask) / mask.size
         print(
             f"  [{jp.stem}] source={image_path.name}  "
-            f"points_drawn={drawn}  out_of_bounds={oob}  "
+            f"points_drawn={drawn}  duplicates_removed={dupes}  out_of_bounds={oob}  "
             f"tree_pixel_coverage={coverage_pct:.2f}%"
         )
 
     print(f"\nTotal tree points drawn: {total_drawn}")
+    print(f"Total duplicate points removed (overlapping annotation boxes): {total_dupes}")
     if total_oob:
         print(f"Total out-of-bounds points skipped: {total_oob}")
     if unpaired:
