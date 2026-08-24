@@ -39,6 +39,15 @@ class PolypDataset(data.Dataset):
                 A.Rotate(limit=90, p=0.5),
                 A.VerticalFlip(p=0.5),
                 A.HorizontalFlip(p=0.5),
+                # Color-domain augmentation: without this, a model can shortcut
+                # "is this pixel a tree" via each site's specific tone/lighting
+                # signature instead of learning tone-invariant canopy texture/
+                # shape -- confirmed the cause of a cross-site holdout collapse
+                # (val F1 0.57 -> 0.18 on an unseen site) when this was absent.
+                A.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.05, p=0.7),
+                A.HueSaturationValue(hue_shift_limit=15, sat_shift_limit=25, val_shift_limit=15, p=0.5),
+                A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.5),
+                A.GaussianBlur(blur_limit=(3, 5), p=0.2),
                 A.Resize(height=self.trainsize, width=self.trainsize),
                 A.Normalize(mean=mean, std=std),
                 ToTensorV2()

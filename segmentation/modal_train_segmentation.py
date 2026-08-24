@@ -67,6 +67,8 @@ VOLUME_MOUNT = "/data"
 DATA_ROOT = "/data/data/tiled"  # matches `modal volume put coconut-segmentation-data <local> /data/tiled`
 OUTPUT_ROOT = "/output"
 
+RESUME_FILENAME = "mkunet_resume_state.pth"
+
 NUM_CLASSES = 1  # binary: dataloader treats num_classes<=1 as tree-vs-background
 IMG_SIZE = 256
 BATCH_SIZE = 8
@@ -100,6 +102,8 @@ def train():
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
+
+    RESUME_PATH = Path(OUTPUT_ROOT) / RESUME_FILENAME
 
     data_root = Path(DATA_ROOT)
     train_loader = get_loader(
@@ -180,8 +184,27 @@ def train():
     best_val_iou = -1.0
     epochs_without_improvement = 0
     best_state = None
+    start_epoch = 0
 
-    for epoch in range(MAX_EPOCHS):
+    # ---- Resume from a prior preemption, if a resume checkpoint exists ----
+    # T4 spot containers get preempted mid-run (observed twice already); without
+    # this, a preemption silently restarts from epoch 0 and throws away
+    # everything trained so far. Saved every epoch, not just on improvement, so
+    # a resume picks up right where training left off regardless of whether the
+    # most recent epoch was a new best.
+    if RESUME_PATH.exists():
+        print(f"Found resume checkpoint at {RESUME_PATH}, resuming...")
+        resume_state = torch.load(RESUME_PATH, map_location=device, weights_only=False)
+        model.load_state_dict(resume_state["model_state"])
+        optimizer.load_state_dict(resume_state["optimizer_state"])
+        scheduler.load_state_dict(resume_state["scheduler_state"])
+        start_epoch = resume_state["epoch"] + 1
+        best_val_iou = resume_state["best_val_iou"]
+        epochs_without_improvement = resume_state["epochs_without_improvement"]
+        best_state = resume_state["best_model_state"]
+        print(f"Resumed at epoch {start_epoch + 1}/{MAX_EPOCHS}, best_val_iou so far: {best_val_iou:.4f}")
+
+    for epoch in range(start_epoch, MAX_EPOCHS):
         model.train()
         running_loss = 0.0
         n_batches = 0
@@ -227,14 +250,32 @@ def train():
             epochs_without_improvement = 0
         else:
             epochs_without_improvement += 1
-            if epochs_without_improvement >= PATIENCE:
-                print(f"Early stopping at epoch {epoch + 1} (no improvement for {PATIENCE} epochs)")
-                break
+
+        # Save resume state every epoch (not just on improvement) so a
+        # preemption never loses more than one epoch of progress.
+        torch.save(
+            {
+                "epoch": epoch,
+                "model_state": model.state_dict(),
+                "optimizer_state": optimizer.state_dict(),
+                "scheduler_state": scheduler.state_dict(),
+                "best_val_iou": best_val_iou,
+                "epochs_without_improvement": epochs_without_improvement,
+                "best_model_state": best_state,
+            },
+            RESUME_PATH,
+        )
+        output_volume.commit()
+
+        if epochs_without_improvement >= PATIENCE:
+            print(f"Early stopping at epoch {epoch + 1} (no improvement for {PATIENCE} epochs)")
+            break
 
     print(f"\nBest val tree IoU: {best_val_iou:.4f}")
 
     out_path = Path(OUTPUT_ROOT) / "mkunet_binary_best.pth"
     torch.save(best_state, out_path)
+    RESUME_PATH.unlink(missing_ok=True)  # training finished normally, resume state no longer needed
     output_volume.commit()
     print(f"Saved best checkpoint to {out_path}")
 
