@@ -37,3 +37,7 @@ segmentation/tiled/
 .agents
 
 graphify-out
+
+*.json
+*.png
+*.jpg

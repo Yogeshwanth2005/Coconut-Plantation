@@ -80,7 +80,7 @@ SEED = 42
 
 @app.function(
     image=image,
-    gpu="T4",
+    gpu="A10G",
     volumes={VOLUME_MOUNT: data_volume, OUTPUT_ROOT: output_volume},
     timeout=60 * 60 * 3,
 )
