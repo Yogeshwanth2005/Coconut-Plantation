@@ -56,6 +56,11 @@ SITES = [
 ]
 
 HOLDOUT_SITE = "Amrita"  # entire site held out for test, never trained on
+# Excluded entirely (not tiled into train/val/test at all) -- Kradangnga's
+# point annotations were found to have counting mistakes. Source images,
+# annotations, and generated masks are left on disk untouched; this just
+# keeps them out of the tiled dataset used for training.
+EXCLUDED_SITES = ["Kradangnga"]
 VAL_FRACTION = 0.15       # of the non-holdout tiles' crops
 TILE_SIZE = 256
 SEED = 42
@@ -130,12 +135,13 @@ def main():
             f"No masks found in {MASKS_DIR} -- run generate_blob_masks.py first."
         )
 
-    print(f"Holdout site (test only, never trained on): {HOLDOUT_SITE}\n")
+    print(f"Holdout site (test only, never trained on): {HOLDOUT_SITE}")
+    print(f"Excluded sites (not tiled at all): {EXCLUDED_SITES}\n")
 
     print(f"--- Tiling holdout site: {HOLDOUT_SITE} ---")
     test_tiles = collect_tiles_for_site(HOLDOUT_SITE)
 
-    train_val_sites = [s for s in SITES if s != HOLDOUT_SITE]
+    train_val_sites = [s for s in SITES if s != HOLDOUT_SITE and s not in EXCLUDED_SITES]
     print(f"\n--- Tiling train/val sites: {train_val_sites} ---")
     train_val_tiles = []
     for site in train_val_sites:
