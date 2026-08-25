@@ -24,14 +24,21 @@ would report it twice. Roughly 10% of a tile's area lies within a blob
 radius of each seam, so this is a real error, not a corner case.
 Stitching first makes seams invisible to the counter.
 
-Usage:
-    python segmentation/count_trees.py --image path/to/image.png
-    python segmentation/count_trees.py --image img.png --save-overlay out.png
-    python segmentation/count_trees.py --image img.png --skip-stage1
+CURRENT LIMITATION -- step 1 is not usable. The script that generated
+Applicatno/MK-UNet-main/masked images/ is not in the repo, and the
+reimplementation here does not reproduce it: end-to-end it undercounts by
+~97% (3 trees found where ground truth is 109). So this pipeline currently
+requires an already-masked image via --skip-stage1, and refuses to run
+Stage 1 rather than print a confidently wrong count. Steps 2-5 ARE
+validated: on Amrita_800_1's annotated region the count is 114 against a
+ground truth of 109 (+4.6%), matching the +3.2% measured on tiles.
 
---skip-stage1 is for images that are ALREADY Stage-1 masked (e.g. the
-files in Applicatno/MK-UNet-main/masked images/). Running Stage 1 twice
-is harmless but slow.
+Usage:
+    python segmentation/count_trees.py --skip-stage1 \
+        --image "Applicatno/MK-UNet-main/masked images/Amrita_800_1.png"
+
+    python segmentation/count_trees.py --skip-stage1 --image img.png \
+        --save-overlay counted.png
 """
 
 import argparse
@@ -66,8 +73,34 @@ STAGE1_SCALER = ROOT / "HarinieColourAlgo" / "model" / "scaler_final.pkl"
 # HarinieColourAlgo/train_model.py). Only vegetation that could be canopy is
 # kept; everything else is painted white for Stage 2, which was trained on
 # images prepared this way.
-STAGE1_KEEP_CLASSES = {0, 3}  # green-800, coconut-800
+# green-800, sea-800, coconut-800 -- i.e. everything EXCEPT non-green-800.
+#
+# Keeping "sea" looks wrong and is not. Recovered by measuring the reference
+# masks in Applicatno/MK-UNet-main/masked images/ directly: of pixels Stage 1
+# calls sea, 74.8% are kept there (vs 92.7% green, 98.9% coconut, and only
+# 11.5% non-green). Stage 1's sea class is really "dark blue-ish pixel", and
+# shadowed canopy between fronds classifies the same way -- so discarding it
+# strips out tree interiors, which is exactly the canopy Stage 2 needs.
+#
+# Cross-check on class populations: {green, sea, coconut} reproduces 39.2% of
+# pixels kept against the reference's 42.4%, whereas {green, coconut} gives
+# 30.4% -- matching the 30.4% an earlier version of this file actually
+# produced, and which undercounted trees by 97%.
+STAGE1_KEEP_CLASSES = {0, 2, 3}
 STAGE1_WHITE = 255
+
+# A pixel is discarded only when Stage 1 is CONFIDENT it is non-green, rather
+# than on a plain argmax. Recovered by matching the reference masks: this
+# threshold reproduces their 42.4% kept exactly (argmax gives 39.2%). The
+# pixels it rescues are lighter than average canopy (BGR ~66,62,56 vs ~53,47,36)
+# -- sunlit fronds and crown edges that argmax narrowly assigns to non-green.
+STAGE1_NONGREEN_REJECT_PROB = 0.8
+
+# Half-width of the colour patch Stage 1 characterises each point by. Must
+# match PATCH_HALF in HarinieColourAlgo/train_model.py -- the features are
+# 5x5 patch statistics, and computing them over any other window changes the
+# feature distribution the scaler was fit on.
+PATCH_HALF = 2
 
 # Stage 1 classifies a single pixel from its colour statistics, so running it
 # per-pixel over an 8192x4283 image means 35M independent MLP calls. Instead
@@ -90,9 +123,38 @@ def apply_stage1_mask(image_bgr: np.ndarray) -> np.ndarray:
     """Paints non-vegetation pixels white, reproducing the Stage-1 masked
     images the segmentation model was trained on.
 
-    Returns the masked image. Raises if the Stage 1 model is unavailable --
-    silently skipping it would feed Stage 2 imagery unlike anything it was
-    trained on and quietly inflate the count with sea/roof false positives.
+    !! NOT VALIDATED -- DO NOT USE FOR REAL COUNTS. !!
+
+    Reimplementation of Stage 1's dense masking. The script that produced
+    Applicatno/MK-UNet-main/masked images/ is not in this repo and predates
+    it (those files are dated May 2; the first commit is Aug 22), so this was
+    reverse-engineered from the reference masks. It gets close on one image
+    and fails on others.
+
+    Progress and where it stands, measured as end-to-end count vs ground
+    truth in annotated regions:
+      * keep {green, coconut}, argmax     -> Amrita 3 vs 109   (-97%)
+      * keep {green, sea, coconut}, argmax-> Amrita 61 vs 109   (-44%)
+      * keep unless p(non-green) >= 0.8   -> Amrita 101 vs 109  (-7.3%)
+                                             Wat Phleng 1327 vs 2519 (-47%)
+
+    Keeping the "sea" class is correct and counter-intuitive: Stage 1's sea
+    class is really "dark blue-ish pixel", and shadowed canopy between fronds
+    classifies the same way, so discarding it strips out tree interiors.
+
+    The remaining gap is that no single threshold fits all sites. Reference
+    keep-rates vary far more than this reproduction can span:
+        Amrita 42.7% (needs ~0.8), Karavatti 80.3% (~0.95),
+        Wat Phleng 91.7% (needs >0.99).
+    That spread means the original did something this per-pixel MLP pass does
+    not capture -- plausibly a morphological/spatial step or a per-image
+    adaptive threshold. Fitting the threshold per image is NOT a fix; it just
+    launders ground truth into the parameter.
+
+    Beware pixel-agreement metrics here: the -97% version still scored 84%
+    pixel agreement and IoU 0.645, because both versions agree about the
+    large sea/soil areas. Judge any change by end-to-end count vs ground
+    truth on MORE THAN ONE site.
     """
     if not STAGE1_MODEL.exists() or not STAGE1_SCALER.exists():
         raise FileNotFoundError(
@@ -109,11 +171,11 @@ def apply_stage1_mask(image_bgr: np.ndarray) -> np.ndarray:
     h, w = image_bgr.shape[:2]
     ys = np.arange(0, h, STAGE1_STRIDE)
     xs = np.arange(0, w, STAGE1_STRIDE)
-    grid = image_bgr[np.ix_(ys, xs)]
 
-    feats = _stage1_features(grid)
-    preds = model.predict(scaler.transform(feats), verbose=0).argmax(1)
-    keep_small = np.isin(preds.reshape(len(ys), len(xs)), list(STAGE1_KEEP_CLASSES))
+    feats = _stage1_features(image_bgr, ys, xs)
+    probs = model.predict(scaler.transform(feats), verbose=0, batch_size=8192)
+    nongreen_prob = probs[:, 1].reshape(len(ys), len(xs))
+    keep_small = nongreen_prob < STAGE1_NONGREEN_REJECT_PROB
 
     keep = cv2.resize(
         keep_small.astype(np.uint8), (w, h), interpolation=cv2.INTER_NEAREST
@@ -124,34 +186,53 @@ def apply_stage1_mask(image_bgr: np.ndarray) -> np.ndarray:
     return masked
 
 
-def _stage1_features(patch_grid: np.ndarray) -> np.ndarray:
-    """The 14 colour features Stage 1 was trained on, computed per pixel.
+def _stage1_features(image_bgr: np.ndarray, ys: np.ndarray, xs: np.ndarray) -> np.ndarray:
+    """The 14 colour features Stage 1 was trained on, sampled at (ys, xs).
 
-    Mirrors extract_features_for_point() in HarinieColourAlgo/train_model.py.
-    That function averages over a 5x5 patch; here each pixel is its own
-    sample, so the per-channel means are the pixel values themselves and the
-    standard deviations are 0. Feature ORDER must match training exactly --
-    the scaler and MLP depend on it positionally.
+    Mirrors extract_features_for_point() in HarinieColourAlgo/train_model.py,
+    which characterises each point by the MEAN and STD of a 5x5 patch around
+    it -- not by the single pixel. Computing these from lone pixels instead
+    (std forced to 0) puts the features far outside the distribution the
+    scaler and MLP were fit on, and Stage 1 then rejects nearly all canopy:
+    observed 5.6% of pixels kept versus the reference masks' 42.4%.
+
+    The 5x5 patch statistics are obtained with box filters over the whole
+    image, then sampled on the grid -- equivalent to looping per point, but
+    vectorised. Feature ORDER must match training exactly; the scaler
+    depends on it positionally.
     """
-    lab = cv2.cvtColor(patch_grid, cv2.COLOR_BGR2LAB).astype(np.float32) / 255.0
-    hsv = cv2.cvtColor(patch_grid, cv2.COLOR_BGR2HSV).astype(np.float32) / 255.0
-    ycr = cv2.cvtColor(patch_grid, cv2.COLOR_BGR2YCrCb).astype(np.float32) / 255.0
+    k = 2 * PATCH_HALF + 1  # 5x5, matching PATCH_HALF=2 in training
 
-    b, g, r = (patch_grid[..., i].astype(np.float32) for i in range(3))
+    def patch_mean_std(chan: np.ndarray):
+        mean = cv2.blur(chan, (k, k), borderType=cv2.BORDER_REFLECT)
+        mean_sq = cv2.blur(chan * chan, (k, k), borderType=cv2.BORDER_REFLECT)
+        var = np.clip(mean_sq - mean * mean, 0.0, None)
+        return mean, np.sqrt(var)
+
+    lab = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2LAB).astype(np.float32) / 255.0
+    hsv = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2HSV).astype(np.float32) / 255.0
+    ycr = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2YCrCb).astype(np.float32) / 255.0
+
+    planes = []
+    lab_means, lab_stds = [], []
+    for c in range(3):
+        mean, std = patch_mean_std(lab[..., c])
+        lab_means.append(mean)
+        lab_stds.append(std)
+    planes.extend(lab_means)
+    planes.extend(lab_stds)
+    # HSV and YCrCb contribute means only, matching the training feature list.
+    planes.extend(cv2.blur(hsv[..., c], (k, k), borderType=cv2.BORDER_REFLECT) for c in range(3))
+    planes.extend(cv2.blur(ycr[..., c], (k, k), borderType=cv2.BORDER_REFLECT) for c in range(3))
+
+    # The two RGB ratios come from the CENTRE pixel, not the patch mean.
+    b, g, r = (image_bgr[..., i].astype(np.float32) for i in range(3))
     denom = r + g + b + 1e-6
-    zeros = np.zeros_like(lab[..., 0])
+    planes.append(b / denom)
+    planes.append(g / denom)
 
-    stacked = np.stack(
-        [
-            lab[..., 0], lab[..., 1], lab[..., 2],
-            zeros, zeros, zeros,          # per-pixel std is 0 by definition
-            hsv[..., 0], hsv[..., 1], hsv[..., 2],
-            ycr[..., 0], ycr[..., 1], ycr[..., 2],
-            b / denom, g / denom,
-        ],
-        axis=-1,
-    )
-    return stacked.reshape(-1, stacked.shape[-1])
+    sampled = [p[np.ix_(ys, xs)] for p in planes]
+    return np.stack(sampled, axis=-1).reshape(-1, len(planes))
 
 
 def predict_tree_mask(image_bgr: np.ndarray, model, device: torch.device) -> np.ndarray:
@@ -216,7 +297,13 @@ def main():
     parser.add_argument("--checkpoint", type=Path, default=ROOT / "mkunet_binary_best.pth")
     parser.add_argument(
         "--skip-stage1", action="store_true",
-        help="image is already Stage-1 masked (non-vegetation painted white)",
+        help="image is already Stage-1 masked (non-vegetation painted white). "
+             "Currently REQUIRED -- see --force-unvalidated-stage1.",
+    )
+    parser.add_argument(
+        "--force-unvalidated-stage1", action="store_true",
+        help="run the unvalidated Stage 1 reimplementation anyway. It undercounts "
+             "by ~97%% on the one image it was checked against; for debugging only.",
     )
     parser.add_argument("--save-overlay", type=Path, default=None)
     parser.add_argument("--save-mask", type=Path, default=None)
@@ -239,11 +326,22 @@ def main():
     if args.skip_stage1:
         print("Stage 1: skipped (--skip-stage1)")
         masked = image_bgr
-    else:
-        print("Stage 1: masking non-vegetation...")
+    elif args.force_unvalidated_stage1:
+        print("Stage 1: running UNVALIDATED reimplementation -- count will be wrong.")
         masked = apply_stage1_mask(image_bgr)
         kept = 100.0 * (1.0 - (masked == STAGE1_WHITE).all(2).mean())
         print(f"  kept {kept:.1f}% of pixels as vegetation")
+    else:
+        # Failing loudly beats printing a confident, badly-wrong number: the
+        # reimplementation undercounts by ~97% (see apply_stage1_mask).
+        raise SystemExit(
+            "Stage 1 masking is not validated: it undercounts by 7% on Amrita "
+            "but 47% on Wat Phleng (no single threshold fits both).\n\n"
+            "Use an already-masked image with --skip-stage1, e.g.:\n"
+            "  python segmentation/count_trees.py --skip-stage1 \\\n"
+            "      --image \"Applicatno/MK-UNet-main/masked images/Amrita_800_1.png\"\n\n"
+            "Or pass --force-unvalidated-stage1 to run it anyway (debugging only)."
+        )
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Stage 2: segmenting on {device}...")
