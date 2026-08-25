@@ -91,7 +91,7 @@ into the shape the model expects and turns pixels into a number.
 
 ### A note on the colour algorithm
 
-`HarinieColourAlgo/` holds the project's original Stage 1: a small neural
+`Color Algorithm/` holds the project's original Stage 1: a small neural
 network that classifies a pixel into **green / non-green / sea / coconut**
 from 14 hand-built colour features (Lab, HSV and YCrCb statistics over a 5×5
 patch). It is a good classifier and the model files still work.
