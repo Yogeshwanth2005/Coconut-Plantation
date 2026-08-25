@@ -7,7 +7,29 @@ individual tree point locations and producing masks that are just
 redrawn rectangles, not tree shapes.
 
 For every annotated tree point, draws a small filled circle onto an
-otherwise-blank mask. Everything else is background (0).
+otherwise-blank mask.
+
+Pixels are one of three values:
+    0   = background (confirmed not-a-tree)
+    255 = tree (an annotated point's blob)
+    128 = IGNORE -- unlabeled, excluded from both loss and evaluation
+
+The ignore value exists because annotation boxes cover only ~15% of each
+source image on average (as low as 1.8% on Amrita_800_1). Everything
+outside a box was never looked at by an annotator, but it is emphatically
+NOT background: visual inspection of unannotated regions shows dense,
+unmistakable coconut canopy -- and measured across the dataset, 50.0% of
+all 256x256 tiles (4468/8928) are >70% Stage-1-kept vegetation with zero
+annotation coverage. Training those as background taught the model that
+half its examples of "obvious coconut palm" were "not a tree," which is
+what produced weak metrics even in-distribution (val IoU 0.21) and made
+false-alarm counts uninterpretable (many "FP"s were real, unlabeled
+trees). Marking them ignore instead makes the labels honest: a smaller
+supervised area, but every supervised pixel is trustworthy.
+
+Note that Stage-1-whitened pixels INSIDE the ignore region stay ignore
+too -- being confident it isn't vegetation doesn't make it an annotated
+negative, and the supervised background inside the boxes is plentiful.
 
 See docs/superpowers/specs/2026-08-23-tree-count-segmentation-design.md
 for the full design and the reasoning behind a fixed (not per-tree
@@ -72,6 +94,13 @@ BLOB_RADIUS = 14
 # 36.1px), so 5px cleanly separates the two without needing manual review.
 DEDUP_DISTANCE_PX = 5
 
+# Mask pixel values. IGNORE marks "never annotated -- don't train or
+# evaluate here"; the training loss maps it to torch's ignore_index and
+# the eval scripts drop it from every metric.
+BACKGROUND_VALUE = 0
+TREE_VALUE = 255
+IGNORE_VALUE = 128
+
 
 def dedupe_points(points: list[tuple[float, float]]) -> list[tuple[float, float]]:
     """Collapses near-identical points (from overlapping annotation boxes)
@@ -103,16 +132,34 @@ def find_source_image(json_path: Path) -> Path | None:
 
 
 def generate_mask_for_tile(json_path: Path, image_path: Path) -> tuple[np.ndarray, int, int, int]:
-    """Returns (mask, points_drawn, points_out_of_bounds, duplicates_removed)."""
+    """Returns (mask, points_drawn, points_out_of_bounds, duplicates_removed).
+
+    Mask is built in three layers, in this order:
+      1. Everything starts as IGNORE (nobody annotated it).
+      2. Each annotation box's interior becomes BACKGROUND -- an annotator
+         did look here, so an absence of points here is a real negative.
+      3. Each deduplicated point's blob becomes TREE.
+    """
     img = cv2.imread(str(image_path))
     if img is None:
         raise FileNotFoundError(f"Could not load image: {image_path}")
     h, w = img.shape[:2]
 
-    mask = np.zeros((h, w), dtype=np.uint8)
-
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    mask = np.full((h, w), IGNORE_VALUE, dtype=np.uint8)
+
+    for box in data:
+        coords = box.get("Coordinates")
+        if not coords:
+            continue
+        x0, y0 = coords["Top-left"]
+        x1, y1 = coords["Bottom-right"]
+        x0, y0 = max(0, int(x0)), max(0, int(y0))
+        x1, y1 = min(w, int(x1)), min(h, int(y1))
+        if x1 > x0 and y1 > y0:
+            mask[y0:y1, x0:x1] = BACKGROUND_VALUE
 
     all_points = [tuple(pt) for box in data for pt in box.get("Points", [])]
     deduped_points = dedupe_points(all_points)
@@ -123,7 +170,7 @@ def generate_mask_for_tile(json_path: Path, image_path: Path) -> tuple[np.ndarra
     for x, y in deduped_points:
         x, y = int(round(x)), int(round(y))
         if 0 <= x < w and 0 <= y < h:
-            cv2.circle(mask, (x, y), BLOB_RADIUS, 255, thickness=-1)
+            cv2.circle(mask, (x, y), BLOB_RADIUS, TREE_VALUE, thickness=-1)
             drawn += 1
         else:
             out_of_bounds += 1
@@ -157,11 +204,17 @@ def main():
         out_path = OUTPUT_DIR / f"{jp.stem}.png"
         cv2.imwrite(str(out_path), mask)
 
-        coverage_pct = 100.0 * np.count_nonzero(mask) / mask.size
+        tree_pct = 100.0 * (mask == TREE_VALUE).sum() / mask.size
+        ignore_pct = 100.0 * (mask == IGNORE_VALUE).sum() / mask.size
+        supervised = mask != IGNORE_VALUE
+        tree_of_supervised = (
+            100.0 * (mask == TREE_VALUE).sum() / supervised.sum() if supervised.any() else 0.0
+        )
         print(
             f"  [{jp.stem}] source={image_path.name}  "
             f"points_drawn={drawn}  duplicates_removed={dupes}  out_of_bounds={oob}  "
-            f"tree_pixel_coverage={coverage_pct:.2f}%"
+            f"tree={tree_pct:.2f}%  ignore={ignore_pct:.1f}%  "
+            f"tree_within_supervised={tree_of_supervised:.2f}%"
         )
 
     print(f"\nTotal tree points drawn: {total_drawn}")

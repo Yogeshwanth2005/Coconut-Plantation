@@ -70,6 +70,15 @@ VAL_FRACTION = 0.15       # of the non-holdout tiles' crops
 TILE_SIZE = 256
 SEED = 42
 
+IGNORE_VALUE = 128  # must match generate_blob_masks.py
+
+# A tile whose mask is entirely IGNORE contributes nothing to the loss and
+# nothing to any metric -- it is pure compute waste, and (before the ignore
+# mask existed) tiles like these were the bug: 50% of all tiles were dense
+# unannotated canopy being trained as background. Dropping them is what
+# shrinks the dataset to the genuinely-labeled ~15% of each image.
+MIN_SUPERVISED_FRACTION = 0.05  # keep a tile only if >=5% of its pixels are labeled
+
 
 def find_stems_for_site(site: str) -> list[str]:
     """All annotation/mask stems (<Site>_800_<N>) that exist for a site."""
@@ -100,9 +109,16 @@ def tile_image_and_mask(image_path: Path, mask_path: Path, tile_size: int):
             if img_tile.shape[0] != tile_size or img_tile.shape[1] != tile_size:
                 continue
 
+            # Tile index counts every grid position, kept or not, so a tile's
+            # name still identifies where in the source image it came from.
             tile_name = f"{base_name}_tile_{tile_idx:04d}"
-            tiles.append((img_tile, mask_tile, tile_name))
             tile_idx += 1
+
+            supervised_fraction = (mask_tile != IGNORE_VALUE).mean()
+            if supervised_fraction < MIN_SUPERVISED_FRACTION:
+                continue
+
+            tiles.append((img_tile, mask_tile, tile_name))
 
     return tiles
 
@@ -172,13 +188,19 @@ def main():
     print(f"Val:   {len(val_tiles)} tiles (from {train_val_sites})")
     print(f"Test:  {len(test_tiles)} tiles (from {HOLDOUT_SITES}, unseen during training)")
 
-    # Foreground (tree) pixel coverage per split, sanity check
+    # Foreground (tree) coverage per split, measured against SUPERVISED pixels
+    # only -- this is the number the training loss actually sees, and it's what
+    # the class weight in modal_train_segmentation.py must be derived from.
     for split_name, tiles in [("train", train_tiles), ("val", val_tiles), ("test", test_tiles)]:
         if not tiles:
             continue
-        fg = sum(np.count_nonzero(m) for _, m, _ in tiles)
+        fg = sum(int((m == 255).sum()) for _, m, _ in tiles)
+        supervised = sum(int((m != IGNORE_VALUE).sum()) for _, m, _ in tiles)
         total = sum(m.size for _, m, _ in tiles)
-        print(f"  {split_name} tree-pixel coverage: {100 * fg / total:.2f}%")
+        print(
+            f"  {split_name}: tree={100 * fg / supervised:.2f}% of supervised pixels  "
+            f"(supervised={100 * supervised / total:.1f}% of all pixels)"
+        )
 
     print(f"\nOutput: {OUTPUT_DIR}")
 

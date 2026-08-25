@@ -70,6 +70,14 @@ OUTPUT_ROOT = "/output"
 RESUME_FILENAME = "mkunet_resume_state.pth"
 
 NUM_CLASSES = 1  # binary: dataloader treats num_classes<=1 as tree-vs-background
+
+# Masks carry a third value marking never-annotated pixels (see
+# generate_blob_masks.py). The dataloader converts it to IGNORE_INDEX and the
+# loss/metrics below exclude it. Without this, ~50% of tiles were dense
+# unannotated coconut canopy being trained as background.
+MASK_IGNORE_VALUE = 128
+IGNORE_INDEX = 255
+
 IMG_SIZE = 256
 BATCH_SIZE = 8
 MAX_EPOCHS = 60
@@ -117,6 +125,7 @@ def train():
         split="train",
         num_classes=NUM_CLASSES,
         preload=False,
+        ignore_value=MASK_IGNORE_VALUE,
     )
     val_loader = get_loader(
         image_root=str(data_root / "val" / "images"),
@@ -129,31 +138,58 @@ def train():
         split="val",
         num_classes=NUM_CLASSES,
         preload=False,
+        ignore_value=MASK_IGNORE_VALUE,
     )
     print(f"Train tiles: {len(train_loader.dataset)}  |  Val tiles: {len(val_loader.dataset)}")
 
-    # ---- Foreground/background class weight (tree coverage is only ~2.1%) ----
-    # The raw inverse-frequency weight ((1-0.021)/0.021 ~= 46.6) combined with
-    # dice loss double-counts the imbalance correction. A sqrt compromise
-    # (~6.8) was tried first but count-based eval still showed heavy
-    # over-prediction (+64% predicted vs. true tree count on val). Dice loss
-    # already handles class imbalance on its own, so cross-entropy doesn't
-    # need much of the imbalance correction on top of it -- using cube root
-    # as a further, gentler compromise to push precision up.
-    fg_weight = ((1 - 0.021) / 0.021) ** (1 / 3)  # ~3.6
+    # ---- Foreground/background class weight ----
+    # Measured over SUPERVISED pixels only. The previous hardcoded 2.1% was
+    # computed across every pixel including the never-annotated ones that are
+    # now excluded, so it understated the true foreground rate; deriving it
+    # from the data keeps this correct as the mask definition evolves.
+    #
+    # The raw inverse-frequency weight combined with dice loss double-counts
+    # the imbalance correction. A sqrt compromise was tried first but
+    # count-based eval still showed heavy over-prediction (+64% predicted vs.
+    # true tree count on val). Dice loss already handles class imbalance on
+    # its own, so cross-entropy doesn't need much correction on top of it --
+    # cube root is the gentler compromise that pushed precision up.
+    fg_pixels = 0
+    supervised_pixels = 0
+    total_pixels = 0
+    for _images, masks in train_loader:
+        t = masks.squeeze(1).long()
+        supervised_pixels += int((t != IGNORE_INDEX).sum())
+        fg_pixels += int((t == 1).sum())
+        total_pixels += t.numel()
+    fg_fraction = fg_pixels / max(supervised_pixels, 1)
+    fg_weight = ((1 - fg_fraction) / max(fg_fraction, 1e-6)) ** (1 / 3)
     class_weights = torch.tensor([1.0, fg_weight], dtype=torch.float32).to(device)
+    print(
+        f"Tree pixels: {100 * fg_fraction:.2f}% of supervised; "
+        f"supervised pixels: {100 * supervised_pixels / max(total_pixels, 1):.1f}% of total"
+    )
     print(f"Class weights [background, tree]: {class_weights.cpu().numpy().round(2)}")
 
     # ---- Model: binary segmentation, no classification head ----
     model = MK_UNet_ShallowDec(num_classes=2, in_channels=3, enable_cls=False)
     model = model.to(device)
 
-    def dice_loss(pred_softmax, target, num_classes=2):
+    def dice_loss(pred_softmax, target, supervised, num_classes=2):
+        """Dice over supervised pixels only.
+
+        `supervised` is a bool tensor that is False wherever the pixel was
+        never annotated. Both the prediction and the target are zeroed there
+        so unannotated pixels contribute to neither the intersection nor the
+        union -- otherwise the model would be penalised for predicting trees
+        in regions that genuinely contain unlabeled trees.
+        """
+        sup = supervised.float()
         loss = 0.0
         valid = 0
         for c in range(num_classes):
-            pred_c = pred_softmax[:, c]
-            mask_c = (target == c).float()
+            pred_c = pred_softmax[:, c] * sup
+            mask_c = (target == c).float() * sup
             if mask_c.sum() == 0 and pred_c.sum() < 1e-6:
                 continue
             intersection = (pred_c * mask_c).sum()
@@ -164,18 +200,28 @@ def train():
 
     def combined_loss(logits, mask):
         target = mask.squeeze(1).long()
-        ce = F.cross_entropy(logits, target, weight=class_weights)
-        dice = dice_loss(F.softmax(logits, dim=1), target)
+        supervised = target != IGNORE_INDEX
+        ce = F.cross_entropy(logits, target, weight=class_weights, ignore_index=IGNORE_INDEX)
+        # Dice needs a target it can index with; the ignore pixels are masked
+        # out via `supervised`, so their placeholder value here is irrelevant.
+        dice = dice_loss(F.softmax(logits, dim=1), target.clamp(max=1), supervised)
         return ce + dice
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=MAX_EPOCHS)
 
     def tree_iou(logits, mask):
+        """Tree IoU over supervised pixels only.
+
+        A prediction inside an unannotated region is neither right nor wrong
+        -- there is no label there -- so those pixels are dropped from both
+        the intersection and the union rather than counted as false alarms.
+        """
         pred = logits.argmax(1)
         target = mask.squeeze(1).long()
-        pred_fg = (pred == 1)
-        target_fg = (target == 1)
+        supervised = target != IGNORE_INDEX
+        pred_fg = (pred == 1) & supervised
+        target_fg = (target == 1) & supervised
         intersection = (pred_fg & target_fg).sum().item()
         union = (pred_fg | target_fg).sum().item()
         return intersection / union if union > 0 else float("nan")

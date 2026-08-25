@@ -17,6 +17,12 @@ MATCH_DIST_PX=25 (~half the median 49.7px nearest-neighbor tree spacing
 from generate_blob_masks.py) -- close enough to plausibly be the same
 tree, tight enough not to match distinct neighboring trees.
 
+Only ANNOTATED regions are scored. Masks carry a 128 "ignore" band marking
+pixels no annotator ever looked at (see generate_blob_masks.py); predicted
+trees centred there are dropped instead of counted as false alarms, because
+those regions frequently do contain real, unlabeled trees. Metrics from
+before this change over-counted FPs and are not comparable.
+
 Usage:
     python segmentation/count_predictions.py --checkpoint mkunet_binary_best.pth
 """
@@ -43,6 +49,14 @@ STD = np.array([0.229, 0.224, 0.225], dtype=np.float32)
 MATCH_DIST_PX = 25
 MIN_BLOB_AREA = 20  # drop tiny speckle components (noise, not a tree)
 
+# Masks mark never-annotated pixels with this value (see
+# generate_blob_masks.py). Predictions whose centroid falls in an ignore
+# region are discarded rather than counted as false alarms: nobody labeled
+# those pixels, and inspection showed such regions are frequently dense,
+# genuinely unlabeled coconut canopy. Counting them as FPs is what made the
+# earlier precision figures uninterpretable.
+IGNORE_VALUE = 128
+
 
 def load_model(checkpoint_path: Path, device: torch.device):
     model = MK_UNet_ShallowDec(num_classes=2, in_channels=3, enable_cls=False)
@@ -67,6 +81,16 @@ def blob_centroids(mask: np.ndarray) -> np.ndarray:
     )
     keep = [i for i in range(1, n_labels) if stats[i, cv2.CC_STAT_AREA] >= MIN_BLOB_AREA]
     return centroids[keep] if keep else np.empty((0, 2))
+
+
+def drop_points_in_ignore(points: np.ndarray, ignore: np.ndarray) -> np.ndarray:
+    """Removes predicted centroids landing on never-annotated pixels."""
+    if len(points) == 0:
+        return points
+    h, w = ignore.shape
+    xs = np.clip(points[:, 0].round().astype(int), 0, w - 1)
+    ys = np.clip(points[:, 1].round().astype(int), 0, h - 1)
+    return points[~ignore[ys, xs]]
 
 
 def match_counts(pred_pts: np.ndarray, gt_pts: np.ndarray, max_dist: float) -> tuple[int, int, int]:
@@ -125,8 +149,14 @@ def main():
             pred = logits.argmax(1).squeeze(0).cpu().numpy()
         pred_mask = (pred == 1).astype(np.uint8) * 255
 
-        gt_pts = blob_centroids(gt_mask)
+        # GT trees are the 255 blobs; the 128 band is unannotated, not empty.
+        ignore = gt_mask == IGNORE_VALUE
+        gt_pts = blob_centroids((gt_mask == 255).astype(np.uint8) * 255)
         pred_pts = blob_centroids(pred_mask)
+        pred_pts = drop_points_in_ignore(pred_pts, ignore)
+
+        if len(gt_pts) == 0 and len(pred_pts) == 0:
+            continue  # fully-unannotated tile contributes nothing either way
 
         tp, fp, fn = match_counts(pred_pts, gt_pts, MATCH_DIST_PX)
         total_tp += tp
@@ -144,7 +174,10 @@ def main():
     mean_abs_err = np.mean(np.abs(per_tile_errors))
     mean_err = np.mean(per_tile_errors)  # signed: positive = overcounting
 
-    print(f"Evaluated {len(image_files)} {args.split} tiles (match distance <= {MATCH_DIST_PX}px)")
+    print(
+        f"Evaluated {len(image_files)} {args.split} tiles "
+        f"(match distance <= {MATCH_DIST_PX}px; unannotated regions excluded)"
+    )
     print(f"\nTotal GT trees:   {total_gt_count}")
     print(f"Total pred trees: {total_pred_count}  ({100 * (total_pred_count - total_gt_count) / total_gt_count:+.1f}% vs GT)")
     print(f"\nMatched (TP): {total_tp}   Missed (FN): {total_fn}   False alarms (FP): {total_fp}")

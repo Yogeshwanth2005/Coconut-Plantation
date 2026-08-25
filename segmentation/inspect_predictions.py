@@ -36,6 +36,11 @@ IMG_SIZE = 256
 MEAN = np.array([0.485, 0.456, 0.406], dtype=np.float32)
 STD = np.array([0.229, 0.224, 0.225], dtype=np.float32)
 
+# Never-annotated pixels (see generate_blob_masks.py) are excluded from IoU
+# and shown in blue in the panels, so "the model predicted a tree here" in an
+# unlabeled area reads as unscored rather than as an error.
+IGNORE_VALUE = 128
+
 
 def load_model(checkpoint_path: Path, device: torch.device):
     model = MK_UNet_ShallowDec(num_classes=2, in_channels=3, enable_cls=False)
@@ -53,13 +58,16 @@ def preprocess(image_bgr: np.ndarray) -> torch.Tensor:
     return tensor
 
 
-def tree_iou(pred_fg: np.ndarray, gt_fg: np.ndarray) -> float:
+def tree_iou(pred_fg: np.ndarray, gt_fg: np.ndarray, supervised: np.ndarray) -> float:
+    """IoU over annotated pixels only -- see IGNORE_VALUE."""
+    pred_fg = pred_fg & supervised
+    gt_fg = gt_fg & supervised
     intersection = np.logical_and(pred_fg, gt_fg).sum()
     union = np.logical_or(pred_fg, gt_fg).sum()
     return intersection / union if union > 0 else float("nan")
 
 
-def make_panel(image_bgr, gt_mask, pred_mask, iou_value, tile_name) -> np.ndarray:
+def make_panel(image_bgr, gt_mask, pred_mask, ignore, iou_value, tile_name) -> np.ndarray:
     h, w = image_bgr.shape[:2]
 
     gt_overlay = image_bgr.copy()
@@ -74,9 +82,14 @@ def make_panel(image_bgr, gt_mask, pred_mask, iou_value, tile_name) -> np.ndarra
     combined[np.logical_and(gt_mask > 0, pred_mask == 0)] = (0, 255, 0)   # missed (FN) = green
     combined[np.logical_and(pred_mask > 0, gt_mask == 0)] = (0, 0, 255)   # false alarm (FP) = red
     combined[np.logical_and(gt_mask > 0, pred_mask > 0)] = (0, 255, 255)  # correct (TP) = yellow
+    # Unannotated pixels are tinted blue and overrule the hit/miss colouring --
+    # nothing there is scored, so nothing there should read as right or wrong.
+    if ignore.any():
+        combined[ignore] = (0.6 * combined[ignore] + 0.4 * np.array([200, 80, 0])).astype(np.uint8)
 
     panel = np.concatenate([image_bgr, gt_overlay, pred_overlay, combined], axis=1)
-    label = f"{tile_name}  IoU={iou_value:.3f}  (yellow=hit green=missed red=false-alarm)"
+    label = (f"{tile_name}  IoU={iou_value:.3f}  "
+             f"(yellow=hit green=missed red=false-alarm blue=unannotated)")
     cv2.putText(panel, label, (10, h - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1, cv2.LINE_AA)
     return panel
 
@@ -113,7 +126,10 @@ def main():
     for img_path in image_files:
         mask_path = split_masks / img_path.name
         mask = cv2.imread(str(mask_path), cv2.IMREAD_GRAYSCALE)
-        (with_trees if mask is not None and mask.max() > 0 else without_trees).append(img_path)
+        # "Has trees" means annotated tree blobs (255), not merely non-zero --
+        # the 128 ignore band is non-zero but contains no labeled trees.
+        has_trees = mask is not None and bool((mask == 255).any())
+        (with_trees if has_trees else without_trees).append(img_path)
 
     random.seed(args.seed)
     n_with = min(args.n, len(with_trees))
@@ -128,7 +144,9 @@ def main():
         mask_path = split_masks / img_path.name
         image_bgr = cv2.imread(str(img_path))
         gt_mask_raw = cv2.imread(str(mask_path), cv2.IMREAD_GRAYSCALE)
-        gt_fg = (gt_mask_raw >= 1) if gt_mask_raw.max() <= 127 else (gt_mask_raw > 20)
+        ignore = gt_mask_raw == IGNORE_VALUE
+        supervised = ~ignore
+        gt_fg = gt_mask_raw == 255
 
         tensor = preprocess(image_bgr).to(device)
         with torch.no_grad():
@@ -136,13 +154,14 @@ def main():
             pred = logits.argmax(1).squeeze(0).cpu().numpy()
         pred_fg = pred == 1
 
-        iou = tree_iou(pred_fg, gt_fg)
+        iou = tree_iou(pred_fg, gt_fg, supervised)
         ious.append(iou)
 
         panel = make_panel(
             image_bgr,
             gt_fg.astype(np.uint8) * 255,
             pred_fg.astype(np.uint8) * 255,
+            ignore,
             iou,
             img_path.stem,
         )
@@ -153,7 +172,8 @@ def main():
     if valid_ious:
         print(f"Mean IoU on sampled tiles: {np.mean(valid_ious):.4f}")
     print("\nLegend: green overlay = ground truth, red overlay = prediction,")
-    print("in the 4th panel: yellow = correct, green = missed tree, red = false alarm")
+    print("in the 4th panel: yellow = correct, green = missed tree, red = false alarm,")
+    print("blue tint = never annotated (excluded from IoU -- predictions there are unscored)")
 
 
 if __name__ == "__main__":
