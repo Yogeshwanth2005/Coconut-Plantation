@@ -36,7 +36,7 @@ inside annotated regions.
 | **Detection F1** | **0.86 – 0.92** |
 | Precision | 0.82 – 0.90 |
 | Recall | 0.90 – 0.93 |
-| Whole-image count error | +5% to +8% |
+| Count error | +3% to +10% |
 
 These are measured on imagery **held out of training entirely** — the model
 had never seen those locations. That is the honest test, and the reason to
@@ -88,6 +88,32 @@ image → Stage 1 → rescale → tile → Stage 2 → stitch → count
 
 Only step 4 is a neural network. The rest is arithmetic that gets the image
 into the shape the model expects and turns pixels into a number.
+
+### A note on the colour algorithm
+
+`HarinieColourAlgo/` holds the project's original Stage 1: a small neural
+network that classifies a pixel into **green / non-green / sea / coconut**
+from 14 hand-built colour features (Lab, HSV and YCrCb statistics over a 5×5
+patch). It is a good classifier and the model files still work.
+
+**It is not on the counting path today**, for a practical reason rather than
+a quality one. That classifier labels *individual annotated points*; the
+separate script that applied it across every pixel of an image to produce a
+mask is not in this repository and predates it. Rebuilding that step from
+the classifier was attempted and abandoned — no single threshold reproduced
+the original masks across different imagery, and the closest attempt still
+undercounted trees by 47% on one location while scoring well on another.
+
+Stage 1 was therefore rebuilt from scratch around a vegetation index, which
+needs no missing model and generalizes across locations. The colour
+classifier is kept as reference, and the training data it produced is still
+what the segmentation model learned from.
+
+Worth knowing if you revisit this: judge any Stage 1 change by the
+**end-to-end tree count on more than one location**, never by how closely
+the mask resembles the old ones. An earlier rebuild matched the original
+masks on 84% of pixels while undercounting trees by 97% — the 16% it got
+wrong was precisely the canopy.
 
 ### Seeing each step
 
@@ -190,7 +216,7 @@ exact pixel overlap was never the target.
 | `Applicatno/MK-UNet-main/` | Model architecture and dataloader |
 | `Applicatno/annotations/` | Point annotations (JSON) |
 | `Coconut/` | Source imagery, by site |
-| `HarinieColourAlgo/` | Colour classifier (reference; not on the counting path) |
+| `HarinieColourAlgo/` | Colour classifier — the original Stage 1; see the note above |
 | `docs/superpowers/specs/` | Design spec |
 | `.agents/` | Project knowledge base — decisions, gotchas, backlog |
 
