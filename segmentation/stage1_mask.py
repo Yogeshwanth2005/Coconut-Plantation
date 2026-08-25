@@ -90,7 +90,16 @@ WHITE = 255
 # kernel is large enough to bridge shadow gaps between fronds of the same
 # crown.
 OPEN_KERNEL = 3
-CLOSE_KERNEL = 9
+
+# The closing kernel is deliberately large. ExG separates dark blue-green
+# canopy from brown soil only weakly, so on some imagery Otsu's split lands
+# INSIDE the canopy distribution and the raw mask keeps as little as 36% --
+# punching holes straight through the plantation and deleting trees before
+# Stage 2 ever sees them (observed: visibly missed rows in a user's photo).
+# Closing at 9px recovered that to 42%, which was not enough; 21px recovers
+# it to 71% while still discarding 94% of a bare-earth field in the same
+# image, so it repairs canopy without resurrecting real background.
+CLOSE_KERNEL = 21
 
 # Otsu can pick a degenerate threshold on images that are almost entirely
 # vegetation (or almost none), because it assumes a bimodal histogram. If
@@ -136,7 +145,14 @@ def vegetation_mask(image_bgr: np.ndarray) -> np.ndarray:
     keep_u8 = cv2.morphologyEx(
         keep_u8, cv2.MORPH_CLOSE, np.ones((CLOSE_KERNEL, CLOSE_KERNEL), np.uint8)
     )
-    return keep_u8.astype(bool)
+
+    # Fill enclosed gaps: a hole entirely surrounded by canopy is shadow
+    # between fronds, not background, and removing it costs real trees. Only
+    # fully-enclosed regions are filled, so a bare field touching the frame
+    # edge is still discarded.
+    from scipy.ndimage import binary_fill_holes
+
+    return binary_fill_holes(keep_u8.astype(bool))
 
 
 def apply_stage1_mask(image_bgr: np.ndarray) -> np.ndarray:

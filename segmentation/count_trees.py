@@ -50,6 +50,10 @@ Usage:
     python segmentation/count_trees.py --image field.png
     python segmentation/count_trees.py --image field.png --save-overlay counted.png
 
+    # one image per stage, numbered in execution order, for inspecting or
+    # explaining what the pipeline did:
+    python segmentation/count_trees.py --image field.png --save-steps steps/
+
     python segmentation/count_trees.py --skip-stage1 \
         --image "Applicatno/MK-UNet-main/masked images/Amrita_800_1.png"
 """
@@ -118,9 +122,17 @@ CANOPY_PITCH_PX = 56.5
 # that was never captured.
 MIN_SCALE, MAX_SCALE = 0.15, 8.0
 
-# Autocorrelation needs enough repeats of the pattern to lock onto it.
-MIN_PITCH_PX = 4.0
+# Autocorrelation needs enough repeats of the pattern to lock onto it. The
+# lower bound is 20px rather than a few pixels because a peak below that is
+# almost always frond texture inside a single crown rather than crown-to-crown
+# spacing -- and imagery whose trees really are <20px apart has lost the
+# crowns anyway, so there is nothing to rescue by resizing.
+MIN_PITCH_PX = 20.0
 MAX_PITCH_PX = 200.0
+
+# How much a peak must stand out from the local trend to count as real
+# structure rather than a wobble on the decay curve.
+PITCH_PEAK_PROMINENCE = 0.002
 
 
 def measure_canopy_pitch(image_bgr: np.ndarray) -> float:
@@ -152,16 +164,29 @@ def measure_canopy_pitch(image_bgr: np.ndarray) -> float:
     # noisy far tail wins -- on a 256px crop it reported 181px (against a true
     # 28px) from edge artefacts alone, and the count collapsed to 6.
     limit = min(int(min(autocorr.shape) // 4), int(MAX_PITCH_PX), len(profile))
-
-    # Skip the central autocorrelation peak, then take the first maximum.
-    rising = np.diff(profile)
-    start = int(np.argmax(rising > 0))
-    segment = profile[start:limit]
-    if len(segment) < 3:
+    segment = profile[:limit]
+    if len(segment) < 8:
         return float("nan")
 
-    pitch = float(start + int(np.argmax(segment)))
-    return pitch if MIN_PITCH_PX <= pitch <= MAX_PITCH_PX else float("nan")
+    # The profile decays steeply away from the centre, and that decay swamps
+    # the planting peak -- taking a plain argmax just returns a point part-way
+    # down the slope (observed: 32px on imagery whose real pitch was ~50px,
+    # which then over-resized and undercounted). Subtracting a wide moving
+    # average flattens the decay so genuine periodic ridges stand out.
+    from scipy.ndimage import uniform_filter1d
+    from scipy.signal import find_peaks
+
+    trend = uniform_filter1d(segment, size=max(5, limit // 3), mode="nearest")
+    detrended = segment - trend
+
+    peaks, _ = find_peaks(detrended, prominence=PITCH_PEAK_PROMINENCE)
+    candidates = [int(p) for p in peaks if MIN_PITCH_PX <= p <= MAX_PITCH_PX]
+    if not candidates:
+        return float("nan")
+
+    # First qualifying peak is the fundamental; later ones are its harmonics
+    # (a grid repeats at 2x, 3x its pitch as well).
+    return float(candidates[0])
 
 
 def ensure_min_size(image_bgr: np.ndarray) -> np.ndarray:
@@ -256,6 +281,54 @@ def count_trees(tree_mask: np.ndarray) -> np.ndarray:
     return centroids[keep] if keep else np.empty((0, 2))
 
 
+class StepSaver:
+    """Writes one image per pipeline stage into a directory, or nothing.
+
+    Exists so `--save-steps` can be threaded through main() without wrapping
+    every stage in an `if`. When disabled, save() is a no-op.
+
+    Files are numbered in execution order, because the point of the dump is
+    to see how the image is transformed from one stage to the next.
+    """
+
+    def __init__(self, directory: Path | None):
+        self.directory = directory
+        self.index = 0
+        if directory is not None:
+            directory.mkdir(parents=True, exist_ok=True)
+
+    def save(self, name: str, image: np.ndarray) -> None:
+        if self.directory is None:
+            return
+        self.index += 1
+        path = self.directory / f"{self.index}_{name}.png"
+        cv2.imwrite(str(path), image)
+        print(f"  [step] {path.name}")
+
+
+def draw_tile_grid(image_bgr: np.ndarray, tile_size: int = TILE_SIZE) -> np.ndarray:
+    """Overlays the tile boundaries the model actually sees.
+
+    Useful for spotting whether a tree sits on a seam -- the case that makes
+    counting per tile double-count, and the reason the mask is stitched
+    before centroids are taken.
+    """
+    grid = image_bgr.copy()
+    h, w = grid.shape[:2]
+    for y in range(0, h, tile_size):
+        cv2.line(grid, (0, y), (w, y), (0, 200, 255), 1)
+    for x in range(0, w, tile_size):
+        cv2.line(grid, (x, 0), (x, h), (0, 200, 255), 1)
+    return grid
+
+
+def colorize_mask(tree_mask: np.ndarray, image_bgr: np.ndarray) -> np.ndarray:
+    """Model output as a red wash over the image it was computed from."""
+    tinted = image_bgr.copy()
+    tinted[tree_mask] = (0.35 * tinted[tree_mask] + 0.65 * np.array([0, 0, 255])).astype(np.uint8)
+    return tinted
+
+
 def save_overlay(image_bgr: np.ndarray, centers: np.ndarray, out_path: Path) -> None:
     """Draws a ring per detected tree, sized relative to the image.
 
@@ -302,6 +375,10 @@ def main():
     )
     parser.add_argument("--save-overlay", type=Path, default=None)
     parser.add_argument("--save-mask", type=Path, default=None)
+    parser.add_argument(
+        "--save-steps", type=Path, default=None, metavar="DIR",
+        help="write one image per pipeline stage into DIR, numbered in order",
+    )
     args = parser.parse_args()
 
     if not args.image.exists():
@@ -318,6 +395,9 @@ def main():
     h, w = image_bgr.shape[:2]
     print(f"Image: {args.image.name}  ({w}x{h})")
 
+    steps = StepSaver(args.save_steps)
+    steps.save("input", image_bgr)
+
     if args.skip_stage1:
         print("Stage 1: skipped (--skip-stage1)")
         masked = image_bgr
@@ -326,6 +406,7 @@ def main():
         masked = apply_stage1_mask(image_bgr)
         kept = 100.0 * (1.0 - (masked == STAGE1_WHITE).all(2).mean())
         print(f"  kept {kept:.1f}% of pixels as vegetation")
+        steps.save("stage1_vegetation_only", masked)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = load_segmentation_model(args.checkpoint, device)
@@ -346,9 +427,14 @@ def main():
             interpolation=cv2.INTER_AREA if scale < 1 else cv2.INTER_CUBIC,
         )
     masked = ensure_min_size(masked)
+    steps.save("rescaled_to_trained_scale", masked)
+    steps.save("tile_grid", draw_tile_grid(masked))
 
     print(f"Stage 2: segmenting on {device}...")
     tree_mask = predict_tree_mask(masked, model, device)
+    steps.save("stage2_model_output", tree_mask.astype(np.uint8) * 255)
+    steps.save("stage2_over_image", colorize_mask(tree_mask, masked))
+
     centers = count_trees(tree_mask)
 
     # Report positions in the ORIGINAL image's coordinates, so the overlay
@@ -367,6 +453,14 @@ def main():
         args.save_mask.parent.mkdir(parents=True, exist_ok=True)
         cv2.imwrite(str(args.save_mask), tree_mask.astype(np.uint8) * 255)
         print(f"Mask written to {args.save_mask}")
+
+    if args.save_steps:
+        # Rendered into the step directory as well, so the dump tells the
+        # whole story on its own without also needing --save-overlay.
+        final_path = args.save_steps / f"{steps.index + 1}_counted_overlay.png"
+        save_overlay(image_bgr, centers, final_path)
+        steps.index += 1
+        print(f"  [step] {final_path.name}")
 
     if args.save_overlay:
         save_overlay(image_bgr, centers, args.save_overlay)
