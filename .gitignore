@@ -41,3 +41,6 @@ graphify-out
 *.json
 *.png
 *.jpg
+*.xml
+*.csv
+
