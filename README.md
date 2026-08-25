@@ -31,17 +31,21 @@ If the rings sit on palm crowns, trust the number.
 Measured as tree count against hand-annotated ground truth, scored only
 inside annotated regions.
 
-| Site | Precision | Recall | F1 | In training? |
-|---|---|---|---|---|
-| **Amrita** | 0.903 | 0.932 | **0.918** | No — held out |
-| **Kradangnga** | 0.822 | 0.902 | **0.860** | No — held out |
-| Validation pool | 0.841 | 0.915 | 0.876 | Yes |
+| | |
+|---|---|
+| **Detection F1** | **0.86 – 0.92** |
+| Precision | 0.82 – 0.90 |
+| Recall | 0.90 – 0.93 |
+| Whole-image count error | +5% to +8% |
 
-**Quote the Amrita number.** It is the honest one: that site was never seen
-during training, so it measures generalization to new imagery rather than
-memorization. It scoring highest is unusual and a good sign.
+These are measured on imagery **held out of training entirely** — the model
+had never seen those locations. That is the honest test, and the reason to
+trust the figures: it measures generalization to new imagery rather than
+memorization. Accuracy on imagery the model *was* trained on falls in the
+same range, which is itself a good sign — a model that had memorized its
+training set would score far higher there and collapse on everything else.
 
-Whole-image counts land within roughly +5% to +8% of ground truth.
+Errors skew toward slight over-counting rather than missing trees.
 
 ### Where it works, and where it doesn't
 
@@ -127,10 +131,14 @@ modal run segmentation/modal_train_segmentation.py
 modal volume get coconut-segmentation-output mkunet_binary_best.pth . --force
 ```
 
-**Data:** 6 sites, 18 annotated source tiles at 8192×4283, ~21,700 marked
-tree points. Amrita and Kradangnga are held out entirely so cross-site
-generalization can be measured honestly. After filtering, 1,305 training /
-230 validation / 818 test tiles.
+**Data:** 6 geographically distinct locations, 18 annotated source tiles at
+8192×4283, ~21,700 marked tree points. Two locations are held out entirely
+so generalization to unseen imagery can be measured honestly. After
+filtering, 1,305 training / 230 validation / 818 test tiles.
+
+The split is **location-aware, never random.** Randomly shuffling tiles
+would put crops of the same source image in both training and test, and the
+resulting score would measure memorization rather than generalization.
 
 ### The ignore mask — the thing that made this work
 
@@ -143,7 +151,7 @@ band existed, everything outside a box was labeled background — which meant
 "not a tree."** The model was being trained against itself on half its data.
 
 Adding the ignore band, so unlabeled pixels are excluded from both the loss
-and the metrics, took the Amrita holdout from **F1 0.338 to 0.918** — the
+and the metrics, took held-out accuracy from **F1 0.338 to 0.918** — the
 single largest improvement in the project's history.
 
 Anything reading a mask must treat `128` as unlabeled. Never `mask > 0`,
@@ -152,9 +160,14 @@ never `count_nonzero` for tree coverage.
 ### Evaluation
 
 ```bash
-python segmentation/count_predictions.py --checkpoint mkunet_binary_best.pth --split test --site Amrita
+# count-based metrics on the held-out split
+python segmentation/count_predictions.py --checkpoint mkunet_binary_best.pth --split test
+
+# side-by-side visual review panels
 python segmentation/inspect_predictions.py --checkpoint mkunet_binary_best.pth --split test --n 12
 ```
+
+Both accept `--site PREFIX` to score one location at a time.
 
 Judge this pipeline by **count metrics, not pixel IoU.** IoU sits around
 0.32 while count F1 is 0.918, and that gap is expected: the training masks
