@@ -122,6 +122,12 @@ CANOPY_PITCH_PX = 56.5
 # that was never captured.
 MIN_SCALE, MAX_SCALE = 0.15, 8.0
 
+# Ceiling on the pixel count actually fed to the model after rescaling.
+# 64M pixels is roughly the largest source tile in this project (8192x4283 =
+# 35M) with headroom, and keeps a single CPU run to tens of minutes rather
+# than hours.
+MAX_WORKING_PIXELS = 64_000_000
+
 # Autocorrelation needs enough repeats of the pattern to lock onto it. The
 # lower bound is 20px rather than a few pixels because a peak below that is
 # almost always frond texture inside a single crown rather than crown-to-crown
@@ -205,8 +211,20 @@ def ensure_min_size(image_bgr: np.ndarray) -> np.ndarray:
     )
 
 
-def find_best_scale(image_bgr: np.ndarray) -> float:
+# Long-side cap for the pitch measurement. The FFT is measured on a whole
+# image shrunk to this, never on a centre crop: a crop of a large image can
+# hold too few planting repeats to lock onto, and an earlier centre-crop
+# version read 88px where the true pitch was ~169px, under-resized, and
+# counted 54 trees in a plantation that reads 276 at its native size.
+PITCH_MEASURE_LONG_SIDE = 2048
+
+
+def find_best_scale(image_bgr: np.ndarray) -> tuple[float, float]:
     """Resize factor that puts the image at the scale the model was trained on.
+
+    Returns (scale, measured_pitch_in_original_pixels) so the caller reports
+    exactly the number the decision was made from -- reporting one pitch while
+    scaling by another hid the centre-crop bug above for a while.
 
     Measured from the image's own canopy periodicity, so this costs one FFT
     and never runs the model. Falls back to 1.0 when no planting pattern is
@@ -221,20 +239,21 @@ def find_best_scale(image_bgr: np.ndarray) -> float:
     """
     h, w = image_bgr.shape[:2]
 
-    # Measure on a centre crop: large enough for many planting repeats,
-    # small enough that the FFT stays cheap on huge source images.
-    probe = 1024
-    if h > probe or w > probe:
-        y0, x0 = max(0, (h - probe) // 2), max(0, (w - probe) // 2)
-        sample = image_bgr[y0:y0 + probe, x0:x0 + probe]
-    else:
-        sample = image_bgr
+    # Shrink rather than crop, so every planting repeat in the frame still
+    # contributes, then convert the pitch back to original pixels.
+    longest = max(h, w)
+    shrink = min(1.0, PITCH_MEASURE_LONG_SIDE / longest) if longest else 1.0
+    sample = (
+        image_bgr if shrink == 1.0
+        else cv2.resize(image_bgr, None, fx=shrink, fy=shrink, interpolation=cv2.INTER_AREA)
+    )
 
     pitch = measure_canopy_pitch(sample)
     if not np.isfinite(pitch) or pitch <= 0:
-        return 1.0
+        return 1.0, float("nan")
 
-    return float(np.clip(CANOPY_PITCH_PX / pitch, MIN_SCALE, MAX_SCALE))
+    pitch /= shrink
+    return float(np.clip(CANOPY_PITCH_PX / pitch, MIN_SCALE, MAX_SCALE)), pitch
 
 
 def predict_tree_mask(image_bgr: np.ndarray, model, device: torch.device) -> np.ndarray:
@@ -381,19 +400,49 @@ def main():
     )
     args = parser.parse_args()
 
+    # Input problems are reported as a plain message and a non-zero exit,
+    # not a traceback: a bad path is a user mistake, not a program bug, and a
+    # stack trace buries the one line that says what to do about it.
     if not args.image.exists():
-        raise FileNotFoundError(f"Image not found: {args.image}")
+        raise SystemExit(f"Error: no such image: {args.image}")
     if not args.checkpoint.exists():
-        raise FileNotFoundError(
-            f"{args.checkpoint} not found. Download it with:\n"
+        raise SystemExit(
+            f"Error: model file not found: {args.checkpoint}\n"
+            "Download it with:\n"
             "  modal volume get coconut-segmentation-output mkunet_binary_best.pth . --force"
         )
 
     image_bgr = cv2.imread(str(args.image))
     if image_bgr is None:
-        raise ValueError(f"Could not read image: {args.image}")
+        raise SystemExit(
+            f"Error: could not read {args.image.name} as an image.\n"
+            "It may be corrupt, or a format OpenCV does not support "
+            "(PNG, JPG, BMP, TIFF all work)."
+        )
+
+    # Normalise whatever came off disk to 8-bit BGR. cv2 already handles most
+    # of this, but an alpha channel survives IMREAD_COLOR on some builds and
+    # would break the 3-channel arithmetic downstream.
+    if image_bgr.ndim == 2:
+        image_bgr = cv2.cvtColor(image_bgr, cv2.COLOR_GRAY2BGR)
+    elif image_bgr.shape[2] == 4:
+        image_bgr = cv2.cvtColor(image_bgr, cv2.COLOR_BGRA2BGR)
+    if image_bgr.dtype != np.uint8:
+        image_bgr = cv2.normalize(image_bgr, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8)
+
     h, w = image_bgr.shape[:2]
     print(f"Image: {args.image.name}  ({w}x{h})")
+
+    # An image with no colour carries no vegetation signal, so Stage 1 cannot
+    # tell canopy from bare ground. Worth saying out loud -- the count will
+    # still be produced, but from a masking step that had nothing to work with.
+    b, g, r = image_bgr[..., 0], image_bgr[..., 1], image_bgr[..., 2]
+    if np.array_equal(b, g) and np.array_equal(g, r):
+        print("  NOTE: image is greyscale -- vegetation masking cannot work on it, "
+              "so non-plant areas will not be removed.")
+
+    if min(h, w) < TILE_SIZE:
+        print(f"  NOTE: smaller than one {TILE_SIZE}px tile; it will be padded to fit.")
 
     steps = StepSaver(args.save_steps)
     steps.save("input", image_bgr)
@@ -413,13 +462,25 @@ def main():
 
     scale = args.scale
     if scale is None:
-        pitch = measure_canopy_pitch(masked)
-        scale = find_best_scale(masked)
+        scale, pitch = find_best_scale(masked)
         if np.isfinite(pitch):
             print(f"Scale: canopy pitch {pitch:.0f}px -> resizing {scale:.2f}x "
                   f"(trained on ~{CANOPY_PITCH_PX:.0f}px)")
         else:
             print("Scale: no planting pattern detected, using 1.00x")
+
+    # Cap the upscaled area. Enlarging a large image by a large factor can ask
+    # for gigabytes -- a 4000x3000 photo at 4x is 192M pixels -- which would
+    # either exhaust memory or run for hours on CPU. Reducing the scale is
+    # much better than failing, and costs accuracy only on images already big
+    # enough to hold plenty of detail.
+    if scale > 1.0:
+        target = h * w * scale * scale
+        if target > MAX_WORKING_PIXELS:
+            capped = float(np.sqrt(MAX_WORKING_PIXELS / (h * w)))
+            if capped < scale:
+                print(f"  (capping {scale:.2f}x -> {capped:.2f}x to stay within memory)")
+                scale = max(1.0, capped)
 
     if scale != 1.0:
         masked = cv2.resize(
@@ -445,6 +506,23 @@ def main():
     print(f"\n{'=' * 40}")
     print(f"TREES COUNTED: {len(centers)}")
     print(f"{'=' * 40}")
+
+    # A bare zero is ambiguous -- it could mean an empty field or a pipeline
+    # that silently threw the image away. Name the likely reason instead.
+    if len(centers) == 0:
+        vegetation = 1.0 - (masked == STAGE1_WHITE).all(2).mean()
+        print("\nNo trees detected. Most likely reason:")
+        if vegetation < 0.02:
+            print("  - Stage 1 found almost no vegetation, so nothing reached the model.")
+            print("    If the image IS vegetation, re-run with --skip-stage1.")
+        elif min(h, w) < TILE_SIZE:
+            print(f"  - the image is smaller than one {TILE_SIZE}px tile and holds too")
+            print("    little context for the model to recognise crowns.")
+        else:
+            print("  - no coconut canopy recognised. This model only detects coconut")
+            print("    palms in top-down aerial imagery; ground-level photos, other")
+            print("    tree species, and very low-resolution images will read as zero.")
+        print("  Run with --save-steps DIR to see where the image was lost.")
     # Deliberately no density figure: with auto-scaling, "per megapixel" is a
     # property of the upload's resolution rather than of the plantation, so it
     # would read as meaningful while comparing nothing across images.
