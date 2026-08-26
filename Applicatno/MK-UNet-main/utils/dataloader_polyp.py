@@ -10,6 +10,20 @@ from albumentations.pytorch import ToTensorV2
 # Label assigned to unannotated pixels; torch's cross_entropy skips it.
 IGNORE_INDEX = 255
 
+
+def _downscale_range_kwargs(low: float, high: float) -> dict:
+    """Downscale's range arguments, named for the installed albumentations.
+
+    1.x takes scale_min/scale_max; 2.x replaced them with a single
+    scale_range tuple. Modal pins 1.4.18 while local environments may have
+    2.x, and passing the wrong pair raises rather than being ignored.
+    """
+    import inspect as _inspect
+    params = _inspect.signature(A.Downscale.__init__).parameters
+    if "scale_range" in params:
+        return {"scale_range": (low, high)}
+    return {"scale_min": low, "scale_max": high}
+
 class PolypDataset(data.Dataset):
     """
     Unified adaptive dataloader for segmentation.
@@ -87,7 +101,21 @@ class PolypDataset(data.Dataset):
                 A.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.05, p=0.7),
                 A.HueSaturationValue(hue_shift_limit=15, sat_shift_limit=25, val_shift_limit=15, p=0.5),
                 A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.5),
-                A.GaussianBlur(blur_limit=(3, 5), p=0.2),
+                # Softness/resolution augmentation. The training tiles are
+                # sharp (Laplacian variance ~2000-17000), but real uploads are
+                # often screen captures or lower-zoom exports: one measured
+                # 269, i.e. 7-65x softer, and the model missed ~a third of its
+                # crowns there while still marking correctly the ones it found
+                # (high precision, poor recall -- the signature of unseen
+                # softness rather than a detection failure).
+                #
+                # Downscale matters more than blur here: it reproduces genuine
+                # detail loss from a low-resolution capture, whereas Gaussian
+                # blur only smooths detail that is still present. The previous
+                # settings -- blur 3-5px at p=0.2, no downscale -- were far too
+                # mild to span that gap.
+                A.GaussianBlur(blur_limit=(3, 9), p=0.35),
+                A.Downscale(p=0.3, **_downscale_range_kwargs(0.35, 0.85)),
                 A.Resize(height=self.trainsize, width=self.trainsize, **resize_kwargs),
                 A.Normalize(mean=mean, std=std),
                 ToTensorV2()
